@@ -1,0 +1,7 @@
+{
+  "transport": "real loopback HTTP",
+  "health": 200,
+  "evaluate": 200,
+  "persisted_replay": 200,
+  "equal_to_deterministic_engine": true
+}

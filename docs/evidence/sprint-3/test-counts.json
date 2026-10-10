@@ -1,0 +1,25 @@
+{
+  "failed": 0,
+  "module_totals": {
+    "test_baseline_capture": 9,
+    "test_baseline_limits": 6,
+    "test_baseline_runner": 20,
+    "test_engine": 16,
+    "test_evaluation": 14,
+    "test_ingestion": 18,
+    "test_native_sources": 18,
+    "test_opportunities": 10,
+    "test_platform": 12,
+    "test_postgis": 12,
+    "test_prospective_audit": 6,
+    "test_real_context": 13,
+    "test_security": 6,
+    "test_telegram_demo": 19
+  },
+  "new_sprint3_cases": 64,
+  "original_sprint2_cases": 115,
+  "passed": 179,
+  "real_postgis_integration_cases": 31,
+  "skipped": 0,
+  "total": 179
+}

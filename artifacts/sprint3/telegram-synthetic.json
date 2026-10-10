@@ -1,0 +1,30 @@
+{
+  "mode": "synthetic",
+  "telegram_connected": false,
+  "real_user_ids_used": false,
+  "operator_auth_denial": 401,
+  "decision_at": "2026-10-09T10:00:00+00:00",
+  "transcript": [
+    {
+      "request": "/start",
+      "response": "SYNTHETIC DEMO — fictional evidence; no current Batumi facts.\nCitySense compares place evidence for human needs.\n/needs lists supported needs. /places lists operator-selected research records.\n/evaluate NEED TIME MAX_WALK ID:ESTIMATED_MINUTES [ID:MINUTES ...]\n/near NEED TIME MAX_WALK LON LAT ESTIMATED_MINUTES\nTIME is ISO 8601 with timezone, e.g. 2026-10-10T19:00:00+04:00.\nNeed: quiet_rest, cool_walk or family_walk. Up to three candidates.\nWalking times are caller estimates. No verified availability, booking or psychological benefit.\nSharing a Telegram location gives command guidance; it is not retained."
+    },
+    {
+      "request": "/needs",
+      "response": "SYNTHETIC DEMO — fictional evidence; no current Batumi facts.\nquiet_rest (experimental), cool_walk, family_walk.\nChoose a need in /evaluate or /near."
+    },
+    {
+      "request": "/places",
+      "response": "SYNTHETIC DEMO — fictional evidence; no current Batumi facts.\nOperator-selected records; source coordinates are not field verified.\nsynthetic-example-a — Synthetic example a\nGeometry retrieved: 2026-10-08T14:00:00+04:00\nsynthetic-example-b — Synthetic example b\nGeometry retrieved: 2026-10-08T14:00:00+04:00"
+    },
+    {
+      "request": "/evaluate cool_walk 2026-10-09T10:00:00+00:00 30 synthetic-example-a:20 synthetic-example-b:20",
+      "response": "SYNTHETIC DEMO — fictional evidence; no current Batumi facts.\nTarget: 2026-10-09T10:00:00+00:00\nModel heuristic-0.2.0-unvalidated; unvalidated suitability.\nSynthetic example a: 0.730 (unvalidated index)\nfeature_shade=0.80 (derived_spatial)\nfeature_greenery=0.60 (derived_spatial)\nSynthetic example b: 0.235 (unvalidated index)\nfeature_shade=0.20 (derived_spatial)\nfeature_greenery=0.30 (derived_spatial)\nWalking times are unverified caller estimates; no routing/accessibility guarantee\nFreshness: within_model_limit\nPlace existence does not verify access, opening, safety or bookability."
+    },
+    {
+      "request": "/sports",
+      "response": "SYNTHETIC DEMO — fictional evidence; no current Batumi facts.\nInsufficient data: no verified court inventory, weather exposure, walking routes or availability. Three courts cannot be returned."
+    }
+  ],
+  "empirical_status": "NOT EVALUATED"
+}

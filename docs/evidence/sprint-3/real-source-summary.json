@@ -1,0 +1,13 @@
+{
+  "individual_author_or_contact_fields": false,
+  "provider_database_at": "2026-10-09T15:13:08Z",
+  "publication_cleared": false,
+  "raw_sha256": "9c54e6cde7ebbd2b1dfdd8b6d138c3bf86a8692c43ca517209ce219e93db11b8",
+  "raw_source_exported": false,
+  "records": 5,
+  "retrieved_at": "2026-10-09T15:15:11.042337Z",
+  "source": "OSM/Overpass bounded park-way skeleton geometry",
+  "synthetic": false,
+  "verification": "source-reported boundary vertices; no field entrance/site verification",
+  "weather_live_enabled": false
+}

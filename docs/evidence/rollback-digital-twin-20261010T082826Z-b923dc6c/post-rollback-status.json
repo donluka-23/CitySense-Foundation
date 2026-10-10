@@ -1,0 +1,80 @@
+{
+  "recordedAt": "2026-10-10T08:43:14.036015+00:00",
+  "status": "ABORTED BEFORE DELETION; further removal requires review/authorization",
+  "reason": "Pre-removal enumeration found four Ruff cache files omitted from the reviewed inventory; user abort-on-unexpected-differences restriction applied",
+  "backup": {
+    "archive": "D:\\citysense-foundation\\.local\\rollback-archives\\rejected-digital-twin-20261010T082826Z-b923dc6c\\rejected-digital-twin.zip",
+    "archiveSha256": "50573c28cc0e6c5cfb1a4066fc7787965e569f12ec7b51f9f23659e9f86bcf28",
+    "archiveBytes": 9179277,
+    "zipCrcPassed": true,
+    "isolatedExtraction": "D:\\citysense-foundation\\.local\\rollback-archives\\rejected-digital-twin-20261010T082826Z-b923dc6c\\recovery-check",
+    "verifiedPayloadFiles": 1794,
+    "allExtractedSha256Match": true
+  },
+  "deletedFiles": [],
+  "deletedDirectories": [],
+  "retainedPathsCount": 2001,
+  "foundationFilesChecked": 203,
+  "foundationUnchanged": true,
+  "stage1OriginalFilesChecked": 176,
+  "stage1OriginalUnchanged": true,
+  "sprint3ProtectedFilesChecked": 22,
+  "sprint3ProtectedUnchanged": true,
+  "rootConfigurationMetadataUnchanged": true,
+  "rootConfigurationContentsRead": false,
+  "historicalReportsAndEvidenceUnchanged": true,
+  "pytest": {
+    "tests": 179,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 31,
+    "passed": 148
+  },
+  "allExecutedChecksPassed": true,
+  "unavailableChecks": [
+    {
+      "check": "PostGIS/database integration",
+      "reason": "No CITYSENSE_TEST_DATABASE_URL configured; retained Postgres has no running PID file. Integration fixtures were skipped; no database/configuration was changed."
+    }
+  ],
+  "ambiguousFiles": [
+    {
+      "path": "apps/digital-twin/.ruff_cache/.gitignore",
+      "bytes": 35,
+      "modifiedUtc": "2026-10-09T22:25:24.500980+00:00",
+      "action": "Retained unchanged; omitted generated-cache contents require inventory review"
+    },
+    {
+      "path": "apps/digital-twin/.ruff_cache/CACHEDIR.TAG",
+      "bytes": 43,
+      "modifiedUtc": "2026-10-09T22:25:24.499542+00:00",
+      "action": "Retained unchanged; omitted generated-cache contents require inventory review"
+    },
+    {
+      "path": "apps/digital-twin/.ruff_cache/0.14.0/11342656421739877572",
+      "bytes": 84,
+      "modifiedUtc": "2026-10-09T22:25:24.621257+00:00",
+      "action": "Retained unchanged; omitted generated-cache contents require inventory review"
+    },
+    {
+      "path": "apps/digital-twin/.ruff_cache/0.14.0/13759013275288462140",
+      "bytes": 102,
+      "modifiedUtc": "2026-10-09T22:25:24.621257+00:00",
+      "action": "Retained unchanged; omitted generated-cache contents require inventory review"
+    },
+    {
+      "path": ".env.example",
+      "reason": "Excluded configuration snapshot; preserved without reading contents"
+    }
+  ],
+  "installedDependencyFilesByteMatched": 1742,
+  "isolatedDependenciesRemoved": false,
+  "processObservation": "PID 8560 and listeners on ports 8765/8770 absent at final observed check; no existing process stopped by agent; temporary regression host closed",
+  "approvedPreTwinActiveDevelopmentPathRestored": false,
+  "protectedFoundationAlreadyIntact": true,
+  "rejectedAppStillPresent": true,
+  "gitInitialized": false,
+  "commitsCreated": false,
+  "newDevelopmentStageStarted": false,
+  "publicDeployment": false
+}

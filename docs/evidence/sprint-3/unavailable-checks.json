@@ -1,0 +1,8 @@
+{
+  "docker": "executable absent; no Compose/pinned Linux image execution",
+  "field_validation": "independent protocol/privacy approvals and labels absent",
+  "genuine_a1": "external credential and approved source transfer unavailable",
+  "hosted_ci": "no .git/upstream configured",
+  "production_image_os_scan": "outside local Python scan scope",
+  "telegram_polling": "no authorized token/account supplied"
+}

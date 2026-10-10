@@ -1,0 +1,1709 @@
+{
+  "checkedAt": "2026-10-10T08:56:48.966372+00:00",
+  "scope": "Retained earlier foundation/Sprint 2/Sprint 3/map-stage generated artifacts outside the 203-file source baseline and rejected-app archive",
+  "count": 189,
+  "files": [
+    {
+      "path": "artifacts/all-dependency-audit.json",
+      "sha256": "3e2d2d6057a4414d27770d4a7760344e96eefded497af44d661a4dc5b9c1db6b",
+      "bytes": 3881,
+      "modifiedNs": 1791549829611643400,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/all-requirements.txt",
+      "sha256": "12634241fe895049f6057c566db49f76acd6b6516421eb7e790b2eacbdf628a0",
+      "bytes": 25042,
+      "modifiedNs": 1791549824704050700,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/api-stderr.log",
+      "sha256": "d64281db2881818625e732ffc2aab31fd4235f1c64cf1718055952c32e077320",
+      "bytes": 201,
+      "modifiedNs": 1791551028086091500,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/api-stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modifiedNs": 1791551027136818100,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/checks/ci_structure.log",
+      "sha256": "47aaf9141d6b8652761df2ac51ba6e57f4f4efcac761d31de8b0dd55a77e8eac",
+      "bytes": 81,
+      "modifiedNs": 1791551218894259200,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/checks/dependencies.log",
+      "sha256": "4e4757ff226a44b5c448b1c4624619419c22d5272463dc19510b4754871a72f9",
+      "bytes": 32,
+      "modifiedNs": 1791551218789142400,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/checks/dependency-audit.json",
+      "sha256": "23b1138d35efa53797618507a1a3e5702341b51573ea07295e2ca1b12b46ad84",
+      "bytes": 3627,
+      "modifiedNs": 1791551218688468700,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/checks/format.log",
+      "sha256": "acc5749a3388b0719957862ae54cdaeddae83b47b48f2d426d01f4fb0efee441",
+      "bytes": 28,
+      "modifiedNs": 1791551201646970800,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/checks/lint.log",
+      "sha256": "a4443afdcfb6d7363adb285762515ccf7cf50473b1a05c20c1a50f6bed4d26b0",
+      "bytes": 20,
+      "modifiedNs": 1791551201742181000,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/checks/lock.log",
+      "sha256": "0b8f73feb1201b7fdf8c8c5dd538d6160df9d1f7550ad6447bac2743c835ffdc",
+      "bytes": 32,
+      "modifiedNs": 1791551201556710700,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/checks/pytest.xml",
+      "sha256": "a964664cda29debd214173294f64db7f8d52ca4d3e0a13f2cdfd1a97cfd83744",
+      "bytes": 7465,
+      "modifiedNs": 1791551211084071400,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/checks/requirements.log",
+      "sha256": "299c54a9fc8c6cc9ce223d4579ae876f4f65801391966705b12c8e503fc9f0c0",
+      "bytes": 26985,
+      "modifiedNs": 1791551212337655200,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/checks/requirements.txt",
+      "sha256": "2de78acc7d9c8c7965b236a9398bf51b5341a5f30382978dd47dc4167e576521",
+      "bytes": 26520,
+      "modifiedNs": 1791551212326655300,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/checks/results.json",
+      "sha256": "887506fe7a3d9b06826b5c966c44194499c8aeb6638687ebcc0631b966a286a8",
+      "bytes": 1360,
+      "modifiedNs": 1791551218913846100,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/checks/security.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modifiedNs": 1791551212229108900,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/checks/tests.log",
+      "sha256": "90eba264d4b3bf51d158be561bf3770bdf3e8c8b014aad5b77f04dff20d5c827",
+      "bytes": 589,
+      "modifiedNs": 1791551211859753100,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/checks/types.log",
+      "sha256": "ce32e21ee307d2da61637151f2f239cf8568be270711ff04e8e3025805ab7f57",
+      "bytes": 45,
+      "modifiedNs": 1791551203181368300,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/checks/workflow_syntax.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modifiedNs": 1791551218913846100,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/dependency-audit.json",
+      "sha256": "4e5638df738685fb56c326c69dfb659dbd0e893d3bfdd71bca51bdf3e3a143b2",
+      "bytes": 1450,
+      "modifiedNs": 1791549694482890600,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/map-stage-1/mapbox-product-terms-2026-07-21.pdf",
+      "sha256": "8462b80946abe90c4996577262928c7987ec2066e464c997869c4d82ebb9ec1c",
+      "bytes": 345611,
+      "modifiedNs": 1791578770476013300,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/map-stage-1/mapbox-product-terms-2026-07-21.txt",
+      "sha256": "e1566d1bbe62cbc7c64caa272254fa390d0a3824577dede167e48685237f7580",
+      "bytes": 86302,
+      "modifiedNs": 1791578849285351100,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/map-stage-1/npm-audit.json",
+      "sha256": "3c91c51dda5694f9216df2a69cd14cd2ada29f8411c7351032db903f836ab255",
+      "bytes": 385,
+      "modifiedNs": 1791578807237280100,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/map-stage-1/osm-2026-10-10/coverage-summary.json",
+      "sha256": "f22ceba42b1b723290a70811387d5c6b3cac5be4ca782596f4d2c9a0bd5d5d0a",
+      "bytes": 897,
+      "modifiedNs": 1791578672401162700,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/map-stage-1/osm-2026-10-10/query.overpassql",
+      "sha256": "0e1e8a2018d2a6064c78ed3a992dc0546dd1102211dfcb5dcfe6eebc8d01c7c3",
+      "bytes": 1805,
+      "modifiedNs": 1791578672019686700,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/map-stage-1/osm-diagnostic-2026-10-10/coverage-summary.json",
+      "sha256": "99a5d1702863f9db7de2524ac93f54f4dfcdb2a4a4dbd84e4415061457df735c",
+      "bytes": 1127,
+      "modifiedNs": 1791578713616892000,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/map-stage-1/osm-diagnostic-2026-10-10/query.overpassql",
+      "sha256": "0e1e8a2018d2a6064c78ed3a992dc0546dd1102211dfcb5dcfe6eebc8d01c7c3",
+      "bytes": 1805,
+      "modifiedNs": 1791578713267598000,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/map-stage-1/osm-final-2026-10-10/coverage-summary.json",
+      "sha256": "ead690ec9db79b5f362f1f12dd1f18f6026af50c59b717075a184b94e50649d5",
+      "bytes": 8883,
+      "modifiedNs": 1791578742558625000,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/map-stage-1/osm-final-2026-10-10/query.overpassql",
+      "sha256": "e0ae37776e7bc302077dff77c6f3a1fe16d30f2a1456627384e913283e08be14",
+      "bytes": 1929,
+      "modifiedNs": 1791578739775404900,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/map-stage-1/osm-final-2026-10-10/response.json",
+      "sha256": "7db0d9848b55f11b1ed4d15fb2e967d2993ca8879efd8d4550058f9c66497af7",
+      "bytes": 10734,
+      "modifiedNs": 1791578742556627800,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/runtime-requirements.txt",
+      "sha256": "8a7510c9f87771d5a1f83ecd4b6ebb6b714a607071f016378c2007df93152daf",
+      "bytes": 10888,
+      "modifiedNs": 1791549687197266100,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/checks/ci_structure.log",
+      "sha256": "47aaf9141d6b8652761df2ac51ba6e57f4f4efcac761d31de8b0dd55a77e8eac",
+      "bytes": 81,
+      "modifiedNs": 1791553553398884800,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/checks/contracts.log",
+      "sha256": "3671d7313b48c4e110848ca0afc8979d2286d52182b9bffa79238b917453cb78",
+      "bytes": 24,
+      "modifiedNs": 1791553536782259900,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/checks/dependencies.log",
+      "sha256": "4e4757ff226a44b5c448b1c4624619419c22d5272463dc19510b4754871a72f9",
+      "bytes": 32,
+      "modifiedNs": 1791553553175150400,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/checks/dependency-audit.json",
+      "sha256": "23b1138d35efa53797618507a1a3e5702341b51573ea07295e2ca1b12b46ad84",
+      "bytes": 3627,
+      "modifiedNs": 1791553553114108400,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/checks/format.log",
+      "sha256": "d08230b1454d424dcb460fe8ce2fae71121ad589f91b38491dce79de9a9d4035",
+      "bytes": 28,
+      "modifiedNs": 1791553532754029900,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/checks/lint.log",
+      "sha256": "a4443afdcfb6d7363adb285762515ccf7cf50473b1a05c20c1a50f6bed4d26b0",
+      "bytes": 20,
+      "modifiedNs": 1791553532919853400,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/checks/lock.log",
+      "sha256": "6b57ed4509a31a64be0833a2907d38ac902fae345b58125df677fba24ccde2d6",
+      "bytes": 29,
+      "modifiedNs": 1791553532621429600,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/checks/pytest.xml",
+      "sha256": "c314a48f53336a8dcc651347245c44a1c0fed5df1fb2cd6f1e1e0d3e2fdd169d",
+      "bytes": 13395,
+      "modifiedNs": 1791553549412697100,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/checks/requirements.log",
+      "sha256": "83ff59b12c409e22e401c958a2def58510d78732989d1ec6723a001005d44b07",
+      "bytes": 26990,
+      "modifiedNs": 1791553550974578400,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/checks/requirements.txt",
+      "sha256": "236e655ac767d601af2b7057da7e57bced6388ce1f1bdbc8d4742d0c1adecd46",
+      "bytes": 26528,
+      "modifiedNs": 1791553550960576900,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/checks/results.json",
+      "sha256": "2f4f91495d92b7bbab8f0ac5d979691e7862ddeedb742151de17e6e730ebcefc",
+      "bytes": 1486,
+      "modifiedNs": 1791553553459074800,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/checks/security.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modifiedNs": 1791553550844068000,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/checks/tests.log",
+      "sha256": "7970ad4d73652f6bc0a2d7ecd9e3ff617a69e22402efbf483c8834503a0b3d2e",
+      "bytes": 672,
+      "modifiedNs": 1791553550132094100,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/checks/types.log",
+      "sha256": "c923e79f0805707656f7c031b04d45e70d607ff357b623139fea93414a374d46",
+      "bytes": 45,
+      "modifiedNs": 1791553535233500900,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/checks/workflow_syntax.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modifiedNs": 1791553553457572200,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/checks-initial/ci_structure.log",
+      "sha256": "47aaf9141d6b8652761df2ac51ba6e57f4f4efcac761d31de8b0dd55a77e8eac",
+      "bytes": 81,
+      "modifiedNs": 1791553292018151500,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/checks-initial/dependencies.log",
+      "sha256": "4e4757ff226a44b5c448b1c4624619419c22d5272463dc19510b4754871a72f9",
+      "bytes": 32,
+      "modifiedNs": 1791553291883582000,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/checks-initial/dependency-audit.json",
+      "sha256": "23b1138d35efa53797618507a1a3e5702341b51573ea07295e2ca1b12b46ad84",
+      "bytes": 3627,
+      "modifiedNs": 1791553291775372600,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/checks-initial/format.log",
+      "sha256": "969eb53a82d4bcad0dccac744b4e9300f13600ac8b69cd398b5d8d2324ccf94e",
+      "bytes": 28,
+      "modifiedNs": 1791553263850790500,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/checks-initial/lint.log",
+      "sha256": "a4443afdcfb6d7363adb285762515ccf7cf50473b1a05c20c1a50f6bed4d26b0",
+      "bytes": 20,
+      "modifiedNs": 1791553264008762000,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/checks-initial/lock.log",
+      "sha256": "6b57ed4509a31a64be0833a2907d38ac902fae345b58125df677fba24ccde2d6",
+      "bytes": 29,
+      "modifiedNs": 1791553263721022400,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/checks-initial/pytest.xml",
+      "sha256": "13f0629a05f5a82cc9084a006194d55efbfc0858aa5363a57be7274872bdcd3a",
+      "bytes": 16431,
+      "modifiedNs": 1791553279628198600,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/checks-initial/requirements.log",
+      "sha256": "e4e62483a82a75cc04ab85e5cf33f9b41dfe8bb6d4eeba8834bd87ff64b5b5e7",
+      "bytes": 26998,
+      "modifiedNs": 1791553281085708000,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/checks-initial/requirements.txt",
+      "sha256": "210888486c3fd1d7f23ac338a58bf894537e481aec022eb4591385d2d0701739",
+      "bytes": 26536,
+      "modifiedNs": 1791553281070431400,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/checks-initial/results.json",
+      "sha256": "6387e03a7705200d007f6d8835be3f46f3f65f4454f702ada18cc59dff233f1f",
+      "bytes": 1361,
+      "modifiedNs": 1791553292053561500,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/checks-initial/security.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modifiedNs": 1791553280952186500,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/checks-initial/tests.log",
+      "sha256": "af8d08679dd6d66b331a86be4811e2368726394dfac263400ac9639816a942f2",
+      "bytes": 3606,
+      "modifiedNs": 1791553280301954500,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/checks-initial/types.log",
+      "sha256": "63da153bcdac04b2cc982479df4378f21b20029f9acb87ad908fb4d5befe6a43",
+      "bytes": 45,
+      "modifiedNs": 1791553266368565900,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/checks-initial/workflow_syntax.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modifiedNs": 1791553292051545800,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/checks/ci_structure.log",
+      "sha256": "47aaf9141d6b8652761df2ac51ba6e57f4f4efcac761d31de8b0dd55a77e8eac",
+      "bytes": 81,
+      "modifiedNs": 1791554759468741700,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/checks/contracts.log",
+      "sha256": "3671d7313b48c4e110848ca0afc8979d2286d52182b9bffa79238b917453cb78",
+      "bytes": 24,
+      "modifiedNs": 1791554736164889900,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/checks/dependencies.log",
+      "sha256": "4e4757ff226a44b5c448b1c4624619419c22d5272463dc19510b4754871a72f9",
+      "bytes": 32,
+      "modifiedNs": 1791554759275296700,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/checks/dependency-audit.json",
+      "sha256": "23b1138d35efa53797618507a1a3e5702341b51573ea07295e2ca1b12b46ad84",
+      "bytes": 3627,
+      "modifiedNs": 1791554759132792300,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/checks/format.log",
+      "sha256": "577256fabd692c8ad6243464be36aee0efb40ef52093c3aa0b763d2880961278",
+      "bytes": 28,
+      "modifiedNs": 1791554689137936500,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/checks/lint.log",
+      "sha256": "a4443afdcfb6d7363adb285762515ccf7cf50473b1a05c20c1a50f6bed4d26b0",
+      "bytes": 20,
+      "modifiedNs": 1791554689327726700,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/checks/lock.log",
+      "sha256": "a47445e01e067406fa1af714a7a11cd8e56cd96ba91bf85af7e5208706671822",
+      "bytes": 29,
+      "modifiedNs": 1791554686891476200,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/checks/pytest.xml",
+      "sha256": "993c4e4f9bdbe75b36d43ccd48a7f429e635e871e173ea4e8f781f29cc5b4184",
+      "bytes": 13395,
+      "modifiedNs": 1791554752531735600,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/checks/requirements.log",
+      "sha256": "e5ed9ee73d388c35cccc5c579b9ab59cb1ec7860d006a4bd0649c49c7bfd8e6d",
+      "bytes": 27004,
+      "modifiedNs": 1791554754273353400,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/checks/requirements.txt",
+      "sha256": "3771b3f2c32b228e6e699932b3048ed0205e19a0ed0e4534e776fae4660d340e",
+      "bytes": 26542,
+      "modifiedNs": 1791554754257334600,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/checks/results.json",
+      "sha256": "ae17a9fb492e52f4c7aa5983f6c8284d4c8e903cba147824c9c18f16036d08e2",
+      "bytes": 1483,
+      "modifiedNs": 1791554759509364300,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/checks/security.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modifiedNs": 1791554754122894900,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/checks/tests.log",
+      "sha256": "f1f204997be50ffa7f1a2878c64025888aa6a3c224f921aec09060bb7ca63140",
+      "bytes": 702,
+      "modifiedNs": 1791554753227225100,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/checks/types.log",
+      "sha256": "c923e79f0805707656f7c031b04d45e70d607ff357b623139fea93414a374d46",
+      "bytes": 45,
+      "modifiedNs": 1791554733718598000,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/checks/workflow_syntax.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modifiedNs": 1791554759507332100,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/final-checks/ci_structure.log",
+      "sha256": "47aaf9141d6b8652761df2ac51ba6e57f4f4efcac761d31de8b0dd55a77e8eac",
+      "bytes": 81,
+      "modifiedNs": 1791554885180355500,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/final-checks/contracts.log",
+      "sha256": "3671d7313b48c4e110848ca0afc8979d2286d52182b9bffa79238b917453cb78",
+      "bytes": 24,
+      "modifiedNs": 1791554870504438600,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/final-checks/dependencies.log",
+      "sha256": "4e4757ff226a44b5c448b1c4624619419c22d5272463dc19510b4754871a72f9",
+      "bytes": 32,
+      "modifiedNs": 1791554885061593300,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/final-checks/dependency-audit.json",
+      "sha256": "23b1138d35efa53797618507a1a3e5702341b51573ea07295e2ca1b12b46ad84",
+      "bytes": 3627,
+      "modifiedNs": 1791554885018782200,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/final-checks/format.log",
+      "sha256": "577256fabd692c8ad6243464be36aee0efb40ef52093c3aa0b763d2880961278",
+      "bytes": 28,
+      "modifiedNs": 1791554834093765600,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/final-checks/lint.log",
+      "sha256": "a4443afdcfb6d7363adb285762515ccf7cf50473b1a05c20c1a50f6bed4d26b0",
+      "bytes": 20,
+      "modifiedNs": 1791554834224624800,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/final-checks/lock.log",
+      "sha256": "6b57ed4509a31a64be0833a2907d38ac902fae345b58125df677fba24ccde2d6",
+      "bytes": 29,
+      "modifiedNs": 1791554833912443000,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/final-checks/pytest.xml",
+      "sha256": "3796a1eaeb35a26ad8d5b5a42bd7949466ac61be31cac934bbc7652ac48d71b5",
+      "bytes": 13827,
+      "modifiedNs": 1791554882600833400,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/final-checks/requirements.log",
+      "sha256": "10de1bba4c4dab6f3c99c2aef4cac2fa883f90ff3ef1cb814ca07acce2a43710",
+      "bytes": 27010,
+      "modifiedNs": 1791554883923602000,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/final-checks/requirements.txt",
+      "sha256": "db61f53a97e551797fac98995a8efe3741a69531bc5a0883a3c8d433ec23e0e6",
+      "bytes": 26548,
+      "modifiedNs": 1791554883908593200,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/final-checks/results.json",
+      "sha256": "7160374d2470ab1fa5ae7ac721c1dd683fe30026087318adc14fe62257eba537",
+      "bytes": 1488,
+      "modifiedNs": 1791554885206817600,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/final-checks/security.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modifiedNs": 1791554883801835800,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/final-checks/tests.log",
+      "sha256": "abb2d18a6bf0cfa0f6f21059df707911b44e1fcd1eb991440e9e879694fefae6",
+      "bytes": 702,
+      "modifiedNs": 1791554883165839200,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/final-checks/types.log",
+      "sha256": "c923e79f0805707656f7c031b04d45e70d607ff357b623139fea93414a374d46",
+      "bytes": 45,
+      "modifiedNs": 1791554869386807700,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/final-checks/workflow_syntax.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modifiedNs": 1791554885205179800,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/gates.log",
+      "sha256": "85283c30ae0cd8406e8862b64f939188442293da5e3a9c9b649bcff75ad3088f",
+      "bytes": 301,
+      "modifiedNs": 1791554759544422600,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/install.log",
+      "sha256": "e4f5ac68d1869546295140fe4967740f28627908498809ca2a1314915cd01d50",
+      "bytes": 2535,
+      "modifiedNs": 1791554681226482200,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/clean-install/result.json",
+      "sha256": "3dc17aa345eae425e1b5d5da0fb6de4385427ea6dc02cd2628edd98e81393a8d",
+      "bytes": 289,
+      "modifiedNs": 1791554759543528300,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/final-checks/ci_structure.log",
+      "sha256": "47aaf9141d6b8652761df2ac51ba6e57f4f4efcac761d31de8b0dd55a77e8eac",
+      "bytes": 81,
+      "modifiedNs": 1791554472079653000,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/final-checks/contracts.log",
+      "sha256": "3671d7313b48c4e110848ca0afc8979d2286d52182b9bffa79238b917453cb78",
+      "bytes": 24,
+      "modifiedNs": 1791554449727398900,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/final-checks/dependencies.log",
+      "sha256": "4e4757ff226a44b5c448b1c4624619419c22d5272463dc19510b4754871a72f9",
+      "bytes": 32,
+      "modifiedNs": 1791554471962233700,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/final-checks/dependency-audit.json",
+      "sha256": "23b1138d35efa53797618507a1a3e5702341b51573ea07295e2ca1b12b46ad84",
+      "bytes": 3627,
+      "modifiedNs": 1791554471906103400,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/final-checks/format.log",
+      "sha256": "577256fabd692c8ad6243464be36aee0efb40ef52093c3aa0b763d2880961278",
+      "bytes": 28,
+      "modifiedNs": 1791554447756315800,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/final-checks/lint.log",
+      "sha256": "a4443afdcfb6d7363adb285762515ccf7cf50473b1a05c20c1a50f6bed4d26b0",
+      "bytes": 20,
+      "modifiedNs": 1791554447919568700,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/final-checks/lock.log",
+      "sha256": "6b57ed4509a31a64be0833a2907d38ac902fae345b58125df677fba24ccde2d6",
+      "bytes": 29,
+      "modifiedNs": 1791554447600674300,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/final-checks/pytest.xml",
+      "sha256": "20a65781b73f5618c41da55308d4751c6bcd02967e93fafa9e6ba519201f8e92",
+      "bytes": 13395,
+      "modifiedNs": 1791554462542115300,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/final-checks/requirements.log",
+      "sha256": "46a6d9e4d49256e39d9f5ca82b5bbc0ac2d8d596837b131867e660a8948d7c37",
+      "bytes": 26996,
+      "modifiedNs": 1791554464068714900,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/final-checks/requirements.txt",
+      "sha256": "0b9cf1b30102ba0c07654c143c4d5b32b8133ce80101f68a4dda4969fc6ec2e3",
+      "bytes": 26534,
+      "modifiedNs": 1791554464054336900,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/final-checks/results.json",
+      "sha256": "a21891edeaabebb2512939fcfa72c90d56a7cfa2e6546880d1532aa41c84a931",
+      "bytes": 1485,
+      "modifiedNs": 1791554472106254000,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/final-checks/security.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modifiedNs": 1791554463936652200,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/final-checks/tests.log",
+      "sha256": "d2bde59e72fa97c924a4a031ea3151bb1dff4d5ebb727f421716b9e4fddac2cf",
+      "bytes": 672,
+      "modifiedNs": 1791554463265044900,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/final-checks/types.log",
+      "sha256": "c923e79f0805707656f7c031b04d45e70d607ff357b623139fea93414a374d46",
+      "bytes": 45,
+      "modifiedNs": 1791554448654490200,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/final-checks/workflow_syntax.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modifiedNs": 1791554472106254000,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/live-osm/057c1cfa6e6f0587e27ef79f4aeb26bb500fea2effe45dd1b03f02667e39712f.raw.json",
+      "sha256": "057c1cfa6e6f0587e27ef79f4aeb26bb500fea2effe45dd1b03f02667e39712f",
+      "bytes": 412,
+      "modifiedNs": 1791553061387472800,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/live-osm/manifest.json",
+      "sha256": "db4e151bd15407a02e8b8c81747402816f08b1cef6f1c7b85669473c4d7d540f",
+      "bytes": 2149,
+      "modifiedNs": 1791553061388837200,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/live-osm/persistence.json",
+      "sha256": "ed4b99d7453e00bff4f947987b2f134635465118cbd0d1f38fa2b79441f20ebf",
+      "bytes": 423,
+      "modifiedNs": 1791554118706648300,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/preserved-foundation.json",
+      "sha256": "cf45cf02d3731d881cb0bd28bb5350302eb7804dd68721fddacb5fc0197a08ad",
+      "bytes": 1711,
+      "modifiedNs": 1791554985027441500,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/retained-db-smoke.json",
+      "sha256": "7a1b72b00d8f9a138a1b920690a239c65cfddbccf632253f78de073fd04247b0",
+      "bytes": 321,
+      "modifiedNs": 1791554985024308300,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/verified-final/ci_structure.log",
+      "sha256": "47aaf9141d6b8652761df2ac51ba6e57f4f4efcac761d31de8b0dd55a77e8eac",
+      "bytes": 81,
+      "modifiedNs": 1791554794939169500,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/verified-final/contracts.log",
+      "sha256": "3671d7313b48c4e110848ca0afc8979d2286d52182b9bffa79238b917453cb78",
+      "bytes": 24,
+      "modifiedNs": 1791554779984564900,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/verified-final/dependencies.log",
+      "sha256": "4e4757ff226a44b5c448b1c4624619419c22d5272463dc19510b4754871a72f9",
+      "bytes": 32,
+      "modifiedNs": 1791554794811799500,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/verified-final/dependency-audit.json",
+      "sha256": "23b1138d35efa53797618507a1a3e5702341b51573ea07295e2ca1b12b46ad84",
+      "bytes": 3627,
+      "modifiedNs": 1791554794765687300,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/verified-final/format.log",
+      "sha256": "577256fabd692c8ad6243464be36aee0efb40ef52093c3aa0b763d2880961278",
+      "bytes": 28,
+      "modifiedNs": 1791554776332233100,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/verified-final/lint.log",
+      "sha256": "a4443afdcfb6d7363adb285762515ccf7cf50473b1a05c20c1a50f6bed4d26b0",
+      "bytes": 20,
+      "modifiedNs": 1791554776487178300,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/verified-final/lock.log",
+      "sha256": "6b57ed4509a31a64be0833a2907d38ac902fae345b58125df677fba24ccde2d6",
+      "bytes": 29,
+      "modifiedNs": 1791554776204452100,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/verified-final/pytest.xml",
+      "sha256": "1090f511df2cd9f2730505f5a87686d93ab6b00fc57453dbd53288f0b9780c25",
+      "bytes": 13827,
+      "modifiedNs": 1791554792192865400,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/verified-final/requirements.log",
+      "sha256": "5a1e318752fde40f18bd59103026ac6b5176040a2994d48f78be729d803bb76b",
+      "bytes": 26998,
+      "modifiedNs": 1791554793641876700,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/verified-final/requirements.txt",
+      "sha256": "e4da4d4c405f16feb3da079a5b6f74f034c9920954e097aae87ac54fb04bbb4f",
+      "bytes": 26536,
+      "modifiedNs": 1791554793626810700,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/verified-final/results.json",
+      "sha256": "a7a21cce8ff30edffc672c4e77a862ae9181852631f2dd12436834a637ac0b06",
+      "bytes": 1486,
+      "modifiedNs": 1791554794984983800,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/verified-final/security.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modifiedNs": 1791554793515144100,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/verified-final/tests.log",
+      "sha256": "4d291c3541c5bd92e8c1d6843c2c0d9ca8c12b0d2731c77171908f21853292a7",
+      "bytes": 672,
+      "modifiedNs": 1791554792855937500,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/verified-final/types.log",
+      "sha256": "c923e79f0805707656f7c031b04d45e70d607ff357b623139fea93414a374d46",
+      "bytes": 45,
+      "modifiedNs": 1791554778737923200,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint2/verified-final/workflow_syntax.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modifiedNs": 1791554794983988800,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/checks/ci_structure.log",
+      "sha256": "47aaf9141d6b8652761df2ac51ba6e57f4f4efcac761d31de8b0dd55a77e8eac",
+      "bytes": 81,
+      "modifiedNs": 1791559763696754300,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/checks/contracts.log",
+      "sha256": "3671d7313b48c4e110848ca0afc8979d2286d52182b9bffa79238b917453cb78",
+      "bytes": 24,
+      "modifiedNs": 1791559742267778500,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/checks/dependencies.log",
+      "sha256": "4e4757ff226a44b5c448b1c4624619419c22d5272463dc19510b4754871a72f9",
+      "bytes": 32,
+      "modifiedNs": 1791559763579976200,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/checks/dependency-audit.json",
+      "sha256": "9eec961cefa5475259117e58303d28848997983164c18896902934a53eed55b3",
+      "bytes": 3692,
+      "modifiedNs": 1791559763528370200,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/checks/format.log",
+      "sha256": "543fb7a2d6f089660a463a7ad9176839c3baa73bf4a15d33ab33eb29128f500f",
+      "bytes": 28,
+      "modifiedNs": 1791559740159843800,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/checks/lint.log",
+      "sha256": "a4443afdcfb6d7363adb285762515ccf7cf50473b1a05c20c1a50f6bed4d26b0",
+      "bytes": 20,
+      "modifiedNs": 1791559740281600600,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/checks/lock.log",
+      "sha256": "6abca83c5a6502b9ec13fb40389be62553b78a8e7557d23d6d39a191e4ff136b",
+      "bytes": 29,
+      "modifiedNs": 1791559740049714700,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/checks/pytest.xml",
+      "sha256": "d7da69b4a3fe35bbc5f9d8ddfed90940874a37c225062142af35c1a608f93b25",
+      "bytes": 21991,
+      "modifiedNs": 1791559755271885900,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/checks/requirements.log",
+      "sha256": "e3a7d0d3e7f756b7708ece38b3ffec1dda1a5372112e336c334a3e700a2284ef",
+      "bytes": 27253,
+      "modifiedNs": 1791559756782888000,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/checks/requirements.txt",
+      "sha256": "1d5595f480620766ec922d73fb2df7fed11288c17765fce46bc5f5b63804869d",
+      "bytes": 26785,
+      "modifiedNs": 1791559756768977300,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/checks/results.json",
+      "sha256": "d2b3d862185539475a6213f80717eac4a3fac66b00d82dfc19443d945d7b5a4d",
+      "bytes": 1485,
+      "modifiedNs": 1791559763726789100,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/checks/security.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modifiedNs": 1791559756660227000,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/checks/tests.log",
+      "sha256": "8a420fa8e1c78e7f0676977d7ac9e2f6638136d0ddfc58669cc628615e60b9ad",
+      "bytes": 753,
+      "modifiedNs": 1791559755752145200,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/checks/types.log",
+      "sha256": "3913a002322c533dc9cfa9c7be484492492e93f3bb62cecb40fce458ed50db38",
+      "bytes": 45,
+      "modifiedNs": 1791559741004334600,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/checks/workflow_syntax.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modifiedNs": 1791559763725789500,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/clean-install/checks/ci_structure.log",
+      "sha256": "47aaf9141d6b8652761df2ac51ba6e57f4f4efcac761d31de8b0dd55a77e8eac",
+      "bytes": 81,
+      "modifiedNs": 1791561327983123200,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/clean-install/checks/contracts.log",
+      "sha256": "3671d7313b48c4e110848ca0afc8979d2286d52182b9bffa79238b917453cb78",
+      "bytes": 24,
+      "modifiedNs": 1791561311432134700,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/clean-install/checks/dependencies.log",
+      "sha256": "4e4757ff226a44b5c448b1c4624619419c22d5272463dc19510b4754871a72f9",
+      "bytes": 32,
+      "modifiedNs": 1791561327884857200,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/clean-install/checks/dependency-audit.json",
+      "sha256": "9eec961cefa5475259117e58303d28848997983164c18896902934a53eed55b3",
+      "bytes": 3692,
+      "modifiedNs": 1791561327844167300,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/clean-install/checks/format.log",
+      "sha256": "ce7db1ac9990b4d48cc26ab917c510d6fae7ef8944681142a846a974101951f3",
+      "bytes": 28,
+      "modifiedNs": 1791561292516595800,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/clean-install/checks/lint.log",
+      "sha256": "a4443afdcfb6d7363adb285762515ccf7cf50473b1a05c20c1a50f6bed4d26b0",
+      "bytes": 20,
+      "modifiedNs": 1791561292725849200,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/clean-install/checks/lock.log",
+      "sha256": "db4c0a67a505c19e5bd20e61b879bf846f72e082cbc06d4e8fa9feb54212b1c5",
+      "bytes": 30,
+      "modifiedNs": 1791561292266819700,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/clean-install/checks/pytest.xml",
+      "sha256": "560d189408e4472bf7d13a2e3121fca5bf0aae445c96deb62286b3f24f5b617a",
+      "bytes": 22373,
+      "modifiedNs": 1791561325225521700,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/clean-install/checks/requirements.log",
+      "sha256": "f0c47da95591923afad94b6b5c82fcd236267aca0b669d1745ca31032ec21317",
+      "bytes": 27267,
+      "modifiedNs": 1791561326972802900,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/clean-install/checks/requirements.txt",
+      "sha256": "b1db51b41c2e4faca1b30860c40f5fdf4b6e31b3888c91cc185385b68ec258c7",
+      "bytes": 26799,
+      "modifiedNs": 1791561326958280400,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/clean-install/checks/results.json",
+      "sha256": "c1d688022c4a6eb2ef567a09802a18d3ddeba6579f20c6bc0aab72d8c0a2529c",
+      "bytes": 1487,
+      "modifiedNs": 1791561328011083200,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/clean-install/checks/security.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modifiedNs": 1791561326837252300,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/clean-install/checks/tests.log",
+      "sha256": "a432c689a2b3473d69712c9cc64dce9e30bbd433764deda7843b6346ca1ceae8",
+      "bytes": 783,
+      "modifiedNs": 1791561326279583800,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/clean-install/checks/types.log",
+      "sha256": "3913a002322c533dc9cfa9c7be484492492e93f3bb62cecb40fce458ed50db38",
+      "bytes": 45,
+      "modifiedNs": 1791561310476748000,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/clean-install/checks/workflow_syntax.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modifiedNs": 1791561328010055400,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/clean-install/final-source-parity.json",
+      "sha256": "0b3bd452675bb8dbd71c37364b80a15032292f39e7947a4d09af02dbfbc6dfcc",
+      "bytes": 10560,
+      "modifiedNs": 1791561595104930600,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/clean-install/gates.log",
+      "sha256": "85283c30ae0cd8406e8862b64f939188442293da5e3a9c9b649bcff75ad3088f",
+      "bytes": 301,
+      "modifiedNs": 1791561328028891500,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/clean-install/install.log",
+      "sha256": "65c6190c6c2fc8b2461eaf86addc4af99389e3af841eafdf432f40e015b3c2b2",
+      "bytes": 2565,
+      "modifiedNs": 1791560897098674600,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/clean-install/result.json",
+      "sha256": "d7a9ef78bce2063ece06f7fe3b9bb6424558a05fca1211258fb2836eb6b17089",
+      "bytes": 414,
+      "modifiedNs": 1791561328029786800,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/disposable-setup-transcript.json",
+      "sha256": "98f6691bbbbf4ea6801d09d8f6abcb950d7bf9fa0bc5a601b2642bd9c74ee9f6",
+      "bytes": 2535,
+      "modifiedNs": 1791560903210924300,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/final-checks/ci_structure.log",
+      "sha256": "47aaf9141d6b8652761df2ac51ba6e57f4f4efcac761d31de8b0dd55a77e8eac",
+      "bytes": 81,
+      "modifiedNs": 1791561235139934300,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/final-checks/contracts.log",
+      "sha256": "3671d7313b48c4e110848ca0afc8979d2286d52182b9bffa79238b917453cb78",
+      "bytes": 24,
+      "modifiedNs": 1791561220112068700,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/final-checks/dependencies.log",
+      "sha256": "4e4757ff226a44b5c448b1c4624619419c22d5272463dc19510b4754871a72f9",
+      "bytes": 32,
+      "modifiedNs": 1791561235054222000,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/final-checks/dependency-audit.json",
+      "sha256": "9eec961cefa5475259117e58303d28848997983164c18896902934a53eed55b3",
+      "bytes": 3692,
+      "modifiedNs": 1791561235017742700,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/final-checks/format.log",
+      "sha256": "ce7db1ac9990b4d48cc26ab917c510d6fae7ef8944681142a846a974101951f3",
+      "bytes": 28,
+      "modifiedNs": 1791561218813704200,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/final-checks/lint.log",
+      "sha256": "a4443afdcfb6d7363adb285762515ccf7cf50473b1a05c20c1a50f6bed4d26b0",
+      "bytes": 20,
+      "modifiedNs": 1791561218912186100,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/final-checks/lock.log",
+      "sha256": "6abca83c5a6502b9ec13fb40389be62553b78a8e7557d23d6d39a191e4ff136b",
+      "bytes": 29,
+      "modifiedNs": 1791561218735059000,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/final-checks/pytest.xml",
+      "sha256": "3b396304231060069e9f34a90b1638a69097392411268e6c53ba5ce6dc8a8cd2",
+      "bytes": 22373,
+      "modifiedNs": 1791561233199796500,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/final-checks/requirements.log",
+      "sha256": "2c179e68697a41deb8b19a6d823560d709bbd63c0a000778e78cffab2973691d",
+      "bytes": 27262,
+      "modifiedNs": 1791561234238320700,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/final-checks/requirements.txt",
+      "sha256": "ab1546f0bd593027feaeee6adc8c7bf077fdc7586349162bb7bf57ab8358e9b6",
+      "bytes": 26791,
+      "modifiedNs": 1791561234228319100,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/final-checks/results.json",
+      "sha256": "0292f3d2b6d40b05458b97c0201e43084c844ebca7ef7f292ea9c9d0468d2756",
+      "bytes": 1487,
+      "modifiedNs": 1791561235162100900,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/final-checks/security.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modifiedNs": 1791561234143619700,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/final-checks/tests.log",
+      "sha256": "35e2ad318f2f91519bec3d5f7f7cc534b1586195728eec5fd781634b2bc882f1",
+      "bytes": 753,
+      "modifiedNs": 1791561233631790600,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/final-checks/types.log",
+      "sha256": "3913a002322c533dc9cfa9c7be484492492e93f3bb62cecb40fce458ed50db38",
+      "bytes": 45,
+      "modifiedNs": 1791561219395869700,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/final-checks/workflow_syntax.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modifiedNs": 1791561235162100900,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/initial-pytest.xml",
+      "sha256": "f47d29b27cb26a0e3fd615809c2d14d1d95aa841881dbe60cfc980258840c2d8",
+      "bytes": 22418,
+      "modifiedNs": 1791559555265726400,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/offline-a1/21144383d2154588bda5c3ee04bff051.jsonl",
+      "sha256": "0f3d7a059ec02232313021776079cf2e28098eeab7afb189f5fdead806121f43",
+      "bytes": 21399,
+      "modifiedNs": 1791559998077942500,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/offline-a1/5c74446456ff4c62873d27d25dcf6d8a.jsonl",
+      "sha256": "b88888060c35c75f21a1bf0d6e4ff6d1859147a65c842f3f624d064389fffe14",
+      "bytes": 21419,
+      "modifiedNs": 1791559998083809100,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/offline-a1/db9fb15612f34ba6bbf8e1d4551d5d71.jsonl",
+      "sha256": "3b3b41e5a8a5a4dcdaf133d0d6ace7b175369a5985a27fa5afe3052c263a528b",
+      "bytes": 21452,
+      "modifiedNs": 1791559998081816200,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/real-data/63f26e43-7c3d-4f78-9b8b-6ab8e0ff66fa.decision.json",
+      "sha256": "ca71759ae7e43a69d7cc52ba9ae3d6fd4f1433e1a90d2fa4be61d32473d37900",
+      "bytes": 13338,
+      "modifiedNs": 1791558992382982600,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/real-data/69d05735-0024-4375-84dc-04ca7a5a8b46.decision.json",
+      "sha256": "b3a4bfaaa42e4cb662feb8b74f6055652a031b4a99ce92f5092834ae78c75a61",
+      "bytes": 13338,
+      "modifiedNs": 1791560040722166100,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/real-data/9c54e6cde7ebbd2b1dfdd8b6d138c3bf86a8692c43ca517209ce219e93db11b8.raw.json",
+      "sha256": "9c54e6cde7ebbd2b1dfdd8b6d138c3bf86a8692c43ca517209ce219e93db11b8",
+      "bytes": 7825,
+      "modifiedNs": 1791558911043234000,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/real-inventory.json",
+      "sha256": "c57eab9e1c15071d9a3c53c4edbfec3c04cf7b1dd787be0ee657ad709046883f",
+      "bytes": 2799,
+      "modifiedNs": 1791558911054505600,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/setup-smoke.json",
+      "sha256": "b2b6bfef3fb13d511d5d51a41b17ea1984f0a6c00ebaa377bd412aa5f2d3f1dd",
+      "bytes": 224,
+      "modifiedNs": 1791560903470827700,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/telegram-real.json",
+      "sha256": "09d2705cf7dd362119898930c3599a3b2be3af323d39183ae9b63f52f8b021ad",
+      "bytes": 1951,
+      "modifiedNs": 1791560039995626800,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/sprint3/telegram-synthetic.json",
+      "sha256": "98f6691bbbbf4ea6801d09d8f6abcb950d7bf9fa0bc5a601b2642bd9c74ee9f6",
+      "bytes": 2535,
+      "modifiedNs": 1791560038956740500,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    },
+    {
+      "path": "artifacts/synthetic-experiment-v1.json",
+      "sha256": "76b314643c7faf4ac373ef47a172afb788c82937b2ac90251cb5fd899c3726ee",
+      "bytes": 4982,
+      "modifiedNs": 1791550372153650600,
+      "mtimePredatesResumption": true,
+      "deletedOrModifiedByRollback": false,
+      "verificationBasis": "Retained path and current SHA-256; outside all literal deletion targets. No pre-rollback SHA-256 baseline is available for this generated artifact."
+    }
+  ],
+  "limitation": "Current hashes and timestamps establish the retained inventory. This is not a retrospective cryptographic before/after comparison; the original rollback snapshot excluded these generated artifacts. Deletion was confined to approved app paths, and regression outputs used a separate unique directory."
+}

@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-09",
+  "source": "Separate workspace copy excluding virtualenvs, caches, artifacts and local data",
+  "python": "3.12.13",
+  "installer": "uv 0.12.24",
+  "install_command": "uv sync --locked --no-cache",
+  "install_exit_code": 0,
+  "installed_packages_including_project": 64,
+  "checks": {
+    "ruff_format": "passed, 23 Python files",
+    "ruff_lint": "passed",
+    "mypy": "passed, 11 source/migration files",
+    "pytest_required_real_postgis": "66 passed, 1 TestClient deprecation warning, 0 skipped",
+    "bandit": "passed"
+  },
+  "final_retrieval_guard_update": "Copied final changed modules/test into the independent environment and repeated checks",
+  "local_environment_helper": "Generated .env in clean copy; confirmed repeated invocation refuses to overwrite",
+  "limits": "Windows only; hosted Linux/Docker execution remains unverified"
+}

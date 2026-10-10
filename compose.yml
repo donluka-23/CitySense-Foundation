@@ -1,0 +1,18 @@
+services:
+  db:
+    image: postgis/postgis:16-3.5@sha256:94146ac37bc61e2322f88016056c5920729cb8c64c8542ed590af8fc2abdac07
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-citysense}
+      POSTGRES_DB: ${POSTGRES_DB:-citysense}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Generate a local password in .env}
+    ports:
+      - "127.0.0.1:55432:5432"
+    volumes:
+      - citysense_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+volumes:
+  citysense_pgdata:

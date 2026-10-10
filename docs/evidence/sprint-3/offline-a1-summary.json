@@ -1,0 +1,58 @@
+{
+  "real_model_calls": 0,
+  "retrospective_fixtures_not_empirical_capture": true,
+  "synthetic_runs": [
+    {
+      "billing_verified": false,
+      "dataset_hash": "5f16bef8c7ebaba197b07ce802b81557cd757200654113965e41646e0089104f",
+      "empirical_status": "NOT EVALUATED",
+      "finished_at": "2026-10-09T15:33:18.077942+00:00",
+      "model_id": "invented-offline-model-v1",
+      "provider": "fixture",
+      "run_id": "21144383d2154588bda5c3ee04bff051",
+      "scenario_hash": "cdce92da31e90d3aec38c83d8633bf7156014f00c074b3311004d70aca36268b",
+      "scenario_id": "synthetic-cool_walk",
+      "started_at": "2026-10-09T15:33:18.074938+00:00",
+      "status": "abstained",
+      "synthetic": true,
+      "tariff_cost_usd": 0.0,
+      "tool_calls": 1,
+      "total_tokens": 280
+    },
+    {
+      "billing_verified": false,
+      "dataset_hash": "5f16bef8c7ebaba197b07ce802b81557cd757200654113965e41646e0089104f",
+      "empirical_status": "NOT EVALUATED",
+      "finished_at": "2026-10-09T15:33:18.083809+00:00",
+      "model_id": "invented-offline-model-v1",
+      "provider": "fixture",
+      "run_id": "5c74446456ff4c62873d27d25dcf6d8a",
+      "scenario_hash": "884c4084f01a67eeb8f0dec05262d1af2882d3eb640af0e5e0460348e3347036",
+      "scenario_id": "synthetic-family_walk",
+      "started_at": "2026-10-09T15:33:18.081816+00:00",
+      "status": "abstained",
+      "synthetic": true,
+      "tariff_cost_usd": 0.0,
+      "tool_calls": 1,
+      "total_tokens": 280
+    },
+    {
+      "billing_verified": false,
+      "dataset_hash": "5f16bef8c7ebaba197b07ce802b81557cd757200654113965e41646e0089104f",
+      "empirical_status": "NOT EVALUATED",
+      "finished_at": "2026-10-09T15:33:18.081816+00:00",
+      "model_id": "invented-offline-model-v1",
+      "provider": "fixture",
+      "run_id": "db9fb15612f34ba6bbf8e1d4551d5d71",
+      "scenario_hash": "ae99bd6267b5597007cd9872360e52e945eff187b26d01ffb14d63169f6bc51c",
+      "scenario_id": "synthetic-quiet_rest",
+      "started_at": "2026-10-09T15:33:18.078940+00:00",
+      "status": "abstained",
+      "synthetic": true,
+      "tariff_cost_usd": 0.0,
+      "tool_calls": 1,
+      "total_tokens": 280
+    }
+  ],
+  "usage_is_invented": true
+}

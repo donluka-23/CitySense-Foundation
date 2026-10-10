@@ -1,0 +1,128 @@
+{
+  "stage": "1B",
+  "status": "PARTIAL",
+  "actualScreenshotFiles": [],
+  "stage2Started": false,
+  "files": [
+    {
+      "path": "tools/map-stage-1/README.md",
+      "bytes": 7537,
+      "sha256": "7423e0dce35db00a626c4889c63e7da0de8565ae15a7865a86f484e163f46133"
+    },
+    {
+      "path": "tools/map-stage-1/index.html",
+      "bytes": 1270,
+      "sha256": "74e6c346f434d7dc7be9daaeaac8114fb2e33a44877b3ce2f461c67f789cba0c"
+    },
+    {
+      "path": "tools/map-stage-1/map.mjs",
+      "bytes": 14574,
+      "sha256": "b5f2a40a28875e23951b3c75358a17659e2d4530aea8c1f948c3665920cedbff"
+    },
+    {
+      "path": "tools/map-stage-1/serve.py",
+      "bytes": 3518,
+      "sha256": "188dbdc6ab982ec058d1bc05933d8f0b59d4ab25c0ac4de3bd494a1631f8e28c"
+    },
+    {
+      "path": "tools/map-stage-1/comparison.mjs",
+      "bytes": 3607,
+      "sha256": "e56865df21bb2d44934a486b8b7db862f67197fe0e96f25da5a5636e71d2e746"
+    },
+    {
+      "path": "docs/design/MAP_STAGE_1B_REPORT.md",
+      "bytes": 13335,
+      "sha256": "7c6e96f00e63d5c6b43a76584b5d496c78feefe403e3d30cc6ae22263a491e45"
+    },
+    {
+      "path": "docs/design/MAP_VISUAL_COMPARISON.md",
+      "bytes": 13184,
+      "sha256": "b805f78ffd97497ce0b0d10e2409d9d1f7561326fb85f981968ce04bfa1399eb"
+    },
+    {
+      "path": "docs/design/MAP_CAMERA_PRESETS.json",
+      "bytes": 5525,
+      "sha256": "e0d21820382f51986e2874cb047368bebfe5843957c83b3d281a91119892b688"
+    },
+    {
+      "path": "docs/design/MAP_RENDERING_EVIDENCE.md",
+      "bytes": 10267,
+      "sha256": "22d6696fd20da499402222643108dc330c07da6b94e5334ec3d55c639c1e5a78"
+    },
+    {
+      "path": "docs/design/MAP_PROVIDER_COST_COMPARISON.md",
+      "bytes": 9188,
+      "sha256": "f9ab40c958b37f4998918eb6cfbedd6754e696529c7b41bafa147ac573f7f2c0"
+    },
+    {
+      "path": "docs/design/MAP_STAGE_2_READINESS.md",
+      "bytes": 4931,
+      "sha256": "869bd68834c8cc41c5af1d4f9196287eaf84e3d3c2ea8c76639f3d4f941db87a"
+    },
+    {
+      "path": "docs/evidence/map-stage-1b/bundle-footprint.json",
+      "bytes": 1517,
+      "sha256": "138c55b2b34e14eb8c284c5c1f05a84c4fae1958006de15366e91dafb6ccc180"
+    },
+    {
+      "path": "docs/evidence/map-stage-1b/camera-labels-query.overpassql",
+      "bytes": 236,
+      "sha256": "aa4c6745b17d4286913a00ab915cef3f36e3cf5ee4cfdcd0a5a0dc1bd80fdded"
+    },
+    {
+      "path": "docs/evidence/map-stage-1b/camera-labels-receipt.json",
+      "bytes": 411,
+      "sha256": "65fd66588477a81c74c95710708c7504d084239044812e62996acbf962884f27"
+    },
+    {
+      "path": "docs/evidence/map-stage-1b/camera-labels.json",
+      "bytes": 1299,
+      "sha256": "9daacd4708e17f080514715f4bd8d4a38e4ec1543e80053b40d83576a188228c"
+    },
+    {
+      "path": "docs/evidence/map-stage-1b/camera-query.overpassql",
+      "bytes": 182,
+      "sha256": "10401496e159cab1f14ecbb8c38403cdcfbbe92f2f68a35f51b4015320b2b9c1"
+    },
+    {
+      "path": "docs/evidence/map-stage-1b/camera-receipt.json",
+      "bytes": 564,
+      "sha256": "68f9b9566c127addb996775c7593b551598f72fb2f768bf57bb86ba615c2a222"
+    },
+    {
+      "path": "docs/evidence/map-stage-1b/camera-source.json",
+      "bytes": 8025,
+      "sha256": "a7fcb5ea2cdf12ec667feb1ab93add97cb50e08759d6c2a9c6d6c79ee40a9871"
+    },
+    {
+      "path": "docs/evidence/map-stage-1b/configuration-checks.json",
+      "bytes": 185,
+      "sha256": "d9d31ff886ad0e310bb52b83116db6ff794079416d1c2b0c192bfd283e8d5d86"
+    },
+    {
+      "path": "docs/evidence/map-stage-1b/credential-checks.json",
+      "bytes": 222,
+      "sha256": "ceb635ef0a86b4dbcf9b61ca785321ce1443088e2cd2fb122264eb77a1b41ca7"
+    },
+    {
+      "path": "docs/evidence/map-stage-1b/http-checks.json",
+      "bytes": 2002,
+      "sha256": "e87147a5e865b5602907bd4b8ab46ade927b39367a739318736655ebc2a42a94"
+    },
+    {
+      "path": "docs/evidence/map-stage-1b/preservation.json",
+      "bytes": 39543,
+      "sha256": "52dc8112121abdec98f0d95034b6c3bb4d04f280a17ec544336a4d82c6fb109b"
+    },
+    {
+      "path": "docs/evidence/map-stage-1b/rendering-status.json",
+      "bytes": 960,
+      "sha256": "26ab1a866f11c213b7db9745a300e452cde28cd099c5e868535f2037b27e608e"
+    },
+    {
+      "path": "docs/evidence/map-stage-1b/verification.json",
+      "bytes": 1689,
+      "sha256": "d615d4f098628d5d894845e42f2c7dd11ea117bef7acefbb828cba4fe5443b11"
+    }
+  ]
+}

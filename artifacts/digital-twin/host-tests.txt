@@ -1,0 +1,12 @@
+test_missing_configuration_is_empty (test_server.ConfigurationTests.test_missing_configuration_is_empty) ... ok
+test_process_key_precedes_file_and_other_credentials_are_ignored (test_server.ConfigurationTests.test_process_key_precedes_file_and_other_credentials_are_ignored) ... ok
+test_all_allowlisted_assets_are_accessible_with_security_headers (test_server.HostTests.test_all_allowlisted_assets_are_accessible_with_security_headers) ... ok
+test_config_exposes_only_named_public_key (test_server.HostTests.test_config_exposes_only_named_public_key) ... ok
+test_obvious_secret_token_is_not_sent_to_browser (test_server.HostTests.test_obvious_secret_token_is_not_sent_to_browser) ... ok
+test_secret_files_backend_routes_and_traversal_are_not_served (test_server.HostTests.test_secret_files_backend_routes_and_traversal_are_not_served) ... ok
+test_unexpected_host_is_rejected (test_server.HostTests.test_unexpected_host_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.657s
+
+OK

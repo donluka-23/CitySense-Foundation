@@ -1,0 +1,52 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "bounds": {
+      "maxItems": 4,
+      "minItems": 4,
+      "prefixItems": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "number"
+        },
+        {
+          "type": "number"
+        },
+        {
+          "type": "number"
+        }
+      ],
+      "title": "Bounds",
+      "type": "array"
+    },
+    "city_id": {
+      "maxLength": 128,
+      "minLength": 1,
+      "pattern": "^[a-zA-Z0-9_.:-]+$",
+      "title": "City Id",
+      "type": "string"
+    },
+    "timezone": {
+      "title": "Timezone",
+      "type": "string"
+    },
+    "validation_status": {
+      "enum": [
+        "initial_research",
+        "synthetic_configuration_only"
+      ],
+      "title": "Validation Status",
+      "type": "string"
+    }
+  },
+  "required": [
+    "city_id",
+    "timezone",
+    "bounds",
+    "validation_status"
+  ],
+  "title": "CityConfig",
+  "type": "object"
+}

@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-09T21:36:20Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "camera_label",
+  "id": 160257516,
+  "tags": {
+    "osm_type": "node",
+    "name": "ბათუმი",
+    "name_en": "Batumi",
+    "name_ka": "ბათუმი",
+    "highway": ""
+  }
+},
+{
+  "type": "camera_label",
+  "id": 294880812,
+  "tags": {
+    "osm_type": "way",
+    "name": "პიაცა მოედანი",
+    "name_en": "Batumi Piazza",
+    "name_ka": "პიაცა მოედანი",
+    "highway": "pedestrian"
+  }
+},
+{
+  "type": "camera_label",
+  "id": 405852444,
+  "tags": {
+    "osm_type": "way",
+    "name": "ანბანის კოშკი",
+    "name_en": "Alphabetic Tower",
+    "name_ka": "ანბანის კოშკი",
+    "highway": ""
+  }
+},
+{
+  "type": "camera_label",
+  "id": 1152779731,
+  "tags": {
+    "osm_type": "way",
+    "name": "მემედ აბაშიძის ქუჩა",
+    "name_en": "Memed Abashidze Street",
+    "name_ka": "მემედ აბაშიძის ქუჩა",
+    "highway": "residential"
+  }
+}
+
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "checkedAt": "2026-10-10T08:54:39.177792+00:00",
+  "status": "COMPLETED AND VERIFIED",
+  "foundationRestored": true,
+  "foundationScope": "Approved 203-file pre-Digital-Twin foundation; existing historical reports, recovery evidence and four protected Ruff files retained.",
+  "protectedFoundation": {
+    "count": 203,
+    "changed": 0,
+    "missing": 0,
+    "allSha256Unchanged": true
+  },
+  "removed": {
+    "implementationFiles": 22,
+    "pythonCacheFiles": 2,
+    "disposableDependencyFiles": 1742,
+    "totalFiles": 1766,
+    "emptyGeneratedDirectories": 138
+  },
+  "remainingAppFiles": [
+    {
+      "path": "apps/digital-twin/.ruff_cache/.gitignore",
+      "sha256": "9e3a60f1e6ec4ae60215c11d54b171392745ec25e9dded433d5bd921363af316",
+      "bytes": 35,
+      "reason": "Explicitly protected by resumption authorization; preserved unchanged"
+    },
+    {
+      "path": "apps/digital-twin/.ruff_cache/0.14.0/11342656421739877572",
+      "sha256": "287b81a8fc1fc535688b812f1d731d29368b4b93cf55f8c760369f8a41920e44",
+      "bytes": 84,
+      "reason": "Explicitly protected by resumption authorization; preserved unchanged"
+    },
+    {
+      "path": "apps/digital-twin/.ruff_cache/0.14.0/13759013275288462140",
+      "sha256": "421f937f3b6f072af5c9c1c1934a0e42918f6eaf5811fd21b65571e8b6cc3f43",
+      "bytes": 102,
+      "reason": "Explicitly protected by resumption authorization; preserved unchanged"
+    },
+    {
+      "path": "apps/digital-twin/.ruff_cache/CACHEDIR.TAG",
+      "sha256": "5953156d7e0c564a427251316eaf26f8870e6483ae2197f916b630e4f93e31ae",
+      "bytes": 43,
+      "reason": "Explicitly protected by resumption authorization; preserved unchanged"
+    }
+  ],
+  "remainingAppDirectories": [
+    "apps/digital-twin/.ruff_cache",
+    "apps/digital-twin/.ruff_cache/0.14.0",
+    "apps/digital-twin/tests"
+  ],
+  "ambiguousDependencyFiles": [],
+  "protectedUnremovedFiles": [
+    {
+      "path": "apps/digital-twin/.ruff_cache/.gitignore",
+      "sha256": "9e3a60f1e6ec4ae60215c11d54b171392745ec25e9dded433d5bd921363af316",
+      "bytes": 35,
+      "reason": "Explicitly protected by resumption authorization; preserved unchanged"
+    },
+    {
+      "path": "apps/digital-twin/.ruff_cache/0.14.0/11342656421739877572",
+      "sha256": "287b81a8fc1fc535688b812f1d731d29368b4b93cf55f8c760369f8a41920e44",
+      "bytes": 84,
+      "reason": "Explicitly protected by resumption authorization; preserved unchanged"
+    },
+    {
+      "path": "apps/digital-twin/.ruff_cache/0.14.0/13759013275288462140",
+      "sha256": "421f937f3b6f072af5c9c1c1934a0e42918f6eaf5811fd21b65571e8b6cc3f43",
+      "bytes": 102,
+      "reason": "Explicitly protected by resumption authorization; preserved unchanged"
+    },
+    {
+      "path": "apps/digital-twin/.ruff_cache/CACHEDIR.TAG",
+      "sha256": "5953156d7e0c564a427251316eaf26f8870e6483ae2197f916b630e4f93e31ae",
+      "bytes": 43,
+      "reason": "Explicitly protected by resumption authorization; preserved unchanged"
+    }
+  ],
+  "historical": {
+    "checkedFiles": 162,
+    "unchanged": true,
+    "earlierAbortedReportPreserved": true
+  },
+  "backup": {
+    "archive": "D:\\citysense-foundation\\.local\\rollback-archives\\rejected-digital-twin-20261010T082826Z-b923dc6c\\rejected-digital-twin.zip",
+    "archiveSha256": "50573c28cc0e6c5cfb1a4066fc7787965e569f12ec7b51f9f23659e9f86bcf28",
+    "archiveBytes": 9179277,
+    "archiveUnchanged": true,
+    "crcPassed": true,
+    "isolatedExtraction": "D:\\citysense-foundation\\.local\\rollback-archives\\rejected-digital-twin-20261010T082826Z-b923dc6c\\recovery-check",
+    "payloadFilesVerified": 1794,
+    "allArchiveAndExtractedPayloadSha256Match": true,
+    "credentialSafety": "Original credential-safe archive retained byte-for-byte; no new environment contents or credentials read or added."
+  },
+  "rootConfiguration": {
+    "path": ".env.example",
+    "bytes": 595,
+    "modifiedNs": 1791560456568238400,
+    "contentRead": false,
+    "metadataUnchanged": true
+  },
+  "regression": {
+    "checkedAt": "2026-10-10T08:52:07.964245+00:00",
+    "checks": [
+      {
+        "name": "pytest",
+        "exitCode": 0,
+        "passed": true,
+        "elapsedSeconds": 8.35,
+        "log": "D:\\citysense-foundation\\.local\\rollback-archives\\resumed-digital-twin-20261010T084916Z-ed570b51\\logs\\pytest.txt"
+      },
+      {
+        "name": "ruff-lint",
+        "exitCode": 0,
+        "passed": true,
+        "elapsedSeconds": 0.094,
+        "log": "D:\\citysense-foundation\\.local\\rollback-archives\\resumed-digital-twin-20261010T084916Z-ed570b51\\logs\\ruff-lint.txt"
+      },
+      {
+        "name": "ruff-format",
+        "exitCode": 0,
+        "passed": true,
+        "elapsedSeconds": 0.094,
+        "log": "D:\\citysense-foundation\\.local\\rollback-archives\\resumed-digital-twin-20261010T084916Z-ed570b51\\logs\\ruff-format.txt"
+      },
+      {
+        "name": "mypy",
+        "exitCode": 0,
+        "passed": true,
+        "elapsedSeconds": 9.421,
+        "log": "D:\\citysense-foundation\\.local\\rollback-archives\\resumed-digital-twin-20261010T084916Z-ed570b51\\logs\\mypy.txt"
+      },
+      {
+        "name": "contracts",
+        "exitCode": 0,
+        "passed": true,
+        "elapsedSeconds": 0.724,
+        "log": "D:\\citysense-foundation\\.local\\rollback-archives\\resumed-digital-twin-20261010T084916Z-ed570b51\\logs\\contracts.txt"
+      },
+      {
+        "name": "bandit",
+        "exitCode": 0,
+        "passed": true,
+        "elapsedSeconds": 0.498,
+        "log": "D:\\citysense-foundation\\.local\\rollback-archives\\resumed-digital-twin-20261010T084916Z-ed570b51\\logs\\bandit.txt"
+      },
+      {
+        "name": "ci-structure",
+        "exitCode": 0,
+        "passed": true,
+        "elapsedSeconds": 0.078,
+        "log": "D:\\citysense-foundation\\.local\\rollback-archives\\resumed-digital-twin-20261010T084916Z-ed570b51\\logs\\ci-structure.txt"
+      },
+      {
+        "name": "comparison-map-syntax",
+        "exitCode": 0,
+        "passed": true,
+        "elapsedSeconds": 0.039,
+        "log": "D:\\citysense-foundation\\.local\\rollback-archives\\resumed-digital-twin-20261010T084916Z-ed570b51\\logs\\comparison-map-syntax.txt"
+      },
+      {
+        "name": "comparison-client-syntax",
+        "exitCode": 0,
+        "passed": true,
+        "elapsedSeconds": 0.04,
+        "log": "D:\\citysense-foundation\\.local\\rollback-archives\\resumed-digital-twin-20261010T084916Z-ed570b51\\logs\\comparison-client-syntax.txt"
+      },
+      {
+        "name": "comparison-http-smoke",
+        "passed": true,
+        "exitCode": 0,
+        "routes": [
+          {
+            "route": "/",
+            "status": 200,
+            "bytes": 1270
+          },
+          {
+            "route": "/map.mjs",
+            "status": 200,
+            "bytes": 14574
+          },
+          {
+            "route": "/comparison.mjs",
+            "status": 200,
+            "bytes": 3607
+          },
+          {
+            "route": "/presets.json",
+            "status": 200,
+            "bytes": 5525
+          },
+          {
+            "route": "/vendor/maplibre-gl.mjs",
+            "status": 200,
+            "bytes": 1079357
+          },
+          {
+            "route": "/vendor/maplibre-gl-worker.mjs",
+            "status": 200,
+            "bytes": 508314
+          },
+          {
+            "route": "/vendor/maplibre-gl-shared.mjs",
+            "status": 200,
+            "bytes": 0
+          },
+          {
+            "route": "/vendor/maplibre-gl.css",
+            "status": 200,
+            "bytes": 83290
+          },
+          {
+            "route": "/vendor/mapbox-gl.js",
+            "status": 200,
+            "bytes": 1897230
+          },
+          {
+            "route": "/vendor/mapbox-gl.css",
+            "status": 200,
+            "bytes": 48946
+          }
+        ],
+        "scope": "Local allowlisted assets only; no browser/geographic rendering claimed",
+        "temporaryHostClosed": true
+      }
+    ],
+    "pytest": {
+      "tests": 179,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 31,
+      "passed": 148
+    },
+    "allExecutedChecksPassed": true,
+    "unavailable": [
+      {
+        "check": "PostGIS/database integration",
+        "reason": "No CITYSENSE_TEST_DATABASE_URL configured; retained Postgres has no running PID file. Integration fixtures were skipped; no database/configuration was changed."
+      }
+    ],
+    "noDependencyInstallIntoFoundation": true,
+    "noHistoricalReportsModified": true,
+    "noBrowserOrPublicDeployment": true
+  },
+  "processes": {
+    "checkedAt": "2026-10-10T08:53:03.3010810Z",
+    "pid8560Present": false,
+    "listeners": [],
+    "repositoryProcesses": [
+      {
+        "processId": 23328,
+        "name": "node.exe",
+        "executablePath": "C:\\Users\\Lenovo\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\1b23c930bdf84ed6\\bin\\node.exe",
+        "mentionsRejectedApp": false,
+        "mentionsServeScript": false,
+        "codexRuntime": true
+      }
+    ],
+    "processesStopped": []
+  },
+  "unexpectedFilesystemDifferences": [],
+  "gitMetadataPresent": false,
+  "commitsCreated": false,
+  "newDevelopmentStarted": false,
+  "destructionMode": "Individually hash-verified files and individually empty generated directories; no recursive deletion",
+  "resumptionWork": "D:\\citysense-foundation\\.local\\rollback-archives\\resumed-digital-twin-20261010T084916Z-ed570b51",
+  "reportDirectory": "D:\\citysense-foundation\\docs\\evidence\\rollback-digital-twin-20261010T084916Z-ed570b51"
+}

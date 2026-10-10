@@ -1,0 +1,144 @@
+{
+  "checkedAt": "2026-10-10T08:52:07.964245+00:00",
+  "checks": [
+    {
+      "name": "pytest",
+      "exitCode": 0,
+      "passed": true,
+      "elapsedSeconds": 8.35,
+      "log": "D:\\citysense-foundation\\.local\\rollback-archives\\resumed-digital-twin-20261010T084916Z-ed570b51\\logs\\pytest.txt"
+    },
+    {
+      "name": "ruff-lint",
+      "exitCode": 0,
+      "passed": true,
+      "elapsedSeconds": 0.094,
+      "log": "D:\\citysense-foundation\\.local\\rollback-archives\\resumed-digital-twin-20261010T084916Z-ed570b51\\logs\\ruff-lint.txt"
+    },
+    {
+      "name": "ruff-format",
+      "exitCode": 0,
+      "passed": true,
+      "elapsedSeconds": 0.094,
+      "log": "D:\\citysense-foundation\\.local\\rollback-archives\\resumed-digital-twin-20261010T084916Z-ed570b51\\logs\\ruff-format.txt"
+    },
+    {
+      "name": "mypy",
+      "exitCode": 0,
+      "passed": true,
+      "elapsedSeconds": 9.421,
+      "log": "D:\\citysense-foundation\\.local\\rollback-archives\\resumed-digital-twin-20261010T084916Z-ed570b51\\logs\\mypy.txt"
+    },
+    {
+      "name": "contracts",
+      "exitCode": 0,
+      "passed": true,
+      "elapsedSeconds": 0.724,
+      "log": "D:\\citysense-foundation\\.local\\rollback-archives\\resumed-digital-twin-20261010T084916Z-ed570b51\\logs\\contracts.txt"
+    },
+    {
+      "name": "bandit",
+      "exitCode": 0,
+      "passed": true,
+      "elapsedSeconds": 0.498,
+      "log": "D:\\citysense-foundation\\.local\\rollback-archives\\resumed-digital-twin-20261010T084916Z-ed570b51\\logs\\bandit.txt"
+    },
+    {
+      "name": "ci-structure",
+      "exitCode": 0,
+      "passed": true,
+      "elapsedSeconds": 0.078,
+      "log": "D:\\citysense-foundation\\.local\\rollback-archives\\resumed-digital-twin-20261010T084916Z-ed570b51\\logs\\ci-structure.txt"
+    },
+    {
+      "name": "comparison-map-syntax",
+      "exitCode": 0,
+      "passed": true,
+      "elapsedSeconds": 0.039,
+      "log": "D:\\citysense-foundation\\.local\\rollback-archives\\resumed-digital-twin-20261010T084916Z-ed570b51\\logs\\comparison-map-syntax.txt"
+    },
+    {
+      "name": "comparison-client-syntax",
+      "exitCode": 0,
+      "passed": true,
+      "elapsedSeconds": 0.04,
+      "log": "D:\\citysense-foundation\\.local\\rollback-archives\\resumed-digital-twin-20261010T084916Z-ed570b51\\logs\\comparison-client-syntax.txt"
+    },
+    {
+      "name": "comparison-http-smoke",
+      "passed": true,
+      "exitCode": 0,
+      "routes": [
+        {
+          "route": "/",
+          "status": 200,
+          "bytes": 1270
+        },
+        {
+          "route": "/map.mjs",
+          "status": 200,
+          "bytes": 14574
+        },
+        {
+          "route": "/comparison.mjs",
+          "status": 200,
+          "bytes": 3607
+        },
+        {
+          "route": "/presets.json",
+          "status": 200,
+          "bytes": 5525
+        },
+        {
+          "route": "/vendor/maplibre-gl.mjs",
+          "status": 200,
+          "bytes": 1079357
+        },
+        {
+          "route": "/vendor/maplibre-gl-worker.mjs",
+          "status": 200,
+          "bytes": 508314
+        },
+        {
+          "route": "/vendor/maplibre-gl-shared.mjs",
+          "status": 200,
+          "bytes": 0
+        },
+        {
+          "route": "/vendor/maplibre-gl.css",
+          "status": 200,
+          "bytes": 83290
+        },
+        {
+          "route": "/vendor/mapbox-gl.js",
+          "status": 200,
+          "bytes": 1897230
+        },
+        {
+          "route": "/vendor/mapbox-gl.css",
+          "status": 200,
+          "bytes": 48946
+        }
+      ],
+      "scope": "Local allowlisted assets only; no browser/geographic rendering claimed",
+      "temporaryHostClosed": true
+    }
+  ],
+  "pytest": {
+    "tests": 179,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 31,
+    "passed": 148
+  },
+  "allExecutedChecksPassed": true,
+  "unavailable": [
+    {
+      "check": "PostGIS/database integration",
+      "reason": "No CITYSENSE_TEST_DATABASE_URL configured; retained Postgres has no running PID file. Integration fixtures were skipped; no database/configuration was changed."
+    }
+  ],
+  "noDependencyInstallIntoFoundation": true,
+  "noHistoricalReportsModified": true,
+  "noBrowserOrPublicDeployment": true
+}

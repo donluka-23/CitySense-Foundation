@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-09T22:33:08.241759+00:00",
+  "exitCode": 0,
+  "audit": {
+    "auditReportVersion": 2,
+    "vulnerabilities": {},
+    "metadata": {
+      "vulnerabilities": {
+        "info": 0,
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "critical": 0,
+        "total": 0
+      },
+      "dependencies": {
+        "prod": 26,
+        "dev": 0,
+        "optional": 0,
+        "peer": 0,
+        "peerOptional": 0,
+        "total": 25
+      }
+    }
+  },
+  "scope": "Isolated npm lockfile; advisory check is not proof of security"
+}

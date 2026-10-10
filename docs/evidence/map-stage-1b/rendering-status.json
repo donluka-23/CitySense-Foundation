@@ -1,0 +1,31 @@
+{
+  "stage": "1B",
+  "status": "PARTIAL",
+  "supportedBrowserSelectionError": "No browser is available",
+  "supportedBrowserDiscovery": [],
+  "agentScreenshotsCaptured": 0,
+  "screenshotFiles": [],
+  "providers": {
+    "maptiler": {
+      "agentRendered": false,
+      "reason": "No configured credential in agent process; no connected browser"
+    },
+    "mapbox": {
+      "agentRendered": false,
+      "reason": "No configured credential in agent process; no connected browser"
+    },
+    "openfreemap": {
+      "agentRendered": false,
+      "reason": "No connected browser",
+      "userReportedRender": true,
+      "userReportedStyleApproval": false,
+      "userScreenshotSupplied": false
+    }
+  },
+  "userCredentialReply": "I will configure both locally",
+  "credentialSetupOrAccessVerified": false,
+  "physicalMobileTested": false,
+  "telegramWebViewsTested": false,
+  "stage2Started": false,
+  "stage2Authorized": false
+}

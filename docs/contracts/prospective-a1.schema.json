@@ -1,0 +1,537 @@
+{
+  "$defs": {
+    "DataKind": {
+      "enum": [
+        "observed",
+        "forecast",
+        "derived",
+        "estimated_proxy",
+        "unavailable"
+      ],
+      "title": "DataKind",
+      "type": "string"
+    },
+    "EvaluateRequest": {
+      "additionalProperties": false,
+      "properties": {
+        "decision_at": {
+          "format": "date-time",
+          "title": "Decision At",
+          "type": "string"
+        },
+        "max_walk_minutes": {
+          "default": 45,
+          "maximum": 180,
+          "minimum": 0,
+          "title": "Max Walk Minutes",
+          "type": "number"
+        },
+        "need": {
+          "$ref": "#/$defs/Need"
+        },
+        "places": {
+          "items": {
+            "$ref": "#/$defs/Place"
+          },
+          "maxItems": 100,
+          "minItems": 1,
+          "title": "Places",
+          "type": "array"
+        },
+        "target_time": {
+          "format": "date-time",
+          "title": "Target Time",
+          "type": "string"
+        }
+      },
+      "required": [
+        "need",
+        "decision_at",
+        "target_time",
+        "places"
+      ],
+      "title": "EvaluateRequest",
+      "type": "object"
+    },
+    "Feature": {
+      "additionalProperties": false,
+      "properties": {
+        "data_kind": {
+          "$ref": "#/$defs/DataKind"
+        },
+        "issued_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Issued At"
+        },
+        "license_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "License Id",
+          "type": "string"
+        },
+        "method_version": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "Method Version",
+          "type": "string"
+        },
+        "observation_id": {
+          "anyOf": [
+            {
+              "format": "uuid",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Observation Id"
+        },
+        "observed_or_valid_at": {
+          "format": "date-time",
+          "title": "Observed Or Valid At",
+          "type": "string"
+        },
+        "quality": {
+          "$ref": "#/$defs/FeatureQuality"
+        },
+        "quality_metadata": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "maxProperties": 20,
+          "title": "Quality Metadata",
+          "type": "object"
+        },
+        "retrieved_at": {
+          "format": "date-time",
+          "title": "Retrieved At",
+          "type": "string"
+        },
+        "source_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "Source Id",
+          "type": "string"
+        },
+        "source_version": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "Source Version",
+          "type": "string"
+        },
+        "spatial_resolution_m": {
+          "anyOf": [
+            {
+              "exclusiveMinimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Spatial Resolution M"
+        },
+        "unit": {
+          "const": "fraction",
+          "title": "Unit",
+          "type": "string"
+        },
+        "valid_until": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Valid Until"
+        },
+        "value": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Value"
+        }
+      },
+      "required": [
+        "value",
+        "quality",
+        "data_kind",
+        "source_id",
+        "source_version",
+        "license_id",
+        "method_version",
+        "unit",
+        "observed_or_valid_at",
+        "retrieved_at"
+      ],
+      "title": "Feature",
+      "type": "object"
+    },
+    "FeatureQuality": {
+      "enum": [
+        "regional_forecast",
+        "derived_spatial",
+        "observed_manual",
+        "measured_local",
+        "reported_provider",
+        "unknown"
+      ],
+      "title": "FeatureQuality",
+      "type": "string"
+    },
+    "FrozenScenario": {
+      "additionalProperties": false,
+      "properties": {
+        "capture_permitted": {
+          "title": "Capture Permitted",
+          "type": "boolean"
+        },
+        "external_model_permitted": {
+          "title": "External Model Permitted",
+          "type": "boolean"
+        },
+        "frozen_at": {
+          "format": "date-time",
+          "title": "Frozen At",
+          "type": "string"
+        },
+        "no_personal_data": {
+          "title": "No Personal Data",
+          "type": "boolean"
+        },
+        "places": {
+          "items": {
+            "$ref": "#/$defs/SpatialPlace"
+          },
+          "maxItems": 30,
+          "minItems": 1,
+          "title": "Places",
+          "type": "array"
+        },
+        "request": {
+          "$ref": "#/$defs/EvaluateRequest"
+        },
+        "scenario_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "Scenario Id",
+          "type": "string"
+        },
+        "sources": {
+          "items": {
+            "$ref": "#/$defs/SourceMetadata"
+          },
+          "maxItems": 20,
+          "minItems": 1,
+          "title": "Sources",
+          "type": "array"
+        },
+        "synthetic": {
+          "title": "Synthetic",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "scenario_id",
+        "synthetic",
+        "request",
+        "places",
+        "frozen_at",
+        "sources",
+        "capture_permitted",
+        "external_model_permitted",
+        "no_personal_data"
+      ],
+      "title": "FrozenScenario",
+      "type": "object"
+    },
+    "Need": {
+      "enum": [
+        "cool_walk",
+        "quiet_rest",
+        "family_walk"
+      ],
+      "title": "Need",
+      "type": "string"
+    },
+    "Place": {
+      "additionalProperties": false,
+      "properties": {
+        "feature_greenery": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Feature"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "feature_shade": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Feature"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "feature_traffic_proximity": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Feature"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "name": {
+          "maxLength": 200,
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        },
+        "place_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "Place Id",
+          "type": "string"
+        },
+        "walk_minutes": {
+          "maximum": 10000,
+          "minimum": 0,
+          "title": "Walk Minutes",
+          "type": "number"
+        }
+      },
+      "required": [
+        "place_id",
+        "name",
+        "walk_minutes"
+      ],
+      "title": "Place",
+      "type": "object"
+    },
+    "SourceMetadata": {
+      "additionalProperties": false,
+      "properties": {
+        "attribution_required": {
+          "title": "Attribution Required",
+          "type": "boolean"
+        },
+        "cache_allowed": {
+          "title": "Cache Allowed",
+          "type": "boolean"
+        },
+        "commercial_allowed": {
+          "title": "Commercial Allowed",
+          "type": "boolean"
+        },
+        "license_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "License Id",
+          "type": "string"
+        },
+        "redistribution_allowed": {
+          "title": "Redistribution Allowed",
+          "type": "boolean"
+        },
+        "research_allowed": {
+          "title": "Research Allowed",
+          "type": "boolean"
+        },
+        "reviewed_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reviewed At"
+        },
+        "source_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "Source Id",
+          "type": "string"
+        },
+        "source_version": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "Source Version",
+          "type": "string"
+        },
+        "synthetic": {
+          "title": "Synthetic",
+          "type": "boolean"
+        },
+        "terms_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Terms Url"
+        }
+      },
+      "required": [
+        "source_id",
+        "source_version",
+        "license_id",
+        "synthetic",
+        "research_allowed",
+        "commercial_allowed",
+        "cache_allowed",
+        "redistribution_allowed",
+        "attribution_required"
+      ],
+      "title": "SourceMetadata",
+      "type": "object"
+    },
+    "SpatialPlace": {
+      "additionalProperties": false,
+      "properties": {
+        "city_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "City Id",
+          "type": "string"
+        },
+        "latitude": {
+          "maximum": 90,
+          "minimum": -90,
+          "title": "Latitude",
+          "type": "number"
+        },
+        "license_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "License Id",
+          "type": "string"
+        },
+        "longitude": {
+          "maximum": 180,
+          "minimum": -180,
+          "title": "Longitude",
+          "type": "number"
+        },
+        "name": {
+          "maxLength": 200,
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        },
+        "place_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "Place Id",
+          "type": "string"
+        },
+        "retrieved_at": {
+          "format": "date-time",
+          "title": "Retrieved At",
+          "type": "string"
+        },
+        "source_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "Source Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "place_id",
+        "city_id",
+        "name",
+        "longitude",
+        "latitude",
+        "source_id",
+        "license_id",
+        "retrieved_at"
+      ],
+      "title": "SpatialPlace",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "information_budget_id": {
+      "maxLength": 128,
+      "minLength": 1,
+      "pattern": "^[a-zA-Z0-9_.:-]+$",
+      "title": "Information Budget Id",
+      "type": "string"
+    },
+    "scenarios": {
+      "items": {
+        "$ref": "#/$defs/FrozenScenario"
+      },
+      "maxItems": 100,
+      "minItems": 1,
+      "title": "Scenarios",
+      "type": "array"
+    },
+    "version": {
+      "const": "prospective-a1-v1",
+      "default": "prospective-a1-v1",
+      "title": "Version",
+      "type": "string"
+    }
+  },
+  "required": [
+    "information_budget_id",
+    "scenarios"
+  ],
+  "title": "ProspectiveManifest",
+  "type": "object"
+}

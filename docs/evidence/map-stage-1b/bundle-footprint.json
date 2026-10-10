@@ -1,0 +1,42 @@
+{
+  "scope": "Installed files and locally computed gzip estimates; not observed downloads or performance",
+  "serverCompression": "None; loopback server sends uncompressed bytes",
+  "files": [
+    {
+      "path": "maplibre-gl/dist/maplibre-gl.mjs",
+      "uncompressedBytes": 1079357,
+      "gzipLevel9Bytes": 285316,
+      "sha256": "389731e8581cc59d484e867b051db73ae034a76f0691d2890a2a1a7d2495bdf3"
+    },
+    {
+      "path": "maplibre-gl/dist/maplibre-gl-worker.mjs",
+      "uncompressedBytes": 508314,
+      "gzipLevel9Bytes": 143724,
+      "sha256": "53a2dd60f76c7b9201a3cc007b755d98ce4b52403843fef5c90c41780fe62e91"
+    },
+    {
+      "path": "maplibre-gl/dist/maplibre-gl-shared.mjs",
+      "uncompressedBytes": 0,
+      "gzipLevel9Bytes": 20,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "maplibre-gl/dist/maplibre-gl.css",
+      "uncompressedBytes": 83290,
+      "gzipLevel9Bytes": 10485,
+      "sha256": "20fc3054e6c769ae9502ec5c7ea46dae05b544fdc4fca2108553fb8c07265bf3"
+    },
+    {
+      "path": "mapbox-gl/dist/mapbox-gl.js",
+      "uncompressedBytes": 1897230,
+      "gzipLevel9Bytes": 516487,
+      "sha256": "e0f7d7ce644791a76f003da33dd4283e7a917d4a8add6a16178f5d999395b57a"
+    },
+    {
+      "path": "mapbox-gl/dist/mapbox-gl.css",
+      "uncompressedBytes": 48946,
+      "gzipLevel9Bytes": 5750,
+      "sha256": "6c82f3cfaa1d7bff8f6387dc3436fb5b8994f5faab20eeb417438037c361a9a7"
+    }
+  ]
+}

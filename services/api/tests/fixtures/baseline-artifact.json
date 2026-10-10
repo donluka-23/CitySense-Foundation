@@ -1,0 +1,83 @@
+{
+  "information_budget_id": "matched-fixture-v1",
+  "latency_budget_seconds": 30,
+  "model_id": "synthetic-no-model-executed",
+  "name": "A1-tool-equipped",
+  "predictions": [
+    {
+      "available_at": "2026-10-01T10:00:00Z",
+      "choice": "synthetic-train-0-a",
+      "record_id": "train-0",
+      "request_hash": "d00c78b311cfdef5549c6e2fa34c6d7bff45296ae071438d19312b1fd5083d63"
+    },
+    {
+      "available_at": "2026-10-01T10:00:00Z",
+      "choice": "synthetic-train-1-b",
+      "record_id": "train-1",
+      "request_hash": "9124bd092305b75b916b4689a0fbb345a9c418138bb849aca01118abe5a991b5"
+    },
+    {
+      "available_at": "2026-10-01T10:00:00Z",
+      "choice": "synthetic-train-2-a",
+      "record_id": "train-2",
+      "request_hash": "7bd71ae696abff855bcff789b82b17c31ee9ab09d42312bc0c8b34a511faff36"
+    },
+    {
+      "available_at": "2026-10-01T10:00:00Z",
+      "choice": "synthetic-train-3-b",
+      "record_id": "train-3",
+      "request_hash": "aaca2c909b6c3bf64bc57bd4089bedaab595ba3c237832ceed5e266a8576de08"
+    },
+    {
+      "available_at": "2026-10-04T10:00:00Z",
+      "choice": "synthetic-validation-0-a",
+      "record_id": "validation-0",
+      "request_hash": "9c8cae9dddfe1f56b7888dd1890bd2616b72c08262eb8e6f5b2679aa5b1474dd"
+    },
+    {
+      "available_at": "2026-10-04T10:00:00Z",
+      "choice": "synthetic-validation-1-b",
+      "record_id": "validation-1",
+      "request_hash": "f0b7e808700b295c9f7c5179c62c413a8701fdb14fede238c8df06ef55e1f094"
+    },
+    {
+      "available_at": "2026-10-04T10:00:00Z",
+      "choice": "synthetic-validation-2-a",
+      "record_id": "validation-2",
+      "request_hash": "e24f80bc9c19c9b51df92e58f346372041b9577f6e236e88a54bd786ad03f243"
+    },
+    {
+      "available_at": "2026-10-04T10:00:00Z",
+      "choice": "synthetic-validation-3-b",
+      "record_id": "validation-3",
+      "request_hash": "3422b2d89d513cab30542eb46b9ae37b52820b5c5f3664b4961d63877d88d2d8"
+    },
+    {
+      "available_at": "2026-10-07T10:00:00Z",
+      "choice": "synthetic-test-0-a",
+      "record_id": "test-0",
+      "request_hash": "455d0c87bbf2954ef10955747653dc21355b5713821d674bdadb14a325c87173"
+    },
+    {
+      "available_at": "2026-10-07T10:00:00Z",
+      "choice": "synthetic-test-1-b",
+      "record_id": "test-1",
+      "request_hash": "906c58dd7a396bad9917990c74733f458865f94d33795d7c02ce0497f38a2c30"
+    },
+    {
+      "available_at": "2026-10-07T10:00:00Z",
+      "choice": "synthetic-test-2-a",
+      "record_id": "test-2",
+      "request_hash": "8c786d9e6374f81457036a8a8c8633d2910e254c25ac92e2bf73c71f4fbdce95"
+    },
+    {
+      "available_at": "2026-10-07T10:00:00Z",
+      "choice": "synthetic-test-3-b",
+      "record_id": "test-3",
+      "request_hash": "5109773dbba2d8a569452d39a1f1c5c09a6730dc0cecd7bf3c9a139a36e94f61"
+    }
+  ],
+  "prompt_hash": "bf944689dedac4ec8c5414c65e72085f71f029d8e8c4b484770457d178df620a",
+  "synthetic": true,
+  "tool_configuration_hash": "a8c18f4f0fb66e0141aaf22f5686e367fa551501188beb6f248daf505098e1e2"
+}

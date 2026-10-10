@@ -1,0 +1,96 @@
+{
+  "stage": 1,
+  "stage2Started": false,
+  "files": [
+    {
+      "path": "tools/map-stage-1/.gitignore",
+      "bytes": 33,
+      "sha256": "81958d08ca45e763576c4118ddeff6a9cc9f4150ba8e20c086176c7a2563719a"
+    },
+    {
+      "path": "tools/map-stage-1/audit-coverage.mjs",
+      "bytes": 6796,
+      "sha256": "0d6cb1198cbd6be3af69bd569da4415ab291524b56c8b75b7db8c58076b50919"
+    },
+    {
+      "path": "tools/map-stage-1/index.html",
+      "bytes": 676,
+      "sha256": "5bbbd44ef169fa23cf83fd840fc185b95a57eb064fcc3a8f2578490afa335fa7"
+    },
+    {
+      "path": "tools/map-stage-1/LICENSE_NOTICE.md",
+      "bytes": 1567,
+      "sha256": "c0ab460064ab5929f2eb54c335dcb36e780b61994c31d6f2926ab2a41928d7d1"
+    },
+    {
+      "path": "tools/map-stage-1/map.mjs",
+      "bytes": 6040,
+      "sha256": "42800cbf192899c7a52532831ae2a178667f02e874908b851843af7f7f333910"
+    },
+    {
+      "path": "tools/map-stage-1/package-lock.json",
+      "bytes": 10594,
+      "sha256": "25da9efa130607182f3ba880b830583bba75b01a1775d95daa1aaa64f7633a5d"
+    },
+    {
+      "path": "tools/map-stage-1/package.json",
+      "bytes": 351,
+      "sha256": "1a9c6880b1162b44851ede2fe1ed92888a73d6d9bd254f62fe71d3f3246d3b2c"
+    },
+    {
+      "path": "tools/map-stage-1/README.md",
+      "bytes": 5399,
+      "sha256": "1f712479844cb586dee8b9422e06bcb61e5d38198b38914822645d4e7827d66f"
+    },
+    {
+      "path": "tools/map-stage-1/serve.py",
+      "bytes": 2675,
+      "sha256": "918ada0a8b4b0ae7d1354033fe5f4885ba1e55ba056adbffa6b6acd34cae0be9"
+    },
+    {
+      "path": "docs/design/BATUMI_MAP_COVERAGE_AUDIT.md",
+      "bytes": 9941,
+      "sha256": "3d9f093d773b669d3a0cef00f9d3252bde46b5d63b87ae1c2ba3bff03618bbb4"
+    },
+    {
+      "path": "docs/design/MAP_DATA_RIGHTS_AND_COSTS.md",
+      "bytes": 9982,
+      "sha256": "0c2f92e127e0071d38bf6d5a1566a14e61316458174ad2898eaad55d911681b9"
+    },
+    {
+      "path": "docs/design/MAP_PROVIDER_COMPARISON.md",
+      "bytes": 12859,
+      "sha256": "136649294277464a82e2d3cb56485bb1e3c46e42ffa04edfe94b15d40bb22c7b"
+    },
+    {
+      "path": "docs/design/MAP_STAGE_1_REPORT.md",
+      "bytes": 15316,
+      "sha256": "6823a85e159e4c5764762113b0300a373334daa878a437be1374edb1d3de83bc"
+    },
+    {
+      "path": "docs/evidence/map-stage-1/osm-coverage-summary.json",
+      "bytes": 4903,
+      "sha256": "dfb2a9e5c43ca06cc0c966b155d1679a88c3a5145a39b0d2d29a476637db7dfa"
+    },
+    {
+      "path": "docs/evidence/map-stage-1/osm-query.overpassql",
+      "bytes": 1929,
+      "sha256": "e0ae37776e7bc302077dff77c6f3a1fe16d30f2a1456627384e913283e08be14"
+    },
+    {
+      "path": "docs/evidence/map-stage-1/preservation.json",
+      "bytes": 55578,
+      "sha256": "0a76b0772ea9d481db2df886d63917c975af9f97d0fe21c23f8fcfbb085cb149"
+    },
+    {
+      "path": "docs/evidence/map-stage-1/provider-metadata.json",
+      "bytes": 3078,
+      "sha256": "c2c746ef2d52a3978581850da2eacf4c9e23b596e24089867fab2a1bb56bf590"
+    },
+    {
+      "path": "docs/evidence/map-stage-1/verification.json",
+      "bytes": 4117,
+      "sha256": "2465ad51264849139e95e2d8965780aeff598c76ee0afbad4a44c5f8ba6397ae"
+    }
+  ]
+}

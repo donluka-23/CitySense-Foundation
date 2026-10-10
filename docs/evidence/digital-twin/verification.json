@@ -1,0 +1,113 @@
+{
+  "checkedAt": "2026-10-09T22:33:08.611744+00:00",
+  "versions": {
+    "node": "v24.16.0",
+    "python": "Python 3.12.13"
+  },
+  "checks": [
+    {
+      "name": "node-tests",
+      "exitCode": 0,
+      "passed": true,
+      "elapsedMs": 663,
+      "log": "artifacts/digital-twin/node-tests.txt"
+    },
+    {
+      "name": "host-tests",
+      "exitCode": 0,
+      "passed": true,
+      "elapsedMs": 887,
+      "log": "artifacts/digital-twin/host-tests.txt"
+    },
+    {
+      "name": "syntax-app",
+      "exitCode": 0,
+      "passed": true,
+      "elapsedMs": 62,
+      "log": "artifacts/digital-twin/syntax-app.txt"
+    },
+    {
+      "name": "syntax-camera",
+      "exitCode": 0,
+      "passed": true,
+      "elapsedMs": 64,
+      "log": "artifacts/digital-twin/syntax-camera.txt"
+    },
+    {
+      "name": "syntax-decision",
+      "exitCode": 0,
+      "passed": true,
+      "elapsedMs": 58,
+      "log": "artifacts/digital-twin/syntax-decision.txt"
+    },
+    {
+      "name": "syntax-domain",
+      "exitCode": 0,
+      "passed": true,
+      "elapsedMs": 58,
+      "log": "artifacts/digital-twin/syntax-domain.txt"
+    },
+    {
+      "name": "syntax-geometry",
+      "exitCode": 0,
+      "passed": true,
+      "elapsedMs": 52,
+      "log": "artifacts/digital-twin/syntax-geometry.txt"
+    },
+    {
+      "name": "syntax-i18n",
+      "exitCode": 0,
+      "passed": true,
+      "elapsedMs": 60,
+      "log": "artifacts/digital-twin/syntax-i18n.txt"
+    },
+    {
+      "name": "syntax-map-scene",
+      "exitCode": 0,
+      "passed": true,
+      "elapsedMs": 54,
+      "log": "artifacts/digital-twin/syntax-map-scene.txt"
+    },
+    {
+      "name": "syntax-observations",
+      "exitCode": 0,
+      "passed": true,
+      "elapsedMs": 77,
+      "log": "artifacts/digital-twin/syntax-observations.txt"
+    },
+    {
+      "name": "python-lint",
+      "exitCode": 0,
+      "passed": true,
+      "elapsedMs": 118,
+      "log": "artifacts/digital-twin/python-lint.txt"
+    },
+    {
+      "name": "python-format",
+      "exitCode": 0,
+      "passed": true,
+      "elapsedMs": 105,
+      "log": "artifacts/digital-twin/python-format.txt"
+    },
+    {
+      "name": "contracts",
+      "exitCode": 0,
+      "passed": true,
+      "elapsedMs": 1109,
+      "log": "artifacts/digital-twin/contracts.txt"
+    },
+    {
+      "name": "npm-audit",
+      "exitCode": 0,
+      "passed": true
+    }
+  ],
+  "allCodeChecksPassed": true,
+  "nodeTests": 16,
+  "pythonHostTests": 7,
+  "browserExecuted": false,
+  "screenshotsCaptured": 0,
+  "visualAcceptance": "Incomplete; see rendering-status.json",
+  "backendDevelopment": false,
+  "publicDeployment": false
+}

@@ -1,0 +1,6 @@
+{
+  "scope": "Node configuration and coordinate-provenance checks; not browser rendering",
+  "validCombinations": 108,
+  "rejectedInvalidQueries": 15,
+  "exactCoordinateParity": true
+}

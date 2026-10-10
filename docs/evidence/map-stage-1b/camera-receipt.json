@@ -1,0 +1,11 @@
+{
+  "retrievedAt": "2026-10-09T21:22:19.243Z",
+  "osmDatabaseAt": "2026-10-09T21:21:06Z",
+  "responseSha256": "a7fcb5ea2cdf12ec667feb1ab93add97cb50e08759d6c2a9c6d6c79ee40a9871",
+  "querySha256": "10401496e159cab1f14ecbb8c38403cdcfbbe92f2f68a35f51b4015320b2b9c1",
+  "httpStatus": 200,
+  "source": "https://overpass-api.de/api/interpreter",
+  "scope": "One manually bounded OSM skeleton-coordinate query; no contributor or contact data; independent of private research inventory",
+  "license": "ODbL 1.0; ? OpenStreetMap contributors",
+  "elements": 11
+}

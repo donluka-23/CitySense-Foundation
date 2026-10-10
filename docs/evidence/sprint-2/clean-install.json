@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-09T14:05:59.542399+00:00",
+  "install_command": "uv sync --locked --no-cache",
+  "install_exit_code": 0,
+  "quality_exit_code": 0,
+  "independent_venv": true,
+  "test_database": "dedicated citysense_test; random schema per session",
+  "secrets_copied": false
+}

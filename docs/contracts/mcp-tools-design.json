@@ -1,0 +1,412 @@
+{
+  "status": "in_process_prototype_no_mcp_server",
+  "tools": [
+    {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true
+      },
+      "inputSchema": {
+        "$defs": {
+          "SearchQuery": {
+            "additionalProperties": false,
+            "properties": {
+              "decision_at": {
+                "format": "date-time",
+                "title": "Decision At",
+                "type": "string"
+              },
+              "latitude": {
+                "maximum": 90,
+                "minimum": -90,
+                "title": "Latitude",
+                "type": "number"
+              },
+              "limit": {
+                "default": 20,
+                "maximum": 30,
+                "minimum": 1,
+                "title": "Limit",
+                "type": "integer"
+              },
+              "longitude": {
+                "maximum": 180,
+                "minimum": -180,
+                "title": "Longitude",
+                "type": "number"
+              },
+              "radius_m": {
+                "exclusiveMinimum": 0,
+                "maximum": 10000,
+                "title": "Radius M",
+                "type": "number"
+              }
+            },
+            "required": [
+              "longitude",
+              "latitude",
+              "radius_m",
+              "decision_at"
+            ],
+            "title": "SearchQuery",
+            "type": "object"
+          }
+        },
+        "additionalProperties": false,
+        "properties": {
+          "city_id": {
+            "maxLength": 128,
+            "minLength": 1,
+            "pattern": "^[a-zA-Z0-9_.:-]+$",
+            "title": "City Id",
+            "type": "string"
+          },
+          "query": {
+            "$ref": "#/$defs/SearchQuery"
+          }
+        },
+        "required": [
+          "city_id",
+          "query"
+        ],
+        "title": "SearchToolInput",
+        "type": "object"
+      },
+      "name": "search_places"
+    },
+    {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true
+      },
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "city_id": {
+            "maxLength": 128,
+            "minLength": 1,
+            "pattern": "^[a-zA-Z0-9_.:-]+$",
+            "title": "City Id",
+            "type": "string"
+          },
+          "decision_at": {
+            "format": "date-time",
+            "title": "Decision At",
+            "type": "string"
+          },
+          "place_id": {
+            "maxLength": 128,
+            "minLength": 1,
+            "pattern": "^[a-zA-Z0-9_.:-]+$",
+            "title": "Place Id",
+            "type": "string"
+          }
+        },
+        "required": [
+          "city_id",
+          "place_id",
+          "decision_at"
+        ],
+        "title": "PlaceToolInput",
+        "type": "object"
+      },
+      "name": "get_place_details"
+    },
+    {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true
+      },
+      "inputSchema": {
+        "$defs": {
+          "StateQuery": {
+            "additionalProperties": false,
+            "properties": {
+              "decision_at": {
+                "format": "date-time",
+                "title": "Decision At",
+                "type": "string"
+              },
+              "place_ids": {
+                "items": {
+                  "maxLength": 128,
+                  "minLength": 1,
+                  "pattern": "^[a-zA-Z0-9_.:-]+$",
+                  "type": "string"
+                },
+                "maxItems": 30,
+                "minItems": 1,
+                "title": "Place Ids",
+                "type": "array"
+              },
+              "target_time": {
+                "format": "date-time",
+                "title": "Target Time",
+                "type": "string"
+              }
+            },
+            "required": [
+              "decision_at",
+              "target_time",
+              "place_ids"
+            ],
+            "title": "StateQuery",
+            "type": "object"
+          }
+        },
+        "additionalProperties": false,
+        "properties": {
+          "city_id": {
+            "maxLength": 128,
+            "minLength": 1,
+            "pattern": "^[a-zA-Z0-9_.:-]+$",
+            "title": "City Id",
+            "type": "string"
+          },
+          "query": {
+            "$ref": "#/$defs/StateQuery"
+          }
+        },
+        "required": [
+          "city_id",
+          "query"
+        ],
+        "title": "StateToolInput",
+        "type": "object"
+      },
+      "name": "get_city_state"
+    },
+    {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true
+      },
+      "inputSchema": {
+        "$defs": {
+          "Need": {
+            "enum": [
+              "cool_walk",
+              "quiet_rest",
+              "family_walk"
+            ],
+            "title": "Need",
+            "type": "string"
+          },
+          "SuitabilityQuery": {
+            "additionalProperties": false,
+            "properties": {
+              "candidates": {
+                "items": {
+                  "$ref": "#/$defs/WalkingCandidate"
+                },
+                "maxItems": 30,
+                "minItems": 1,
+                "title": "Candidates",
+                "type": "array"
+              },
+              "decision_at": {
+                "format": "date-time",
+                "title": "Decision At",
+                "type": "string"
+              },
+              "max_walk_minutes": {
+                "default": 45,
+                "maximum": 180,
+                "minimum": 0,
+                "title": "Max Walk Minutes",
+                "type": "number"
+              },
+              "need": {
+                "$ref": "#/$defs/Need"
+              },
+              "target_time": {
+                "format": "date-time",
+                "title": "Target Time",
+                "type": "string"
+              }
+            },
+            "required": [
+              "decision_at",
+              "target_time",
+              "need",
+              "candidates"
+            ],
+            "title": "SuitabilityQuery",
+            "type": "object"
+          },
+          "WalkingCandidate": {
+            "additionalProperties": false,
+            "properties": {
+              "place_id": {
+                "maxLength": 128,
+                "minLength": 1,
+                "pattern": "^[a-zA-Z0-9_.:-]+$",
+                "title": "Place Id",
+                "type": "string"
+              },
+              "walk_minutes": {
+                "maximum": 10000,
+                "minimum": 0,
+                "title": "Walk Minutes",
+                "type": "number"
+              },
+              "walking_time_source": {
+                "const": "caller_estimate",
+                "default": "caller_estimate",
+                "title": "Walking Time Source",
+                "type": "string"
+              }
+            },
+            "required": [
+              "place_id",
+              "walk_minutes"
+            ],
+            "title": "WalkingCandidate",
+            "type": "object"
+          }
+        },
+        "additionalProperties": false,
+        "properties": {
+          "city_id": {
+            "maxLength": 128,
+            "minLength": 1,
+            "pattern": "^[a-zA-Z0-9_.:-]+$",
+            "title": "City Id",
+            "type": "string"
+          },
+          "query": {
+            "$ref": "#/$defs/SuitabilityQuery"
+          }
+        },
+        "required": [
+          "city_id",
+          "query"
+        ],
+        "title": "SuitabilityToolInput",
+        "type": "object"
+      },
+      "name": "evaluate_suitability"
+    },
+    {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true
+      },
+      "inputSchema": {
+        "$defs": {
+          "ComparisonQuery": {
+            "additionalProperties": false,
+            "properties": {
+              "candidates": {
+                "items": {
+                  "$ref": "#/$defs/WalkingCandidate"
+                },
+                "maxItems": 2,
+                "minItems": 2,
+                "title": "Candidates",
+                "type": "array"
+              },
+              "decision_at": {
+                "format": "date-time",
+                "title": "Decision At",
+                "type": "string"
+              },
+              "max_walk_minutes": {
+                "default": 45,
+                "maximum": 180,
+                "minimum": 0,
+                "title": "Max Walk Minutes",
+                "type": "number"
+              },
+              "need": {
+                "$ref": "#/$defs/Need"
+              },
+              "target_time": {
+                "format": "date-time",
+                "title": "Target Time",
+                "type": "string"
+              }
+            },
+            "required": [
+              "decision_at",
+              "target_time",
+              "need",
+              "candidates"
+            ],
+            "title": "ComparisonQuery",
+            "type": "object"
+          },
+          "Need": {
+            "enum": [
+              "cool_walk",
+              "quiet_rest",
+              "family_walk"
+            ],
+            "title": "Need",
+            "type": "string"
+          },
+          "WalkingCandidate": {
+            "additionalProperties": false,
+            "properties": {
+              "place_id": {
+                "maxLength": 128,
+                "minLength": 1,
+                "pattern": "^[a-zA-Z0-9_.:-]+$",
+                "title": "Place Id",
+                "type": "string"
+              },
+              "walk_minutes": {
+                "maximum": 10000,
+                "minimum": 0,
+                "title": "Walk Minutes",
+                "type": "number"
+              },
+              "walking_time_source": {
+                "const": "caller_estimate",
+                "default": "caller_estimate",
+                "title": "Walking Time Source",
+                "type": "string"
+              }
+            },
+            "required": [
+              "place_id",
+              "walk_minutes"
+            ],
+            "title": "WalkingCandidate",
+            "type": "object"
+          }
+        },
+        "additionalProperties": false,
+        "properties": {
+          "city_id": {
+            "maxLength": 128,
+            "minLength": 1,
+            "pattern": "^[a-zA-Z0-9_.:-]+$",
+            "title": "City Id",
+            "type": "string"
+          },
+          "query": {
+            "$ref": "#/$defs/ComparisonQuery"
+          }
+        },
+        "required": [
+          "city_id",
+          "query"
+        ],
+        "title": "ComparisonToolInput",
+        "type": "object"
+      },
+      "name": "compare_places"
+    }
+  ]
+}

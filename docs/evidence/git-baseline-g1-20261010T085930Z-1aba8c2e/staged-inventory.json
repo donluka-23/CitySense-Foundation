@@ -1,0 +1,1532 @@
+{
+  "status": "GIT BASELINE PREPARED \u2014 AWAITING COMMIT AUTHORIZATION",
+  "count": 378,
+  "files": [
+    {
+      "path": ".env.example",
+      "category": "root configuration template, Git rules and project guidance"
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "category": "CI and dependency-update configuration"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "category": "CI and dependency-update configuration"
+    },
+    {
+      "path": ".gitignore",
+      "category": "root configuration template, Git rules and project guidance"
+    },
+    {
+      "path": "CODEX_HANDOFF.md",
+      "category": "root configuration template, Git rules and project guidance"
+    },
+    {
+      "path": "README.md",
+      "category": "root configuration template, Git rules and project guidance"
+    },
+    {
+      "path": "artifacts/all-dependency-audit.json",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/all-requirements.txt",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/checks/ci_structure.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/checks/dependencies.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/checks/dependency-audit.json",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/checks/format.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/checks/lint.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/checks/lock.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/checks/pytest.xml",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/checks/requirements.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/checks/requirements.txt",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/checks/results.json",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/checks/security.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/checks/tests.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/checks/types.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/checks/workflow_syntax.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/dependency-audit.json",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/digital-twin/contracts.txt",
+      "category": "historical rejected implementation logs; recovery evidence only"
+    },
+    {
+      "path": "artifacts/digital-twin/host-tests.txt",
+      "category": "historical rejected implementation logs; recovery evidence only"
+    },
+    {
+      "path": "artifacts/digital-twin/node-tests.txt",
+      "category": "historical rejected implementation logs; recovery evidence only"
+    },
+    {
+      "path": "artifacts/digital-twin/python-format.txt",
+      "category": "historical rejected implementation logs; recovery evidence only"
+    },
+    {
+      "path": "artifacts/digital-twin/python-lint.txt",
+      "category": "historical rejected implementation logs; recovery evidence only"
+    },
+    {
+      "path": "artifacts/digital-twin/syntax-app.txt",
+      "category": "historical rejected implementation logs; recovery evidence only"
+    },
+    {
+      "path": "artifacts/digital-twin/syntax-camera.txt",
+      "category": "historical rejected implementation logs; recovery evidence only"
+    },
+    {
+      "path": "artifacts/digital-twin/syntax-decision.txt",
+      "category": "historical rejected implementation logs; recovery evidence only"
+    },
+    {
+      "path": "artifacts/digital-twin/syntax-domain.txt",
+      "category": "historical rejected implementation logs; recovery evidence only"
+    },
+    {
+      "path": "artifacts/digital-twin/syntax-geometry.txt",
+      "category": "historical rejected implementation logs; recovery evidence only"
+    },
+    {
+      "path": "artifacts/digital-twin/syntax-i18n.txt",
+      "category": "historical rejected implementation logs; recovery evidence only"
+    },
+    {
+      "path": "artifacts/digital-twin/syntax-map-scene.txt",
+      "category": "historical rejected implementation logs; recovery evidence only"
+    },
+    {
+      "path": "artifacts/digital-twin/syntax-observations.txt",
+      "category": "historical rejected implementation logs; recovery evidence only"
+    },
+    {
+      "path": "artifacts/map-stage-1/npm-audit.json",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/map-stage-1/osm-2026-10-10/coverage-summary.json",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/map-stage-1/osm-2026-10-10/query.overpassql",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/map-stage-1/osm-diagnostic-2026-10-10/coverage-summary.json",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/map-stage-1/osm-diagnostic-2026-10-10/query.overpassql",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/map-stage-1/osm-final-2026-10-10/coverage-summary.json",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/map-stage-1/osm-final-2026-10-10/query.overpassql",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/map-stage-1/osm-final-2026-10-10/response.json",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/runtime-requirements.txt",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/checks-initial/ci_structure.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/checks-initial/dependencies.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/checks-initial/dependency-audit.json",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/checks-initial/format.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/checks-initial/lint.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/checks-initial/lock.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/checks-initial/pytest.xml",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/checks-initial/requirements.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/checks-initial/requirements.txt",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/checks-initial/results.json",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/checks-initial/security.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/checks-initial/tests.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/checks-initial/types.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/checks-initial/workflow_syntax.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/checks/ci_structure.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/checks/contracts.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/checks/dependencies.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/checks/dependency-audit.json",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/checks/format.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/checks/lint.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/checks/lock.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/checks/pytest.xml",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/checks/requirements.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/checks/requirements.txt",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/checks/results.json",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/checks/security.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/checks/tests.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/checks/types.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/checks/workflow_syntax.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/final-checks/ci_structure.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/final-checks/contracts.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/final-checks/dependencies.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/final-checks/dependency-audit.json",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/final-checks/format.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/final-checks/lint.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/final-checks/lock.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/final-checks/pytest.xml",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/final-checks/requirements.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/final-checks/requirements.txt",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/final-checks/results.json",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/final-checks/security.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/final-checks/tests.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/final-checks/types.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/final-checks/workflow_syntax.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/preserved-foundation.json",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/retained-db-smoke.json",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/verified-final/ci_structure.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/verified-final/contracts.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/verified-final/dependencies.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/verified-final/dependency-audit.json",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/verified-final/format.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/verified-final/lint.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/verified-final/lock.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/verified-final/pytest.xml",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/verified-final/requirements.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/verified-final/requirements.txt",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/verified-final/results.json",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/verified-final/security.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/verified-final/tests.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/verified-final/types.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint2/verified-final/workflow_syntax.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/checks/ci_structure.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/checks/contracts.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/checks/dependencies.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/checks/dependency-audit.json",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/checks/format.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/checks/lint.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/checks/lock.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/checks/pytest.xml",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/checks/requirements.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/checks/requirements.txt",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/checks/results.json",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/checks/security.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/checks/tests.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/checks/types.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/checks/workflow_syntax.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/disposable-setup-transcript.json",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/final-checks/ci_structure.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/final-checks/contracts.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/final-checks/dependencies.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/final-checks/dependency-audit.json",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/final-checks/format.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/final-checks/lint.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/final-checks/lock.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/final-checks/pytest.xml",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/final-checks/requirements.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/final-checks/requirements.txt",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/final-checks/results.json",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/final-checks/security.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/final-checks/tests.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/final-checks/types.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/final-checks/workflow_syntax.log",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/initial-pytest.xml",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/offline-a1/21144383d2154588bda5c3ee04bff051.jsonl",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/offline-a1/5c74446456ff4c62873d27d25dcf6d8a.jsonl",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/offline-a1/db9fb15612f34ba6bbf8e1d4551d5d71.jsonl",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/setup-smoke.json",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/sprint3/telegram-synthetic.json",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "artifacts/synthetic-experiment-v1.json",
+      "category": "reviewed reproducibility and technical evidence"
+    },
+    {
+      "path": "compose.yml",
+      "category": "root configuration template, Git rules and project guidance"
+    },
+    {
+      "path": "docs/A1_BASELINE_RUNNER.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/AGENT_PLATFORM_ARCHITECTURE.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/ARCHITECTURE_CHANGE_IMPACT.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/ARCHITECTURE_REVIEW.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/COMPETITIVE_TECHNICAL_ANALYSIS.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/DATA_GOVERNANCE_AND_LICENSING.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/END_TO_END_ACCEPTANCE.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/KNOWN_RISKS.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/MCP_INTERFACE_DESIGN.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/MULTI_CITY_ARCHITECTURE.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/OPENAPI_CONTRACT.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/OPPORTUNITY_REGISTRY_DESIGN.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/QUALITY_SCORECARD.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/REAL_WORLD_DATA_COVERAGE.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/RESEARCH_VALIDATION_READINESS.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/SPRINT_1_REPORT.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/SPRINT_2_REPORT.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/SPRINT_3_REPORT.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/TELEGRAM_DEMO_SPEC.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/TELEGRAM_SETUP.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/adr/0001-modular-monolith.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/adr/0002-geospatial-and-time.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/adr/0003-benchmark-integrity.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/adr/0004-provider-separation.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/adr/0005-reproducible-python-foundation.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/adr/0006-persistent-evidence-and-replay.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/adr/0007-evidence-scoring-and-evaluation.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/adr/0008-bounded-research-runtime.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/adr/0009-agent-first-platform.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/adr/0010-prospective-capture-and-private-adapters.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/architecture.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/contracts/a1-runner-config.schema.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/contracts/baseline-capture.schema.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/contracts/city-config.schema.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/contracts/geometry-revision.schema.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/contracts/mcp-tools-design.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/contracts/openapi.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/contracts/prospective-a1.schema.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/contracts/provider-entity.schema.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/contracts/real-inventory.schema.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/contracts/telegram-demo.schema.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/contracts/weather-candidate.schema.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/data-contracts.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/delivery-plan.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/design/BATUMI_3D_DATA_COVERAGE.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/design/BATUMI_MAP_COVERAGE_AUDIT.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/design/DIGITAL_TWIN_ARCHITECTURE.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/design/DIGITAL_TWIN_PERFORMANCE.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/design/DIGITAL_TWIN_VALIDATION_REPORT.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/design/DIGITAL_TWIN_VISUAL_SYSTEM.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/design/MAP_CAMERA_PRESETS.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/design/MAP_DATA_RIGHTS_AND_COSTS.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/design/MAP_PROVIDER_COMPARISON.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/design/MAP_PROVIDER_COST_COMPARISON.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/design/MAP_RENDERING_EVIDENCE.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/design/MAP_STAGE_1B_REPORT.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/design/MAP_STAGE_1_REPORT.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/design/MAP_STAGE_2_READINESS.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/design/MAP_VISUAL_COMPARISON.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evaluation-protocol.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/clean-install.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/dependency-audit.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/digital-twin/bundle-footprint.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/digital-twin/delivery-manifest.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/digital-twin/dependency-audit.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/digital-twin/http-checks.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/digital-twin/preservation.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/digital-twin/rendering-status.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/digital-twin/verification.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/git-baseline-g1-20261010T085930Z-1aba8c2e/G1_REPORT.md",
+      "category": "G1 baseline safety evidence"
+    },
+    {
+      "path": "docs/evidence/git-baseline-g1-20261010T085930Z-1aba8c2e/credential-scan.json",
+      "category": "G1 baseline safety evidence"
+    },
+    {
+      "path": "docs/evidence/git-baseline-g1-20261010T085930Z-1aba8c2e/excluded-categories.json",
+      "category": "G1 baseline safety evidence"
+    },
+    {
+      "path": "docs/evidence/git-baseline-g1-20261010T085930Z-1aba8c2e/foundation-integrity.json",
+      "category": "G1 baseline safety evidence"
+    },
+    {
+      "path": "docs/evidence/git-baseline-g1-20261010T085930Z-1aba8c2e/proposed.gitignore",
+      "category": "G1 baseline safety evidence"
+    },
+    {
+      "path": "docs/evidence/git-baseline-g1-20261010T085930Z-1aba8c2e/regression-results.json",
+      "category": "G1 baseline safety evidence"
+    },
+    {
+      "path": "docs/evidence/git-baseline-g1-20261010T085930Z-1aba8c2e/repository-inspection.json",
+      "category": "G1 baseline safety evidence"
+    },
+    {
+      "path": "docs/evidence/git-baseline-g1-20261010T085930Z-1aba8c2e/staged-inventory.json",
+      "category": "G1 baseline safety evidence"
+    },
+    {
+      "path": "docs/evidence/git-baseline-g1-20261010T085930Z-1aba8c2e/staged-inventory.txt",
+      "category": "G1 baseline safety evidence"
+    },
+    {
+      "path": "docs/evidence/http-smoke.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/map-stage-1/delivery-manifest.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/map-stage-1/osm-coverage-summary.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/map-stage-1/osm-query.overpassql",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/map-stage-1/preservation.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/map-stage-1/provider-metadata.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/map-stage-1/verification.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/map-stage-1b/bundle-footprint.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/map-stage-1b/camera-labels-query.overpassql",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/map-stage-1b/camera-labels-receipt.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/map-stage-1b/camera-labels.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/map-stage-1b/camera-query.overpassql",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/map-stage-1b/camera-receipt.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/map-stage-1b/camera-source.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/map-stage-1b/configuration-checks.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/map-stage-1b/credential-checks.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/map-stage-1b/delivery-manifest.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/map-stage-1b/http-checks.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/map-stage-1b/preservation.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/map-stage-1b/rendering-status.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/map-stage-1b/verification.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/pytest.txt",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/quality-gates.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/rollback-digital-twin-20261010T082826Z-b923dc6c/POST_ROLLBACK_REPORT.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/rollback-digital-twin-20261010T082826Z-b923dc6c/deleted-paths.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/rollback-digital-twin-20261010T082826Z-b923dc6c/foundation-hashes.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/rollback-digital-twin-20261010T082826Z-b923dc6c/post-rollback-status.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/rollback-digital-twin-20261010T082826Z-b923dc6c/regression-results.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/rollback-digital-twin-20261010T082826Z-b923dc6c/retained-paths.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/rollback-digital-twin-20261010T084916Z-ed570b51/HISTORICAL_ARTIFACT_RETENTION.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/rollback-digital-twin-20261010T084916Z-ed570b51/POST_ROLLBACK_REPORT.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/rollback-digital-twin-20261010T084916Z-ed570b51/deleted-paths.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/rollback-digital-twin-20261010T084916Z-ed570b51/foundation-hashes.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/rollback-digital-twin-20261010T084916Z-ed570b51/historical-artifact-inventory.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/rollback-digital-twin-20261010T084916Z-ed570b51/post-rollback-status.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/rollback-digital-twin-20261010T084916Z-ed570b51/recovery-verification.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/rollback-digital-twin-20261010T084916Z-ed570b51/regression-results.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/rollback-digital-twin-20261010T084916Z-ed570b51/retained-paths.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/sprint-2/changed-files.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/sprint-2/clean-install.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/sprint-2/clean-pytest.txt",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/sprint-2/clean-quality-gates.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/sprint-2/dependency-audit.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/sprint-2/live-source-summary.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/sprint-2/preserved-foundation.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/sprint-2/pytest.txt",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/sprint-2/quality-gates.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/sprint-2/retained-db-smoke.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/sprint-2/test-counts.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/sprint-3/README.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/sprint-3/changed-files.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/sprint-3/clean-install.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/sprint-3/clean-pytest.txt",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/sprint-3/clean-quality-gates.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/sprint-3/clean-source-parity.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/sprint-3/demo-summary.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/sprint-3/dependency-audit.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/sprint-3/offline-a1-summary.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/sprint-3/preserved-foundation.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/sprint-3/pytest.txt",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/sprint-3/quality-gates.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/sprint-3/real-source-summary.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/sprint-3/retained-db-smoke.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/sprint-3/setup-smoke.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/sprint-3/synthetic-21144383d2154588bda5c3ee04bff051.jsonl",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/sprint-3/synthetic-5c74446456ff4c62873d27d25dcf6d8a.jsonl",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/sprint-3/synthetic-db9fb15612f34ba6bbf8e1d4551d5d71.jsonl",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/sprint-3/test-counts.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/evidence/sprint-3/unavailable-checks.json",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/provider-onboarding.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/quality/review-report.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/quality/scorecard.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/security-privacy.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "docs/source-register.md",
+      "category": "architecture, research and historical documentation/evidence"
+    },
+    {
+      "path": "infra/sql/001_foundation.sql",
+      "category": "existing infrastructure proposal"
+    },
+    {
+      "path": "schemas/evaluation-request.example.json",
+      "category": "research and API contracts/examples"
+    },
+    {
+      "path": "schemas/evaluation-request.schema.json",
+      "category": "research and API contracts/examples"
+    },
+    {
+      "path": "services/api/.python-version",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/alembic.ini",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/migrations/env.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/migrations/script.py.mako",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/migrations/versions/0001_foundation.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/migrations/versions/0001_foundation.sql",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/migrations/versions/0002_geometry_revisions.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/pyproject.toml",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/scripts/build_sprint3_fixtures.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/scripts/build_synthetic_fixtures.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/scripts/check.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/scripts/compare_a1_b0.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/scripts/demo_offline.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/scripts/demonstrate_osm.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/scripts/export_contracts.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/scripts/init_local_env.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/scripts/load_synthetic_demo.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/scripts/persist_osm_archive.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/scripts/real_workflow.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/scripts/run_a1.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/scripts/run_synthetic_experiment.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/scripts/run_telegram.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/scripts/seed_synthetic.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/scripts/validate_ci.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/src/citysense/__init__.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/src/citysense/agent_tools.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/src/citysense/app.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/src/citysense/baseline_capture.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/src/citysense/baseline_runner.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/src/citysense/db.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/src/citysense/engine.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/src/citysense/evaluation.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/src/citysense/ingestion.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/src/citysense/models.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/src/citysense/native_sources.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/src/citysense/opportunities.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/src/citysense/parameters.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/src/citysense/parameters/cities.json",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/src/citysense/parameters/heuristic-0.2.0.json",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/src/citysense/platform.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/src/citysense/platform_api.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/src/citysense/prospective_audit.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/src/citysense/real_context.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/src/citysense/security.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/src/citysense/telegram_demo.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/tests/conftest.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/tests/fixtures/a1-fixture-config.json",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/tests/fixtures/baseline-artifact.json",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/tests/fixtures/evaluation-manifest.json",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/tests/fixtures/observations.json",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/tests/fixtures/prospective-manifest.json",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/tests/fixtures/request.json",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/tests/fixtures/source-metadata.json",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/tests/test_baseline_capture.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/tests/test_baseline_limits.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/tests/test_baseline_runner.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/tests/test_engine.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/tests/test_evaluation.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/tests/test_ingestion.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/tests/test_native_sources.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/tests/test_opportunities.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/tests/test_platform.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/tests/test_postgis.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/tests/test_prospective_audit.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/tests/test_real_context.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/tests/test_security.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/tests/test_telegram_demo.py",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "services/api/uv.lock",
+      "category": "API source, tests, migrations, scripts and locked dependencies"
+    },
+    {
+      "path": "tools/map-stage-1/.gitignore",
+      "category": "retained map comparison harness and lockfile"
+    },
+    {
+      "path": "tools/map-stage-1/LICENSE_NOTICE.md",
+      "category": "retained map comparison harness and lockfile"
+    },
+    {
+      "path": "tools/map-stage-1/README.md",
+      "category": "retained map comparison harness and lockfile"
+    },
+    {
+      "path": "tools/map-stage-1/audit-coverage.mjs",
+      "category": "retained map comparison harness and lockfile"
+    },
+    {
+      "path": "tools/map-stage-1/comparison.mjs",
+      "category": "retained map comparison harness and lockfile"
+    },
+    {
+      "path": "tools/map-stage-1/index.html",
+      "category": "retained map comparison harness and lockfile"
+    },
+    {
+      "path": "tools/map-stage-1/map.mjs",
+      "category": "retained map comparison harness and lockfile"
+    },
+    {
+      "path": "tools/map-stage-1/package-lock.json",
+      "category": "retained map comparison harness and lockfile"
+    },
+    {
+      "path": "tools/map-stage-1/package.json",
+      "category": "retained map comparison harness and lockfile"
+    },
+    {
+      "path": "tools/map-stage-1/serve.py",
+      "category": "retained map comparison harness and lockfile"
+    }
+  ],
+  "categoryCounts": {
+    "root configuration template, Git rules and project guidance": 5,
+    "CI and dependency-update configuration": 2,
+    "reviewed reproducibility and technical evidence": 125,
+    "historical rejected implementation logs; recovery evidence only": 13,
+    "architecture, research and historical documentation/evidence": 143,
+    "G1 baseline safety evidence": 9,
+    "existing infrastructure proposal": 1,
+    "research and API contracts/examples": 2,
+    "API source, tests, migrations, scripts and locked dependencies": 68,
+    "retained map comparison harness and lockfile": 10
+  },
+  "hashManifestLocalOnly": "D:\\citysense-foundation\\.local\\git-baseline-20261010T085930Z-1aba8c2e\\staged-index-inventory.json",
+  "selfReference": "This inventory includes itself and the other G1 evidence files by path; complete final blob IDs and SHA-256 values are in the separate local index manifest."
+}

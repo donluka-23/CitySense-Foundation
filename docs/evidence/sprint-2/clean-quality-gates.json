@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-09T14:08:05.205796+00:00",
+  "python": "3.12.13",
+  "require_db": true,
+  "results": [
+    {
+      "gate": "lock",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.125
+    },
+    {
+      "gate": "format",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.172
+    },
+    {
+      "gate": "lint",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.141
+    },
+    {
+      "gate": "types",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 35.156
+    },
+    {
+      "gate": "contracts",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 1.125
+    },
+    {
+      "gate": "tests",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 12.656
+    },
+    {
+      "gate": "security",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.641
+    },
+    {
+      "gate": "requirements",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.125
+    },
+    {
+      "gate": "dependencies",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 1.125
+    },
+    {
+      "gate": "ci_structure",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.125
+    },
+    {
+      "gate": "workflow_syntax",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.031
+    }
+  ]
+}

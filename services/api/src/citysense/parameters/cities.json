@@ -1,0 +1,4 @@
+[
+  {"city_id":"batumi","timezone":"Asia/Tbilisi","bounds":[41.55,41.55,41.8,41.8],"validation_status":"initial_research"},
+  {"city_id":"tbilisi-fixture","timezone":"Asia/Tbilisi","bounds":[44.65,41.6,44.95,41.85],"validation_status":"synthetic_configuration_only"}
+]

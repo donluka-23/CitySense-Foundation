@@ -1,0 +1,14 @@
+{
+  "name": "citysense-map-stage-1",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Isolated Batumi basemap technology audit; no CitySense application or data adapters",
+  "scripts": {
+    "audit:coverage": "node audit-coverage.mjs"
+  },
+  "dependencies": {
+    "mapbox-gl": "3.32.0",
+    "maplibre-gl": "6.13.0"
+  }
+}

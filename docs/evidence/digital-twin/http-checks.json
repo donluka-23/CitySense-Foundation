@@ -1,0 +1,61 @@
+{
+  "checks": [
+    {
+      "route": "/",
+      "status": 200,
+      "bytes": 8670,
+      "cacheControl": "no-store"
+    },
+    {
+      "route": "/app.mjs",
+      "status": 200,
+      "bytes": 27733,
+      "cacheControl": "no-store"
+    },
+    {
+      "route": "/decision.mjs",
+      "status": 200,
+      "bytes": 3201,
+      "cacheControl": "no-store"
+    },
+    {
+      "route": "/presets.json",
+      "status": 200,
+      "bytes": 5525,
+      "cacheControl": "no-store"
+    },
+    {
+      "route": "/anchors.json",
+      "status": 200,
+      "bytes": 8025,
+      "cacheControl": "no-store"
+    },
+    {
+      "route": "/vendor/maplibre-gl.mjs",
+      "status": 200,
+      "bytes": 1079357,
+      "cacheControl": "no-store"
+    },
+    {
+      "route": "/vendor/maplibre-gl-worker.mjs",
+      "status": 200,
+      "bytes": 508314,
+      "cacheControl": "no-store"
+    },
+    {
+      "route": "/vendor/maplibre-gl.css",
+      "status": 200,
+      "bytes": 83290,
+      "cacheControl": "no-store"
+    },
+    {
+      "route": "/config.json",
+      "status": 200,
+      "bytes": 25,
+      "cacheControl": "no-store",
+      "publicKeyPresent": false,
+      "keyValueRecorded": false
+    }
+  ],
+  "scope": "HTTP reachability only; not JavaScript execution or geographic rendering"
+}

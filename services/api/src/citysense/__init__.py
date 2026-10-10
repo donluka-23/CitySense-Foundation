@@ -1,0 +1,1 @@
+"""CitySense prototype domain."""

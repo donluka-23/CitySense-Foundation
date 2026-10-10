@@ -1,0 +1,28 @@
+
+> citysense-digital-twin-prototype@0.1.0 test
+> node --test tests/*.test.mjs
+
+✔ deterministic fixture uses five documented real anchors and fictional observations (3.5653ms)
+✔ weighted numeric index clamps values and refuses insufficient available metrics (0.3045ms)
+✔ aggregation averages numeric indices, excludes unavailable values and reports denominator (0.2403ms)
+✔ offline records remain missing, retain only past observation timestamps, and compare paired nodes (0.8852ms)
+✔ baseline gaps exclude the same node from both sides rather than biasing the difference (0.4088ms)
+✔ degraded research records preserve partial metric coverage and no confidence claim (1.0155ms)
+✔ intervention comparison cannot reveal a future after-period or establish causality (0.6787ms)
+✔ all application workflows export own synthetic evidence, never provider geometry or enacted actions (0.986ms)
+✔ height provenance distinguishes raw numeric, processed approximation, unavailable and explicit placeholder (1.1229ms)
+✔ actual SDK expression evaluator matches inspection height and base semantics (5.8117ms)
+✔ only compatible vector building source layers are discovered (1.0249ms)
+✔ illustrative disks are closed and use geodesic metre distances (0.5881ms)
+✔ taller buildings reduce inspection zoom within safe authored camera bounds (0.1705ms)
+✔ generated scene passes real style validation across modes, themes, quality and transitions (34.4783ms)
+✔ timeline updates five existing own GeoJSON sources and leaves provider source unchanged (1.7215ms)
+✔ DOM control references resolve to unique HTML IDs without inline JavaScript (1.36ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 178.3208

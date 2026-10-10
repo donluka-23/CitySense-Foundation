@@ -1,0 +1,93 @@
+{
+  "scope": "Loopback HTTP plumbing only; no browser/WebGL execution",
+  "port": 8766,
+  "existingServer8765": "Not modified or stopped",
+  "configuredProviderCredentials": {
+    "mapbox": false,
+    "maptiler": false
+  },
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "bytes": 1270,
+      "cacheControl": "no-store"
+    },
+    {
+      "path": "/map.mjs",
+      "status": 200,
+      "bytes": 13832,
+      "cacheControl": "no-store"
+    },
+    {
+      "path": "/comparison.mjs",
+      "status": 200,
+      "bytes": 3607,
+      "cacheControl": "no-store"
+    },
+    {
+      "path": "/presets.json",
+      "status": 200,
+      "bytes": 4412,
+      "cacheControl": "no-store"
+    },
+    {
+      "path": "/config.json",
+      "status": 200,
+      "bytes": 50,
+      "cacheControl": "no-store"
+    },
+    {
+      "path": "/vendor/maplibre-gl.mjs",
+      "status": 200,
+      "bytes": 1079357,
+      "cacheControl": "no-store"
+    },
+    {
+      "path": "/vendor/maplibre-gl-worker.mjs",
+      "status": 200,
+      "bytes": 508314,
+      "cacheControl": "no-store"
+    },
+    {
+      "path": "/vendor/maplibre-gl-shared.mjs",
+      "status": 200,
+      "bytes": 0,
+      "cacheControl": "no-store"
+    },
+    {
+      "path": "/vendor/maplibre-gl.css",
+      "status": 200,
+      "bytes": 83290,
+      "cacheControl": "no-store"
+    },
+    {
+      "path": "/vendor/mapbox-gl.js",
+      "status": 200,
+      "bytes": 1897230,
+      "cacheControl": "no-store"
+    },
+    {
+      "path": "/vendor/mapbox-gl.css",
+      "status": 200,
+      "bytes": 48946,
+      "cacheControl": "no-store"
+    },
+    {
+      "path": "/.env",
+      "status": 404
+    },
+    {
+      "path": "/docs/contracts/openapi.json",
+      "status": 404
+    },
+    {
+      "path": "/../services/api/src/citysense/engine.py",
+      "status": 404
+    },
+    {
+      "path": "/ with untrusted Host",
+      "status": 403
+    }
+  ]
+}

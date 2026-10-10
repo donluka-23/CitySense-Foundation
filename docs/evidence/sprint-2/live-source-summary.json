@@ -1,0 +1,24 @@
+{
+  "retrieved_at": "2026-10-09T13:37:41.385476Z",
+  "provider_database_at": "2026-10-09T13:36:35+00:00",
+  "mapped_park_way_count": 10.0,
+  "synthetic": false,
+  "raw_sha256": "057c1cfa6e6f0587e27ef79f4aeb26bb500fea2effe45dd1b03f02667e39712f",
+  "query_sha256": "2537894e0b558b7b764615d297e2a9637506f61bd36b421cb3c4ee160c33f22a",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "publication_enabled": false,
+  "personal_tags_requested": false,
+  "persistence": {
+    "persisted": true,
+    "observation_id": "d8be516c-f38f-5384-8604-f94a5b8941d8",
+    "raw_sha256": "057c1cfa6e6f0587e27ef79f4aeb26bb500fea2effe45dd1b03f02667e39712f",
+    "alembic_revision": "0002",
+    "postgres_version": "PostgreSQL 16.14, compiled by Visual C++ build 1944, 64-bit",
+    "postgis_version": "3.6.2",
+    "readback_equal": true,
+    "suitability_feature": false,
+    "external_publication_enabled": false
+  },
+  "raw_archive": "Private ignored artifacts/sprint2/live-osm; not published",
+  "interpretation": "Count is not park area, normalized greenery, microclimate or efficacy evidence"
+}

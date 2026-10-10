@@ -1,0 +1,260 @@
+{
+  "$defs": {
+    "Bounds": {
+      "additionalProperties": false,
+      "properties": {
+        "east": {
+          "maximum": 180,
+          "minimum": -180,
+          "title": "East",
+          "type": "number"
+        },
+        "north": {
+          "maximum": 90,
+          "minimum": -90,
+          "title": "North",
+          "type": "number"
+        },
+        "south": {
+          "maximum": 90,
+          "minimum": -90,
+          "title": "South",
+          "type": "number"
+        },
+        "west": {
+          "maximum": 180,
+          "minimum": -180,
+          "title": "West",
+          "type": "number"
+        }
+      },
+      "required": [
+        "west",
+        "south",
+        "east",
+        "north"
+      ],
+      "title": "Bounds",
+      "type": "object"
+    },
+    "SourceMetadata": {
+      "additionalProperties": false,
+      "properties": {
+        "attribution_required": {
+          "title": "Attribution Required",
+          "type": "boolean"
+        },
+        "cache_allowed": {
+          "title": "Cache Allowed",
+          "type": "boolean"
+        },
+        "commercial_allowed": {
+          "title": "Commercial Allowed",
+          "type": "boolean"
+        },
+        "license_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "License Id",
+          "type": "string"
+        },
+        "redistribution_allowed": {
+          "title": "Redistribution Allowed",
+          "type": "boolean"
+        },
+        "research_allowed": {
+          "title": "Research Allowed",
+          "type": "boolean"
+        },
+        "reviewed_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reviewed At"
+        },
+        "source_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "Source Id",
+          "type": "string"
+        },
+        "source_version": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "Source Version",
+          "type": "string"
+        },
+        "synthetic": {
+          "title": "Synthetic",
+          "type": "boolean"
+        },
+        "terms_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Terms Url"
+        }
+      },
+      "required": [
+        "source_id",
+        "source_version",
+        "license_id",
+        "synthetic",
+        "research_allowed",
+        "commercial_allowed",
+        "cache_allowed",
+        "redistribution_allowed",
+        "attribution_required"
+      ],
+      "title": "SourceMetadata",
+      "type": "object"
+    },
+    "SpatialPlace": {
+      "additionalProperties": false,
+      "properties": {
+        "city_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "City Id",
+          "type": "string"
+        },
+        "latitude": {
+          "maximum": 90,
+          "minimum": -90,
+          "title": "Latitude",
+          "type": "number"
+        },
+        "license_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "License Id",
+          "type": "string"
+        },
+        "longitude": {
+          "maximum": 180,
+          "minimum": -180,
+          "title": "Longitude",
+          "type": "number"
+        },
+        "name": {
+          "maxLength": 200,
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        },
+        "place_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "Place Id",
+          "type": "string"
+        },
+        "retrieved_at": {
+          "format": "date-time",
+          "title": "Retrieved At",
+          "type": "string"
+        },
+        "source_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "Source Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "place_id",
+        "city_id",
+        "name",
+        "longitude",
+        "latitude",
+        "source_id",
+        "license_id",
+        "retrieved_at"
+      ],
+      "title": "SpatialPlace",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "attribution": {
+      "default": "© OpenStreetMap contributors; ODbL 1.0",
+      "title": "Attribution",
+      "type": "string"
+    },
+    "bounds": {
+      "$ref": "#/$defs/Bounds"
+    },
+    "geometry_method": {
+      "default": "first_returned_vertex_in_query_window_v1",
+      "title": "Geometry Method",
+      "type": "string"
+    },
+    "geometry_warning": {
+      "default": "OSM boundary vertex; not a verified entrance or interior activity site",
+      "title": "Geometry Warning",
+      "type": "string"
+    },
+    "places": {
+      "items": {
+        "$ref": "#/$defs/SpatialPlace"
+      },
+      "maxItems": 5,
+      "minItems": 1,
+      "title": "Places",
+      "type": "array"
+    },
+    "provider_database_at": {
+      "format": "date-time",
+      "title": "Provider Database At",
+      "type": "string"
+    },
+    "query": {
+      "title": "Query",
+      "type": "string"
+    },
+    "raw_sha256": {
+      "pattern": "^[a-f0-9]{64}$",
+      "title": "Raw Sha256",
+      "type": "string"
+    },
+    "retrieved_at": {
+      "format": "date-time",
+      "title": "Retrieved At",
+      "type": "string"
+    },
+    "source": {
+      "$ref": "#/$defs/SourceMetadata"
+    }
+  },
+  "required": [
+    "source",
+    "bounds",
+    "query",
+    "raw_sha256",
+    "retrieved_at",
+    "provider_database_at",
+    "places"
+  ],
+  "title": "RealInventory",
+  "type": "object"
+}

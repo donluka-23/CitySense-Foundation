@@ -1,0 +1,457 @@
+{
+  "basis": "final Sprint 2 checkout; no Git metadata",
+  "files": [
+    {
+      "bytes": 595,
+      "change": "modified",
+      "path": ".env.example",
+      "sha256": "4832443c03040bb4bcc2aced270d98d4b32baa21bfc1d5ecd6786596929ceb7d"
+    },
+    {
+      "bytes": 4876,
+      "change": "modified",
+      "path": "CODEX_HANDOFF.md",
+      "sha256": "fc77fc7a09adf546ae8f725a7dc48600d3cf665e2c06ae51f35796cf3601177c"
+    },
+    {
+      "bytes": 8018,
+      "change": "modified",
+      "path": "README.md",
+      "sha256": "7fd4538793cb512356c7a9245e5b91ea224f1461b247f45ef1496ce75f5fdb1a"
+    },
+    {
+      "bytes": 6590,
+      "change": "added",
+      "path": "docs/A1_BASELINE_RUNNER.md",
+      "sha256": "84f76bed74bbe828f0ac7b931bfca3a2df29553cc3e6f147aaacf5ae4c6daf6a"
+    },
+    {
+      "bytes": 6011,
+      "change": "modified",
+      "path": "docs/ARCHITECTURE_REVIEW.md",
+      "sha256": "32ea56657a87ae13defa2ff7acd08324846081652d9d3c816d23fc4c7eab3e17"
+    },
+    {
+      "bytes": 8459,
+      "change": "modified",
+      "path": "docs/DATA_GOVERNANCE_AND_LICENSING.md",
+      "sha256": "ac65b84c49bcd138168ffa9bcb9dd49deb50b20db89c74c1f294fbac315dbde5"
+    },
+    {
+      "bytes": 3889,
+      "change": "added",
+      "path": "docs/END_TO_END_ACCEPTANCE.md",
+      "sha256": "b812f6f7c36b596e3044b146a03021b7c35eb38df08cc6801f9269f42d6b9f15"
+    },
+    {
+      "bytes": 6141,
+      "change": "modified",
+      "path": "docs/KNOWN_RISKS.md",
+      "sha256": "9817cdccaf171c4edb6791af7c42aa65d4d709d26fe724de75f39d607b39153d"
+    },
+    {
+      "bytes": 3437,
+      "change": "modified",
+      "path": "docs/OPPORTUNITY_REGISTRY_DESIGN.md",
+      "sha256": "daa581369a5bead8f3293161bda1cbf36c518657fd2c1f7c40b838bfb0309f43"
+    },
+    {
+      "bytes": 2640,
+      "change": "modified",
+      "path": "docs/QUALITY_SCORECARD.md",
+      "sha256": "75832c765863a7e3c80ebf9e0c0801e3ba4b3a808117e1c6e9409c7c3f235b55"
+    },
+    {
+      "bytes": 6491,
+      "change": "added",
+      "path": "docs/REAL_WORLD_DATA_COVERAGE.md",
+      "sha256": "bd2ad0477fa6755951f56afaf5b04f17709dab29987bbbe6faa75c5168b09b99"
+    },
+    {
+      "bytes": 10302,
+      "change": "modified",
+      "path": "docs/RESEARCH_VALIDATION_READINESS.md",
+      "sha256": "69918b4dcfb7a323c0240d5ffdd600431a8c16f5fd01615b6d5480ddc6cc2243"
+    },
+    {
+      "bytes": 13406,
+      "change": "added",
+      "path": "docs/SPRINT_2_REPORT.md",
+      "sha256": "3a72cb2833054e4449d390140468424b5127b0636ccf07845d3fa61d81a1e17b"
+    },
+    {
+      "bytes": 16316,
+      "change": "added",
+      "path": "docs/SPRINT_3_REPORT.md",
+      "sha256": "fe3e9955c6cceabac3e06764ab89aa5d9db7a64349c4791da8151f568b514f5a"
+    },
+    {
+      "bytes": 5003,
+      "change": "added",
+      "path": "docs/TELEGRAM_DEMO_SPEC.md",
+      "sha256": "c12c5f56ecc36688298357ca469e67031dada94d991c243ee129656a261bf64b"
+    },
+    {
+      "bytes": 5208,
+      "change": "added",
+      "path": "docs/TELEGRAM_SETUP.md",
+      "sha256": "7dbdefda217ea824e561a785345a6c1b6e797cc2d3233470ff34fbab1d75c44d"
+    },
+    {
+      "bytes": 3189,
+      "change": "added",
+      "path": "docs/adr/0010-prospective-capture-and-private-adapters.md",
+      "sha256": "bc8477e678c22afbd759ad189d357d07f11ebee19d5b765e7a45042b15923375"
+    },
+    {
+      "bytes": 2248,
+      "change": "added",
+      "path": "docs/contracts/a1-runner-config.schema.json",
+      "sha256": "5bc2e42cb58f1c4466cc48c3f5735e11af6566a86d6b5fe22bd9d6a2eac936bc"
+    },
+    {
+      "bytes": 13089,
+      "change": "added",
+      "path": "docs/contracts/prospective-a1.schema.json",
+      "sha256": "4b74c3769199681dfeb0bba6087f787b0e74ff68b61d2577d98c8337f98b7fde"
+    },
+    {
+      "bytes": 6325,
+      "change": "added",
+      "path": "docs/contracts/real-inventory.schema.json",
+      "sha256": "e0be5a5a7e136fede448a4398b5157a2ae03b0927d0399bb161af2432813ccf9"
+    },
+    {
+      "bytes": 931,
+      "change": "added",
+      "path": "docs/contracts/telegram-demo.schema.json",
+      "sha256": "4623207dcef1b6e4783b966d418df0e357190a0bcadb56fefff125a2b2918171"
+    },
+    {
+      "bytes": 3306,
+      "change": "modified",
+      "path": "docs/delivery-plan.md",
+      "sha256": "ce1e200953972d0e653ef49e8ce879b3a47aa9d70f921ba9fb2429014646e660"
+    },
+    {
+      "bytes": 289,
+      "change": "added",
+      "path": "docs/evidence/sprint-2/clean-install.json",
+      "sha256": "3dc17aa345eae425e1b5d5da0fb6de4385427ea6dc02cd2628edd98e81393a8d"
+    },
+    {
+      "bytes": 702,
+      "change": "added",
+      "path": "docs/evidence/sprint-2/clean-pytest.txt",
+      "sha256": "abb2d18a6bf0cfa0f6f21059df707911b44e1fcd1eb991440e9e879694fefae6"
+    },
+    {
+      "bytes": 1488,
+      "change": "added",
+      "path": "docs/evidence/sprint-2/clean-quality-gates.json",
+      "sha256": "7160374d2470ab1fa5ae7ac721c1dd683fe30026087318adc14fe62257eba537"
+    },
+    {
+      "bytes": 3627,
+      "change": "added",
+      "path": "docs/evidence/sprint-2/dependency-audit.json",
+      "sha256": "23b1138d35efa53797618507a1a3e5702341b51573ea07295e2ca1b12b46ad84"
+    },
+    {
+      "bytes": 1111,
+      "change": "added",
+      "path": "docs/evidence/sprint-2/live-source-summary.json",
+      "sha256": "ca954fae4a50747c410dfeb4945c72775b31ee7973eddeacc0dcecce44a31bcc"
+    },
+    {
+      "bytes": 1711,
+      "change": "added",
+      "path": "docs/evidence/sprint-2/preserved-foundation.json",
+      "sha256": "cf45cf02d3731d881cb0bd28bb5350302eb7804dd68721fddacb5fc0197a08ad"
+    },
+    {
+      "bytes": 672,
+      "change": "added",
+      "path": "docs/evidence/sprint-2/pytest.txt",
+      "sha256": "4d291c3541c5bd92e8c1d6843c2c0d9ca8c12b0d2731c77171908f21853292a7"
+    },
+    {
+      "bytes": 1486,
+      "change": "added",
+      "path": "docs/evidence/sprint-2/quality-gates.json",
+      "sha256": "a7a21cce8ff30edffc672c4e77a862ae9181852631f2dd12436834a637ac0b06"
+    },
+    {
+      "bytes": 321,
+      "change": "added",
+      "path": "docs/evidence/sprint-2/retained-db-smoke.json",
+      "sha256": "7a1b72b00d8f9a138a1b920690a239c65cfddbccf632253f78de073fd04247b0"
+    },
+    {
+      "bytes": 477,
+      "change": "added",
+      "path": "docs/evidence/sprint-2/test-counts.json",
+      "sha256": "1c558a725ffb70366e2d3207a9ce97a707c5e434b515c9648837a7a4d0009015"
+    },
+    {
+      "bytes": 2465,
+      "change": "added",
+      "path": "docs/evidence/sprint-3/README.md",
+      "sha256": "e7fb54992e145b9df02d46af7a85536e7b5c80d4501e82b63fb2492d5ce34172"
+    },
+    {
+      "bytes": 414,
+      "change": "added",
+      "path": "docs/evidence/sprint-3/clean-install.json",
+      "sha256": "d7a9ef78bce2063ece06f7fe3b9bb6424558a05fca1211258fb2836eb6b17089"
+    },
+    {
+      "bytes": 783,
+      "change": "added",
+      "path": "docs/evidence/sprint-3/clean-pytest.txt",
+      "sha256": "a432c689a2b3473d69712c9cc64dce9e30bbd433764deda7843b6346ca1ceae8"
+    },
+    {
+      "bytes": 1487,
+      "change": "added",
+      "path": "docs/evidence/sprint-3/clean-quality-gates.json",
+      "sha256": "c1d688022c4a6eb2ef567a09802a18d3ddeba6579f20c6bc0aab72d8c0a2529c"
+    },
+    {
+      "bytes": 10560,
+      "change": "added",
+      "path": "docs/evidence/sprint-3/clean-source-parity.json",
+      "sha256": "0b3bd452675bb8dbd71c37364b80a15032292f39e7947a4d09af02dbfbc6dfcc"
+    },
+    {
+      "bytes": 801,
+      "change": "added",
+      "path": "docs/evidence/sprint-3/demo-summary.json",
+      "sha256": "059973fa04ac0747cece433428876dfde8b5f3eb72ad7f7a0be13cf42c06fad2"
+    },
+    {
+      "bytes": 3692,
+      "change": "added",
+      "path": "docs/evidence/sprint-3/dependency-audit.json",
+      "sha256": "9eec961cefa5475259117e58303d28848997983164c18896902934a53eed55b3"
+    },
+    {
+      "bytes": 2264,
+      "change": "added",
+      "path": "docs/evidence/sprint-3/offline-a1-summary.json",
+      "sha256": "dcabe2a4f15223784c0d0001ac6cb9cfef2522a4899336857740c78b58ce1a72"
+    },
+    {
+      "bytes": 4510,
+      "change": "added",
+      "path": "docs/evidence/sprint-3/preserved-foundation.json",
+      "sha256": "43741035729d916ed8ec15ebe4f62352f9d89ace6892a3312e1012e426ded86d"
+    },
+    {
+      "bytes": 753,
+      "change": "added",
+      "path": "docs/evidence/sprint-3/pytest.txt",
+      "sha256": "35e2ad318f2f91519bec3d5f7f7cc534b1586195728eec5fd781634b2bc882f1"
+    },
+    {
+      "bytes": 1487,
+      "change": "added",
+      "path": "docs/evidence/sprint-3/quality-gates.json",
+      "sha256": "0292f3d2b6d40b05458b97c0201e43084c844ebca7ef7f292ea9c9d0468d2756"
+    },
+    {
+      "bytes": 537,
+      "change": "added",
+      "path": "docs/evidence/sprint-3/real-source-summary.json",
+      "sha256": "4ef80cc5635f97221d59abd6af85fa48efd2ebca4890adb53e987a1702217585"
+    },
+    {
+      "bytes": 772,
+      "change": "added",
+      "path": "docs/evidence/sprint-3/retained-db-smoke.json",
+      "sha256": "62dad08726e82890f8f6d00aa246031e474cee92f64186274eb6023b1b7586ac"
+    },
+    {
+      "bytes": 224,
+      "change": "added",
+      "path": "docs/evidence/sprint-3/setup-smoke.json",
+      "sha256": "b2b6bfef3fb13d511d5d51a41b17ea1984f0a6c00ebaa377bd412aa5f2d3f1dd"
+    },
+    {
+      "bytes": 21399,
+      "change": "added",
+      "path": "docs/evidence/sprint-3/synthetic-21144383d2154588bda5c3ee04bff051.jsonl",
+      "sha256": "0f3d7a059ec02232313021776079cf2e28098eeab7afb189f5fdead806121f43"
+    },
+    {
+      "bytes": 21419,
+      "change": "added",
+      "path": "docs/evidence/sprint-3/synthetic-5c74446456ff4c62873d27d25dcf6d8a.jsonl",
+      "sha256": "b88888060c35c75f21a1bf0d6e4ff6d1859147a65c842f3f624d064389fffe14"
+    },
+    {
+      "bytes": 21452,
+      "change": "added",
+      "path": "docs/evidence/sprint-3/synthetic-db9fb15612f34ba6bbf8e1d4551d5d71.jsonl",
+      "sha256": "3b3b41e5a8a5a4dcdaf133d0d6ace7b175369a5985a27fa5afe3052c263a528b"
+    },
+    {
+      "bytes": 614,
+      "change": "added",
+      "path": "docs/evidence/sprint-3/test-counts.json",
+      "sha256": "df5e2260f190143dac1b2bfaed085a0363079bffd3e37be5b1ba1dbe8997d799"
+    },
+    {
+      "bytes": 420,
+      "change": "added",
+      "path": "docs/evidence/sprint-3/unavailable-checks.json",
+      "sha256": "b3432fd4fde5d9bb954dd24d36479434b376957f3aa56a805367cff4108b6e88"
+    },
+    {
+      "bytes": 265,
+      "change": "modified",
+      "path": "docs/quality/scorecard.md",
+      "sha256": "6c0027b0f449b88ff4b70867ee652ce830a9e172ebfc655304815f23e6861655"
+    },
+    {
+      "bytes": 1194,
+      "change": "modified",
+      "path": "services/api/pyproject.toml",
+      "sha256": "413f164d9c97f1b4a4a5c5a09d25e93cae5caea4e4c55cc7d5f556f9732dfd08"
+    },
+    {
+      "bytes": 2397,
+      "change": "added",
+      "path": "services/api/scripts/build_sprint3_fixtures.py",
+      "sha256": "64506b7db637ead5e121f412490fcd58ac0fc9e9270836b363957288ef877a39"
+    },
+    {
+      "bytes": 1637,
+      "change": "added",
+      "path": "services/api/scripts/compare_a1_b0.py",
+      "sha256": "8abcc238331dbffc2a87fcecea402a6c448c92c5050abde692dcbe8bf0360716"
+    },
+    {
+      "bytes": 3599,
+      "change": "added",
+      "path": "services/api/scripts/demo_offline.py",
+      "sha256": "26177067823a5545127ef10601992b3d7b0cfaa14c0f823a811db5f5460b2eb7"
+    },
+    {
+      "bytes": 2362,
+      "change": "modified",
+      "path": "services/api/scripts/export_contracts.py",
+      "sha256": "dc34c76c77fb62bbec1b6119bd0a0ae8468bc5753f50406297a599f83cc0b7d2"
+    },
+    {
+      "bytes": 3448,
+      "change": "added",
+      "path": "services/api/scripts/load_synthetic_demo.py",
+      "sha256": "072fb7c301af062920de4c84fc3d47cea70fdc39302f108d926f96c504523b6e"
+    },
+    {
+      "bytes": 8206,
+      "change": "added",
+      "path": "services/api/scripts/real_workflow.py",
+      "sha256": "492a9c46c15b446e4ed3f5df6dfc3094dc2ea452bbe67ccf8753aa06311ab181"
+    },
+    {
+      "bytes": 1682,
+      "change": "added",
+      "path": "services/api/scripts/run_a1.py",
+      "sha256": "d58dbd765707900177be8116c603123f8b60be00964c802ed5a98517df719378"
+    },
+    {
+      "bytes": 3812,
+      "change": "added",
+      "path": "services/api/scripts/run_telegram.py",
+      "sha256": "586fd245c2d0b571b181649a00c6c4c3ca5732e3851fb26b6b41595e831dc906"
+    },
+    {
+      "bytes": 22317,
+      "change": "added",
+      "path": "services/api/src/citysense/baseline_runner.py",
+      "sha256": "f95bdebf443a7190400f05752bb42d638f1b0fd261f9b33159007475e022e1ea"
+    },
+    {
+      "bytes": 6875,
+      "change": "modified",
+      "path": "services/api/src/citysense/db.py",
+      "sha256": "703f6aae63685fe5958fb455476b6c48a362acd51ec94cda5ad6891427eb0ada"
+    },
+    {
+      "bytes": 17154,
+      "change": "modified",
+      "path": "services/api/src/citysense/platform.py",
+      "sha256": "2e58b7ab33dcbea4e5c9f24060ebae0adfa0fd85dbcdbdb6becd1246879ef4e0"
+    },
+    {
+      "bytes": 7759,
+      "change": "added",
+      "path": "services/api/src/citysense/prospective_audit.py",
+      "sha256": "9c3b9275b689ea011de84a9541f1e232086e5e2fb1ea900b10b4765fa509b1b9"
+    },
+    {
+      "bytes": 5056,
+      "change": "added",
+      "path": "services/api/src/citysense/real_context.py",
+      "sha256": "a829c82d924178a07e4a6b739c0195dfa508f4ca0328713614f0a5a9a5abb982"
+    },
+    {
+      "bytes": 13127,
+      "change": "added",
+      "path": "services/api/src/citysense/telegram_demo.py",
+      "sha256": "3625cca2044fe2d41f86e09ea9f213d14d9b4f326958f8f02f05ba69298be902"
+    },
+    {
+      "bytes": 379,
+      "change": "added",
+      "path": "services/api/tests/fixtures/a1-fixture-config.json",
+      "sha256": "8f0ff70254570f40c79eb55d91680bf376faf0e0911669d1d4986d9a5e04c6e5"
+    },
+    {
+      "bytes": 20423,
+      "change": "added",
+      "path": "services/api/tests/fixtures/prospective-manifest.json",
+      "sha256": "a935363a7823a6373cadde895230ac8c7c501318562dcd3c80bda98e7582cdb6"
+    },
+    {
+      "bytes": 4401,
+      "change": "added",
+      "path": "services/api/tests/test_baseline_limits.py",
+      "sha256": "22d38e474a0fb062233cf3046362305fef4897171fb1438b1cb51b2524da9769"
+    },
+    {
+      "bytes": 9111,
+      "change": "added",
+      "path": "services/api/tests/test_baseline_runner.py",
+      "sha256": "31c09e58d9ad844c0dea7e1040bec6619a2b7c1e7e36810dc5ceb40107c26549"
+    },
+    {
+      "bytes": 2921,
+      "change": "added",
+      "path": "services/api/tests/test_prospective_audit.py",
+      "sha256": "65ff79efe109a5d00bff92b57a63cac88d206dff6a69d2f23a86576edea5d00e"
+    },
+    {
+      "bytes": 7044,
+      "change": "added",
+      "path": "services/api/tests/test_real_context.py",
+      "sha256": "eeb2abd17f92fd95974c056750bad66640e662c5436d4689839c5fdd3692263d"
+    },
+    {
+      "bytes": 6696,
+      "change": "added",
+      "path": "services/api/tests/test_telegram_demo.py",
+      "sha256": "8e54f2e20490c82e8fdd7c723bb431d420ac6ea5df7867699f002da9ecad50de"
+    },
+    {
+      "bytes": 97758,
+      "change": "modified",
+      "path": "services/api/uv.lock",
+      "sha256": "25d1b0ba16542d745184f65a3f5f02dd6a1b113aaf99dec024112824fd289c69"
+    }
+  ],
+  "private_ignored_artifacts_excluded": true,
+  "self_index_excluded": true
+}

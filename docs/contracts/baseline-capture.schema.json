@@ -1,0 +1,221 @@
+{
+  "$defs": {
+    "CapturedRun": {
+      "additionalProperties": false,
+      "properties": {
+        "choice": {
+          "anyOf": [
+            {
+              "maxLength": 128,
+              "minLength": 1,
+              "pattern": "^[a-zA-Z0-9_.:-]+$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Choice"
+        },
+        "finished_at": {
+          "format": "date-time",
+          "title": "Finished At",
+          "type": "string"
+        },
+        "model_response_hash": {
+          "pattern": "^[a-f0-9]{64}$",
+          "title": "Model Response Hash",
+          "type": "string"
+        },
+        "record_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "Record Id",
+          "type": "string"
+        },
+        "request_hash": {
+          "pattern": "^[a-f0-9]{64}$",
+          "title": "Request Hash",
+          "type": "string"
+        },
+        "started_at": {
+          "format": "date-time",
+          "title": "Started At",
+          "type": "string"
+        },
+        "tools": {
+          "items": {
+            "$ref": "#/$defs/ToolReceipt"
+          },
+          "maxItems": 100,
+          "title": "Tools",
+          "type": "array"
+        },
+        "total_tokens": {
+          "minimum": 0,
+          "title": "Total Tokens",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "record_id",
+        "request_hash",
+        "choice",
+        "started_at",
+        "finished_at",
+        "model_response_hash",
+        "total_tokens",
+        "tools"
+      ],
+      "title": "CapturedRun",
+      "type": "object"
+    },
+    "ToolReceipt": {
+      "additionalProperties": false,
+      "properties": {
+        "evidence_available_at": {
+          "format": "date-time",
+          "title": "Evidence Available At",
+          "type": "string"
+        },
+        "received_at": {
+          "format": "date-time",
+          "title": "Received At",
+          "type": "string"
+        },
+        "request_hash": {
+          "pattern": "^[a-f0-9]{64}$",
+          "title": "Request Hash",
+          "type": "string"
+        },
+        "requested_at": {
+          "format": "date-time",
+          "title": "Requested At",
+          "type": "string"
+        },
+        "response_hash": {
+          "pattern": "^[a-f0-9]{64}$",
+          "title": "Response Hash",
+          "type": "string"
+        },
+        "tool_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "Tool Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "tool_id",
+        "request_hash",
+        "response_hash",
+        "requested_at",
+        "received_at",
+        "evidence_available_at"
+      ],
+      "title": "ToolReceipt",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "allowed_response_hashes": {
+      "additionalProperties": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "title": "Allowed Response Hashes",
+      "type": "object"
+    },
+    "allowed_tools": {
+      "items": {
+        "maxLength": 128,
+        "minLength": 1,
+        "pattern": "^[a-zA-Z0-9_.:-]+$",
+        "type": "string"
+      },
+      "maxItems": 20,
+      "minItems": 1,
+      "title": "Allowed Tools",
+      "type": "array"
+    },
+    "dataset_hash": {
+      "pattern": "^[a-f0-9]{64}$",
+      "title": "Dataset Hash",
+      "type": "string"
+    },
+    "information_budget_id": {
+      "maxLength": 128,
+      "minLength": 1,
+      "pattern": "^[a-zA-Z0-9_.:-]+$",
+      "title": "Information Budget Id",
+      "type": "string"
+    },
+    "latency_budget_seconds": {
+      "exclusiveMinimum": 0,
+      "title": "Latency Budget Seconds",
+      "type": "number"
+    },
+    "max_tool_calls": {
+      "maximum": 100,
+      "minimum": 1,
+      "title": "Max Tool Calls",
+      "type": "integer"
+    },
+    "max_total_tokens": {
+      "maximum": 1000000,
+      "minimum": 1,
+      "title": "Max Total Tokens",
+      "type": "integer"
+    },
+    "model_id": {
+      "maxLength": 128,
+      "minLength": 1,
+      "pattern": "^[a-zA-Z0-9_.:-]+$",
+      "title": "Model Id",
+      "type": "string"
+    },
+    "prompt_hash": {
+      "pattern": "^[a-f0-9]{64}$",
+      "title": "Prompt Hash",
+      "type": "string"
+    },
+    "runs": {
+      "items": {
+        "$ref": "#/$defs/CapturedRun"
+      },
+      "minItems": 3,
+      "title": "Runs",
+      "type": "array"
+    },
+    "synthetic": {
+      "title": "Synthetic",
+      "type": "boolean"
+    },
+    "tool_configuration_hash": {
+      "pattern": "^[a-f0-9]{64}$",
+      "title": "Tool Configuration Hash",
+      "type": "string"
+    }
+  },
+  "required": [
+    "synthetic",
+    "dataset_hash",
+    "model_id",
+    "prompt_hash",
+    "tool_configuration_hash",
+    "information_budget_id",
+    "latency_budget_seconds",
+    "max_tool_calls",
+    "max_total_tokens",
+    "allowed_tools",
+    "allowed_response_hashes",
+    "runs"
+  ],
+  "title": "CaptureManifest",
+  "type": "object"
+}

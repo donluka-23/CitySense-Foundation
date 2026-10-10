@@ -1,0 +1,14 @@
+{
+  "disposable_schema": true,
+  "loader_exit_codes": [
+    0,
+    0
+  ],
+  "idempotent": true,
+  "counts": {
+    "sources": 1,
+    "places": 2,
+    "observations": 6
+  },
+  "offline_transcript_exit_code": 0
+}

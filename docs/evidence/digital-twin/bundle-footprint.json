@@ -1,0 +1,71 @@
+{
+  "files": [
+    {
+      "path": "apps/digital-twin/app.mjs",
+      "bytes": 27733,
+      "hypotheticalGzipBytes": 8754
+    },
+    {
+      "path": "apps/digital-twin/camera.mjs",
+      "bytes": 3610,
+      "hypotheticalGzipBytes": 1280
+    },
+    {
+      "path": "apps/digital-twin/decision.mjs",
+      "bytes": 3201,
+      "hypotheticalGzipBytes": 1306
+    },
+    {
+      "path": "apps/digital-twin/domain.mjs",
+      "bytes": 5852,
+      "hypotheticalGzipBytes": 2174
+    },
+    {
+      "path": "apps/digital-twin/geometry.mjs",
+      "bytes": 4941,
+      "hypotheticalGzipBytes": 1901
+    },
+    {
+      "path": "apps/digital-twin/i18n.mjs",
+      "bytes": 4088,
+      "hypotheticalGzipBytes": 1558
+    },
+    {
+      "path": "apps/digital-twin/map-scene.mjs",
+      "bytes": 13794,
+      "hypotheticalGzipBytes": 3843
+    },
+    {
+      "path": "apps/digital-twin/observations.mjs",
+      "bytes": 3969,
+      "hypotheticalGzipBytes": 1711
+    },
+    {
+      "path": "apps/digital-twin/app.css",
+      "bytes": 10676,
+      "hypotheticalGzipBytes": 2879
+    },
+    {
+      "path": "apps/digital-twin/index.html",
+      "bytes": 8670,
+      "hypotheticalGzipBytes": 2920
+    },
+    {
+      "path": "apps/digital-twin/node_modules/maplibre-gl/dist/maplibre-gl.mjs",
+      "bytes": 1079357,
+      "hypotheticalGzipBytes": 285316
+    },
+    {
+      "path": "apps/digital-twin/node_modules/maplibre-gl/dist/maplibre-gl-worker.mjs",
+      "bytes": 508314,
+      "hypotheticalGzipBytes": 143724
+    },
+    {
+      "path": "apps/digital-twin/node_modules/maplibre-gl/dist/maplibre-gl.css",
+      "bytes": 83290,
+      "hypotheticalGzipBytes": 10485
+    }
+  ],
+  "bytesTotal": 1757495,
+  "note": "Local host sends uncompressed no-store assets. Gzip counts are estimates, not measured network transfers; provider tiles/glyphs/sprites excluded."
+}

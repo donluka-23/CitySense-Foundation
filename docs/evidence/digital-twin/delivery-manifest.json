@@ -1,0 +1,183 @@
+{
+  "scope": "Dedicated visual prototype; all additive files",
+  "createdFiles": [
+    {
+      "path": "apps/digital-twin/.env.example",
+      "sha256": "76ad960edf20703a29f9228a438a8b889b4013c2a40a210466dc91505d98ba22",
+      "bytes": 172
+    },
+    {
+      "path": "apps/digital-twin/.gitignore",
+      "sha256": "51a7135f8914ae93bb860c596ea4dbbbb7cb9ca9c3f41096a0055754cb79e7ca",
+      "bytes": 32
+    },
+    {
+      "path": "apps/digital-twin/app.css",
+      "sha256": "52277f6079afa6af0a4878d800a04644a6ce90363c87b62927b1d15c0dedeb37",
+      "bytes": 10676
+    },
+    {
+      "path": "apps/digital-twin/app.mjs",
+      "sha256": "f209a4589c5d0af749a6d4c8f4b94afdf871ee221b8f923c0b5ff1d54ea460fb",
+      "bytes": 27733
+    },
+    {
+      "path": "apps/digital-twin/camera.mjs",
+      "sha256": "cbc6fc65c99db65193ab911431d001a1d8a2ed9f5a69bcda4f0a975b0f86751e",
+      "bytes": 3610
+    },
+    {
+      "path": "apps/digital-twin/decision.mjs",
+      "sha256": "1b593899699b10e916e18bdcf3d917a90e8689e07d4f0ec65e5d1375a6f5219f",
+      "bytes": 3201
+    },
+    {
+      "path": "apps/digital-twin/domain.mjs",
+      "sha256": "41a7b68258b1156f080984103b724c122442b2dd837c5960fad4b9ccce99fdad",
+      "bytes": 5852
+    },
+    {
+      "path": "apps/digital-twin/geometry.mjs",
+      "sha256": "1ea00dfae580e37bd545c114b6df0244da15df22bb03191a5bc6e8383eb61d9d",
+      "bytes": 4941
+    },
+    {
+      "path": "apps/digital-twin/i18n.mjs",
+      "sha256": "dd2c6f6974cb70648451f3ef8f62f129cd948c0cde42744bc4d34aa48f7b164f",
+      "bytes": 4088
+    },
+    {
+      "path": "apps/digital-twin/index.html",
+      "sha256": "f9f96e26b04fbabd2de2e1eb7eec8e00d3580ece9463a01f9b5e0e46f6b27161",
+      "bytes": 8670
+    },
+    {
+      "path": "apps/digital-twin/map-scene.mjs",
+      "sha256": "13aa863b9793664fa29f7740da6209aae319ae9bf923c017a12542a6d04f1a83",
+      "bytes": 13794
+    },
+    {
+      "path": "apps/digital-twin/observations.mjs",
+      "sha256": "3873fb10faf838d972f367c62621d81af8ce9d7fa3f4c92912c00e7e6b395bd9",
+      "bytes": 3969
+    },
+    {
+      "path": "apps/digital-twin/package-lock.json",
+      "sha256": "c7596daf0ee707ca68862583269662f7ffa870f783f45457a5f4e5ac97e54667",
+      "bytes": 10115
+    },
+    {
+      "path": "apps/digital-twin/package.json",
+      "sha256": "162bb30f8c859843d528cda703adeac67c6cd2b7a9a499583b4b3ef000c74626",
+      "bytes": 354
+    },
+    {
+      "path": "apps/digital-twin/README.md",
+      "sha256": "7b37ca8dd050feb28f06cdd3effb58f335fe5d1b482094b2dea3b60212a4ebea",
+      "bytes": 4216
+    },
+    {
+      "path": "apps/digital-twin/serve.py",
+      "sha256": "8723d80baf8c3408ea7ed38035123aaa7927b98c882d1210571c20eeb26ac53d",
+      "bytes": 3984
+    },
+    {
+      "path": "apps/digital-twin/tests/domain.test.mjs",
+      "sha256": "91040d28d4a86fd77df23a8bf0c49817f55551c553cbecf180682f5273f34cd1",
+      "bytes": 5589
+    },
+    {
+      "path": "apps/digital-twin/tests/geometry.test.mjs",
+      "sha256": "9ee273c58d007888fdaf4f628b20df0de2f55d375f6408c05e936f6406606357",
+      "bytes": 3795
+    },
+    {
+      "path": "apps/digital-twin/tests/scene.test.mjs",
+      "sha256": "3a22693690c313a5860298ced51ff9d59b6522fc3d4a514d87a662252bc25474",
+      "bytes": 4523
+    },
+    {
+      "path": "apps/digital-twin/tests/test_server.py",
+      "sha256": "25b1389a73ccae18ab67bd8b5ae32ee1620326cf695f1715a646cf8bbadeff1e",
+      "bytes": 4524
+    },
+    {
+      "path": "apps/digital-twin/THIRD_PARTY_NOTICES.txt",
+      "sha256": "ee5fc05a0677eaf69601d2c7db0d9ecd6cc27c3abc1d0733bc9ed34707cf8ef2",
+      "bytes": 5984
+    },
+    {
+      "path": "apps/digital-twin/verify.py",
+      "sha256": "dd1aaaa54f4bf83629a53b4ef00747096f8f61be6cba6ad9776fffbfc13278ac",
+      "bytes": 7539
+    },
+    {
+      "path": "docs/design/BATUMI_3D_DATA_COVERAGE.md",
+      "sha256": "71cc97bdfa4951766dbc2511c06cea98d19b9fbf6cb78e3b4c95abdefc839bd0",
+      "bytes": 6498
+    },
+    {
+      "path": "docs/design/DIGITAL_TWIN_ARCHITECTURE.md",
+      "sha256": "cd50c0c71d53314b9d27a17422208e2bfd08b589681f95482e096b79cc83f2a1",
+      "bytes": 6976
+    },
+    {
+      "path": "docs/design/DIGITAL_TWIN_PERFORMANCE.md",
+      "sha256": "38c27ebb4852ee5ca96017e632573251a9e5f4a6cd74ed6b4fc64d2992c488a3",
+      "bytes": 7235
+    },
+    {
+      "path": "docs/design/DIGITAL_TWIN_VALIDATION_REPORT.md",
+      "sha256": "9f0eac356d4b02244f48c5d182c1c4e56043f560d0e9601f28d14d352d5f20b1",
+      "bytes": 12817
+    },
+    {
+      "path": "docs/design/DIGITAL_TWIN_VISUAL_SYSTEM.md",
+      "sha256": "62f28f1e3f57335f33fac1ac89769d91fbd07ca874f6fa69b5409602695894b1",
+      "bytes": 6361
+    },
+    {
+      "path": "docs/evidence/digital-twin/bundle-footprint.json",
+      "sha256": "94b48fbc2c9600544178dcc73f478ba59171dae71ec41928b89d405a7806d2a4",
+      "bytes": 1914
+    },
+    {
+      "path": "docs/evidence/digital-twin/dependency-audit.json",
+      "sha256": "5b7dd685c08d6111235e16de7b6983281786fc2bdd8e585b4ca52690d8553fd5",
+      "bytes": 589
+    },
+    {
+      "path": "docs/evidence/digital-twin/http-checks.json",
+      "sha256": "975eeef1b59a0d5d22de0ec72ff19458d9783755b5e4679d639279ff3ab578aa",
+      "bytes": 1339
+    },
+    {
+      "path": "docs/evidence/digital-twin/preservation.json",
+      "sha256": "cb1f87218366b7d5628e0fdda3a3a86ba0ad44d77fb1e3ca00cc053788f5c5ff",
+      "bytes": 308
+    },
+    {
+      "path": "docs/evidence/digital-twin/rendering-status.json",
+      "sha256": "153155ea7f0f3c82079450b35c7bf42f09cbf8b1d7f501871447f1154171c28f",
+      "bytes": 1129
+    },
+    {
+      "path": "docs/evidence/digital-twin/verification.json",
+      "sha256": "87a7c1c349e42c33a39267244b606af9ddcb22c8a746e61ae48651ccd43eeae5",
+      "bytes": 2752
+    },
+    {
+      "path": "docs/evidence/digital-twin/delivery-manifest.json",
+      "sha256": null,
+      "note": "Self hash excluded to avoid recursion"
+    }
+  ],
+  "existingFilesModified": [],
+  "generatedDirectoriesExcluded": [
+    "apps/digital-twin/node_modules",
+    "apps/digital-twin/__pycache__",
+    "apps/digital-twin/tests/__pycache__",
+    "artifacts/digital-twin"
+  ],
+  "screenshotsCaptured": 0
+}

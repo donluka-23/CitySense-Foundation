@@ -1,0 +1,79 @@
+# Credentials and private machine state; only the audited root example is tracked.
+.env
+.env.*
+.envrc
+!/.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.secret
+*.token
+credentials*.json
+secrets.json
+secrets.*
+tokens.json
+.netrc
+.npmrc
+.pypirc
+id_rsa*
+id_ed25519*
+/.local/
+
+# Installed dependencies, virtual environments and package metadata.
+node_modules/
+.venv/
+venv/
+*.egg-info/
+
+# Language, test and tool caches.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+junit.xml
+
+# Temporary build output and editor/machine configuration.
+build/
+dist/
+.next/
+.vite/
+.parcel-cache/
+.vscode/
+.idea/
+.vs/
+*.suo
+*.user
+*.iml
+*.code-workspace
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Preserve reviewed historical evidence; do not ignore artifacts/ wholesale.
+# Restricted research captures remain local under the existing publication policy.
+/artifacts/sprint2/live-osm/
+/artifacts/sprint3/real-data/
+/artifacts/sprint3/real-inventory.json
+/artifacts/sprint3/telegram-real.json
+
+# Disposable duplicate installations and temporary runtime logs.
+/artifacts/**/clean-install/
+/artifacts/api-*.log
+
+# Local third-party document copies: redistribution rights have not been established.
+/artifacts/map-stage-1/mapbox-product-terms-2026-07-21.pdf
+/artifacts/map-stage-1/mapbox-product-terms-2026-07-21.txt
+
+# New transient test output belongs in ignored .local/, not historical evidence folders.

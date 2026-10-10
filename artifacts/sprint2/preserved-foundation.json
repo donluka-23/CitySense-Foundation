@@ -1,0 +1,47 @@
+[
+  {
+    "path": "docs/evaluation-protocol.md",
+    "sha256": "1186d4cf97620b4144ac87fc41beca91851d7ae14c58bf93d96f588ca84f2b61",
+    "matches_sprint1_clean_copy": true
+  },
+  {
+    "path": "services/api/src/citysense/engine.py",
+    "sha256": "c2d0dae5943308958336aea5556334738336cd6d9053c5811d7cf89e55c10dc9",
+    "matches_sprint1_clean_copy": true
+  },
+  {
+    "path": "services/api/src/citysense/models.py",
+    "sha256": "bdf6456b9dbc8f16faf6043a42831d4e22f14f5b56f03e45468a07700781cded",
+    "matches_sprint1_clean_copy": true
+  },
+  {
+    "path": "services/api/src/citysense/evaluation.py",
+    "sha256": "dbee870c123471370970c1e3a008ca42002331d6223b07bad17f0545c8e554a4",
+    "matches_sprint1_clean_copy": true
+  },
+  {
+    "path": "services/api/src/citysense/parameters/heuristic-0.2.0.json",
+    "sha256": "394eedccc641551ab0a50542df8cd975bed27c0b2fbb1cd457714aa80c0d97bb",
+    "matches_sprint1_clean_copy": true
+  },
+  {
+    "path": "services/api/migrations/versions/0001_foundation.py",
+    "sha256": "9eee6b479beba187fdb0e686b4c434d4e621456e2fa3c784f7b61c4b8ab5b6f9",
+    "matches_sprint1_clean_copy": true
+  },
+  {
+    "path": "services/api/migrations/versions/0001_foundation.sql",
+    "sha256": "e577f795702087b9eccd65ab2d3e0328beab880e7167cf861ac1d57f799d77a2",
+    "matches_sprint1_clean_copy": true
+  },
+  {
+    "path": "services/api/uv.lock",
+    "sha256": "e6c60b1386aede4a4b7088d1d6738d7a376ad50c5c026454c6b58b5f0d695171",
+    "matches_sprint1_clean_copy": true
+  },
+  {
+    "path": "services/api/pyproject.toml",
+    "sha256": "f4488928adc2ece3d8e0f8f925c9db7a21ef0253b2c029228df69f4acaa7add3",
+    "matches_sprint1_clean_copy": true
+  }
+]

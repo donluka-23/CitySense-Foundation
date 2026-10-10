@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-10-10T09:07:25.473707+00:00",
+  "checks": [
+    {
+      "name": "pytest",
+      "passed": true,
+      "exitCode": 0,
+      "seconds": 8.62
+    },
+    {
+      "name": "contracts",
+      "passed": true,
+      "exitCode": 0,
+      "seconds": 0.773
+    },
+    {
+      "name": "ci-structure",
+      "passed": true,
+      "exitCode": 0,
+      "seconds": 0.097
+    }
+  ],
+  "pytest": {
+    "tests": 179,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 31,
+    "passed": 148
+  },
+  "passed": true,
+  "databaseLimitation": "No dedicated test database configured; 31 integration tests skipped; no database configuration or data altered.",
+  "scope": "Fresh G1 unit/regression, contract and CI-structure checks. Other quality gates passed during the preceding verified rollback; they were not rerun for Git metadata/ignore changes."
+}

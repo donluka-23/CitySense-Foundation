@@ -1,0 +1,75 @@
+{
+  "root": "D:/citysense-foundation",
+  "inspectedFiles": 51613,
+  "inspectedDirectories": 4632,
+  "nestedGitRepositories": [],
+  "symbolicLinksOrReparsePoints": [],
+  "ignoreFiles": [
+    {
+      "path": ".gitignore",
+      "sha256": "633b443049bb6b509f1baf5c456e69306d3045ce4ed53026db3cf5e176f35625",
+      "contents": ".venv/\n__pycache__/\n.pytest_cache/\n.ruff_cache/\n*.egg-info/\n.env\n.DS_Store\n.mypy_cache/\n.local/\nartifacts/\n*.log\n.env.*\n!.env.example\n"
+    },
+    {
+      "path": ".ruff_cache/.gitignore",
+      "sha256": "9e3a60f1e6ec4ae60215c11d54b171392745ec25e9dded433d5bd921363af316",
+      "contents": "# Automatically created by ruff.\n*\n"
+    },
+    {
+      "path": "apps/digital-twin/.ruff_cache/.gitignore",
+      "sha256": "9e3a60f1e6ec4ae60215c11d54b171392745ec25e9dded433d5bd921363af316",
+      "contents": "# Automatically created by ruff.\n*\n"
+    },
+    {
+      "path": "services/api/.mypy_cache/.gitignore",
+      "sha256": "ffbb394643c112f2356bb5f3184e95e33fd732146892f4eeead126975570ff39",
+      "contents": "# Automatically created by mypy\n*\n"
+    },
+    {
+      "path": "services/api/.pytest_cache/.gitignore",
+      "sha256": "e7c6bb30148cf667606dcd63e7ca77acaa3cfb0c8303bf09e6419e1e1669dc6d",
+      "contents": "# Created by pytest automatically.\n*\n"
+    },
+    {
+      "path": "services/api/.ruff_cache/.gitignore",
+      "sha256": "9e3a60f1e6ec4ae60215c11d54b171392745ec25e9dded433d5bd921363af316",
+      "contents": "# Automatically created by ruff.\n*\n"
+    },
+    {
+      "path": "tools/map-stage-1/.gitignore",
+      "sha256": "81958d08ca45e763576c4118ddeff6a9cc9f4150ba8e20c086176c7a2563719a",
+      "contents": "node_modules/\n__pycache__/\n.env*\n"
+    }
+  ],
+  "eligibleOriginalFiles": 369,
+  "oversizedBaselineCandidates": [],
+  "binaryBaselineCandidates": [],
+  "largeFilesFoundOnlyInExcludedLocalToolsOrInstalledDependencies": true,
+  "largeFileThresholdBytes": 10485760,
+  "structure": {
+    "services/api": "Python modular monolith, migrations, tests, fixtures, scripts, lockfile",
+    "schemas": "API/research/agent contract exports",
+    "infra": "Existing SQL foundation proposal",
+    "tools/map-stage-1": "Existing isolated map comparison harness",
+    "docs": "Architecture, research protocol, stage reports, historical and G1 safety evidence",
+    "artifacts": "Selective reviewed reproducibility artifacts; restricted captures remain local",
+    ".github": "Pinned CI/dependency update configuration",
+    ".local": "Private machine state, Postgres data/tools, recovery archives and G1 full audit outputs; not staged",
+    "apps/digital-twin": "Four unchanged ignored Ruff cache files; no rejected implementation source"
+  },
+  "fullMetadataInspectionLocalOnly": "D:\\citysense-foundation\\.local\\git-baseline-20261010T085930Z-1aba8c2e\\inspection.json",
+  "historicalWhitespaceWarnings": [
+    {
+      "path": "artifacts/sprint2/checks-initial/pytest.xml",
+      "line": 10,
+      "warning": "trailing whitespace",
+      "action": "Preserved existing historical bytes"
+    },
+    {
+      "path": "artifacts/sprint2/checks-initial/tests.log",
+      "line": 15,
+      "warning": "trailing whitespace",
+      "action": "Preserved existing historical bytes"
+    }
+  ]
+}

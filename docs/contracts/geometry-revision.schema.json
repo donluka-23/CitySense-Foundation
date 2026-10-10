@@ -1,0 +1,73 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "latitude": {
+      "maximum": 90,
+      "minimum": -90,
+      "title": "Latitude",
+      "type": "number"
+    },
+    "license_id": {
+      "maxLength": 128,
+      "minLength": 1,
+      "pattern": "^[a-zA-Z0-9_.:-]+$",
+      "title": "License Id",
+      "type": "string"
+    },
+    "longitude": {
+      "maximum": 180,
+      "minimum": -180,
+      "title": "Longitude",
+      "type": "number"
+    },
+    "place_id": {
+      "maxLength": 128,
+      "minLength": 1,
+      "pattern": "^[a-zA-Z0-9_.:-]+$",
+      "title": "Place Id",
+      "type": "string"
+    },
+    "retrieved_at": {
+      "format": "date-time",
+      "title": "Retrieved At",
+      "type": "string"
+    },
+    "revision_id": {
+      "format": "uuid",
+      "title": "Revision Id",
+      "type": "string"
+    },
+    "source_id": {
+      "maxLength": 128,
+      "minLength": 1,
+      "pattern": "^[a-zA-Z0-9_.:-]+$",
+      "title": "Source Id",
+      "type": "string"
+    },
+    "source_version": {
+      "maxLength": 128,
+      "minLength": 1,
+      "pattern": "^[a-zA-Z0-9_.:-]+$",
+      "title": "Source Version",
+      "type": "string"
+    },
+    "valid_at": {
+      "format": "date-time",
+      "title": "Valid At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "revision_id",
+    "place_id",
+    "longitude",
+    "latitude",
+    "valid_at",
+    "retrieved_at",
+    "source_id",
+    "source_version",
+    "license_id"
+  ],
+  "title": "GeometryRevision",
+  "type": "object"
+}

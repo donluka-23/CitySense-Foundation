@@ -1,0 +1,1 @@
+[out:json][timeout:20][maxsize:16777216];(node(160257516);way(405852444);way(294880812);way(1152779731););convert camera_label ::id=id(),osm_type=type(),name=t["name"],name_en=t["name:en"],name_ka=t["name:ka"],highway=t["highway"];out;

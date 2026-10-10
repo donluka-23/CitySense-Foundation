@@ -1,0 +1,281 @@
+{
+  "$defs": {
+    "DataKind": {
+      "enum": [
+        "observed",
+        "forecast",
+        "derived",
+        "estimated_proxy",
+        "unavailable"
+      ],
+      "title": "DataKind",
+      "type": "string"
+    },
+    "Feature": {
+      "additionalProperties": false,
+      "properties": {
+        "data_kind": {
+          "$ref": "#/$defs/DataKind"
+        },
+        "issued_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Issued At"
+        },
+        "license_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "License Id",
+          "type": "string"
+        },
+        "method_version": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "Method Version",
+          "type": "string"
+        },
+        "observation_id": {
+          "anyOf": [
+            {
+              "format": "uuid",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Observation Id"
+        },
+        "observed_or_valid_at": {
+          "format": "date-time",
+          "title": "Observed Or Valid At",
+          "type": "string"
+        },
+        "quality": {
+          "$ref": "#/$defs/FeatureQuality"
+        },
+        "quality_metadata": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "maxProperties": 20,
+          "title": "Quality Metadata",
+          "type": "object"
+        },
+        "retrieved_at": {
+          "format": "date-time",
+          "title": "Retrieved At",
+          "type": "string"
+        },
+        "source_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "Source Id",
+          "type": "string"
+        },
+        "source_version": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "Source Version",
+          "type": "string"
+        },
+        "spatial_resolution_m": {
+          "anyOf": [
+            {
+              "exclusiveMinimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Spatial Resolution M"
+        },
+        "unit": {
+          "const": "fraction",
+          "title": "Unit",
+          "type": "string"
+        },
+        "valid_until": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Valid Until"
+        },
+        "value": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Value"
+        }
+      },
+      "required": [
+        "value",
+        "quality",
+        "data_kind",
+        "source_id",
+        "source_version",
+        "license_id",
+        "method_version",
+        "unit",
+        "observed_or_valid_at",
+        "retrieved_at"
+      ],
+      "title": "Feature",
+      "type": "object"
+    },
+    "FeatureQuality": {
+      "enum": [
+        "regional_forecast",
+        "derived_spatial",
+        "observed_manual",
+        "measured_local",
+        "reported_provider",
+        "unknown"
+      ],
+      "title": "FeatureQuality",
+      "type": "string"
+    },
+    "Need": {
+      "enum": [
+        "cool_walk",
+        "quiet_rest",
+        "family_walk"
+      ],
+      "title": "Need",
+      "type": "string"
+    },
+    "Place": {
+      "additionalProperties": false,
+      "properties": {
+        "feature_greenery": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Feature"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "feature_shade": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Feature"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "feature_traffic_proximity": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Feature"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "name": {
+          "maxLength": 200,
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        },
+        "place_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "Place Id",
+          "type": "string"
+        },
+        "walk_minutes": {
+          "maximum": 10000,
+          "minimum": 0,
+          "title": "Walk Minutes",
+          "type": "number"
+        }
+      },
+      "required": [
+        "place_id",
+        "name",
+        "walk_minutes"
+      ],
+      "title": "Place",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "decision_at": {
+      "format": "date-time",
+      "title": "Decision At",
+      "type": "string"
+    },
+    "max_walk_minutes": {
+      "default": 45,
+      "maximum": 180,
+      "minimum": 0,
+      "title": "Max Walk Minutes",
+      "type": "number"
+    },
+    "need": {
+      "$ref": "#/$defs/Need"
+    },
+    "places": {
+      "items": {
+        "$ref": "#/$defs/Place"
+      },
+      "maxItems": 100,
+      "minItems": 1,
+      "title": "Places",
+      "type": "array"
+    },
+    "target_time": {
+      "format": "date-time",
+      "title": "Target Time",
+      "type": "string"
+    }
+  },
+  "required": [
+    "need",
+    "decision_at",
+    "target_time",
+    "places"
+  ],
+  "title": "EvaluateRequest",
+  "type": "object"
+}

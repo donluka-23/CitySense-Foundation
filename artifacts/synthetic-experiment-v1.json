@@ -1,0 +1,184 @@
+{
+  "B0_minus_A1": {
+    "difference": 0.5,
+    "interval": [
+      0.0,
+      1.0
+    ],
+    "n": 4,
+    "participant_clusters": 4,
+    "place_time_clusters": 4,
+    "requested_resamples": 2000,
+    "seed": 20261009,
+    "status": "exploratory_cluster_bootstrap",
+    "usable_resamples": 1953
+  },
+  "B1_status": "not_implemented",
+  "dataset_hash": "2ce797c197af8f60e922dfc063698b51d53b6b3065aa149b4739bcf9a6f05456",
+  "dataset_id": "synthetic-paired-choices",
+  "experiment_hash": "dfeec463dea4935677dd3f4e96982606c3bf47ff23383abcb903cbb8497b4d8e",
+  "interpretation": "Software fixture only; no empirical validation",
+  "metrics": {
+    "A0-nearest-eligible": {
+      "abstentions": 0,
+      "by_need": {
+        "cool_walk": {
+          "errors": 4,
+          "n": 4
+        }
+      },
+      "configuration": {
+        "tie_policy": "place_id",
+        "version": "nearest-1"
+      },
+      "coverage": 1.0,
+      "denominator": 4,
+      "errors": [
+        "test-0",
+        "test-1",
+        "test-2",
+        "test-3"
+      ],
+      "paired_choice_accuracy": 0.0,
+      "scored": 4
+    },
+    "A1-tool-equipped": {
+      "abstentions": 0,
+      "by_need": {
+        "cool_walk": {
+          "errors": 2,
+          "n": 4
+        }
+      },
+      "configuration": {
+        "information_budget_id": "matched-fixture-v1",
+        "latency_budget_seconds": 30.0,
+        "model_id": "synthetic-no-model-executed",
+        "name": "A1-tool-equipped",
+        "prompt_hash": "bf944689dedac4ec8c5414c65e72085f71f029d8e8c4b484770457d178df620a",
+        "synthetic": true,
+        "tool_configuration_hash": "a8c18f4f0fb66e0141aaf22f5686e367fa551501188beb6f248daf505098e1e2"
+      },
+      "coverage": 1.0,
+      "denominator": 4,
+      "errors": [
+        "test-1",
+        "test-3"
+      ],
+      "paired_choice_accuracy": 0.5,
+      "scored": 4
+    },
+    "B0-citysense": {
+      "abstentions": 0,
+      "by_need": {
+        "cool_walk": {
+          "errors": 0,
+          "n": 4
+        }
+      },
+      "configuration": {
+        "model_version": "heuristic-0.2.0-unvalidated",
+        "parameter_hash": "3fa9f88127c9e2bf93d76d71dc3df540ceef8ca3f10cbabb317888b4cca6c1d5"
+      },
+      "coverage": 1.0,
+      "denominator": 4,
+      "errors": [],
+      "paired_choice_accuracy": 1.0,
+      "scored": 4
+    }
+  },
+  "outcomes": {
+    "A0-nearest-eligible": [
+      {
+        "correct": false,
+        "need": "cool_walk",
+        "participant_id": "participant-test-0",
+        "place_time_group": "pair-test-0",
+        "record_id": "test-0"
+      },
+      {
+        "correct": false,
+        "need": "cool_walk",
+        "participant_id": "participant-test-1",
+        "place_time_group": "pair-test-1",
+        "record_id": "test-1"
+      },
+      {
+        "correct": false,
+        "need": "cool_walk",
+        "participant_id": "participant-test-2",
+        "place_time_group": "pair-test-2",
+        "record_id": "test-2"
+      },
+      {
+        "correct": false,
+        "need": "cool_walk",
+        "participant_id": "participant-test-3",
+        "place_time_group": "pair-test-3",
+        "record_id": "test-3"
+      }
+    ],
+    "A1-tool-equipped": [
+      {
+        "correct": true,
+        "need": "cool_walk",
+        "participant_id": "participant-test-0",
+        "place_time_group": "pair-test-0",
+        "record_id": "test-0"
+      },
+      {
+        "correct": false,
+        "need": "cool_walk",
+        "participant_id": "participant-test-1",
+        "place_time_group": "pair-test-1",
+        "record_id": "test-1"
+      },
+      {
+        "correct": true,
+        "need": "cool_walk",
+        "participant_id": "participant-test-2",
+        "place_time_group": "pair-test-2",
+        "record_id": "test-2"
+      },
+      {
+        "correct": false,
+        "need": "cool_walk",
+        "participant_id": "participant-test-3",
+        "place_time_group": "pair-test-3",
+        "record_id": "test-3"
+      }
+    ],
+    "B0-citysense": [
+      {
+        "correct": true,
+        "need": "cool_walk",
+        "participant_id": "participant-test-0",
+        "place_time_group": "pair-test-0",
+        "record_id": "test-0"
+      },
+      {
+        "correct": true,
+        "need": "cool_walk",
+        "participant_id": "participant-test-1",
+        "place_time_group": "pair-test-1",
+        "record_id": "test-1"
+      },
+      {
+        "correct": true,
+        "need": "cool_walk",
+        "participant_id": "participant-test-2",
+        "place_time_group": "pair-test-2",
+        "record_id": "test-2"
+      },
+      {
+        "correct": true,
+        "need": "cool_walk",
+        "participant_id": "participant-test-3",
+        "place_time_group": "pair-test-3",
+        "record_id": "test-3"
+      }
+    ]
+  },
+  "protocol_version": "draft-0.1",
+  "synthetic": true
+}

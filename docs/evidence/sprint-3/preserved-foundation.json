@@ -1,0 +1,116 @@
+{
+  "all_equal": true,
+  "basis": "final Sprint 2 executable checkout; not Git history",
+  "files": [
+    {
+      "equal_to_final_sprint2": true,
+      "path": "docs/evaluation-protocol.md",
+      "sha256": "1186d4cf97620b4144ac87fc41beca91851d7ae14c58bf93d96f588ca84f2b61"
+    },
+    {
+      "equal_to_final_sprint2": true,
+      "path": "services/api/src/citysense/engine.py",
+      "sha256": "c2d0dae5943308958336aea5556334738336cd6d9053c5811d7cf89e55c10dc9"
+    },
+    {
+      "equal_to_final_sprint2": true,
+      "path": "services/api/src/citysense/models.py",
+      "sha256": "bdf6456b9dbc8f16faf6043a42831d4e22f14f5b56f03e45468a07700781cded"
+    },
+    {
+      "equal_to_final_sprint2": true,
+      "path": "services/api/src/citysense/evaluation.py",
+      "sha256": "dbee870c123471370970c1e3a008ca42002331d6223b07bad17f0545c8e554a4"
+    },
+    {
+      "equal_to_final_sprint2": true,
+      "path": "services/api/src/citysense/parameters.py",
+      "sha256": "74e3beda3d1e124d69d49e835c9c8bf04917e7f67ba8ecf71c8ab4d93501ea50"
+    },
+    {
+      "equal_to_final_sprint2": true,
+      "path": "services/api/src/citysense/parameters/heuristic-0.2.0.json",
+      "sha256": "394eedccc641551ab0a50542df8cd975bed27c0b2fbb1cd457714aa80c0d97bb"
+    },
+    {
+      "equal_to_final_sprint2": true,
+      "path": "services/api/migrations/versions/0001_foundation.py",
+      "sha256": "9eee6b479beba187fdb0e686b4c434d4e621456e2fa3c784f7b61c4b8ab5b6f9"
+    },
+    {
+      "equal_to_final_sprint2": true,
+      "path": "services/api/migrations/versions/0002_geometry_revisions.py",
+      "sha256": "0dd652bf50bb4cafafc7fb5146c23a036b11b4cd0500fc1ee6955b640ca769aa"
+    },
+    {
+      "equal_to_final_sprint2": true,
+      "path": "docs/adr/0001-modular-monolith.md",
+      "sha256": "d00ddf9258ed27847fe07c39a7043a3fec37b86e56e3e8c1480020ef57f44f3a"
+    },
+    {
+      "equal_to_final_sprint2": true,
+      "path": "docs/adr/0002-geospatial-and-time.md",
+      "sha256": "93fd8caa600454364e913135cd1ad8e602c8719847c8cf4748c7cadf3420942b"
+    },
+    {
+      "equal_to_final_sprint2": true,
+      "path": "docs/adr/0003-benchmark-integrity.md",
+      "sha256": "2775b9f3d79f8baecb17be715d26b141d74dfd671cda1e2a31b25939abac88de"
+    },
+    {
+      "equal_to_final_sprint2": true,
+      "path": "docs/adr/0004-provider-separation.md",
+      "sha256": "dddfc354f42851b24ab1ce3a176190571feea59b1907e424adc866968b34036c"
+    },
+    {
+      "equal_to_final_sprint2": true,
+      "path": "docs/adr/0005-reproducible-python-foundation.md",
+      "sha256": "6ff79198d3c57fa191f85b72968745c9a4e361d5a2425e11e6ffebdab91366af"
+    },
+    {
+      "equal_to_final_sprint2": true,
+      "path": "docs/adr/0006-persistent-evidence-and-replay.md",
+      "sha256": "6a2d25b75822d527411a9e4f78db2be767405156202c2a489bf0612031055821"
+    },
+    {
+      "equal_to_final_sprint2": true,
+      "path": "docs/adr/0007-evidence-scoring-and-evaluation.md",
+      "sha256": "7fe63928188fe8e0628284b46226e73b3e3bf66f752f614f8f7b9ab359dfdc77"
+    },
+    {
+      "equal_to_final_sprint2": true,
+      "path": "docs/adr/0008-bounded-research-runtime.md",
+      "sha256": "f1983d553fc207bf62557868e85c5844e2e737b6451e26807280051197fad3aa"
+    },
+    {
+      "equal_to_final_sprint2": true,
+      "path": "docs/adr/0009-agent-first-platform.md",
+      "sha256": "584dba12fcbc0b5050d2a0a7c452926612b19a4ed4b9de153a0ea2773b36f631"
+    },
+    {
+      "equal_to_final_sprint2": true,
+      "path": "services/api/tests/fixtures/baseline-artifact.json",
+      "sha256": "f5ededd4c99338b8d02d7051cde9e4891eb547ff250b7d8005534b952ffbe1fb"
+    },
+    {
+      "equal_to_final_sprint2": true,
+      "path": "services/api/tests/fixtures/evaluation-manifest.json",
+      "sha256": "818aa28550a26f4bf64aa36e85b84830248f8c8fd630a698f9048c73a351192c"
+    },
+    {
+      "equal_to_final_sprint2": true,
+      "path": "services/api/tests/fixtures/observations.json",
+      "sha256": "f660d795bec3ef91929dd88ce3cfc390e1f108f0effded9861362ad5a8648ca3"
+    },
+    {
+      "equal_to_final_sprint2": true,
+      "path": "services/api/tests/fixtures/request.json",
+      "sha256": "1d54159690e97088776d2010af53d3f82d8a6c091f1271419ca2aa3e2d40595f"
+    },
+    {
+      "equal_to_final_sprint2": true,
+      "path": "services/api/tests/fixtures/source-metadata.json",
+      "sha256": "7ab86fe820a150edc8bb49b2daa93120b89d821df1e7220b24779ce096114866"
+    }
+  ]
+}

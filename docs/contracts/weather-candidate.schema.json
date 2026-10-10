@@ -1,0 +1,207 @@
+{
+  "$defs": {
+    "SourceMetadata": {
+      "additionalProperties": false,
+      "properties": {
+        "attribution_required": {
+          "title": "Attribution Required",
+          "type": "boolean"
+        },
+        "cache_allowed": {
+          "title": "Cache Allowed",
+          "type": "boolean"
+        },
+        "commercial_allowed": {
+          "title": "Commercial Allowed",
+          "type": "boolean"
+        },
+        "license_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "License Id",
+          "type": "string"
+        },
+        "redistribution_allowed": {
+          "title": "Redistribution Allowed",
+          "type": "boolean"
+        },
+        "research_allowed": {
+          "title": "Research Allowed",
+          "type": "boolean"
+        },
+        "reviewed_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reviewed At"
+        },
+        "source_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "Source Id",
+          "type": "string"
+        },
+        "source_version": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "Source Version",
+          "type": "string"
+        },
+        "synthetic": {
+          "title": "Synthetic",
+          "type": "boolean"
+        },
+        "terms_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Terms Url"
+        }
+      },
+      "required": [
+        "source_id",
+        "source_version",
+        "license_id",
+        "synthetic",
+        "research_allowed",
+        "commercial_allowed",
+        "cache_allowed",
+        "redistribution_allowed",
+        "attribution_required"
+      ],
+      "title": "SourceMetadata",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "city_id": {
+      "maxLength": 128,
+      "minLength": 1,
+      "pattern": "^[a-zA-Z0-9_.:-]+$",
+      "title": "City Id",
+      "type": "string"
+    },
+    "data_kind": {
+      "const": "forecast_candidate",
+      "default": "forecast_candidate",
+      "title": "Data Kind",
+      "type": "string"
+    },
+    "historical_replay_eligible": {
+      "const": false,
+      "default": false,
+      "title": "Historical Replay Eligible",
+      "type": "boolean"
+    },
+    "issued_at": {
+      "default": null,
+      "title": "Issued At",
+      "type": "null"
+    },
+    "latitude": {
+      "maximum": 90,
+      "minimum": -90,
+      "title": "Latitude",
+      "type": "number"
+    },
+    "longitude": {
+      "maximum": 180,
+      "minimum": -180,
+      "title": "Longitude",
+      "type": "number"
+    },
+    "quality": {
+      "const": "regional_forecast",
+      "default": "regional_forecast",
+      "title": "Quality",
+      "type": "string"
+    },
+    "raw_sha256": {
+      "pattern": "^[a-f0-9]{64}$",
+      "title": "Raw Sha256",
+      "type": "string"
+    },
+    "retrieved_at": {
+      "format": "date-time",
+      "title": "Retrieved At",
+      "type": "string"
+    },
+    "source": {
+      "$ref": "#/$defs/SourceMetadata"
+    },
+    "spatial_resolution_m": {
+      "default": null,
+      "title": "Spatial Resolution M",
+      "type": "null"
+    },
+    "temperature_c": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Temperature C"
+    },
+    "uncertainty": {
+      "default": "Ordinary forecast API lacks authenticated issuance/run metadata; grid resolution unconfirmed",
+      "title": "Uncertainty",
+      "type": "string"
+    },
+    "valid_at": {
+      "format": "date-time",
+      "title": "Valid At",
+      "type": "string"
+    },
+    "valid_until": {
+      "format": "date-time",
+      "title": "Valid Until",
+      "type": "string"
+    },
+    "wind_m_s": {
+      "anyOf": [
+        {
+          "minimum": 0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Wind M S"
+    }
+  },
+  "required": [
+    "city_id",
+    "longitude",
+    "latitude",
+    "valid_at",
+    "valid_until",
+    "retrieved_at",
+    "temperature_c",
+    "wind_m_s",
+    "source",
+    "raw_sha256"
+  ],
+  "title": "WeatherSample",
+  "type": "object"
+}

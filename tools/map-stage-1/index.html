@@ -1,0 +1,29 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Batumi — Stage 1B basemap comparison</title>
+  <style>
+    html, body { margin: 0; height: 100%; font-family: sans-serif; }
+    body { display: flex; flex-direction: column; }
+    #diagnostics { height: 84px; flex: 0 0 84px; box-sizing: border-box; padding: 4px; overflow: auto; background: white; }
+    #status { margin: 0; font-size: 12px; }
+    button { margin-top: 4px; }
+    #map { flex: 1; min-height: 0; }
+    #comparison { flex: 1; min-height: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    #comparison[hidden], #map[hidden] { display: none; }
+    iframe { width: 100%; height: 100%; border: 0; }
+  </style>
+</head>
+<body>
+  <div id="diagnostics">
+    <p id="status" role="status">Loading Stage 1B technical test; basemap only.</p>
+    <button id="evidence" type="button" disabled>Export diagnostic JSON</button>
+  </div>
+  <div id="map" aria-label="Batumi basemap technology test"></div>
+  <div id="comparison" hidden aria-label="Three equally sized provider test panes"></div>
+  <script type="module" src="/map.mjs"></script>
+</body>
+</html>

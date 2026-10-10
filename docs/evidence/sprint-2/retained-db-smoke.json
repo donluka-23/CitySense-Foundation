@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-09T14:09:44.631722+00:00",
+  "alembic_revision": "0002",
+  "retained_sprint1_replay_equal": true,
+  "stored_api_scoring_equal_except_origin_warning": true,
+  "live_osm_direct_status": 403,
+  "live_osm_omitted_from_search": true,
+  "public_deployment": false,
+  "personal_collection": false
+}

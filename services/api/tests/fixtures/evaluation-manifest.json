@@ -1,0 +1,1730 @@
+{
+  "dataset_id": "synthetic-paired-choices",
+  "dataset_version": "1",
+  "embargo_hours": 24,
+  "frozen_at": "2026-10-09T12:00:00Z",
+  "information_budget_id": "matched-fixture-v1",
+  "latency_budget_seconds": 30,
+  "license_id": "CC0-synthetic",
+  "protocol_version": "draft-0.1",
+  "provenance": "Generated software test data; no people or sensors",
+  "records": [
+    {
+      "collected_at": "2026-10-01T11:00:00Z",
+      "consent": false,
+      "participant_id": "participant-train-0",
+      "place_time_group": "pair-train-0",
+      "preferred_place_id": "synthetic-train-0-a",
+      "record_id": "train-0",
+      "request": {
+        "decision_at": "2026-10-01T10:00:00Z",
+        "max_walk_minutes": 30.0,
+        "need": "cool_walk",
+        "places": [
+          {
+            "feature_greenery": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "9524efb7-7bf6-537e-bed7-8247dfb54369",
+              "observed_or_valid_at": "2026-10-01T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-01T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.6
+            },
+            "feature_shade": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "8f550158-54b8-588b-adda-3a0422f9f3fc",
+              "observed_or_valid_at": "2026-10-01T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-01T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.8
+            },
+            "feature_traffic_proximity": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "9f6b85e5-7592-57a6-a787-aee77c5c6f7b",
+              "observed_or_valid_at": "2026-10-01T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-01T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.9
+            },
+            "name": "Synthetic train-0 a",
+            "place_id": "synthetic-train-0-a",
+            "walk_minutes": 8.0
+          },
+          {
+            "feature_greenery": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "d29bb60d-b059-53d4-a422-908911d59ad7",
+              "observed_or_valid_at": "2026-10-01T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-01T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.3
+            },
+            "feature_shade": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "4bb98f1c-eb37-52f4-9694-5d5c059d3db4",
+              "observed_or_valid_at": "2026-10-01T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-01T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.2
+            },
+            "feature_traffic_proximity": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "aa7d110f-7893-564d-8fa9-38e91b96d0b7",
+              "observed_or_valid_at": "2026-10-01T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-01T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.1
+            },
+            "name": "Synthetic train-0 b",
+            "place_id": "synthetic-train-0-b",
+            "walk_minutes": 5.0
+          }
+        ],
+        "target_time": "2026-10-01T10:00:00Z"
+      },
+      "spatial_block": "block-train-0",
+      "split": "train",
+      "time_block": "day-1"
+    },
+    {
+      "collected_at": "2026-10-01T11:00:00Z",
+      "consent": false,
+      "participant_id": "participant-train-1",
+      "place_time_group": "pair-train-1",
+      "preferred_place_id": "synthetic-train-1-a",
+      "record_id": "train-1",
+      "request": {
+        "decision_at": "2026-10-01T10:00:00Z",
+        "max_walk_minutes": 30.0,
+        "need": "cool_walk",
+        "places": [
+          {
+            "feature_greenery": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "a932e62e-021f-5342-9c8b-6b3506ad8506",
+              "observed_or_valid_at": "2026-10-01T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-01T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.6
+            },
+            "feature_shade": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "331e4aab-7c07-5bf0-9331-051a79ecc5f5",
+              "observed_or_valid_at": "2026-10-01T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-01T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.8
+            },
+            "feature_traffic_proximity": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "e4dd9291-1582-5e1c-8ddb-0818f3c068e4",
+              "observed_or_valid_at": "2026-10-01T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-01T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.9
+            },
+            "name": "Synthetic train-1 a",
+            "place_id": "synthetic-train-1-a",
+            "walk_minutes": 8.0
+          },
+          {
+            "feature_greenery": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "3cc64a0b-b7ab-5b7a-8c0d-dfd1870fb92d",
+              "observed_or_valid_at": "2026-10-01T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-01T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.3
+            },
+            "feature_shade": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "60e3c3bc-ce2f-576d-88ef-b1ce5f28a29b",
+              "observed_or_valid_at": "2026-10-01T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-01T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.2
+            },
+            "feature_traffic_proximity": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "4c8a575d-12d8-546f-9d67-0732e3ec4045",
+              "observed_or_valid_at": "2026-10-01T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-01T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.1
+            },
+            "name": "Synthetic train-1 b",
+            "place_id": "synthetic-train-1-b",
+            "walk_minutes": 5.0
+          }
+        ],
+        "target_time": "2026-10-01T10:00:00Z"
+      },
+      "spatial_block": "block-train-1",
+      "split": "train",
+      "time_block": "day-1"
+    },
+    {
+      "collected_at": "2026-10-01T11:00:00Z",
+      "consent": false,
+      "participant_id": "participant-train-2",
+      "place_time_group": "pair-train-2",
+      "preferred_place_id": "synthetic-train-2-a",
+      "record_id": "train-2",
+      "request": {
+        "decision_at": "2026-10-01T10:00:00Z",
+        "max_walk_minutes": 30.0,
+        "need": "cool_walk",
+        "places": [
+          {
+            "feature_greenery": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "b1f8e059-b507-5ac1-ba9a-b3fe7d2daab3",
+              "observed_or_valid_at": "2026-10-01T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-01T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.6
+            },
+            "feature_shade": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "9e45062a-13f5-5227-897b-6fecd55d032c",
+              "observed_or_valid_at": "2026-10-01T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-01T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.8
+            },
+            "feature_traffic_proximity": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "ed014a59-e896-549e-a9e1-36187d6a2fba",
+              "observed_or_valid_at": "2026-10-01T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-01T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.9
+            },
+            "name": "Synthetic train-2 a",
+            "place_id": "synthetic-train-2-a",
+            "walk_minutes": 8.0
+          },
+          {
+            "feature_greenery": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "e008df11-4a74-5169-a3b6-31abed9740ab",
+              "observed_or_valid_at": "2026-10-01T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-01T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.3
+            },
+            "feature_shade": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "0e4b146e-03cb-5566-8045-cbb92834b6d5",
+              "observed_or_valid_at": "2026-10-01T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-01T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.2
+            },
+            "feature_traffic_proximity": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "15556624-1457-5a29-9756-fd3be8b193fa",
+              "observed_or_valid_at": "2026-10-01T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-01T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.1
+            },
+            "name": "Synthetic train-2 b",
+            "place_id": "synthetic-train-2-b",
+            "walk_minutes": 5.0
+          }
+        ],
+        "target_time": "2026-10-01T10:00:00Z"
+      },
+      "spatial_block": "block-train-2",
+      "split": "train",
+      "time_block": "day-1"
+    },
+    {
+      "collected_at": "2026-10-01T11:00:00Z",
+      "consent": false,
+      "participant_id": "participant-train-3",
+      "place_time_group": "pair-train-3",
+      "preferred_place_id": "synthetic-train-3-a",
+      "record_id": "train-3",
+      "request": {
+        "decision_at": "2026-10-01T10:00:00Z",
+        "max_walk_minutes": 30.0,
+        "need": "cool_walk",
+        "places": [
+          {
+            "feature_greenery": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "f6698f64-ee16-562c-99ba-aa0a7616a15e",
+              "observed_or_valid_at": "2026-10-01T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-01T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.6
+            },
+            "feature_shade": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "1a660182-46cb-5710-aa40-fe0e307f1fd5",
+              "observed_or_valid_at": "2026-10-01T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-01T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.8
+            },
+            "feature_traffic_proximity": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "7b749d21-79f8-5aa2-aa6b-577d311df1e2",
+              "observed_or_valid_at": "2026-10-01T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-01T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.9
+            },
+            "name": "Synthetic train-3 a",
+            "place_id": "synthetic-train-3-a",
+            "walk_minutes": 8.0
+          },
+          {
+            "feature_greenery": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "61030670-8f7c-5c00-a2d4-3142aa6d11b5",
+              "observed_or_valid_at": "2026-10-01T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-01T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.3
+            },
+            "feature_shade": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "c9357da4-917a-54b9-9a49-46c5feabef81",
+              "observed_or_valid_at": "2026-10-01T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-01T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.2
+            },
+            "feature_traffic_proximity": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "24187b1f-3900-576f-b69e-a74208905393",
+              "observed_or_valid_at": "2026-10-01T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-01T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.1
+            },
+            "name": "Synthetic train-3 b",
+            "place_id": "synthetic-train-3-b",
+            "walk_minutes": 5.0
+          }
+        ],
+        "target_time": "2026-10-01T10:00:00Z"
+      },
+      "spatial_block": "block-train-3",
+      "split": "train",
+      "time_block": "day-1"
+    },
+    {
+      "collected_at": "2026-10-04T11:00:00Z",
+      "consent": false,
+      "participant_id": "participant-validation-0",
+      "place_time_group": "pair-validation-0",
+      "preferred_place_id": "synthetic-validation-0-a",
+      "record_id": "validation-0",
+      "request": {
+        "decision_at": "2026-10-04T10:00:00Z",
+        "max_walk_minutes": 30.0,
+        "need": "cool_walk",
+        "places": [
+          {
+            "feature_greenery": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "18dd9ba8-0080-5123-9eda-7c6bb0316e14",
+              "observed_or_valid_at": "2026-10-04T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-04T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.6
+            },
+            "feature_shade": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "5816a2bc-883c-5bf9-be69-8285d768f357",
+              "observed_or_valid_at": "2026-10-04T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-04T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.8
+            },
+            "feature_traffic_proximity": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "2454c3e8-d606-5892-86c9-52a61eb03ce1",
+              "observed_or_valid_at": "2026-10-04T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-04T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.9
+            },
+            "name": "Synthetic validation-0 a",
+            "place_id": "synthetic-validation-0-a",
+            "walk_minutes": 8.0
+          },
+          {
+            "feature_greenery": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "af434931-8d74-54bf-b31d-65c58f65ec26",
+              "observed_or_valid_at": "2026-10-04T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-04T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.3
+            },
+            "feature_shade": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "3b3ba267-3d8e-5bc4-b0ff-c6dd5f19c816",
+              "observed_or_valid_at": "2026-10-04T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-04T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.2
+            },
+            "feature_traffic_proximity": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "3f534ac0-a4b0-5277-aa7f-e37ac8e4746f",
+              "observed_or_valid_at": "2026-10-04T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-04T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.1
+            },
+            "name": "Synthetic validation-0 b",
+            "place_id": "synthetic-validation-0-b",
+            "walk_minutes": 5.0
+          }
+        ],
+        "target_time": "2026-10-04T10:00:00Z"
+      },
+      "spatial_block": "block-validation-0",
+      "split": "validation",
+      "time_block": "day-4"
+    },
+    {
+      "collected_at": "2026-10-04T11:00:00Z",
+      "consent": false,
+      "participant_id": "participant-validation-1",
+      "place_time_group": "pair-validation-1",
+      "preferred_place_id": "synthetic-validation-1-a",
+      "record_id": "validation-1",
+      "request": {
+        "decision_at": "2026-10-04T10:00:00Z",
+        "max_walk_minutes": 30.0,
+        "need": "cool_walk",
+        "places": [
+          {
+            "feature_greenery": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "3900e459-334e-5d42-9fc9-ea5e8f90e1c3",
+              "observed_or_valid_at": "2026-10-04T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-04T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.6
+            },
+            "feature_shade": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "81776cd0-9754-5819-9996-c53fe69b743c",
+              "observed_or_valid_at": "2026-10-04T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-04T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.8
+            },
+            "feature_traffic_proximity": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "583c1448-d23e-5a48-a641-57c5c01a9dbc",
+              "observed_or_valid_at": "2026-10-04T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-04T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.9
+            },
+            "name": "Synthetic validation-1 a",
+            "place_id": "synthetic-validation-1-a",
+            "walk_minutes": 8.0
+          },
+          {
+            "feature_greenery": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "fdfa2523-a0b7-5e87-9051-72487acc6a23",
+              "observed_or_valid_at": "2026-10-04T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-04T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.3
+            },
+            "feature_shade": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "7ab76483-1a3f-5040-a10f-caef8901a0ef",
+              "observed_or_valid_at": "2026-10-04T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-04T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.2
+            },
+            "feature_traffic_proximity": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "99e15da4-addc-5d0a-97e8-dbbc024765ff",
+              "observed_or_valid_at": "2026-10-04T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-04T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.1
+            },
+            "name": "Synthetic validation-1 b",
+            "place_id": "synthetic-validation-1-b",
+            "walk_minutes": 5.0
+          }
+        ],
+        "target_time": "2026-10-04T10:00:00Z"
+      },
+      "spatial_block": "block-validation-1",
+      "split": "validation",
+      "time_block": "day-4"
+    },
+    {
+      "collected_at": "2026-10-04T11:00:00Z",
+      "consent": false,
+      "participant_id": "participant-validation-2",
+      "place_time_group": "pair-validation-2",
+      "preferred_place_id": "synthetic-validation-2-a",
+      "record_id": "validation-2",
+      "request": {
+        "decision_at": "2026-10-04T10:00:00Z",
+        "max_walk_minutes": 30.0,
+        "need": "cool_walk",
+        "places": [
+          {
+            "feature_greenery": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "3a726570-3ea5-51b5-a107-0682acd880c8",
+              "observed_or_valid_at": "2026-10-04T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-04T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.6
+            },
+            "feature_shade": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "0c658147-9b89-5034-80fe-9f7d6086ec6a",
+              "observed_or_valid_at": "2026-10-04T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-04T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.8
+            },
+            "feature_traffic_proximity": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "7610129f-99e4-5051-8ab4-93117f1abf53",
+              "observed_or_valid_at": "2026-10-04T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-04T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.9
+            },
+            "name": "Synthetic validation-2 a",
+            "place_id": "synthetic-validation-2-a",
+            "walk_minutes": 8.0
+          },
+          {
+            "feature_greenery": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "ea49c78e-b31c-55a5-a07b-24c6bd229a08",
+              "observed_or_valid_at": "2026-10-04T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-04T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.3
+            },
+            "feature_shade": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "0f87aa26-f7af-5837-8114-ee0cb3e851a0",
+              "observed_or_valid_at": "2026-10-04T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-04T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.2
+            },
+            "feature_traffic_proximity": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "0b81dc2d-7c4b-509a-ab66-597780533cae",
+              "observed_or_valid_at": "2026-10-04T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-04T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.1
+            },
+            "name": "Synthetic validation-2 b",
+            "place_id": "synthetic-validation-2-b",
+            "walk_minutes": 5.0
+          }
+        ],
+        "target_time": "2026-10-04T10:00:00Z"
+      },
+      "spatial_block": "block-validation-2",
+      "split": "validation",
+      "time_block": "day-4"
+    },
+    {
+      "collected_at": "2026-10-04T11:00:00Z",
+      "consent": false,
+      "participant_id": "participant-validation-3",
+      "place_time_group": "pair-validation-3",
+      "preferred_place_id": "synthetic-validation-3-a",
+      "record_id": "validation-3",
+      "request": {
+        "decision_at": "2026-10-04T10:00:00Z",
+        "max_walk_minutes": 30.0,
+        "need": "cool_walk",
+        "places": [
+          {
+            "feature_greenery": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "244993e1-4d9b-5b19-8197-097de8ea112d",
+              "observed_or_valid_at": "2026-10-04T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-04T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.6
+            },
+            "feature_shade": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "35f2491a-8bfa-5352-b87a-a56540e40db3",
+              "observed_or_valid_at": "2026-10-04T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-04T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.8
+            },
+            "feature_traffic_proximity": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "3ba8d474-a35a-5d19-b5d9-abcc6dc2e555",
+              "observed_or_valid_at": "2026-10-04T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-04T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.9
+            },
+            "name": "Synthetic validation-3 a",
+            "place_id": "synthetic-validation-3-a",
+            "walk_minutes": 8.0
+          },
+          {
+            "feature_greenery": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "dbc8187b-ee7a-5a80-9517-bf36c1f4dac3",
+              "observed_or_valid_at": "2026-10-04T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-04T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.3
+            },
+            "feature_shade": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "727d6dd0-22d6-5886-8af6-90554dfddd37",
+              "observed_or_valid_at": "2026-10-04T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-04T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.2
+            },
+            "feature_traffic_proximity": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "852dbc1b-728f-50db-ba45-a6f805c26ccc",
+              "observed_or_valid_at": "2026-10-04T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-04T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.1
+            },
+            "name": "Synthetic validation-3 b",
+            "place_id": "synthetic-validation-3-b",
+            "walk_minutes": 5.0
+          }
+        ],
+        "target_time": "2026-10-04T10:00:00Z"
+      },
+      "spatial_block": "block-validation-3",
+      "split": "validation",
+      "time_block": "day-4"
+    },
+    {
+      "collected_at": "2026-10-07T11:00:00Z",
+      "consent": false,
+      "participant_id": "participant-test-0",
+      "place_time_group": "pair-test-0",
+      "preferred_place_id": "synthetic-test-0-a",
+      "record_id": "test-0",
+      "request": {
+        "decision_at": "2026-10-07T10:00:00Z",
+        "max_walk_minutes": 30.0,
+        "need": "cool_walk",
+        "places": [
+          {
+            "feature_greenery": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "32bb1729-b9a5-5ed6-a02f-82e45367712a",
+              "observed_or_valid_at": "2026-10-07T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-07T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.6
+            },
+            "feature_shade": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "11e1bc5f-16c7-5908-9dfe-6574e5e07cca",
+              "observed_or_valid_at": "2026-10-07T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-07T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.8
+            },
+            "feature_traffic_proximity": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "f9fc5379-68ba-5e10-9b5f-1f5ac1781525",
+              "observed_or_valid_at": "2026-10-07T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-07T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.9
+            },
+            "name": "Synthetic test-0 a",
+            "place_id": "synthetic-test-0-a",
+            "walk_minutes": 8.0
+          },
+          {
+            "feature_greenery": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "be0faf3f-9260-502a-a354-7a920c80225c",
+              "observed_or_valid_at": "2026-10-07T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-07T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.3
+            },
+            "feature_shade": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "050cf1c7-68aa-5e6c-b2e4-9a81fc81323e",
+              "observed_or_valid_at": "2026-10-07T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-07T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.2
+            },
+            "feature_traffic_proximity": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "28464726-98d5-5871-8d60-fe4e3a73dc18",
+              "observed_or_valid_at": "2026-10-07T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-07T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.1
+            },
+            "name": "Synthetic test-0 b",
+            "place_id": "synthetic-test-0-b",
+            "walk_minutes": 5.0
+          }
+        ],
+        "target_time": "2026-10-07T10:00:00Z"
+      },
+      "spatial_block": "block-test-0",
+      "split": "test",
+      "time_block": "day-7"
+    },
+    {
+      "collected_at": "2026-10-07T11:00:00Z",
+      "consent": false,
+      "participant_id": "participant-test-1",
+      "place_time_group": "pair-test-1",
+      "preferred_place_id": "synthetic-test-1-a",
+      "record_id": "test-1",
+      "request": {
+        "decision_at": "2026-10-07T10:00:00Z",
+        "max_walk_minutes": 30.0,
+        "need": "cool_walk",
+        "places": [
+          {
+            "feature_greenery": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "43f38bb6-465f-57bc-99b8-4b18be7b914e",
+              "observed_or_valid_at": "2026-10-07T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-07T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.6
+            },
+            "feature_shade": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "75a6ad33-ed85-5539-b8b8-0df7e739b3a7",
+              "observed_or_valid_at": "2026-10-07T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-07T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.8
+            },
+            "feature_traffic_proximity": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "9508c4dc-dab5-5d89-b42d-037ed1d06f1f",
+              "observed_or_valid_at": "2026-10-07T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-07T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.9
+            },
+            "name": "Synthetic test-1 a",
+            "place_id": "synthetic-test-1-a",
+            "walk_minutes": 8.0
+          },
+          {
+            "feature_greenery": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "d4813b04-ee2e-56c9-952c-9f29442347ec",
+              "observed_or_valid_at": "2026-10-07T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-07T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.3
+            },
+            "feature_shade": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "d67b8277-d5e9-58fd-9a3b-1df4e81685f8",
+              "observed_or_valid_at": "2026-10-07T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-07T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.2
+            },
+            "feature_traffic_proximity": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "8d3937a5-e5ae-54db-b2c2-44c392f57d56",
+              "observed_or_valid_at": "2026-10-07T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-07T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.1
+            },
+            "name": "Synthetic test-1 b",
+            "place_id": "synthetic-test-1-b",
+            "walk_minutes": 5.0
+          }
+        ],
+        "target_time": "2026-10-07T10:00:00Z"
+      },
+      "spatial_block": "block-test-1",
+      "split": "test",
+      "time_block": "day-7"
+    },
+    {
+      "collected_at": "2026-10-07T11:00:00Z",
+      "consent": false,
+      "participant_id": "participant-test-2",
+      "place_time_group": "pair-test-2",
+      "preferred_place_id": "synthetic-test-2-a",
+      "record_id": "test-2",
+      "request": {
+        "decision_at": "2026-10-07T10:00:00Z",
+        "max_walk_minutes": 30.0,
+        "need": "cool_walk",
+        "places": [
+          {
+            "feature_greenery": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "404b86c4-4d43-53b7-97b5-47a4089f7142",
+              "observed_or_valid_at": "2026-10-07T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-07T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.6
+            },
+            "feature_shade": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "65f7596c-8a2d-5e1b-931b-0af76740b9af",
+              "observed_or_valid_at": "2026-10-07T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-07T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.8
+            },
+            "feature_traffic_proximity": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "f37a0bcc-e4c5-5202-95e5-fb95147d2303",
+              "observed_or_valid_at": "2026-10-07T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-07T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.9
+            },
+            "name": "Synthetic test-2 a",
+            "place_id": "synthetic-test-2-a",
+            "walk_minutes": 8.0
+          },
+          {
+            "feature_greenery": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "273080f5-d5d0-5d73-84d4-028e18c4e575",
+              "observed_or_valid_at": "2026-10-07T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-07T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.3
+            },
+            "feature_shade": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "38365534-e3b8-526e-9e92-be4c9902648a",
+              "observed_or_valid_at": "2026-10-07T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-07T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.2
+            },
+            "feature_traffic_proximity": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "230f36ea-21cd-5ea6-8311-699396c402e4",
+              "observed_or_valid_at": "2026-10-07T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-07T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.1
+            },
+            "name": "Synthetic test-2 b",
+            "place_id": "synthetic-test-2-b",
+            "walk_minutes": 5.0
+          }
+        ],
+        "target_time": "2026-10-07T10:00:00Z"
+      },
+      "spatial_block": "block-test-2",
+      "split": "test",
+      "time_block": "day-7"
+    },
+    {
+      "collected_at": "2026-10-07T11:00:00Z",
+      "consent": false,
+      "participant_id": "participant-test-3",
+      "place_time_group": "pair-test-3",
+      "preferred_place_id": "synthetic-test-3-a",
+      "record_id": "test-3",
+      "request": {
+        "decision_at": "2026-10-07T10:00:00Z",
+        "max_walk_minutes": 30.0,
+        "need": "cool_walk",
+        "places": [
+          {
+            "feature_greenery": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "b5a8f618-8173-5196-b028-1d53bb534eca",
+              "observed_or_valid_at": "2026-10-07T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-07T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.6
+            },
+            "feature_shade": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "610827c8-ec67-5a8b-8f4b-af53acfbdf6e",
+              "observed_or_valid_at": "2026-10-07T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-07T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.8
+            },
+            "feature_traffic_proximity": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "1decea22-16da-506e-99f5-a0b056b7f7d4",
+              "observed_or_valid_at": "2026-10-07T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-07T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.9
+            },
+            "name": "Synthetic test-3 a",
+            "place_id": "synthetic-test-3-a",
+            "walk_minutes": 8.0
+          },
+          {
+            "feature_greenery": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "a8dab5e5-7d89-53c7-88e9-587bf3352843",
+              "observed_or_valid_at": "2026-10-07T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-07T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.3
+            },
+            "feature_shade": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "866a6758-3435-598d-8def-043173b49025",
+              "observed_or_valid_at": "2026-10-07T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-07T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.2
+            },
+            "feature_traffic_proximity": {
+              "data_kind": "estimated_proxy",
+              "issued_at": null,
+              "license_id": "CC0-synthetic",
+              "method_version": "synthetic-identity-1",
+              "observation_id": "bc0964b1-11d4-53aa-a4ac-ffa5462cf297",
+              "observed_or_valid_at": "2026-10-07T09:00:00Z",
+              "quality": "derived_spatial",
+              "quality_metadata": {
+                "synthetic": "true"
+              },
+              "retrieved_at": "2026-10-07T09:50:00Z",
+              "source_id": "synthetic-fixture",
+              "source_version": "fixture-1",
+              "spatial_resolution_m": 10.0,
+              "unit": "fraction",
+              "valid_until": null,
+              "value": 0.1
+            },
+            "name": "Synthetic test-3 b",
+            "place_id": "synthetic-test-3-b",
+            "walk_minutes": 5.0
+          }
+        ],
+        "target_time": "2026-10-07T10:00:00Z"
+      },
+      "spatial_block": "block-test-3",
+      "split": "test",
+      "time_block": "day-7"
+    }
+  ],
+  "synthetic": true
+}

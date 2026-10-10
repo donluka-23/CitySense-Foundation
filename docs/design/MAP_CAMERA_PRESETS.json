@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "stage": "1B",
+  "coordinateOrder": "longitude,latitude",
+  "crs": "WGS84 / EPSG:4326",
+  "retrievedAt": "2026-10-09T21:22:19.243Z",
+  "osmDatabaseAt": "2026-10-09T21:21:06Z",
+  "sourceSha256": "a7fcb5ea2cdf12ec667feb1ab93add97cb50e08759d6c2a9c6d6c79ee40a9871",
+  "coordinateCaveat": "Actual source coordinates, not surveyed position, pedestrian entrance or access permission. Names separately checked in a bounded projected name-only query. Zoom/pitch are authored test parameters, not source facts.",
+  "viewports": {
+    "desktop": [
+      1440,
+      900
+    ],
+    "mobile": [
+      390,
+      844
+    ],
+    "compact": [
+      320,
+      700
+    ]
+  },
+  "conditions": {
+    "2d": {
+      "description": "Flat north-up; provider extrusions disabled"
+    },
+    "detail": {
+      "description": "Moderate pitch, provider extrusions disabled; no application overlays"
+    },
+    "3d": {
+      "description": "Provider-supplied 3D only; unsupported/hidden-by-style content remains unavailable; heights unverified"
+    }
+  },
+  "locations": {
+    "overview": {
+      "label": "Batumi city place node",
+      "center": [
+        41.6360085,
+        41.6509502
+      ],
+      "coordinateSource": {
+        "osmType": "node",
+        "osmId": 160257516,
+        "url": "https://www.openstreetmap.org/node/160257516",
+        "method": "exact OSM place node",
+        "vertexNodeId": 160257516,
+        "receipt": "docs/evidence/map-stage-1b/camera-source.json",
+        "nameReceipt": "docs/evidence/map-stage-1b/camera-labels.json"
+      },
+      "cameras": {
+        "2d": {
+          "zoom": 12.5,
+          "pitch": 0,
+          "bearing": 0
+        },
+        "detail": {
+          "zoom": 13.5,
+          "pitch": 35,
+          "bearing": 0
+        },
+        "3d": {
+          "zoom": 14.5,
+          "pitch": 60,
+          "bearing": 0
+        }
+      },
+      "sourceNames": {
+        "native": "ბათუმი",
+        "english": "Batumi",
+        "georgian": "ბათუმი"
+      }
+    },
+    "waterfront": {
+      "label": "Alphabet Tower / northern Boulevard",
+      "center": [
+        41.6395066,
+        41.6560289
+      ],
+      "coordinateSource": {
+        "osmType": "way",
+        "osmId": 405852444,
+        "url": "https://www.openstreetmap.org/way/405852444",
+        "method": "exact first geometry vertex; not a centroid or verified entrance",
+        "vertexNodeId": 4080074547,
+        "receipt": "docs/evidence/map-stage-1b/camera-source.json",
+        "nameReceipt": "docs/evidence/map-stage-1b/camera-labels.json"
+      },
+      "cameras": {
+        "2d": {
+          "zoom": 15.5,
+          "pitch": 0,
+          "bearing": 0
+        },
+        "detail": {
+          "zoom": 16,
+          "pitch": 35,
+          "bearing": 0
+        },
+        "3d": {
+          "zoom": 16.5,
+          "pitch": 60,
+          "bearing": 0
+        }
+      },
+      "sourceNames": {
+        "native": "ანბანის კოშკი",
+        "english": "Alphabetic Tower",
+        "georgian": "ანბანის კოშკი"
+      }
+    },
+    "central": {
+      "label": "Batumi Piazza neighborhood",
+      "center": [
+        41.6407375,
+        41.649547
+      ],
+      "coordinateSource": {
+        "osmType": "way",
+        "osmId": 294880812,
+        "url": "https://www.openstreetmap.org/way/294880812",
+        "method": "exact first geometry vertex; not a centroid or verified entrance",
+        "vertexNodeId": 2985014410,
+        "receipt": "docs/evidence/map-stage-1b/camera-source.json",
+        "nameReceipt": "docs/evidence/map-stage-1b/camera-labels.json"
+      },
+      "cameras": {
+        "2d": {
+          "zoom": 16,
+          "pitch": 0,
+          "bearing": 0
+        },
+        "detail": {
+          "zoom": 16.5,
+          "pitch": 35,
+          "bearing": 0
+        },
+        "3d": {
+          "zoom": 17,
+          "pitch": 60,
+          "bearing": 0
+        }
+      },
+      "sourceNames": {
+        "native": "პიაცა მოედანი",
+        "english": "Batumi Piazza",
+        "georgian": "პიაცა მოედანი"
+      }
+    },
+    "street": {
+      "label": "Memed Abashidze Street",
+      "center": [
+        41.6349322,
+        41.6500931
+      ],
+      "coordinateSource": {
+        "osmType": "way",
+        "osmId": 1152779731,
+        "url": "https://www.openstreetmap.org/way/1152779731",
+        "method": "exact first geometry vertex; not a centroid or verified entrance",
+        "vertexNodeId": 409475078,
+        "receipt": "docs/evidence/map-stage-1b/camera-source.json",
+        "nameReceipt": "docs/evidence/map-stage-1b/camera-labels.json"
+      },
+      "cameras": {
+        "2d": {
+          "zoom": 18,
+          "pitch": 0,
+          "bearing": 0
+        },
+        "detail": {
+          "zoom": 17,
+          "pitch": 35,
+          "bearing": 0
+        },
+        "3d": {
+          "zoom": 18,
+          "pitch": 60,
+          "bearing": 0
+        }
+      },
+      "sourceNames": {
+        "native": "მემედ აბაშიძის ქუჩა",
+        "english": "Memed Abashidze Street",
+        "georgian": "მემედ აბაშიძის ქუჩა"
+      }
+    }
+  },
+  "labelVerificationReceipt": "docs/evidence/map-stage-1b/camera-labels-receipt.json"
+}

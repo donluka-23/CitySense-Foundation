@@ -1,0 +1,11 @@
+{
+  "archive": "D:\\citysense-foundation\\.local\\rollback-archives\\rejected-digital-twin-20261010T082826Z-b923dc6c\\rejected-digital-twin.zip",
+  "archiveSha256": "50573c28cc0e6c5cfb1a4066fc7787965e569f12ec7b51f9f23659e9f86bcf28",
+  "archiveBytes": 9179277,
+  "archiveUnchanged": true,
+  "crcPassed": true,
+  "isolatedExtraction": "D:\\citysense-foundation\\.local\\rollback-archives\\rejected-digital-twin-20261010T082826Z-b923dc6c\\recovery-check",
+  "payloadFilesVerified": 1794,
+  "allArchiveAndExtractedPayloadSha256Match": true,
+  "credentialSafety": "Original credential-safe archive retained byte-for-byte; no new environment contents or credentials read or added."
+}

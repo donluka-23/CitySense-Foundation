@@ -1,0 +1,10 @@
+{
+  "version": "heuristic-0.2.0-unvalidated",
+  "transformation": "identity_normalized_fraction-v1",
+  "weights": {
+    "cool_walk": {"feature_shade": 0.65, "feature_greenery": 0.35},
+    "quiet_rest": {"feature_traffic_proximity": 0.70, "feature_greenery": 0.30},
+    "family_walk": {"feature_shade": 0.35, "feature_greenery": 0.65}
+  },
+  "max_age_seconds": {"derived_spatial": 2592000, "observed_manual": 86400, "measured_local": 3600, "regional_forecast": 21600, "reported_provider": 86400, "unknown": 0}
+}

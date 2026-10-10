@@ -1,0 +1,22 @@
+{
+  "empirical_status": "NOT EVALUATED",
+  "ephemeral_local_operator_key_excluded": true,
+  "modes": [
+    {
+      "actual_personal_account_or_location_used": false,
+      "evaluation_behavior": "fictional unvalidated indices with synthetic banner",
+      "mode": "synthetic",
+      "operator_auth_denial": 401,
+      "sports_behavior": "insufficient court/weather/route/availability data; zero invented courts",
+      "telegram_connected": false
+    },
+    {
+      "actual_personal_account_or_location_used": false,
+      "evaluation_behavior": "publication rights denied",
+      "mode": "real",
+      "operator_auth_denial": 401,
+      "sports_behavior": "insufficient court/weather/route/availability data; zero invented courts",
+      "telegram_connected": false
+    }
+  ]
+}

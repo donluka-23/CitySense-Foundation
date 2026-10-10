@@ -1,0 +1,48 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "allowed_users": {
+      "items": {
+        "type": "integer"
+      },
+      "maxItems": 50,
+      "minItems": 1,
+      "title": "Allowed Users",
+      "type": "array"
+    },
+    "mode": {
+      "enum": [
+        "real",
+        "synthetic"
+      ],
+      "title": "Mode",
+      "type": "string"
+    },
+    "per_minute": {
+      "default": 6,
+      "maximum": 30,
+      "minimum": 1,
+      "title": "Per Minute",
+      "type": "integer"
+    },
+    "place_ids": {
+      "items": {
+        "maxLength": 128,
+        "minLength": 1,
+        "pattern": "^[a-zA-Z0-9_.:-]+$",
+        "type": "string"
+      },
+      "maxItems": 5,
+      "minItems": 1,
+      "title": "Place Ids",
+      "type": "array"
+    }
+  },
+  "required": [
+    "mode",
+    "allowed_users",
+    "place_ids"
+  ],
+  "title": "DemoSettings",
+  "type": "object"
+}

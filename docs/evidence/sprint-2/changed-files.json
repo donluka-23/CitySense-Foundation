@@ -1,0 +1,259 @@
+{
+  "at": "2026-10-09T14:13:24.871450+00:00",
+  "no_git_metadata": true,
+  "scope": "Explicit Sprint 2 edited/created deliverables; ignored tools, logs, secrets and data excluded",
+  "files": [
+    {
+      "path": ".env.example",
+      "sha256": "701a667bd4efe3ffe9b7ad3cb5ddbea6bd0bdd6d14955ae7de6536108fa82d84"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "df1b843d2e92cbb856a1181cf692dc20adf39409f356e338cc59d2b04354a80c"
+    },
+    {
+      "path": "CODEX_HANDOFF.md",
+      "sha256": "84d69f0b926e3548cec19b495ad0720cb853807a6f53655314665ebcce75d951"
+    },
+    {
+      "path": "README.md",
+      "sha256": "b64ea9433ff50217ff1e53360e4f4ff29b81bda56a619b2aa8ab3ef73e3586c9"
+    },
+    {
+      "path": "docs/AGENT_PLATFORM_ARCHITECTURE.md",
+      "sha256": "336ec29925a3f7fc0559c6f788629619b6c9136f0199ac4eb8e4d1710759f182"
+    },
+    {
+      "path": "docs/ARCHITECTURE_CHANGE_IMPACT.md",
+      "sha256": "8dfbd2dfa7025619016f4f3eda07dcc09fd291abc654fae96e6892c6c6936531"
+    },
+    {
+      "path": "docs/ARCHITECTURE_REVIEW.md",
+      "sha256": "c17efd2a4afb07b80c9bf6e25bb78203415df983656217e3a509e30d25fbf3a0"
+    },
+    {
+      "path": "docs/COMPETITIVE_TECHNICAL_ANALYSIS.md",
+      "sha256": "e3e5535d6bab28288a59f75fb435b7c8aa6906f8ccb786971f05906aa5f22627"
+    },
+    {
+      "path": "docs/DATA_GOVERNANCE_AND_LICENSING.md",
+      "sha256": "bab55b7bda3f34b50bc14f848c218d867093c8b8b4e99b1d4cbf6c2180c8782c"
+    },
+    {
+      "path": "docs/KNOWN_RISKS.md",
+      "sha256": "e3bb6a0c85e2e1edb3eea479515cfe9ebd0f38f007f67659d699eaace1862c3e"
+    },
+    {
+      "path": "docs/MCP_INTERFACE_DESIGN.md",
+      "sha256": "c3c2164d8638c262d448161e7e17988fe4723f72d79c27f05f1cab37aaa1283e"
+    },
+    {
+      "path": "docs/MULTI_CITY_ARCHITECTURE.md",
+      "sha256": "7f377b2bf25f95087285a48ed837a15b5421b16e64a088f840892557fee960ba"
+    },
+    {
+      "path": "docs/OPENAPI_CONTRACT.md",
+      "sha256": "8f50bda45eae0f5f94435df64c2b5fea1dff16578ad6324f6473a36504d959ee"
+    },
+    {
+      "path": "docs/OPPORTUNITY_REGISTRY_DESIGN.md",
+      "sha256": "a10e7d1b1bed2925091d7e5829300d83df623c063526fc02b2dda9025df2332d"
+    },
+    {
+      "path": "docs/QUALITY_SCORECARD.md",
+      "sha256": "3f342a37ff033cb8622fddb0e1b0a8a45310e43a87dddcf77a7450f00aa4727b"
+    },
+    {
+      "path": "docs/RESEARCH_VALIDATION_READINESS.md",
+      "sha256": "0526cbd13343f0c8128fae830abb905ae7ffec06f557f2bf6eaaa48e55f8e7d4"
+    },
+    {
+      "path": "docs/SPRINT_2_REPORT.md",
+      "sha256": "3a72cb2833054e4449d390140468424b5127b0636ccf07845d3fa61d81a1e17b"
+    },
+    {
+      "path": "docs/adr/0009-agent-first-platform.md",
+      "sha256": "584dba12fcbc0b5050d2a0a7c452926612b19a4ed4b9de153a0ea2773b36f631"
+    },
+    {
+      "path": "docs/architecture.md",
+      "sha256": "e247153f18cae8cf96462bcfe2533d2b24063f10e6c4399014722c2a298dca62"
+    },
+    {
+      "path": "docs/contracts/baseline-capture.schema.json",
+      "sha256": "b05dc113886cb93e2c4d735d51a214df2678426c30894dab4912f7a638c7cf65"
+    },
+    {
+      "path": "docs/contracts/city-config.schema.json",
+      "sha256": "3a109d5a5c6726c6df4ea3d3bbf5e9ad2187483d8514162694679e4c6d8ee924"
+    },
+    {
+      "path": "docs/contracts/geometry-revision.schema.json",
+      "sha256": "e2d19aa306150e34943351b299ec52298abbd39ad078ccff92fd8826d473d647"
+    },
+    {
+      "path": "docs/contracts/mcp-tools-design.json",
+      "sha256": "2ac2d6e44ec6b5e2cf5946725be2f1f62db87573ae8ff71297f90e97750eec3a"
+    },
+    {
+      "path": "docs/contracts/openapi.json",
+      "sha256": "fab5ec47399d3c64c4fc8c45d39e1c7038eb2d0dcff3f175600cccf01dee1917"
+    },
+    {
+      "path": "docs/contracts/provider-entity.schema.json",
+      "sha256": "1c18e82232918a26dd4def8fd50462ba7d23cbf63c2ddeba09c7df57feadfafc"
+    },
+    {
+      "path": "docs/contracts/weather-candidate.schema.json",
+      "sha256": "7af1704b20e638b87f5907d37cbc23c0626b6c9890672945a020d341496be6b0"
+    },
+    {
+      "path": "docs/data-contracts.md",
+      "sha256": "a6598b828d1969fd3ec5acac62a23f553005a0e55d402a9f45281a809214d13d"
+    },
+    {
+      "path": "docs/delivery-plan.md",
+      "sha256": "f3895a45054b097f2ee536b35fe4b1249d7fded0393d53819ba7f8f841fd7e51"
+    },
+    {
+      "path": "docs/evidence/sprint-2/clean-install.json",
+      "sha256": "3dc17aa345eae425e1b5d5da0fb6de4385427ea6dc02cd2628edd98e81393a8d"
+    },
+    {
+      "path": "docs/evidence/sprint-2/clean-pytest.txt",
+      "sha256": "abb2d18a6bf0cfa0f6f21059df707911b44e1fcd1eb991440e9e879694fefae6"
+    },
+    {
+      "path": "docs/evidence/sprint-2/clean-quality-gates.json",
+      "sha256": "7160374d2470ab1fa5ae7ac721c1dd683fe30026087318adc14fe62257eba537"
+    },
+    {
+      "path": "docs/evidence/sprint-2/dependency-audit.json",
+      "sha256": "23b1138d35efa53797618507a1a3e5702341b51573ea07295e2ca1b12b46ad84"
+    },
+    {
+      "path": "docs/evidence/sprint-2/live-source-summary.json",
+      "sha256": "ca954fae4a50747c410dfeb4945c72775b31ee7973eddeacc0dcecce44a31bcc"
+    },
+    {
+      "path": "docs/evidence/sprint-2/preserved-foundation.json",
+      "sha256": "cf45cf02d3731d881cb0bd28bb5350302eb7804dd68721fddacb5fc0197a08ad"
+    },
+    {
+      "path": "docs/evidence/sprint-2/pytest.txt",
+      "sha256": "4d291c3541c5bd92e8c1d6843c2c0d9ca8c12b0d2731c77171908f21853292a7"
+    },
+    {
+      "path": "docs/evidence/sprint-2/quality-gates.json",
+      "sha256": "a7a21cce8ff30edffc672c4e77a862ae9181852631f2dd12436834a637ac0b06"
+    },
+    {
+      "path": "docs/evidence/sprint-2/retained-db-smoke.json",
+      "sha256": "7a1b72b00d8f9a138a1b920690a239c65cfddbccf632253f78de073fd04247b0"
+    },
+    {
+      "path": "docs/evidence/sprint-2/test-counts.json",
+      "sha256": "1c558a725ffb70366e2d3207a9ce97a707c5e434b515c9648837a7a4d0009015"
+    },
+    {
+      "path": "docs/provider-onboarding.md",
+      "sha256": "505fd048c5d4a5abd732f6be639bb4a57c92683b355eeeff02a59d287be06559"
+    },
+    {
+      "path": "docs/quality/review-report.md",
+      "sha256": "5b91143da7f8c6d70ec642d43fc8cd03428d0992e5e3ba0cfc8e8c69d430021a"
+    },
+    {
+      "path": "docs/quality/scorecard.md",
+      "sha256": "3c32434c1b483ad5cc6b593c6464db2f3ee673514d3c558fd855acfd1aaac222"
+    },
+    {
+      "path": "docs/security-privacy.md",
+      "sha256": "179afa48ad600f168085bffd06f62b6693b0c881f8b24d04686a2f701e481217"
+    },
+    {
+      "path": "docs/source-register.md",
+      "sha256": "8dd94d15390722781c6be2dcbb0b147acf1e312a60e3c97307690ee515326b99"
+    },
+    {
+      "path": "services/api/migrations/versions/0002_geometry_revisions.py",
+      "sha256": "0dd652bf50bb4cafafc7fb5146c23a036b11b4cd0500fc1ee6955b640ca769aa"
+    },
+    {
+      "path": "services/api/scripts/check.py",
+      "sha256": "7634d848b946081d5d54aededa0089f589b93dd9c800a200539e6e0fd548dda0"
+    },
+    {
+      "path": "services/api/scripts/demonstrate_osm.py",
+      "sha256": "82a4fb425b0e5c4032a8cc8f250a5b1b87833f2938505232506b7b2eabd0f078"
+    },
+    {
+      "path": "services/api/scripts/export_contracts.py",
+      "sha256": "ed96a2adef932a8fb669a385abbf2374dda308c6bfb4a56ac775cc2ef41ff984"
+    },
+    {
+      "path": "services/api/scripts/persist_osm_archive.py",
+      "sha256": "0dc3fdfe0c54310d114f5807fa5e07aa9a5b2a04705c6e7368ea3fb3b671b3d4"
+    },
+    {
+      "path": "services/api/src/citysense/agent_tools.py",
+      "sha256": "a7222b94e39760dc13a73a322af002a0b0638bf694b357d7c0e525d83b22178f"
+    },
+    {
+      "path": "services/api/src/citysense/app.py",
+      "sha256": "d85760e98c33725f9d3e1598f5cf7a22c821bdb3aa4698ffcc9db0a1671ff8e8"
+    },
+    {
+      "path": "services/api/src/citysense/baseline_capture.py",
+      "sha256": "d4e432ef4f5624030a6a7388f37becee84b26cb03efb1a43f19f06ee8377b0db"
+    },
+    {
+      "path": "services/api/src/citysense/db.py",
+      "sha256": "f5b32673afac368481cf5efa679d3834c6626535ab0bb110e1b3db79fbdc3087"
+    },
+    {
+      "path": "services/api/src/citysense/native_sources.py",
+      "sha256": "967cd79a8797f2493de6a9a34c2308a329835a15486b5f21412ac2aeabee63ca"
+    },
+    {
+      "path": "services/api/src/citysense/opportunities.py",
+      "sha256": "c277f8fa23056633fb9cc3b49cd0e7e1aac3fca87886ce16909597ffc77c5d3b"
+    },
+    {
+      "path": "services/api/src/citysense/parameters/cities.json",
+      "sha256": "05879779ff98ba708535948e3d13032cac08fd45b06ea59ec14c73a5f09cf3fe"
+    },
+    {
+      "path": "services/api/src/citysense/platform.py",
+      "sha256": "a01a4239c6a83661a4e4087017eb11e2624b97d355ecdba286f9f1c7f9fbc29a"
+    },
+    {
+      "path": "services/api/src/citysense/platform_api.py",
+      "sha256": "4f2093dc220efe515ebb67e41fe8ed9c85c5cbdbe04960558ae566db5f0fa4f6"
+    },
+    {
+      "path": "services/api/src/citysense/security.py",
+      "sha256": "35a555fec564a2eeb6660a444f3be4ed23126eed170841a087253b20b10340b3"
+    },
+    {
+      "path": "services/api/tests/test_baseline_capture.py",
+      "sha256": "5749e2a172ca2c22624969dab9913f0de421a26b649c94bf1e7057bb22e9dc0e"
+    },
+    {
+      "path": "services/api/tests/test_native_sources.py",
+      "sha256": "64688a4068f9f9a93d048925cefca40c30c9945240e5b91fe641b6b0441beb5b"
+    },
+    {
+      "path": "services/api/tests/test_opportunities.py",
+      "sha256": "7dfe97f01eedb9be92132ea047d6932d0a1d815d16973aa22af9deebcf9c679e"
+    },
+    {
+      "path": "services/api/tests/test_platform.py",
+      "sha256": "1a8db52abceaa230ede20e5de95e616ffe6537a7657fffb046b04ab81c352790"
+    },
+    {
+      "path": "services/api/tests/test_postgis.py",
+      "sha256": "fe869e68f13994e7d9a8f78d2fae1bc7ff34366706bff979aa98bcd8f80df916"
+    }
+  ]
+}

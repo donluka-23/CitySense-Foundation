@@ -1,0 +1,25 @@
+{
+  "auditDateTbilisi": "2026-10-10",
+  "source": "OpenStreetMap via public Overpass",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "licenseUrl": "https://www.openstreetmap.org/copyright",
+  "bboxSouthWestNorthEast": [
+    41.61,
+    41.6,
+    41.67,
+    41.67
+  ],
+  "querySha256": "0e1e8a2018d2a6064c78ed3a992dc0546dd1102211dfcb5dcfe6eebc8d01c7c3",
+  "requestedAt": "2026-10-09T20:44:32.020Z",
+  "status": "unavailable",
+  "interpretation": "Source presence/tag audit only; not provider rendering, field completeness, measured height, pedestrian connectivity or suitability evidence",
+  "counts": {},
+  "labels": [],
+  "httpStatus": 400,
+  "retrievedAt": "2026-10-09T20:44:32.400Z",
+  "bytes": 613,
+  "rawSha256": "65a96942cf6305bbc8b9057cfc06b4e46be3f6553c4dbe494c85a25dc83948df",
+  "error": "HTTP 400"
+}

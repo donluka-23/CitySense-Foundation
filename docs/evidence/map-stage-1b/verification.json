@@ -1,0 +1,41 @@
+{
+  "stage": "1B",
+  "status": "PARTIAL",
+  "nodeSyntax": [
+    "map.mjs passed",
+    "comparison.mjs passed"
+  ],
+  "pythonSyntax": "serve.py successfully executed",
+  "ruffLint": "passed",
+  "ruffFormat": "passed after formatting serve.py",
+  "openapiExportCheck": "Contract exports match",
+  "configurationCombinations": 108,
+  "invalidQueriesRejected": 15,
+  "cameraCoordinateParity": "All 4 centers match exact retained OSM node/vertex coordinates",
+  "httpChecks": "11 allowed GET routes 200/no-store; 3 denied paths 404; untrusted Host 403",
+  "credentialChecks": "Mapbox sk. sentinel omitted; explicit empty new MapTiler variable overrides legacy alias",
+  "testServerPort": 8766,
+  "testServerStopped": true,
+  "existingServer8765Preserved": "No direct control command issued; final listener unavailable, cause unverified",
+  "actualBrowserExecuted": false,
+  "actualScreenshots": 0,
+  "physicalMobileExecuted": false,
+  "telegramExecuted": false,
+  "backendRegressionSuite": "Not rerun: no backend changes; hash parity and contract check used",
+  "dependencyInstallation": "Existing Stage 1 pinned install used; package.json and lockfile unchanged; no dependencies added",
+  "stage2Started": false,
+  "git": "No .git/current branch; no Git changes or CI claims",
+  "requiredDeliverablesPresent": 6,
+  "localDocumentLinksValid": true,
+  "finalPortObservations": {
+    "8765": {
+      "listening": false
+    },
+    "8766": {
+      "listening": false
+    }
+  },
+  "exactProjectedSourceNameParity": true,
+  "cameraSourceRequests": "Two manually bounded requests: coordinates, then projected names",
+  "finalPreservationRecheckPassed": true
+}

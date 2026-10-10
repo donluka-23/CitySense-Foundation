@@ -1,0 +1,153 @@
+{
+  "dateTbilisi": "2026-10-10",
+  "executedAt": "2026-10-09T20:49:31.177532+00:00",
+  "nodeVersion": "v24.16.0",
+  "pythonVersion": "Python 3.12.13",
+  "httpChecks": [
+    {
+      "path": "/",
+      "status": 200,
+      "bytes": 676,
+      "contentType": "text/html; charset=utf-8",
+      "cacheControl": "no-store"
+    },
+    {
+      "path": "/map.mjs",
+      "status": 200,
+      "bytes": 6040,
+      "contentType": "text/javascript; charset=utf-8",
+      "cacheControl": "no-store"
+    },
+    {
+      "path": "/config.json",
+      "status": 200,
+      "bytes": 50,
+      "contentType": "application/json",
+      "cacheControl": "no-store",
+      "configuredPublicCredentials": {
+        "mapboxPublicToken": false,
+        "maptilerPublicKey": false
+      }
+    },
+    {
+      "path": "/vendor/maplibre-gl.mjs",
+      "status": 200,
+      "bytes": 1079357,
+      "contentType": "text/javascript",
+      "cacheControl": "no-store"
+    },
+    {
+      "path": "/vendor/maplibre-gl-worker.mjs",
+      "status": 200,
+      "bytes": 508314,
+      "contentType": "text/javascript",
+      "cacheControl": "no-store"
+    },
+    {
+      "path": "/vendor/maplibre-gl-shared.mjs",
+      "status": 200,
+      "bytes": 0,
+      "contentType": "text/javascript",
+      "cacheControl": "no-store"
+    },
+    {
+      "path": "/vendor/maplibre-gl.css",
+      "status": 200,
+      "bytes": 83290,
+      "contentType": "text/css",
+      "cacheControl": "no-store"
+    },
+    {
+      "path": "/vendor/mapbox-gl.js",
+      "status": 200,
+      "bytes": 1897230,
+      "contentType": "text/javascript",
+      "cacheControl": "no-store"
+    },
+    {
+      "path": "/vendor/mapbox-gl.css",
+      "status": 200,
+      "bytes": 48946,
+      "contentType": "text/css",
+      "cacheControl": "no-store"
+    },
+    {
+      "path": "/../../.env",
+      "status": 404
+    },
+    {
+      "path": "/docs/contracts/openapi.json",
+      "status": 404
+    }
+  ],
+  "hostCheck": {
+    "host": "untrusted.example",
+    "status": 403
+  },
+  "javascriptParseChecks": [
+    {
+      "file": "map.mjs",
+      "exitCode": 0
+    },
+    {
+      "file": "audit-coverage.mjs",
+      "exitCode": 0
+    }
+  ],
+  "pythonSyntax": "pass",
+  "npmCi": "passed, --ignore-scripts",
+  "npmAudit": {
+    "vulnerabilities": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 0
+    },
+    "dependencies": {
+      "prod": 27,
+      "dev": 0,
+      "optional": 0,
+      "peer": 0,
+      "peerOptional": 0,
+      "total": 26
+    }
+  },
+  "contractExportCheck": "passed: Contract exports match",
+  "browser": {
+    "status": "unavailable",
+    "discoveredBrowsers": [],
+    "rendered": false,
+    "screenshots": [],
+    "mobileBenchmark": "not executed"
+  },
+  "mapboxTermsPdf": {
+    "url": "https://cdn.prod.website-files.com/609ed46055e27a02ffc0749b/6a60463142f6478d57642594_Mapbox%20Product%20Terms%20%28July%2021%2C%202026%29.pdf",
+    "bytes": 345611,
+    "sha256": "8462b80946abe90c4996577262928c7987ec2066e464c997869c4d82ebb9ec1c",
+    "pages": 14,
+    "textReview": "sections 1.9, 1.10, 2.7, 2.8 reviewed; no layout or legal certification"
+  },
+  "overpassAttempts": [
+    {
+      "status": 400,
+      "reason": "Unsupported Unicode range regex"
+    },
+    {
+      "status": 400,
+      "reason": "Diagnostic repeat, same Unicode regex"
+    },
+    {
+      "status": 200,
+      "reason": "Corrected explicit-character alternation; complete output"
+    }
+  ],
+  "finalSyntaxChecks": "node --check map.mjs and audit-coverage.mjs passed after final changes",
+  "servedFinalJavascriptSha256": "42800cbf192899c7a52532831ae2a178667f02e874908b851843af7f7f333910",
+  "providerCredentialStatus": "Not configured in dedicated local test config",
+  "pythonLint": "ruff check tools/map-stage-1/serve.py passed",
+  "documentLocalLinks": "all present",
+  "coverageArithmetic": "verified: height tags 0.49%, height/levels 25.02%, neither 11552",
+  "testServerStopped": true
+}

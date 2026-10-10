@@ -1,0 +1,185 @@
+{
+  "auditDateTbilisi": "2026-10-10",
+  "source": "OpenStreetMap via public Overpass",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "licenseUrl": "https://www.openstreetmap.org/copyright",
+  "bboxSouthWestNorthEast": [
+    41.61,
+    41.6,
+    41.67,
+    41.67
+  ],
+  "querySha256": "e0ae37776e7bc302077dff77c6f3a1fe16d30f2a1456627384e913283e08be14",
+  "requestedAt": "2026-10-09T20:45:39.776Z",
+  "status": "completed",
+  "interpretation": "Source presence/tag audit only; not provider rendering, field completeness, measured height, pedestrian connectivity or suitability evidence",
+  "counts": {
+    "street_ways": {
+      "nodes": 0,
+      "ways": 7796,
+      "relations": 0,
+      "total": 7796
+    },
+    "pedestrian_ways": {
+      "nodes": 0,
+      "ways": 2973,
+      "relations": 0,
+      "total": 2973
+    },
+    "building_ways": {
+      "nodes": 0,
+      "ways": 15406,
+      "relations": 0,
+      "total": 15406
+    },
+    "building_relations": {
+      "nodes": 0,
+      "ways": 0,
+      "relations": 45,
+      "total": 45
+    },
+    "building_ways_with_height_tag": {
+      "nodes": 0,
+      "ways": 76,
+      "relations": 0,
+      "total": 76
+    },
+    "building_ways_with_levels_tag": {
+      "nodes": 0,
+      "ways": 3846,
+      "relations": 0,
+      "total": 3846
+    },
+    "building_ways_with_height_or_levels": {
+      "nodes": 0,
+      "ways": 3854,
+      "relations": 0,
+      "total": 3854
+    },
+    "building_parts": {
+      "nodes": 0,
+      "ways": 237,
+      "relations": 0,
+      "total": 237
+    },
+    "coastline_ways": {
+      "nodes": 0,
+      "ways": 8,
+      "relations": 0,
+      "total": 8
+    },
+    "park_ways": {
+      "nodes": 0,
+      "ways": 49,
+      "relations": 0,
+      "total": 49
+    },
+    "park_relations": {
+      "nodes": 0,
+      "ways": 0,
+      "relations": 3,
+      "total": 3
+    },
+    "vegetation_ways": {
+      "nodes": 0,
+      "ways": 1368,
+      "relations": 0,
+      "total": 1368
+    },
+    "tourism_attraction_objects": {
+      "nodes": 5,
+      "ways": 13,
+      "relations": 0,
+      "total": 18
+    },
+    "named_street_ways": {
+      "nodes": 0,
+      "ways": 1376,
+      "relations": 0,
+      "total": 1376
+    },
+    "street_ways_with_name_en": {
+      "nodes": 0,
+      "ways": 1371,
+      "relations": 0,
+      "total": 1371
+    },
+    "street_ways_with_name_ka": {
+      "nodes": 0,
+      "ways": 1362,
+      "relations": 0,
+      "total": 1362
+    },
+    "street_ways_with_georgian_in_name": {
+      "nodes": 0,
+      "ways": 1376,
+      "relations": 0,
+      "total": 1376
+    },
+    "attraction_objects_with_name_en": {
+      "nodes": 4,
+      "ways": 10,
+      "relations": 0,
+      "total": 14
+    },
+    "attraction_objects_with_name_ka": {
+      "nodes": 1,
+      "ways": 7,
+      "relations": 0,
+      "total": 8
+    }
+  },
+  "labels": [
+    {
+      "sourceId": "relation/3164797",
+      "name": "6 მაისი პარკი",
+      "name_en": "6 May Park",
+      "name_ka": "6 მაისი პარკი",
+      "leisure": "park"
+    },
+    {
+      "sourceId": "way/34910874",
+      "name": "ნურის ტბა",
+      "name_en": "Nuri Lake",
+      "name_ka": "ნურის ტბა",
+      "natural": "water"
+    },
+    {
+      "sourceId": "node/160257516",
+      "name": "ბათუმი",
+      "name_en": "Batumi",
+      "name_ka": "ბათუმი",
+      "place": "city"
+    },
+    {
+      "sourceId": "way/294880812",
+      "name": "პიაცა მოედანი",
+      "name_en": "Batumi Piazza",
+      "name_ka": "პიაცა მოედანი",
+      "category": "attraction"
+    },
+    {
+      "sourceId": "way/405852444",
+      "name": "ანბანის კოშკი",
+      "name_en": "Alphabetic Tower",
+      "name_ka": "ანბანის კოშკი",
+      "category": "attraction"
+    },
+    {
+      "sourceId": "way/1306367386",
+      "name": "ბათუმის შუქურა",
+      "name_en": "Batumi Lighthouse",
+      "name_ka": "ბათუმის შუქურა",
+      "category": "attraction"
+    }
+  ],
+  "httpStatus": 200,
+  "retrievedAt": "2026-10-09T20:45:42.554Z",
+  "bytes": 10734,
+  "rawSha256": "7db0d9848b55f11b1ed4d15fb2e967d2993ca8879efd8d4550058f9c66497af7",
+  "osmDatabaseTimestamp": "2026-10-09T20:44:33Z",
+  "labelProjection": "Six geographic labels selected for report verification; all 24 projected labels retained privately",
+  "licenseNotice": "Aggregate OSM audit and selected OSM names/IDs: ? OpenStreetMap contributors, ODbL 1.0; https://www.openstreetmap.org/copyright. Not a CitySense source-permission update."
+}

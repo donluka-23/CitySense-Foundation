@@ -1,0 +1,104 @@
+{
+  "scope": "Manually inspected configuration metadata; no vector tile extraction or rendering",
+  "provider": "OpenFreeMap",
+  "additionalAttempt": {
+    "client": "Python urllib default",
+    "status": 403
+  },
+  "responses": [
+    {
+      "url": "https://tiles.openfreemap.org/styles/liberty",
+      "status": 200,
+      "bytes": 43079,
+      "sha256": "6010998863b4876911ac9a2d62c9a28d97c8877f6d20cd158b74808572257b60",
+      "retrievedAt": "2026-10-09T20:49:50.966Z",
+      "styleVersion": 8,
+      "sources": {
+        "ne2_shaded": {
+          "maxzoom": 6,
+          "tileSize": 256,
+          "tiles": [
+            "https://tiles.openfreemap.org/natural_earth/ne2sr/{z}/{x}/{y}.png"
+          ],
+          "type": "raster"
+        },
+        "openmaptiles": {
+          "type": "vector",
+          "url": "https://tiles.openfreemap.org/planet"
+        }
+      },
+      "glyphs": "https://tiles.openfreemap.org/fonts/{fontstack}/{range}.pbf",
+      "sprite": "https://tiles.openfreemap.org/sprites/ofm_f384/ofm",
+      "buildingLayers": [
+        {
+          "id": "building",
+          "type": "fill",
+          "sourceLayer": "building",
+          "paint": {
+            "fill-color": "hsl(35,8%,85%)",
+            "fill-outline-color": [
+              "interpolate",
+              [
+                "linear"
+              ],
+              [
+                "zoom"
+              ],
+              13,
+              "hsla(35,6%,79%,0.32)",
+              14,
+              "hsl(35,6%,79%)"
+            ]
+          }
+        },
+        {
+          "id": "building-3d",
+          "type": "fill-extrusion",
+          "sourceLayer": "building",
+          "paint": {
+            "fill-extrusion-base": [
+              "get",
+              "render_min_height"
+            ],
+            "fill-extrusion-color": "hsl(35,8%,85%)",
+            "fill-extrusion-height": [
+              "get",
+              "render_height"
+            ],
+            "fill-extrusion-opacity": 0.8
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://tiles.openfreemap.org/planet",
+      "status": 200,
+      "bytes": 19254,
+      "sha256": "89433520bac4ce0cac9013a05d0f448f9e1bfa5fa2adb4610848ec5cf7dff005",
+      "retrievedAt": "2026-10-09T20:49:50.985Z",
+      "tiles": [
+        "https://tiles.openfreemap.org/planet/20261004_113936_pt/{z}/{x}/{y}.pbf"
+      ],
+      "maxzoom": 14,
+      "attribution": "<a href=\"https://openfreemap.org\" target=\"_blank\">OpenFreeMap</a> <a href=\"https://www.openmaptiles.org/\" target=\"_blank\">&copy; OpenMapTiles</a> Data from <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a>",
+      "buildingSchema": {
+        "id": "building",
+        "fields": {
+          "colour": "String",
+          "hide_3d": "Boolean",
+          "render_height": "Number",
+          "render_min_height": "Number"
+        },
+        "minzoom": 13,
+        "maxzoom": 14
+      },
+      "placeLanguages": [
+        "name",
+        "name:en",
+        "name:ka",
+        "name:latin",
+        "name:nonlatin"
+      ]
+    }
+  ]
+}

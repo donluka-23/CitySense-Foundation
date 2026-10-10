@@ -1,0 +1,19 @@
+{
+  "total": 115,
+  "sprint1_tests_retained": 66,
+  "new_cases": 49,
+  "real_postgis_integration_cases": 16,
+  "by_module": {
+    "tests.test_baseline_capture": 9,
+    "tests.test_engine": 16,
+    "tests.test_evaluation": 14,
+    "tests.test_ingestion": 18,
+    "tests.test_native_sources": 18,
+    "tests.test_opportunities": 10,
+    "tests.test_platform": 12,
+    "tests.test_postgis": 12,
+    "tests.test_security": 6
+  },
+  "skipped": 0,
+  "failed": 0
+}

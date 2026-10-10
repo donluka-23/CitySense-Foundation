@@ -1,0 +1,69 @@
+{
+  "categories": [
+    {
+      "category": "Python environment",
+      "inspectionFileCount": 6880,
+      "reason": "Python environment",
+      "preservedOnDisk": true
+    },
+    {
+      "category": "documented private research evidence; keep local",
+      "inspectionFileCount": 8,
+      "reason": "documented private research evidence; keep local",
+      "preservedOnDisk": true
+    },
+    {
+      "category": "duplicate isolated installation/reproduction workspace",
+      "inspectionFileCount": 52,
+      "reason": "duplicate isolated installation/reproduction workspace",
+      "preservedOnDisk": true
+    },
+    {
+      "category": "generated cache",
+      "inspectionFileCount": 2064,
+      "reason": "generated cache",
+      "preservedOnDisk": true
+    },
+    {
+      "category": "generated package metadata",
+      "inspectionFileCount": 5,
+      "reason": "generated package metadata",
+      "preservedOnDisk": true
+    },
+    {
+      "category": "installed JavaScript dependencies",
+      "inspectionFileCount": 1795,
+      "reason": "installed JavaScript dependencies",
+      "preservedOnDisk": true
+    },
+    {
+      "category": "private local state/recovery",
+      "inspectionFileCount": 40436,
+      "reason": "private local state/recovery",
+      "preservedOnDisk": true
+    },
+    {
+      "category": "temporary runtime log",
+      "inspectionFileCount": 2,
+      "reason": "temporary runtime log",
+      "preservedOnDisk": true
+    },
+    {
+      "category": "unapproved redistribution of third-party document copy",
+      "inspectionFileCount": 2,
+      "reason": "unapproved redistribution of third-party document copy",
+      "preservedOnDisk": true
+    }
+  ],
+  "countScope": "Read-only pre-initialization inspection; later G1 outputs are also ignored.",
+  "prospectiveRules": [
+    "Real environment files and common key/token/private-key files",
+    "Virtual environments, installed packages and caches",
+    "Editor/machine files and temporary build/test output"
+  ],
+  "privateResearchPolicy": "README, CODEX_HANDOFF and Sprint 3 report designate real geometry/raw captures as private; they remain ignored.",
+  "thirdPartyCopies": "Local Mapbox terms PDF and extracted text remain intact outside the baseline; redistribution rights were not established. Existing documentation retains official URLs.",
+  "evidencePolicy": "No blanket artifacts/ or log exclusion. Reviewed historical logs, JUnit, summaries, synthetic receipts and aggregate map coverage queries/results are included. Disposable clean-install copies are excluded; canonical source/locks and public summaries remain included.",
+  "rejectedHistoryPolicy": "Rejected implementation source is absent. Its old design reports, validation receipts and redacted logs are retained as historical evidence; the rollback reports establish rejection and removal.",
+  "allExcludedFilesRetained": true
+}

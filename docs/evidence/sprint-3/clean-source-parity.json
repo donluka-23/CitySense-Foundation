@@ -1,0 +1,270 @@
+{
+  "equal": true,
+  "generated_metadata_and_caches_excluded": true,
+  "files": [
+    {
+      "path": "services/api/src/citysense/agent_tools.py",
+      "sha256": "a7222b94e39760dc13a73a322af002a0b0638bf694b357d7c0e525d83b22178f"
+    },
+    {
+      "path": "services/api/src/citysense/app.py",
+      "sha256": "d85760e98c33725f9d3e1598f5cf7a22c821bdb3aa4698ffcc9db0a1671ff8e8"
+    },
+    {
+      "path": "services/api/src/citysense/baseline_capture.py",
+      "sha256": "d4e432ef4f5624030a6a7388f37becee84b26cb03efb1a43f19f06ee8377b0db"
+    },
+    {
+      "path": "services/api/src/citysense/baseline_runner.py",
+      "sha256": "f95bdebf443a7190400f05752bb42d638f1b0fd261f9b33159007475e022e1ea"
+    },
+    {
+      "path": "services/api/src/citysense/db.py",
+      "sha256": "703f6aae63685fe5958fb455476b6c48a362acd51ec94cda5ad6891427eb0ada"
+    },
+    {
+      "path": "services/api/src/citysense/engine.py",
+      "sha256": "c2d0dae5943308958336aea5556334738336cd6d9053c5811d7cf89e55c10dc9"
+    },
+    {
+      "path": "services/api/src/citysense/evaluation.py",
+      "sha256": "dbee870c123471370970c1e3a008ca42002331d6223b07bad17f0545c8e554a4"
+    },
+    {
+      "path": "services/api/src/citysense/ingestion.py",
+      "sha256": "94429b4dfd3bd2a256047e32ba11fb49adb1fc8889096fb28dd58b92268f3700"
+    },
+    {
+      "path": "services/api/src/citysense/models.py",
+      "sha256": "bdf6456b9dbc8f16faf6043a42831d4e22f14f5b56f03e45468a07700781cded"
+    },
+    {
+      "path": "services/api/src/citysense/native_sources.py",
+      "sha256": "967cd79a8797f2493de6a9a34c2308a329835a15486b5f21412ac2aeabee63ca"
+    },
+    {
+      "path": "services/api/src/citysense/opportunities.py",
+      "sha256": "c277f8fa23056633fb9cc3b49cd0e7e1aac3fca87886ce16909597ffc77c5d3b"
+    },
+    {
+      "path": "services/api/src/citysense/parameters.py",
+      "sha256": "74e3beda3d1e124d69d49e835c9c8bf04917e7f67ba8ecf71c8ab4d93501ea50"
+    },
+    {
+      "path": "services/api/src/citysense/platform.py",
+      "sha256": "2e58b7ab33dcbea4e5c9f24060ebae0adfa0fd85dbcdbdb6becd1246879ef4e0"
+    },
+    {
+      "path": "services/api/src/citysense/platform_api.py",
+      "sha256": "4f2093dc220efe515ebb67e41fe8ed9c85c5cbdbe04960558ae566db5f0fa4f6"
+    },
+    {
+      "path": "services/api/src/citysense/prospective_audit.py",
+      "sha256": "9c3b9275b689ea011de84a9541f1e232086e5e2fb1ea900b10b4765fa509b1b9"
+    },
+    {
+      "path": "services/api/src/citysense/real_context.py",
+      "sha256": "a829c82d924178a07e4a6b739c0195dfa508f4ca0328713614f0a5a9a5abb982"
+    },
+    {
+      "path": "services/api/src/citysense/security.py",
+      "sha256": "35a555fec564a2eeb6660a444f3be4ed23126eed170841a087253b20b10340b3"
+    },
+    {
+      "path": "services/api/src/citysense/telegram_demo.py",
+      "sha256": "3625cca2044fe2d41f86e09ea9f213d14d9b4f326958f8f02f05ba69298be902"
+    },
+    {
+      "path": "services/api/src/citysense/__init__.py",
+      "sha256": "931d3ea05140a44131f22bc8cb1ab86c889a449f969c82b2674f752baae5861d"
+    },
+    {
+      "path": "services/api/src/citysense/parameters/cities.json",
+      "sha256": "05879779ff98ba708535948e3d13032cac08fd45b06ea59ec14c73a5f09cf3fe"
+    },
+    {
+      "path": "services/api/src/citysense/parameters/heuristic-0.2.0.json",
+      "sha256": "394eedccc641551ab0a50542df8cd975bed27c0b2fbb1cd457714aa80c0d97bb"
+    },
+    {
+      "path": "services/api/tests/conftest.py",
+      "sha256": "fce4401eb15314fbe3b4f9135d0257b3a8c575ad44dc7ad480c2f003630dae98"
+    },
+    {
+      "path": "services/api/tests/test_baseline_capture.py",
+      "sha256": "5749e2a172ca2c22624969dab9913f0de421a26b649c94bf1e7057bb22e9dc0e"
+    },
+    {
+      "path": "services/api/tests/test_baseline_limits.py",
+      "sha256": "22d38e474a0fb062233cf3046362305fef4897171fb1438b1cb51b2524da9769"
+    },
+    {
+      "path": "services/api/tests/test_baseline_runner.py",
+      "sha256": "31c09e58d9ad844c0dea7e1040bec6619a2b7c1e7e36810dc5ceb40107c26549"
+    },
+    {
+      "path": "services/api/tests/test_engine.py",
+      "sha256": "2d94ccf36943b34f94a68abc0680c76230001d2f0a0eb958824d46d1af26b4b4"
+    },
+    {
+      "path": "services/api/tests/test_evaluation.py",
+      "sha256": "7f5953e87deda0d9b2b8d216ea072476a56a838c32eba1dd1a255010ddebaaf2"
+    },
+    {
+      "path": "services/api/tests/test_ingestion.py",
+      "sha256": "61b2ed53b471ef905729c742788532349cde4d338f787e3dffed4c7492c1545b"
+    },
+    {
+      "path": "services/api/tests/test_native_sources.py",
+      "sha256": "64688a4068f9f9a93d048925cefca40c30c9945240e5b91fe641b6b0441beb5b"
+    },
+    {
+      "path": "services/api/tests/test_opportunities.py",
+      "sha256": "7dfe97f01eedb9be92132ea047d6932d0a1d815d16973aa22af9deebcf9c679e"
+    },
+    {
+      "path": "services/api/tests/test_platform.py",
+      "sha256": "1a8db52abceaa230ede20e5de95e616ffe6537a7657fffb046b04ab81c352790"
+    },
+    {
+      "path": "services/api/tests/test_postgis.py",
+      "sha256": "fe869e68f13994e7d9a8f78d2fae1bc7ff34366706bff979aa98bcd8f80df916"
+    },
+    {
+      "path": "services/api/tests/test_prospective_audit.py",
+      "sha256": "65ff79efe109a5d00bff92b57a63cac88d206dff6a69d2f23a86576edea5d00e"
+    },
+    {
+      "path": "services/api/tests/test_real_context.py",
+      "sha256": "eeb2abd17f92fd95974c056750bad66640e662c5436d4689839c5fdd3692263d"
+    },
+    {
+      "path": "services/api/tests/test_security.py",
+      "sha256": "ddadc57e9272dfbd0d3cec00f2feacb98f9cd1c02a80b8c90a998031d4f15fde"
+    },
+    {
+      "path": "services/api/tests/test_telegram_demo.py",
+      "sha256": "8e54f2e20490c82e8fdd7c723bb431d420ac6ea5df7867699f002da9ecad50de"
+    },
+    {
+      "path": "services/api/tests/fixtures/a1-fixture-config.json",
+      "sha256": "8f0ff70254570f40c79eb55d91680bf376faf0e0911669d1d4986d9a5e04c6e5"
+    },
+    {
+      "path": "services/api/tests/fixtures/baseline-artifact.json",
+      "sha256": "f5ededd4c99338b8d02d7051cde9e4891eb547ff250b7d8005534b952ffbe1fb"
+    },
+    {
+      "path": "services/api/tests/fixtures/evaluation-manifest.json",
+      "sha256": "818aa28550a26f4bf64aa36e85b84830248f8c8fd630a698f9048c73a351192c"
+    },
+    {
+      "path": "services/api/tests/fixtures/observations.json",
+      "sha256": "f660d795bec3ef91929dd88ce3cfc390e1f108f0effded9861362ad5a8648ca3"
+    },
+    {
+      "path": "services/api/tests/fixtures/prospective-manifest.json",
+      "sha256": "a935363a7823a6373cadde895230ac8c7c501318562dcd3c80bda98e7582cdb6"
+    },
+    {
+      "path": "services/api/tests/fixtures/request.json",
+      "sha256": "1d54159690e97088776d2010af53d3f82d8a6c091f1271419ca2aa3e2d40595f"
+    },
+    {
+      "path": "services/api/tests/fixtures/source-metadata.json",
+      "sha256": "7ab86fe820a150edc8bb49b2daa93120b89d821df1e7220b24779ce096114866"
+    },
+    {
+      "path": "services/api/scripts/build_sprint3_fixtures.py",
+      "sha256": "64506b7db637ead5e121f412490fcd58ac0fc9e9270836b363957288ef877a39"
+    },
+    {
+      "path": "services/api/scripts/build_synthetic_fixtures.py",
+      "sha256": "02444d3750be054342a3a774f2131b248c05845c2001771781a017508919fe22"
+    },
+    {
+      "path": "services/api/scripts/check.py",
+      "sha256": "7634d848b946081d5d54aededa0089f589b93dd9c800a200539e6e0fd548dda0"
+    },
+    {
+      "path": "services/api/scripts/compare_a1_b0.py",
+      "sha256": "8abcc238331dbffc2a87fcecea402a6c448c92c5050abde692dcbe8bf0360716"
+    },
+    {
+      "path": "services/api/scripts/demonstrate_osm.py",
+      "sha256": "82a4fb425b0e5c4032a8cc8f250a5b1b87833f2938505232506b7b2eabd0f078"
+    },
+    {
+      "path": "services/api/scripts/demo_offline.py",
+      "sha256": "26177067823a5545127ef10601992b3d7b0cfaa14c0f823a811db5f5460b2eb7"
+    },
+    {
+      "path": "services/api/scripts/export_contracts.py",
+      "sha256": "dc34c76c77fb62bbec1b6119bd0a0ae8468bc5753f50406297a599f83cc0b7d2"
+    },
+    {
+      "path": "services/api/scripts/init_local_env.py",
+      "sha256": "0ec6fcbf89fbc3f7385cb945f8e8770ab4cb37331a6ad11922b46d1feaaa3fdd"
+    },
+    {
+      "path": "services/api/scripts/load_synthetic_demo.py",
+      "sha256": "072fb7c301af062920de4c84fc3d47cea70fdc39302f108d926f96c504523b6e"
+    },
+    {
+      "path": "services/api/scripts/persist_osm_archive.py",
+      "sha256": "0dc3fdfe0c54310d114f5807fa5e07aa9a5b2a04705c6e7368ea3fb3b671b3d4"
+    },
+    {
+      "path": "services/api/scripts/real_workflow.py",
+      "sha256": "492a9c46c15b446e4ed3f5df6dfc3094dc2ea452bbe67ccf8753aa06311ab181"
+    },
+    {
+      "path": "services/api/scripts/run_a1.py",
+      "sha256": "d58dbd765707900177be8116c603123f8b60be00964c802ed5a98517df719378"
+    },
+    {
+      "path": "services/api/scripts/run_synthetic_experiment.py",
+      "sha256": "63fb24b93db89fb9d200ad99eca0cfaaa614aa07dcdf96018a1cf8c4ff22cb83"
+    },
+    {
+      "path": "services/api/scripts/run_telegram.py",
+      "sha256": "586fd245c2d0b571b181649a00c6c4c3ca5732e3851fb26b6b41595e831dc906"
+    },
+    {
+      "path": "services/api/scripts/seed_synthetic.py",
+      "sha256": "6779c98473830a1dee38c98d7da6633633a1b4c1c18d52533efdf78a970cebb4"
+    },
+    {
+      "path": "services/api/scripts/validate_ci.py",
+      "sha256": "4085dcadb0006fbe98b0cc9dd90b1224011ac7b4fd6866f38df3b32d8836bfbc"
+    },
+    {
+      "path": "services/api/migrations/env.py",
+      "sha256": "20e02c0a3ba79f0b97d96a0e7fd4093e370ed95af58fc5465ab364565e966f91"
+    },
+    {
+      "path": "services/api/migrations/script.py.mako",
+      "sha256": "7f269a29705ee3496d305c0dcea5e950a79d1f8fc0431e79da64dd56f390a694"
+    },
+    {
+      "path": "services/api/migrations/versions/0001_foundation.py",
+      "sha256": "9eee6b479beba187fdb0e686b4c434d4e621456e2fa3c784f7b61c4b8ab5b6f9"
+    },
+    {
+      "path": "services/api/migrations/versions/0001_foundation.sql",
+      "sha256": "e577f795702087b9eccd65ab2d3e0328beab880e7167cf861ac1d57f799d77a2"
+    },
+    {
+      "path": "services/api/migrations/versions/0002_geometry_revisions.py",
+      "sha256": "0dd652bf50bb4cafafc7fb5146c23a036b11b4cd0500fc1ee6955b640ca769aa"
+    },
+    {
+      "path": "services/api/pyproject.toml",
+      "sha256": "413f164d9c97f1b4a4a5c5a09d25e93cae5caea4e4c55cc7d5f556f9732dfd08"
+    },
+    {
+      "path": "services/api/uv.lock",
+      "sha256": "25d1b0ba16542d745184f65a3f5f02dd6a1b113aaf99dec024112824fd289c69"
+    }
+  ]
+}

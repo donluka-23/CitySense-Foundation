@@ -1,0 +1,538 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-09T20:44:33Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "count",
+  "id": 0,
+  "tags": {
+    "nodes": "0",
+    "ways": "7796",
+    "relations": "0",
+    "total": "7796"
+  }
+},
+{
+  "type": "count",
+  "id": 0,
+  "tags": {
+    "nodes": "0",
+    "ways": "2973",
+    "relations": "0",
+    "total": "2973"
+  }
+},
+{
+  "type": "count",
+  "id": 0,
+  "tags": {
+    "nodes": "0",
+    "ways": "15406",
+    "relations": "0",
+    "total": "15406"
+  }
+},
+{
+  "type": "count",
+  "id": 0,
+  "tags": {
+    "nodes": "0",
+    "ways": "0",
+    "relations": "45",
+    "total": "45"
+  }
+},
+{
+  "type": "count",
+  "id": 0,
+  "tags": {
+    "nodes": "0",
+    "ways": "76",
+    "relations": "0",
+    "total": "76"
+  }
+},
+{
+  "type": "count",
+  "id": 0,
+  "tags": {
+    "nodes": "0",
+    "ways": "3846",
+    "relations": "0",
+    "total": "3846"
+  }
+},
+{
+  "type": "count",
+  "id": 0,
+  "tags": {
+    "nodes": "0",
+    "ways": "3854",
+    "relations": "0",
+    "total": "3854"
+  }
+},
+{
+  "type": "count",
+  "id": 0,
+  "tags": {
+    "nodes": "0",
+    "ways": "237",
+    "relations": "0",
+    "total": "237"
+  }
+},
+{
+  "type": "count",
+  "id": 0,
+  "tags": {
+    "nodes": "0",
+    "ways": "8",
+    "relations": "0",
+    "total": "8"
+  }
+},
+{
+  "type": "count",
+  "id": 0,
+  "tags": {
+    "nodes": "0",
+    "ways": "49",
+    "relations": "0",
+    "total": "49"
+  }
+},
+{
+  "type": "count",
+  "id": 0,
+  "tags": {
+    "nodes": "0",
+    "ways": "0",
+    "relations": "3",
+    "total": "3"
+  }
+},
+{
+  "type": "count",
+  "id": 0,
+  "tags": {
+    "nodes": "0",
+    "ways": "1368",
+    "relations": "0",
+    "total": "1368"
+  }
+},
+{
+  "type": "count",
+  "id": 0,
+  "tags": {
+    "nodes": "5",
+    "ways": "13",
+    "relations": "0",
+    "total": "18"
+  }
+},
+{
+  "type": "count",
+  "id": 0,
+  "tags": {
+    "nodes": "0",
+    "ways": "1376",
+    "relations": "0",
+    "total": "1376"
+  }
+},
+{
+  "type": "count",
+  "id": 0,
+  "tags": {
+    "nodes": "0",
+    "ways": "1371",
+    "relations": "0",
+    "total": "1371"
+  }
+},
+{
+  "type": "count",
+  "id": 0,
+  "tags": {
+    "nodes": "0",
+    "ways": "1362",
+    "relations": "0",
+    "total": "1362"
+  }
+},
+{
+  "type": "count",
+  "id": 0,
+  "tags": {
+    "nodes": "0",
+    "ways": "1376",
+    "relations": "0",
+    "total": "1376"
+  }
+},
+{
+  "type": "count",
+  "id": 0,
+  "tags": {
+    "nodes": "4",
+    "ways": "10",
+    "relations": "0",
+    "total": "14"
+  }
+},
+{
+  "type": "count",
+  "id": 0,
+  "tags": {
+    "nodes": "1",
+    "ways": "7",
+    "relations": "0",
+    "total": "8"
+  }
+},
+{
+  "type": "audit_label",
+  "id": 2009237,
+  "tags": {
+    "osm_type": "relation",
+    "name": "ბათუმი",
+    "name_en": "Batumi",
+    "name_ka": "ბათუმი",
+    "category": "",
+    "leisure": "",
+    "natural": "",
+    "place": "city"
+  }
+},
+{
+  "type": "audit_label",
+  "id": 2337359,
+  "tags": {
+    "osm_type": "relation",
+    "name": "არდაგანის ტბა",
+    "name_en": "Ardagani Lake",
+    "name_ka": "არდაგანის ტბა",
+    "category": "",
+    "leisure": "",
+    "natural": "water",
+    "place": ""
+  }
+},
+{
+  "type": "audit_label",
+  "id": 3164797,
+  "tags": {
+    "osm_type": "relation",
+    "name": "6 მაისი პარკი",
+    "name_en": "6 May Park",
+    "name_ka": "6 მაისი პარკი",
+    "category": "",
+    "leisure": "park",
+    "natural": "",
+    "place": ""
+  }
+},
+{
+  "type": "audit_label",
+  "id": 34910874,
+  "tags": {
+    "osm_type": "way",
+    "name": "ნურის ტბა",
+    "name_en": "Nuri Lake",
+    "name_ka": "ნურის ტბა",
+    "category": "",
+    "leisure": "",
+    "natural": "water",
+    "place": ""
+  }
+},
+{
+  "type": "audit_label",
+  "id": 82490627,
+  "tags": {
+    "osm_type": "way",
+    "name": "მოცეკვავე შადრევანი",
+    "name_en": "Music fountain",
+    "name_ka": "მოცეკვავე შადრევანი",
+    "category": "",
+    "leisure": "",
+    "natural": "water",
+    "place": ""
+  }
+},
+{
+  "type": "audit_label",
+  "id": 93574740,
+  "tags": {
+    "osm_type": "way",
+    "name": "მოცეკვავე შადრევანი",
+    "name_en": "Dancing fountain",
+    "name_ka": "",
+    "category": "attraction",
+    "leisure": "",
+    "natural": "",
+    "place": ""
+  }
+},
+{
+  "type": "audit_label",
+  "id": 96037257,
+  "tags": {
+    "osm_type": "way",
+    "name": "ცირკი",
+    "name_en": "Circus",
+    "name_ka": "ცირკი",
+    "category": "attraction",
+    "leisure": "",
+    "natural": "",
+    "place": ""
+  }
+},
+{
+  "type": "audit_label",
+  "id": 96042368,
+  "tags": {
+    "osm_type": "way",
+    "name": "ღვთისმშობლის შობის სახელობის საკათედრო ტაძარი",
+    "name_en": "Batumi Cathedral of the Mother of God",
+    "name_ka": "ღვთისმშობლის შობის სახელობის საკათედრო ტაძარი",
+    "category": "attraction",
+    "leisure": "",
+    "natural": "",
+    "place": ""
+  }
+},
+{
+  "type": "audit_label",
+  "id": 160257516,
+  "tags": {
+    "osm_type": "node",
+    "name": "ბათუმი",
+    "name_en": "Batumi",
+    "name_ka": "ბათუმი",
+    "category": "",
+    "leisure": "",
+    "natural": "",
+    "place": "city"
+  }
+},
+{
+  "type": "audit_label",
+  "id": 294880812,
+  "tags": {
+    "osm_type": "way",
+    "name": "პიაცა მოედანი",
+    "name_en": "Batumi Piazza",
+    "name_ka": "პიაცა მოედანი",
+    "category": "attraction",
+    "leisure": "",
+    "natural": "",
+    "place": ""
+  }
+},
+{
+  "type": "audit_label",
+  "id": 322849586,
+  "tags": {
+    "osm_type": "way",
+    "name": "აპოლო",
+    "name_en": "Apollo",
+    "name_ka": "აპოლო",
+    "category": "attraction",
+    "leisure": "",
+    "natural": "",
+    "place": ""
+  }
+},
+{
+  "type": "audit_label",
+  "id": 405852444,
+  "tags": {
+    "osm_type": "way",
+    "name": "ანბანის კოშკი",
+    "name_en": "Alphabetic Tower",
+    "name_ka": "ანბანის კოშკი",
+    "category": "attraction",
+    "leisure": "",
+    "natural": "",
+    "place": ""
+  }
+},
+{
+  "type": "audit_label",
+  "id": 413042164,
+  "tags": {
+    "osm_type": "way",
+    "name": "თამბაქოს მრეწველთა სახლი ლაზარე მურადის ძე ბინიატ-ოღლი (ბინიაშვილი)",
+    "name_en": "Tobacco grower Lazare Biniat-Ogli (Biniashvili) house",
+    "name_ka": "თამბაქოს მრეწველთა სახლი ლაზარე მურადის ძე ბინიატ-ოღლი (ბინიაშვილი)",
+    "category": "attraction",
+    "leisure": "",
+    "natural": "",
+    "place": ""
+  }
+},
+{
+  "type": "audit_label",
+  "id": 423943865,
+  "tags": {
+    "osm_type": "way",
+    "name": "ფანტაზია",
+    "name_en": "Fantasy",
+    "name_ka": "",
+    "category": "attraction",
+    "leisure": "",
+    "natural": "",
+    "place": ""
+  }
+},
+{
+  "type": "audit_label",
+  "id": 456726791,
+  "tags": {
+    "osm_type": "way",
+    "name": "შინდისის გმირების სახელობის პარკი",
+    "name_en": "Shindisi Heroes Park",
+    "name_ka": "",
+    "category": "",
+    "leisure": "park",
+    "natural": "",
+    "place": ""
+  }
+},
+{
+  "type": "audit_label",
+  "id": 943864782,
+  "tags": {
+    "osm_type": "way",
+    "name": "გალაკტიონ ტაბიძის პარკი",
+    "name_en": "Galaktion Tabidze Park",
+    "name_ka": "გალაკტიონ ტაბიძის პარკი",
+    "category": "",
+    "leisure": "park",
+    "natural": "",
+    "place": ""
+  }
+},
+{
+  "type": "audit_label",
+  "id": 1071855424,
+  "tags": {
+    "osm_type": "way",
+    "name": "ნუგზარ ჯაფარიძის სახელობის სკვერი",
+    "name_en": "Nugzar Japaridze Public Garden",
+    "name_ka": "ნუგზარ ჯაფარიძის სახელობის სკვერი",
+    "category": "",
+    "leisure": "park",
+    "natural": "",
+    "place": ""
+  }
+},
+{
+  "type": "audit_label",
+  "id": 1104528856,
+  "tags": {
+    "osm_type": "way",
+    "name": "ლეხ და მარია კაჩინსკების პარკი",
+    "name_en": "Lech and Maria Kachinsky Park",
+    "name_ka": "ლეხ და მარია კაჩინსკების პარკი",
+    "category": "",
+    "leisure": "park",
+    "natural": "",
+    "place": ""
+  }
+},
+{
+  "type": "audit_label",
+  "id": 1306367386,
+  "tags": {
+    "osm_type": "way",
+    "name": "ბათუმის შუქურა",
+    "name_en": "Batumi Lighthouse",
+    "name_ka": "ბათუმის შუქურა",
+    "category": "attraction",
+    "leisure": "",
+    "natural": "",
+    "place": ""
+  }
+},
+{
+  "type": "audit_label",
+  "id": 4248001794,
+  "tags": {
+    "osm_type": "node",
+    "name": "ასტრონომიული საათი",
+    "name_en": "Astronomical Clock",
+    "name_ka": "ასტრონომიული საათი",
+    "category": "attraction",
+    "leisure": "",
+    "natural": "",
+    "place": ""
+  }
+},
+{
+  "type": "audit_label",
+  "id": 10678600085,
+  "tags": {
+    "osm_type": "node",
+    "name": "მიტოვებული საბჭოთა საარტილერიო ბატარეა #431",
+    "name_en": "Abandoned Soviet Artillery Battery #431",
+    "name_ka": "",
+    "category": "attraction",
+    "leisure": "",
+    "natural": "",
+    "place": ""
+  }
+},
+{
+  "type": "audit_label",
+  "id": 11964372469,
+  "tags": {
+    "osm_type": "node",
+    "name": "Арка сэрца",
+    "name_en": "Heart Arch",
+    "name_ka": "",
+    "category": "attraction",
+    "leisure": "",
+    "natural": "",
+    "place": ""
+  }
+},
+{
+  "type": "audit_label",
+  "id": 13789665901,
+  "tags": {
+    "osm_type": "node",
+    "name": "Japanese Garden",
+    "name_en": "Japanese Garden",
+    "name_ka": "",
+    "category": "",
+    "leisure": "park",
+    "natural": "",
+    "place": ""
+  }
+},
+{
+  "type": "audit_label",
+  "id": 13827694165,
+  "tags": {
+    "osm_type": "node",
+    "name": "Equator Boat",
+    "name_en": "Equator Boat",
+    "name_ka": "",
+    "category": "attraction",
+    "leisure": "",
+    "natural": "",
+    "place": ""
+  }
+}
+
+  ]
+}

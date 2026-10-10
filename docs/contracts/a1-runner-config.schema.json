@@ -1,0 +1,103 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "input_usd_per_million": {
+      "minimum": 0,
+      "title": "Input Usd Per Million",
+      "type": "number"
+    },
+    "latency_seconds": {
+      "default": 30,
+      "exclusiveMinimum": 0,
+      "maximum": 120,
+      "title": "Latency Seconds",
+      "type": "number"
+    },
+    "max_cost_usd": {
+      "default": 0.1,
+      "exclusiveMinimum": 0,
+      "maximum": 10,
+      "title": "Max Cost Usd",
+      "type": "number"
+    },
+    "max_output_tokens": {
+      "default": 512,
+      "maximum": 4096,
+      "minimum": 16,
+      "title": "Max Output Tokens",
+      "type": "integer"
+    },
+    "max_requests": {
+      "default": 4,
+      "maximum": 12,
+      "minimum": 2,
+      "title": "Max Requests",
+      "type": "integer"
+    },
+    "max_tool_calls": {
+      "default": 2,
+      "maximum": 10,
+      "minimum": 1,
+      "title": "Max Tool Calls",
+      "type": "integer"
+    },
+    "max_total_tokens": {
+      "default": 100000,
+      "maximum": 1000000,
+      "minimum": 32,
+      "title": "Max Total Tokens",
+      "type": "integer"
+    },
+    "model_id": {
+      "maxLength": 128,
+      "minLength": 1,
+      "pattern": "^[a-zA-Z0-9_.:-]+$",
+      "title": "Model Id",
+      "type": "string"
+    },
+    "output_usd_per_million": {
+      "minimum": 0,
+      "title": "Output Usd Per Million",
+      "type": "number"
+    },
+    "pricing_reviewed_at": {
+      "format": "date-time",
+      "title": "Pricing Reviewed At",
+      "type": "string"
+    },
+    "provider": {
+      "enum": [
+        "fixture",
+        "openai"
+      ],
+      "title": "Provider",
+      "type": "string"
+    },
+    "reasoning_effort": {
+      "anyOf": [
+        {
+          "enum": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Reasoning Effort"
+    }
+  },
+  "required": [
+    "provider",
+    "model_id",
+    "input_usd_per_million",
+    "output_usd_per_million",
+    "pricing_reviewed_at"
+  ],
+  "title": "RunnerConfig",
+  "type": "object"
+}

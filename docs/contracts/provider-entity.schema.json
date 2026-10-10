@@ -1,0 +1,437 @@
+{
+  "$defs": {
+    "Geometry": {
+      "additionalProperties": false,
+      "properties": {
+        "coordinates": {
+          "maxItems": 2,
+          "minItems": 2,
+          "prefixItems": [
+            {
+              "maximum": 180,
+              "minimum": -180,
+              "type": "number"
+            },
+            {
+              "maximum": 90,
+              "minimum": -90,
+              "type": "number"
+            }
+          ],
+          "title": "Coordinates",
+          "type": "array"
+        },
+        "license_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "License Id",
+          "type": "string"
+        },
+        "retrieved_at": {
+          "format": "date-time",
+          "title": "Retrieved At",
+          "type": "string"
+        },
+        "revision_id": {
+          "anyOf": [
+            {
+              "format": "uuid",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Revision Id"
+        },
+        "source_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "Source Id",
+          "type": "string"
+        },
+        "source_version": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "Source Version",
+          "type": "string"
+        },
+        "spatial_accuracy_m": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Spatial Accuracy M"
+        },
+        "srid": {
+          "const": 4326,
+          "default": 4326,
+          "title": "Srid",
+          "type": "integer"
+        },
+        "type": {
+          "const": "Point",
+          "default": "Point",
+          "title": "Type",
+          "type": "string"
+        },
+        "valid_at": {
+          "format": "date-time",
+          "title": "Valid At",
+          "type": "string"
+        },
+        "verification_status": {
+          "const": "source_reported_unverified",
+          "default": "source_reported_unverified",
+          "title": "Verification Status",
+          "type": "string"
+        }
+      },
+      "required": [
+        "coordinates",
+        "revision_id",
+        "valid_at",
+        "retrieved_at",
+        "source_id",
+        "source_version",
+        "license_id"
+      ],
+      "title": "Geometry",
+      "type": "object"
+    },
+    "Offer": {
+      "additionalProperties": false,
+      "properties": {
+        "availability": {
+          "default": "unknown",
+          "enum": [
+            "unknown",
+            "unavailable",
+            "reported_available",
+            "confirmed_available"
+          ],
+          "title": "Availability",
+          "type": "string"
+        },
+        "category": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "Category",
+          "type": "string"
+        },
+        "checked_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Checked At"
+        },
+        "confirmation_method": {
+          "default": "none",
+          "enum": [
+            "none",
+            "provider_api",
+            "operator_confirmation"
+          ],
+          "title": "Confirmation Method",
+          "type": "string"
+        },
+        "currency": {
+          "anyOf": [
+            {
+              "pattern": "^[A-Z]{3}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Currency"
+        },
+        "duration_minutes": {
+          "anyOf": [
+            {
+              "exclusiveMinimum": 0,
+              "maximum": 10080,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Duration Minutes"
+        },
+        "offer_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "Offer Id",
+          "type": "string"
+        },
+        "price": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Price"
+        },
+        "title": {
+          "maxLength": 200,
+          "minLength": 1,
+          "title": "Title",
+          "type": "string"
+        },
+        "valid_until": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Valid Until"
+        }
+      },
+      "required": [
+        "offer_id",
+        "category",
+        "title"
+      ],
+      "title": "Offer",
+      "type": "object"
+    },
+    "SourceMetadata": {
+      "additionalProperties": false,
+      "properties": {
+        "attribution_required": {
+          "title": "Attribution Required",
+          "type": "boolean"
+        },
+        "cache_allowed": {
+          "title": "Cache Allowed",
+          "type": "boolean"
+        },
+        "commercial_allowed": {
+          "title": "Commercial Allowed",
+          "type": "boolean"
+        },
+        "license_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "License Id",
+          "type": "string"
+        },
+        "redistribution_allowed": {
+          "title": "Redistribution Allowed",
+          "type": "boolean"
+        },
+        "research_allowed": {
+          "title": "Research Allowed",
+          "type": "boolean"
+        },
+        "reviewed_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reviewed At"
+        },
+        "source_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "Source Id",
+          "type": "string"
+        },
+        "source_version": {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "title": "Source Version",
+          "type": "string"
+        },
+        "synthetic": {
+          "title": "Synthetic",
+          "type": "boolean"
+        },
+        "terms_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Terms Url"
+        }
+      },
+      "required": [
+        "source_id",
+        "source_version",
+        "license_id",
+        "synthetic",
+        "research_allowed",
+        "commercial_allowed",
+        "cache_allowed",
+        "redistribution_allowed",
+        "attribution_required"
+      ],
+      "title": "SourceMetadata",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "booking_confirmation_adapter": {
+      "anyOf": [
+        {
+          "maxLength": 128,
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_.:-]+$",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Booking Confirmation Adapter"
+    },
+    "city_id": {
+      "maxLength": 128,
+      "minLength": 1,
+      "pattern": "^[a-zA-Z0-9_.:-]+$",
+      "title": "City Id",
+      "type": "string"
+    },
+    "display_name": {
+      "maxLength": 200,
+      "minLength": 1,
+      "title": "Display Name",
+      "type": "string"
+    },
+    "external_ids": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "maxProperties": 10,
+      "title": "External Ids",
+      "type": "object"
+    },
+    "geometry": {
+      "$ref": "#/$defs/Geometry"
+    },
+    "last_verified_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Last Verified At"
+    },
+    "lifecycle": {
+      "default": "discovered",
+      "enum": [
+        "discovered",
+        "verified",
+        "bookable"
+      ],
+      "title": "Lifecycle",
+      "type": "string"
+    },
+    "offers": {
+      "items": {
+        "$ref": "#/$defs/Offer"
+      },
+      "maxItems": 50,
+      "title": "Offers",
+      "type": "array"
+    },
+    "place_id": {
+      "maxLength": 128,
+      "minLength": 1,
+      "pattern": "^[a-zA-Z0-9_.:-]+$",
+      "title": "Place Id",
+      "type": "string"
+    },
+    "provider_id": {
+      "maxLength": 128,
+      "minLength": 1,
+      "pattern": "^[a-zA-Z0-9_.:-]+$",
+      "title": "Provider Id",
+      "type": "string"
+    },
+    "publication_permission": {
+      "default": false,
+      "title": "Publication Permission",
+      "type": "boolean"
+    },
+    "source": {
+      "$ref": "#/$defs/SourceMetadata"
+    },
+    "verification_method": {
+      "default": "none",
+      "enum": [
+        "none",
+        "document_review",
+        "operator_site_check"
+      ],
+      "title": "Verification Method",
+      "type": "string"
+    }
+  },
+  "required": [
+    "provider_id",
+    "place_id",
+    "city_id",
+    "display_name",
+    "geometry",
+    "source"
+  ],
+  "title": "ProviderEntity",
+  "type": "object"
+}

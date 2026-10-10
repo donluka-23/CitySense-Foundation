@@ -1,0 +1,21 @@
+{
+  "abstentions": 4,
+  "at": "2026-10-09T16:03:55.695994+00:00",
+  "candidate_count": 5,
+  "decision_at": "2026-10-09T15:34:00.699103+00:00",
+  "empirical_status": "NOT EVALUATED",
+  "environmental_features": 0,
+  "exact_replay_equal": true,
+  "hard_exclusions": 1,
+  "host_service_untouched": true,
+  "migration_head": "0002",
+  "non_null_scores": 0,
+  "operating_availability": "unknown",
+  "postgis": "3.6.2",
+  "postgresql": "PostgreSQL 16.14, compiled by Visual C++ build 1944, 64-bit",
+  "publication_denied": true,
+  "real_snapshot_id": "69d05735-0024-4375-84dc-04ca7a5a8b46",
+  "sprint1_snapshot_unchanged_replay": true,
+  "target_time": "2026-10-09T16:00:00+00:00",
+  "walking_evidence": "deliberate caller estimates; not measured routes"
+}
