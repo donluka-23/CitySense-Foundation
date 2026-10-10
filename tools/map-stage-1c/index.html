@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CitySense Stage 1C navigation experiment</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/vendor/maplibre-gl.css">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; height: 100dvh; display: flex; flex-direction: column; font: 14px system-ui, sans-serif; }
+    #controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 8px; }
+    label { display: inline-flex; align-items: center; gap: 4px; }
+    select, input, button { font: inherit; min-height: 30px; }
+    input[type=number] { width: 78px; }
+    #record { width: 132px; }
+    #status { margin: 0; padding: 4px 8px; border-top: 1px solid #ddd; }
+    #map { flex: 1; min-height: 0; }
+    .provider-logo { background: white; padding: 3px; }
+    .provider-logo img { width: 100px; height: auto; display: block; }
+  </style>
+</head>
+<body>
+  <form id="controls" aria-label="Navigation experiment settings">
+    <label>Preset <select id="preset" disabled></select></label>
+    <label>Camera <select id="condition" disabled><option value="2d">2D</option><option value="detail">Detail</option><option value="3d">3D</option></select></label>
+    <label><input id="buildings" type="checkbox" disabled>Provider 3D</label>
+    <label>Change <select id="motion" disabled><option value="immediate">Immediate</option><option value="short">Native transition</option></select></label>
+    <label>Candidate ms <input id="duration" type="number" min="0" step="50" value="400" disabled></label>
+    <button id="apply" type="submit" disabled>Apply camera</button>
+    <button id="stop" type="button" disabled>Stop camera</button>
+    <label>Repetition <input id="repetition" type="number" min="1" step="1" value="1"></label>
+    <button id="record" type="button" disabled>Record 30s</button>
+    <button id="export" type="button">Export JSON</button>
+  </form>
+  <p id="status" role="status">Initializing isolated experiment.</p>
+  <div id="map" aria-label="Interactive Batumi map"></div>
+  <script type="module" src="/navigation.mjs"></script>
+</body>
+</html>
