@@ -1,0 +1,740 @@
+--- before/AGENTS.md
++++ after/AGENTS.md
+@@ -6,7 +6,9 @@
+ 
+ ## Authority and scope
+ - Current user instructions set session scope. The bootstrap authorizes governance/configuration only.
+-- The three approved documents are retained byte-for-byte in docs/governance/SOURCES/.
++- Current approved sources: docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md and
++  docs/governance/CITYSENSE_AGENTIC_ENGINEERING_OPERATING_SYSTEM_v1_2.md; old SOURCES copies stay unchanged.
++- Read [versions](docs/governance/VERSION_REGISTER.md); source headers retain old version labels.
+ - DECIDED clauses establish direction; PROPOSED, TO VERIFY, TO VALIDATE and DEFERRED retain their meanings.
+ - Existing ADRs, executable schemas, frozen B0 and protected research protocols remain binding in their domains.
+ - Consult [precedence and decisions](docs/governance/DECISION_REGISTER.md) and [conflicts](docs/governance/RECONCILIATION.md).
+@@ -44,4 +46,10 @@
+   [interfaces](docs/governance/INTERFACE_REGISTRY.yaml), [risks](docs/governance/RISK_REGISTER.md),
+   [backlog](docs/governance/BACKLOG.md) and the current approval record.
+ - Check actual Git state, active agents and local capabilities before assigning work.
+-- Stop after governance/configuration review; await founder selection of the next approved ticket.
++- Read [stage gates](docs/governance/STAGE_GATES.md) and [approval ledger](docs/governance/FOUNDER_APPROVALS.md).
++- Every new stage is BLOCKED_AWAITING_FOUNDER_APPROVAL until exact stage/artifact/scope approval exists.
++- Task readiness, green tests, silence and predecessor completion never authorize the next stage.
++- Independent QA precedes Founder review; Chief cannot grant completion or successor permission.
++- UX-0–4 each need actual screenshots/interactive evidence and separate Founder visual approval.
++- Stage 1B closure or explicit risk waiver precedes map-style sign-off; Stage 1C feedback is insufficient.
++- Stop after current documentation packet; no product, captures, map stage or deployment authority follows.
+--- before/docs/governance/BACKLOG.md
++++ after/docs/governance/BACKLOG.md
+@@ -54,3 +54,29 @@
+ No fourth next ticket. Telegram extension, partner workspace, provider integration, payments, eSIM activation,
+ transport booking, external agent access/writes and multi-city launch require later separate scope/rights decisions.
+ Proposed numeric VDCR/TVD definitions and performance thresholds do not become release criteria by this plan.
++
++## Stage and next-ticket overlay — approved policy, proposed execution
++
++[STAGE_GATES](STAGE_GATES.md) and [FOUNDER_APPROVALS](FOUNDER_APPROVALS.md) control all future phases.
++Existing dates are advisory and must be replanned after actual approvals; no automatic calendar execution.
++T-01 Phase A/B each need exact stage/artifact/scope authorization; task readiness is insufficient.
++T-03 must satisfy Stage 1B closure or explicit Founder risk waiver before map-style sign-off.
++Only T-01–03 remain proposed; no fourth ticket or implementation is dispatched.
++
++Dependency graph (approval arrows require a separate written Founder decision):
++UX-0 scope approval → UX-0 actual reference/direction review → UX-1 scope/interaction review →
++UX-2 scope/visual review → UX-3 scope/prototype review → UX-4 scope/end-to-end pilot review.
++T-02 lawful candidates + approved T-01 contracts/privacy/access and T-03 map evidence feed this chain.
++Stage 1B closed/waived → map-style sign-off; UX-3 sign-off → broad functional integration;
++independent QA → Founder review at each stage. No predecessor PASS authorizes its successor.
++
++Next scope proposal: bounded UX-0 reference/direction readiness within existing T-03 preparation,
++with actual authorized reference evidence, full tourist journey and constraint inventory, independent QA and
++Founder direction review; no screen design, new map stage or implementation. Remains BLOCKED.
++Smallest later implementation ticket remains [T-01](TICKETS/T-01-VERTICAL-SLICE.md):
++one approved need/constraint set, two or more independently evidenced lawful candidates for positive comparison
++(up to five only if defensible), QR→need→compare→correct map/evidence→explicit selection and truthful available actions.
++Also verify missing/stale/denied evidence yields honest fewer/no options; measure completed selection against the
++approved validity instrument without inventing accuracy or numeric pilot success thresholds.
++Dependencies: FA-01–04/06/07/10, T-02/T-03, approved schemas/access/privacy, relevant completed UX checkpoints
++and separately scoped implementation/map approval. No contacts/booking/payment integration is required.
+--- before/docs/governance/CHANGE_REQUESTS/README.md
++++ after/docs/governance/CHANGE_REQUESTS/README.md
+@@ -18,3 +18,11 @@
+ market/provider/category/location model; allowed reads/actions; price/availability authority and freshness;
+ data/publication/redistribution/archival rights; consent and recipients; legal/rights owner;
+ client scopes; SLA or unknown; tests; approval/revocation status. Unknown entries block activation.
++
++## Approved v1.2 stage control
++
++[STAGE_GATES](../STAGE_GATES.md) and [FOUNDER_APPROVALS](../FOUNDER_APPROVALS.md) apply to every CR.
++Use CR-###, blueprint IDs, user impact, affected modules/contracts, scope/time/risk, alternatives and proposed stage.
++Founder owns tradeoffs and exact stage/artifact/scope approval; append the actual decision/provenance.
++A new idea remains intake, never automatic implementation or November scope. Revisions identify their artifact;
++scope increase requires fresh approval. Emergency triage does not authorize unrelated changes.
+--- before/docs/governance/CHIEF_ENGINEER_WORKFLOW.md
++++ after/docs/governance/CHIEF_ENGINEER_WORKFLOW.md
+@@ -42,3 +42,22 @@
+ On interruption, preserve changes and record lease, pending checks, approval state and safe next action in STATUS.
+ On restart compare actual HEAD/diff with the handoff base before applying it.
+ If native roles are unavailable, separate scoped sessions use the same lease and handoff; do not assume they synchronize.
++
++## Mandatory delivery-stage overlay — AEOS v1.2
++
++Read [versions](VERSION_REGISTER.md), [stage gates](STAGE_GATES.md) and [approval ledger](FOUNDER_APPROVALS.md).
++The task lifecycle above operates only inside an explicitly approved delivery stage. CONTRACT_READY/TASK_READY,
++technical PASS, green CI, silence or predecessor completion cannot authorize execution/advancement.
++Use the exact new stage lifecycle in STAGE_GATES. Chief assigns bounded tickets, base/artifact version,
++path leases and role/consumer contracts only within the approved scope; shared contracts and ledgers stay sequential.
++Stage 1B closure or explicit Founder risk waiver must precede map-style sign-off.
++UX-0–4 each require separate scope and actual visual evidence/Founder decisions; journey segments are coverage cases,
++not substitutes. No capture or prototype is created without its scoped authority.
++
++Integrate handoffs, inspect protected bytes and contracts, then obtain independent QA before Founder review.
++If review finds material changes, correct within current scope and obtain targeted independent re-review.
++Prepare every field in HANDOFF_TEMPLATE's stage packet; mark missing/N/A evidence truthfully.
++Append exact Founder decisions with timestamps/provenance and stage/artifact/scope; never infer old approvals.
++CHANGES_REQUESTED keeps the same stage; expanded scope needs CR and fresh approval.
++Stop at FOUNDER_REVIEW; only Founder may approve completion and separately authorize the successor.
++Future service/OpenAPI/MCP proposals remain gated, and idea intake cannot create automatic November scope.
+--- before/docs/governance/DECISION_REGISTER.md
++++ after/docs/governance/DECISION_REGISTER.md
+@@ -1,7 +1,8 @@
+ # Decision register and precedence
+ 
+ Adoption date: 2026-10-10. Accountable decision owner: Founder.
+-Source: [Blueprint v0.3](SOURCES/CITYSENSE_PRODUCT_BLUEPRINT_v0_3.md), individual ID clauses.
++Current source: [Blueprint v0.4](../product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md), individual ID clauses.
++Historical v0.3 source and original approval remain preserved; see [version register](VERSION_REGISTER.md).
+ The founder explicitly adopted all three documents as planning direction; adoption preserves each internal status.
+ The register is an index; exact source clauses and caveats control. Implementation is in STATUS, not this table.
+ 
+@@ -23,7 +24,9 @@
+ 
+ ## Founder decisions and unresolved clauses
+ 
+-All rows: owner Founder; source Blueprint v0.3 ID; adoption 2026-10-10.
++All rows: owner Founder; current source Blueprint v0.4 ID; adoption 2026-10-10.
++The inherited 45 statuses are unchanged; P-005–007 are new DECIDED clauses in §16.
++Exact clause/line traceability: [DECISION_TRACEABILITY](DECISION_TRACEABILITY.yaml).
+ Supersession: none, except V-001 explicitly supersedes blueprint v0.1; it does not supersede the repository protocol.
+ 
+ | ID | Source status (unchanged) | Direction / uncertainty |
+@@ -32,6 +35,9 @@
+ | P-002 | DECIDED | User needs/hard constraints before commercial priority; explain evidence and uncertainty. |
+ | P-003 | DECIDED | Long-term partner/action/booking workflow is integral. |
+ | P-004 | DECIDED | Mobile web QR entry without mandatory installation. |
++| P-005 | DECIDED | Sequential founder-controlled stages; explicit stage-specific advancement approval. |
++| P-006 | DECIDED | Distinct UI/UX and cartographic visual approvals using actual lawful artifacts. |
++| P-007 | DECIDED | Logged impact-reviewed ideas/scope changes; Chief integration, no automatic expansion. |
+ | G-001 | DECIDED | November 2026 supervised closed tourist pilot. |
+ | G-002 | DECIDED | 30 Orbi City A Block apartments: opportunity; permissions/occupancy unverified. |
+ | G-003 | PROPOSED | Proposed moderated 3–5 apartments then conditional expansion. |
+@@ -83,3 +89,10 @@
+ - T-01–03 in [backlog](BACKLOG.md) are PROPOSED / CR_DRAFT, not approved work.
+ - Future changes use [change control](CHANGE_REQUESTS/README.md), with exact approval instruction/date and
+   affected contract version. Preserve old source copies and add a new version instead of editing approved history.
++
++## Current adoption overlay — 2026-10-10
++
++The current intake expressly adopts v0.4/v1.2 and authorizes documentation maintenance only.
++[FOUNDER_APPROVALS](FOUNDER_APPROVALS.md) records this authority without fabricating a completion decision.
++[STAGE_GATES](STAGE_GATES.md) implements P-005–007 / AEOS v1.2; task states remain subordinate.
++CF-01/02/03 remain protected and unresolved; no newer product/governance source silently overrides them.
+--- before/docs/governance/FOUNDER_REVIEW_PACKET.md
++++ after/docs/governance/FOUNDER_REVIEW_PACKET.md
+@@ -1,52 +1,166 @@
+-# Founder Review Packet — orchestration acceptance
++# Founder Review Packet — approved document intake
+ 
+-Date: 2026-10-10. Result: **PARTIAL**. Product implementation readiness: **BLOCKED**.
+-Primary artifact: [ORCHESTRATION_ACCEPTANCE_REPORT](ORCHESTRATION_ACCEPTANCE_REPORT.md).
++Date: 2026-10-10, Asia/Tbilisi. Maintenance assessment: **PASS**, including independent final QA.
++Review artifact: DOC-INTAKE-2026-10-10 / intake-final-1; exact final file hashes are in the verification receipt.
++Delivery stage DOC-INTAKE-2026-10-10: **FOUNDER_REVIEW**, completion not approved.
++Product implementation readiness: **BLOCKED**. Historical orchestration acceptance remains **PARTIAL**.
++This packet is documentation review only; no product, map-stage or deployment authority follows.
+ 
+-## What was demonstrated
++## Complete source intake and identity
+ 
+-Five real read-only agents inspected one full tourist journey, using six portable role instruction layers.
+-Chief integrated product, lawful data, map/mobile, API and independent QA seams.
+-Named native profile loading, enforced filesystem isolation and product runtime acceptance are not claimed.
+-No product code/approved contract/map stage/feature/deployment changes.
++| Supplied source | Canonical repository copy | Source = copy SHA-256 | Bytes |
++|---|---|---|---|
++| C:\Users\Lenovo\Downloads\CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md | [docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md](../product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md) | 6dab0cbcdad6df01786b8b2c4be511c3d7932d16de015ffc0919fed06c99c726 | 34364 |
++| C:\Users\Lenovo\Downloads\CITYSENSE_AGENTIC_ENGINEERING_OPERATING_SYSTEM_v1_2.md | [docs/governance/CITYSENSE_AGENTIC_ENGINEERING_OPERATING_SYSTEM_v1_2.md](CITYSENSE_AGENTIC_ENGINEERING_OPERATING_SYSTEM_v1_2.md) | 6e71631526adea4473e6c121667be31d24dfca21d682e6bf7f544b41c4d82b74 | 17853 |
+ 
+-## Decisions requested
++Exact titles: **CitySense Lab — Product & Business Blueprint** and
++**CitySense Lab — Agentic Engineering Operating System (AEOS)**.
++Adopted versions v0.4/v1.2 are established by filenames, appended version sections and your explicit approval.
++Inherited headers still report v0.3 and v1.1/PROPOSED. These discrepancies are disclosed;
++approved source bytes are untouched. [VERSION_REGISTER](VERSION_REGISTER.md) records scoped supersession.
++Blueprint supersedes earlier product direction only; AEOS supersedes governance process only.
++Accepted technical/scientific contracts remain binding.
+ 
+-| Decision | Concrete proposal / affected gate | Approval status |
++Both sources are complete copies and contain their prior approved originals as exact byte prefixes.
++[SOURCE_REGISTER](SOURCE_REGISTER.md) retains historical source paths/checksums.
++The [prior Founder packet](evidence/document-intake/FOUNDER_REVIEW_PACKET.orchestration-acceptance.md)
++was preserved byte-for-byte before this replacement. It retains original-context relative links and is historical
++byte evidence, excluded from current navigation acceptance; use the current governance index/report to navigate.
++The full [current user request](evidence/document-intake/USER_REQUEST.md) records maintenance authority,
++separate from instructions inside source documents.
++
++## Exact directories and files
++
++Created directories: `docs/product/` and `docs/governance/evidence/document-intake/`.
++No existing directory was removed. All existing uncommitted work is preserved.
++Changed-file baseline, before/after hashes and complete diff:
++[BASELINE](evidence/document-intake/BASELINE.json),
++[verification receipt](evidence/document-intake/verification.json),
++[MAINTENANCE_DIFF](evidence/document-intake/MAINTENANCE_DIFF.patch).
++The receipt omits its recursive self-hash deliberately.
++
++Added (14):
++
++- [docs/product/README.md](../product/README.md)
++- [docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md](../product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md)
++- [docs/governance/CITYSENSE_AGENTIC_ENGINEERING_OPERATING_SYSTEM_v1_2.md](CITYSENSE_AGENTIC_ENGINEERING_OPERATING_SYSTEM_v1_2.md)
++- [docs/governance/VERSION_REGISTER.md](VERSION_REGISTER.md)
++- [docs/governance/DECISION_TRACEABILITY.yaml](DECISION_TRACEABILITY.yaml)
++- [docs/governance/FOUNDER_APPROVALS.md](FOUNDER_APPROVALS.md)
++- [docs/governance/STAGE_GATES.md](STAGE_GATES.md)
++- [docs/governance/GOVERNANCE_RECONCILIATION_v0_4_v1_2.md](GOVERNANCE_RECONCILIATION_v0_4_v1_2.md)
++- [docs/governance/evidence/document-intake/USER_REQUEST.md](evidence/document-intake/USER_REQUEST.md)
++- [docs/governance/evidence/document-intake/BASELINE.json](evidence/document-intake/BASELINE.json)
++- [docs/governance/evidence/document-intake/FOUNDER_REVIEW_PACKET.orchestration-acceptance.md](evidence/document-intake/FOUNDER_REVIEW_PACKET.orchestration-acceptance.md)
++- [docs/governance/evidence/document-intake/REVIEW_HANDOFFS.md](evidence/document-intake/REVIEW_HANDOFFS.md)
++- [docs/governance/evidence/document-intake/MAINTENANCE_DIFF.patch](evidence/document-intake/MAINTENANCE_DIFF.patch)
++- [docs/governance/evidence/document-intake/verification.json](evidence/document-intake/verification.json)
++
++Modified (18):
++
++- [AGENTS.md](../../AGENTS.md)
++- [docs/governance/README.md](README.md)
++- [docs/governance/DECISION_REGISTER.md](DECISION_REGISTER.md)
++- [docs/governance/SOURCE_REGISTER.md](SOURCE_REGISTER.md)
++- [docs/governance/PROJECT_CHARTER.md](PROJECT_CHARTER.md)
++- [docs/governance/CHIEF_ENGINEER_WORKFLOW.md](CHIEF_ENGINEER_WORKFLOW.md)
++- [docs/governance/STATUS.md](STATUS.md)
++- [docs/governance/RECONCILIATION.md](RECONCILIATION.md)
++- [docs/governance/BACKLOG.md](BACKLOG.md)
++- [docs/governance/RELEASE_GATES.md](RELEASE_GATES.md)
++- [docs/governance/HANDOFF_TEMPLATE.md](HANDOFF_TEMPLATE.md)
++- [docs/governance/CHANGE_REQUESTS/README.md](CHANGE_REQUESTS/README.md)
++- [docs/governance/ROLES/README.md](ROLES/README.md)
++- [docs/governance/TICKETS/T-01-VERTICAL-SLICE.md](TICKETS/T-01-VERTICAL-SLICE.md)
++- [docs/governance/TICKETS/T-02-INVENTORY.md](TICKETS/T-02-INVENTORY.md)
++- [docs/governance/TICKETS/T-03-VISUAL-REVIEW.md](TICKETS/T-03-VISUAL-REVIEW.md)
++- [docs/governance/FOUNDER_REVIEW_PACKET.md](FOUNDER_REVIEW_PACKET.md)
++- [docs/governance/PORTFOLIO_BOARD.yaml](PORTFOLIO_BOARD.yaml)
++
++No .codex configuration or role profile was changed. Historical bootstrap manifests/receipts and
++ORCHESTRATION_ACCEPTANCE_REPORT remain unchanged; this receipt is the current maintenance manifest.
++
++## Decisions, indexes and orchestration
++
++Product/governance indexes, source/version registers, charter, AGENTS and Chief workflow point to current sources.
++[DECISION_REGISTER](DECISION_REGISTER.md) and [DECISION_TRACEABILITY](DECISION_TRACEABILITY.yaml)
++preserve all **45** earlier IDs/statuses and add **P-005/P-006/P-007, DECIDED**, for **48** total.
++PROPOSED/TO VERIFY/TO VALIDATE clauses remain such; DECIDED never means implemented or validated.
++
++[STAGE_GATES](STAGE_GATES.md) installs the separate delivery-stage lifecycle and permission state.
++The append-only [FOUNDER_APPROVALS](FOUNDER_APPROVALS.md) records your actual current maintenance approval only;
++its stage label is administrative, recording time is distinguished from unavailable signature time,
++and no completion/UX/development approval is fabricated.
++Task readiness and stage authority coexist; calendar dates, CI green, silence, agents or predecessor completion
++cannot authorize advancement. Revisions stay in-stage; scope increase needs a CR and fresh approval.
++
++UX-0–4 each require scoped execution, actual screenshots/interactive evidence and separate Founder visual review.
++Historical journey segments remain coverage cases, not substitutes for maturity checkpoints.
++Stage 1B is PARTIAL and must close or receive an explicit Founder risk waiver before map-style sign-off.
++No UI artifacts or captures were authorized/produced here; demos/screenshots are N/A for this documentation stage.
++Independent QA completed before Founder submission: /root/intake_independent_qa, PASS, READ_ONLY.
++Documentation integrity uses 18 passing checks; no product tests or performance measurements were run.
++Initial construction check was PARTIAL only for links to the not-yet-created verification receipt; receipt creation
++and subsequent checks resolved this. The condition and correction remain in the handoff/receipt history.
++Product security/accessibility/performance are unverified; UI/device measurements are N/A to this documentation change.
++No original-scope deviation or unfinished maintenance item remains; Founder completion and future approvals remain pending.
++Governance is manual/documentary, not a proven CI permission gate.
++
++Actual portable contract and gate audit agents returned read-only handoffs and Chief integrated their findings;
++[independent review evidence](evidence/document-intake/REVIEW_HANDOFFS.md) records exact invocations/results.
++Previous operational test used five real agents/six role layers, but native profile loading and enforced filesystem
++isolation remain unverified. The shared workspace offers no OS isolation proof. Documents are not running agents.
++No external tools, providers, installations, configuration activation or experimental features were introduced.
++
++Future place/service/provider/action extensibility and versioned OpenAPI/governed secondary MCP remain approved direction.
++Existing service/access RFCs remain proposed; no booking/eSIM/driver/payment/partner/API integration is invented.
++
++## Protected conflicts and risks — approval still needed
++
++[Reconciliation](GOVERNANCE_RECONCILIATION_v0_4_v1_2.md) lists exact affected files, alternatives and compatibility:
++
++| Conflict | Concrete proposal | Founder approval / no change yet |
+ |---|---|---|
+-| Source authority | Provide actual approved v0.4 path and compare its decisions/supersession with current v0.3 register | PENDING; v0.4 not located |
+-| CF-01 | Separate product-pilot protocol from protected experienced-suitability research; approve criteria/denominator/clocks/privacy before events | PENDING FA-01/04 |
+-| CF-02 | Keep commercial priority inactive for first slice; later disclosed presentation ordering requires its own equivalence/disclosure CR | PENDING FA-05; no activation |
+-| CF-03 | Approve additive coverage-aware retrieval contract while preserving /v1; breaking changes require /v2 | PENDING FA-06 |
+-| Narrow task/data | Select first tourist need/constraints/language/device/capacity; independent lawful real inventory must support positive comparison | PENDING FA-02/T-02 |
+-| Visual process | Adopt explicit review for reference, QR, need, alternatives, comparison/refinement, map/evidence, selection/actions and integrated mobile | PENDING FA-07; no phase accepted |
+-| Placement/privacy | Confirm rooms/access/recruitment, minimal events/notice/consent, retention/withdrawal and supervised support | PENDING FA-03/04 |
+-| Next scope | Review the bounded existing T-01 refinement; prerequisites and explicit implementation/map-stage approval must precede execution | PROPOSED / BLOCKED FA-10 |
++| CF-01 pilot KPIs versus experienced-suitability science | Separate product-pilot protocol; preserve B0/A1/B1, labels, estimands, evaluation and evidence | FA-01/04: approve outcome definitions/instruments, denominators, clocks, privacy and research boundary |
++| CF-02 commercial priority versus ranking prohibition | Keep priority inactive in first slice; later distinct disclosed presentation policy only after explicit CR | FA-05: equivalence evidence/tolerance/disclosure/permission and organic compatibility; no activation |
++| CF-03 coverage retrieval versus bounded /v1 | Add approved discovery/eligibility boundary; /v2 for breaking semantics | FA-06: exact version/coverage policy and consumer compatibility; preserve /v1 stable-ID limit≤30/no cursor and exactly-two compare |
+ 
+-The report supplies three conflict proposals with options, compatibility and closing evidence.
+-It supplies one dependency graph, readiness/risk matrix and one next-ticket proposal.
+-None is an executed amendment, approved commercial policy or supplier commitment.
++CF-04 service-area/digital schemas, private Telegram scope, research priority and deletion/revocation questions remain
++in [RECONCILIATION](RECONCILIATION.md). Source availability is now resolved, not all architecture risks.
++[Risk register](RISK_REGISTER.md): lawful candidate/entrance/required-constraint coverage, publication rights/freshness,
++placement/recruitment/privacy, browser-safe access, provider/visual/physical-device acceptance, model validity,
++actual partners and future external-access controls remain unverified or blocked.
++No five real alternatives, pilot superiority, provider commitments or validated accuracy is claimed.
++November dates remain contingent and must be replanned against actual sequential approvals.
+ 
+-## Visual material and acceptance limits
++## One next development ticket — proposed, not executing
+ 
+-No new screens, captures or prototypes were authorized or produced. No actual integrated-journey visual artifacts were located.
+-Current Stage1C conditional desktop navigation feedback is not approval of all tourist UI phases.
+-Do not approve missing visuals based on descriptions. Each future phase needs an actual artifact/revision/configuration
+-and explicit founder record before advancement; runtime map/device acceptance additionally needs physical-device evidence.
+-A prototype may support design review after explicit authority, not substitute for implemented acceptance.
++Existing [T-01 minimum selection slice](TICKETS/T-01-VERTICAL-SLICE.md) is the smallest later implementation:
++one approved tourist need/essential-constraint set; QR→need→up to five defensible alternatives→compare→
++exact supplied map geometry/evidence→explicit informed selection and truthful available/unavailable next actions.
++Positive comparison requires at least two real lawful independently evidenced eligible candidates.
++Meaningful denied/missing/stale evidence cases must yield honest fewer/no results or clarification.
++One backend scorer/request revision; no privileged browser key or stale panels/routes; independent QA,
++actual mobile/visual review and the approved validity instrument establish measurable selection value.
++No booking, commercial priority, payments or external agent runtime is included.
+ 
+-## Recommended sequencing
++Dependencies: FA-01–04/06/07/10; approved T-02 lawful inventory, T-03 existing-map evidence;
++shared constraint/retrieval/request/selection schemas and browser-safe access/privacy;
++UX checkpoint completion and separate execution authority; any needed map-stage approval.
++Immediate preparation proposal is **bounded UX-0 scope within T-03**, without dispatching a fourth ticket.
++That proposal and every successor remain BLOCKED_AWAITING_FOUNDER_APPROVAL.
+ 
+-Resolve v0.4 and first-task/instrument/privacy/rights choices; complete authorized T-02 and T-03 review prerequisites;
+-freeze approved retrieval/request/selection and browser-safe access contracts; obtain phase design and any map-stage authorization.
+-Only then authorize the narrow T-01 implementation. Keep optional actions and commercial priority off the critical path.
++## Specific Founder decisions and stopping point
+ 
+-Report acceptance only records review of this operational test. It does not approve T-01 execution,
+-change existing contracts, authorize captures/new UI, approve Stage2 or permit deployment.
++Review this concrete maintenance result; approve completion or request documentation corrections.
++Adoption of both attached sources was already explicit and is not being re-requested.
++Before any future execution, approve exact stage ID, artifact version and bounded scope.
++Choose first task/constraints/languages/devices/data/rights (FA-02/07), resolve protected CF decisions,
++approve placement/privacy/support before exposure (FA-03/04), and close Stage 1B or explicitly waive its risks
++before map-style acceptance. Optional contacts/partner actions and future services/agent release stay separately gated.
++Do not visually approve missing UX artifacts from this packet.
+ 
+-## Next Chief session
+-
+-Read AGENTS.md, this packet, the acceptance report and the evidence handoffs.
+-Verify current Git diff against the recorded base. Record founder answers with affected decision IDs and conditions.
+-Recover/review v0.4 before claiming conformity. Continue only explicitly authorized readiness or implementation scope.
+-STOP awaiting founder review.
++Next Chief session: read AGENTS, VERSION_REGISTER, DECISION_REGISTER/TRACEABILITY, STAGE_GATES,
++FOUNDER_APPROVALS, STATUS, this packet and affected interface/role contracts. Check Git/active agents against
++the verified baseline, record only actual Founder answers append-only and continue only approved stage/artifact/scope.
++**STOP awaiting Founder review.**
+--- before/docs/governance/HANDOFF_TEMPLATE.md
++++ after/docs/governance/HANDOFF_TEMPLATE.md
+@@ -39,3 +39,22 @@
+ 
+ Lease checked; diff reviewed; interface consumers reviewed; protected evidence preserved;
+ independent QA result; unresolved approvals; founder acceptance reference; current board/status update.
++
++## Delivery stage and Founder packet — mandatory overlay
++
++- stage_id / lifecycle / authorization_state:
++- approved artifact version or commit / exact bounded scope / FOUNDER_APPROVALS entry:
++- task lifecycle (separate from stage) / one-writer lease / current base:
++- UX checkpoint and journey segments covered / predecessor approval / Stage 1B closure or explicit waiver:
++- goal and measurable user value / original approved scope:
++- completed and uncompleted work / before-after / deviations:
++- actual working demo URL and reproducible command (or N/A with reason):
++- dated actual desktop/mobile screenshot or video paths, viewport/config/device and provenance/rights:
++- tests/failures / security-accessibility-performance knowns and unknowns:
++- independent QA identity / reviewed artifact version / actual result before Founder review:
++- risks / dependencies / next-stage proposal / specific Founder decision:
++- missing evidence and approval state / next permitted action:
++
++All UI/UX checkpoints require actual screenshots or interactive evidence and explicit Founder visual approval.
++A prototype is not runtime/device acceptance. Descriptive claims are not visual evidence.
++Approval complete and next-stage execution are distinct decisions. No successor is auto-dispatched.
+--- before/docs/governance/PORTFOLIO_BOARD.yaml
++++ after/docs/governance/PORTFOLIO_BOARD.yaml
+@@ -1,7 +1,7 @@
+ {
+   "format": "YAML 1.2 JSON-compatible subset; no external YAML parser required",
+   "as_of": "2026-10-10",
+-  "authorization": "GOVERNANCE_AND_CONFIG_ONLY",
++  "authorization": "CURRENT_DOCUMENT_INTAKE_ONLY_NO_PRODUCT_EXECUTION",
+   "plan_status": "PROPOSED_NOT_EXECUTING",
+   "next_ticket_limit": 3,
+   "initiatives": [
+@@ -10,17 +10,24 @@
+       "owner": "chief_engineer",
+       "decision_ids": [
+         "G-001",
+-        "X-003"
++        "X-003",
++        "P-005",
++        "P-006",
++        "P-007"
+       ],
+       "stage": "INTEGRATION_REVIEW",
+-      "status": "INSTALLED_FOR_REVIEW",
++      "status": "DOCUMENT_INTAKE_FOUNDER_REVIEW",
+       "depends_on": [],
+       "gate": "Founder reviews governance; no task execution implied",
+       "blockers": [
+         "FA-10"
+       ],
+-      "evidence": "docs/governance/BOOTSTRAP_VERIFICATION.json",
+-      "charter": "docs/governance/PROJECT_CHARTER.md"
++      "evidence": "docs/governance/evidence/document-intake/verification.json",
++      "charter": "docs/governance/PROJECT_CHARTER.md",
++      "delivery_stage_id": "DOC-INTAKE-2026-10-10",
++      "delivery_lifecycle": "FOUNDER_REVIEW",
++      "authorization_state": "AUTHORIZED_DOCUMENT_MAINTENANCE_ONLY",
++      "authorization_reference": "FA-DOC-INTAKE-2026-10-10-001"
+     },
+     {
+       "id": "INVENTORY",
+@@ -43,7 +50,11 @@
+         "RISK-02"
+       ],
+       "evidence": "docs/governance/TICKETS/T-02-INVENTORY.md",
+-      "charter": "docs/governance/PROJECT_CHARTER.md"
++      "charter": "docs/governance/PROJECT_CHARTER.md",
++      "delivery_stage_id": "TBD_REQUIRES_FOUNDER_SCOPE",
++      "delivery_lifecycle": "DRAFT_PLAN",
++      "authorization_state": "BLOCKED_AWAITING_FOUNDER_APPROVAL",
++      "authorization_reference": null
+     },
+     {
+       "id": "VISUAL",
+@@ -64,7 +75,11 @@
+         "RISK-05"
+       ],
+       "evidence": "docs/governance/TICKETS/T-03-VISUAL-REVIEW.md",
+-      "charter": "docs/governance/PROJECT_CHARTER.md"
++      "charter": "docs/governance/PROJECT_CHARTER.md",
++      "delivery_stage_id": "TBD_REQUIRES_FOUNDER_SCOPE",
++      "delivery_lifecycle": "DRAFT_PLAN",
++      "authorization_state": "BLOCKED_AWAITING_FOUNDER_APPROVAL",
++      "authorization_reference": null
+     },
+     {
+       "id": "CONTRACTS",
+@@ -90,7 +105,11 @@
+         "FA-06"
+       ],
+       "evidence": "docs/governance/INTERFACE_REGISTRY.yaml",
+-      "charter": "docs/governance/PROJECT_CHARTER.md"
++      "charter": "docs/governance/PROJECT_CHARTER.md",
++      "delivery_stage_id": "TBD_REQUIRES_FOUNDER_SCOPE",
++      "delivery_lifecycle": "DRAFT_PLAN",
++      "authorization_state": "BLOCKED_AWAITING_FOUNDER_APPROVAL",
++      "authorization_reference": null
+     },
+     {
+       "id": "SLICE",
+@@ -116,7 +135,11 @@
+         "RISK-06"
+       ],
+       "evidence": "docs/governance/INTEGRATION_MATRIX.md",
+-      "charter": "docs/governance/PROJECT_CHARTER.md"
++      "charter": "docs/governance/PROJECT_CHARTER.md",
++      "delivery_stage_id": "TBD_REQUIRES_FOUNDER_SCOPE",
++      "delivery_lifecycle": "DRAFT_PLAN",
++      "authorization_state": "BLOCKED_AWAITING_FOUNDER_APPROVAL",
++      "authorization_reference": null
+     },
+     {
+       "id": "PILOT",
+@@ -140,7 +163,11 @@
+         "RISK-03"
+       ],
+       "evidence": "docs/governance/RELEASE_GATES.md",
+-      "charter": "docs/governance/PROJECT_CHARTER.md"
++      "charter": "docs/governance/PROJECT_CHARTER.md",
++      "delivery_stage_id": "TBD_REQUIRES_FOUNDER_SCOPE",
++      "delivery_lifecycle": "DRAFT_PLAN",
++      "authorization_state": "BLOCKED_AWAITING_FOUNDER_APPROVAL",
++      "authorization_reference": null
+     },
+     {
+       "id": "CONTACTS_ACTIONS",
+@@ -163,7 +190,11 @@
+         "RISK-08"
+       ],
+       "evidence": "docs/governance/SERVICE_PLATFORM_EXTENSION_RFC.md",
+-      "charter": "docs/governance/PROJECT_CHARTER.md"
++      "charter": "docs/governance/PROJECT_CHARTER.md",
++      "delivery_stage_id": "TBD_REQUIRES_FOUNDER_SCOPE",
++      "delivery_lifecycle": "DRAFT_PLAN",
++      "authorization_state": "BLOCKED_AWAITING_FOUNDER_APPROVAL",
++      "authorization_reference": null
+     },
+     {
+       "id": "SERVICES",
+@@ -187,7 +218,11 @@
+         "RISK-10"
+       ],
+       "evidence": "docs/governance/SERVICE_PLATFORM_EXTENSION_RFC.md",
+-      "charter": "docs/governance/PROJECT_CHARTER.md"
++      "charter": "docs/governance/PROJECT_CHARTER.md",
++      "delivery_stage_id": "TBD_REQUIRES_FOUNDER_SCOPE",
++      "delivery_lifecycle": "DRAFT_PLAN",
++      "authorization_state": "BLOCKED_AWAITING_FOUNDER_APPROVAL",
++      "authorization_reference": null
+     },
+     {
+       "id": "AGENT_ACCESS",
+@@ -207,7 +242,11 @@
+         "RISK-09"
+       ],
+       "evidence": "docs/governance/AGENT_ACCESS_BOUNDARIES.md",
+-      "charter": "docs/governance/PROJECT_CHARTER.md"
++      "charter": "docs/governance/PROJECT_CHARTER.md",
++      "delivery_stage_id": "TBD_REQUIRES_FOUNDER_SCOPE",
++      "delivery_lifecycle": "DRAFT_PLAN",
++      "authorization_state": "BLOCKED_AWAITING_FOUNDER_APPROVAL",
++      "authorization_reference": null
+     },
+     {
+       "id": "RESEARCH",
+@@ -225,7 +264,11 @@
+         "RISK-11"
+       ],
+       "evidence": "docs/RESEARCH_VALIDATION_READINESS.md",
+-      "charter": "docs/governance/PROJECT_CHARTER.md"
++      "charter": "docs/governance/PROJECT_CHARTER.md",
++      "delivery_stage_id": "TBD_REQUIRES_FOUNDER_SCOPE",
++      "delivery_lifecycle": "DRAFT_PLAN",
++      "authorization_state": "BLOCKED_AWAITING_FOUNDER_APPROVAL",
++      "authorization_reference": null
+     },
+     {
+       "id": "TELEGRAM",
+@@ -244,7 +287,13 @@
+         "CF-05"
+       ],
+       "evidence": "docs/TELEGRAM_DEMO_SPEC.md",
+-      "charter": "docs/governance/PROJECT_CHARTER.md"
++      "charter": "docs/governance/PROJECT_CHARTER.md",
++      "delivery_stage_id": "TBD_REQUIRES_FOUNDER_SCOPE",
++      "delivery_lifecycle": "DRAFT_PLAN",
++      "authorization_state": "BLOCKED_AWAITING_FOUNDER_APPROVAL",
++      "authorization_reference": null
+     }
+-  ]
++  ],
++  "stage_gate_reference": "docs/governance/STAGE_GATES.md",
++  "approval_ledger": "docs/governance/FOUNDER_APPROVALS.md"
+ }
+--- before/docs/governance/PROJECT_CHARTER.md
++++ after/docs/governance/PROJECT_CHARTER.md
+@@ -1,6 +1,7 @@
+ # Project charter
+ 
+-Approved direction: [Blueprint v0.3](SOURCES/CITYSENSE_PRODUCT_BLUEPRINT_v0_3.md).
++Approved direction: [Blueprint v0.4](../product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md).
++Current product/process version adoption is recorded in [VERSION_REGISTER](VERSION_REGISTER.md).
+ User authorized adoption and this governance bootstrap on 2026-10-10.
+ The original blueprint's unresolved statuses remain unresolved.
+ 
+@@ -41,3 +42,7 @@
+ Logical roles do not create persistent autonomous teams. Implementers do not self-approve.
+ Use [precedence](DECISION_REGISTER.md), [conflict gates](RECONCILIATION.md) and
+ [release criteria](RELEASE_GATES.md). No source code, contract or accepted ADR is changed by this charter.
++
++P-005–007 add approved sequential stages, actual visual checkpoint approval and controlled idea intake.
++[STAGE_GATES](STAGE_GATES.md) and [FOUNDER_APPROVALS](FOUNDER_APPROVALS.md) govern permission.
++These controls preserve the full product goal without expanding the November slice or amending technical contracts.
+--- before/docs/governance/README.md
++++ after/docs/governance/README.md
+@@ -31,3 +31,23 @@
+ 
+ Record founder answers in a dated CR approval entry with decision IDs and affected contract/version.
+ Do not infer approval from the existence of a profile, roadmap, source copy or prior session transcript.
++
++## Current approved intake — 2026-10-10
++
++[Product index](../product/README.md) / [Blueprint v0.4](../product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md);
++[AEOS v1.2](CITYSENSE_AGENTIC_ENGINEERING_OPERATING_SYSTEM_v1_2.md);
++[versions](VERSION_REGISTER.md) / [48-clause traceability](DECISION_TRACEABILITY.yaml).
++Both copies are complete; inherited version headers are disclosed in the version register.
++
++Read [stage gates](STAGE_GATES.md), [append-only approvals](FOUNDER_APPROVALS.md),
++[current reconciliation](GOVERNANCE_RECONCILIATION_v0_4_v1_2.md) and
++[Founder packet](FOUNDER_REVIEW_PACKET.md) before assigning work.
++[Current integrity receipt](evidence/document-intake/verification.json) and
++[actual review handoffs](evidence/document-intake/REVIEW_HANDOFFS.md) cover this maintenance task.
++The previous [orchestration assessment](ORCHESTRATION_ACCEPTANCE_REPORT.md) remains historical PARTIAL.
++
++Next-session prompt:
++> Read AGENTS.md, VERSION_REGISTER, DECISION_REGISTER, STAGE_GATES, FOUNDER_APPROVALS,
++> STATUS and the current Founder packet. Verify Git state and active agents. Preserve uncommitted work.
++> Record only actual written Founder decisions. Continue only the exact approved stage/artifact/scope.
++> If none exists, report BLOCKED_AWAITING_FOUNDER_APPROVAL and prepare a bounded proposal without implementation.
+--- before/docs/governance/RECONCILIATION.md
++++ after/docs/governance/RECONCILIATION.md
+@@ -57,3 +57,13 @@
+ 
+ Payment topology, suppliers, eSIM/driver launch order, external writes and new cities require future separate decisions.
+ No governance approval automatically authorizes these features.
++
++## Approved-source intake overlay — 2026-10-10
++
++See [v0.4/v1.2 reconciliation](GOVERNANCE_RECONCILIATION_v0_4_v1_2.md) for exact three proposals,
++affected files, backward compatibility and required approvals.
++Source availability is resolved; inherited header discrepancies are recorded in [versions](VERSION_REGISTER.md).
++All 45 old statuses remain unchanged; P-005–007 add approved process controls only.
++FA-07 must now enforce UX-0–4 separately and Stage 1B closure/explicit risk waiver before map-style sign-off.
++FA-10 approval must identify exact stage/artifact/scope; approving a ticket list does not authorize all its phases.
++No protected contract conflict is resolved by document adoption.
+--- before/docs/governance/RELEASE_GATES.md
++++ after/docs/governance/RELEASE_GATES.md
+@@ -29,3 +29,12 @@
+ 
+ At each gate record owner, approval, contract/build revision, actual commands/environment/time, screenshots/rights,
+ limitations, rollback and human acceptance. Historical tests remain historical.
++
++## Delivery-stage and visual policy overlay
++
++G0–G8 are aggregate readiness conditions, not permissions or replacements for UX-0–4.
++[STAGE_GATES](STAGE_GATES.md) requires exact Founder stage/artifact/scope approval, independent QA before
++Founder review and actual visual artifacts/Founder judgment at every UX checkpoint.
++No gates are newly passed by source adoption. Stage 1B closure or explicit risk waiver precedes map-style sign-off.
++Source availability and process definitions are now installed; runtime, visual/device evidence and permissions remain pending.
++Record approvals append-only in [FOUNDER_APPROVALS](FOUNDER_APPROVALS.md); never infer successor authorization.
+--- before/docs/governance/ROLES/README.md
++++ after/docs/governance/ROLES/README.md
+@@ -23,3 +23,12 @@
+ 
+ Models/reasoning inherit from the parent. No new provider/MCP/skill installation.
+ [Compatibility/fallback](../CODEX_COMPATIBILITY.md); [Chief protocol](../CHIEF_ENGINEER_WORKFLOW.md).
++
++## Approved v1.2 delivery boundaries
++
++All roles read [STAGE_GATES](../STAGE_GATES.md) and [FOUNDER_APPROVALS](../FOUNDER_APPROVALS.md).
++Responsibilities are not blanket writer authority. Execute only scoped tickets in an approved stage.
++Chief owns shared contracts, central ledgers and integration sequentially; independent QA precedes Founder review.
++Cartography/Mobile produce actual authorized visual artifacts; Founder separately approves UX-0–4.
++Stage 1B closed/waived is prerequisite to map-style sign-off. No specialist auto-starts downstream work.
++Native profiles remain declared read-only; this intake changes no configuration or loader setting.
+--- before/docs/governance/SOURCE_REGISTER.md
++++ after/docs/governance/SOURCE_REGISTER.md
+@@ -21,3 +21,21 @@
+ Earlier statements about absent Git and pending Stage 1C commit remain dated history.
+ The verification receipt checks all 387 preexisting tracked file bytes, source copies and generated contract parity.
+ For future adopted versions add a new file/hash/date and explicit supersession; never alter preserved originals.
++
++## Approved intake overlay — 2026-10-10
++
++The current [explicit request](evidence/document-intake/USER_REQUEST.md) adopts the following complete sources.
++Older table entries remain historical; they are not the current product/process version.
++[VERSION_REGISTER](VERSION_REGISTER.md) distinguishes nominal/adopted versions from inherited source headers.
++
++| Canonical copy | Exact supplied source path | SHA-256 (source = copy) | Bytes |
++|---|---|---|---|
++| [Blueprint v0.4](../product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md) | C:\Users\Lenovo\Downloads\CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md | 6dab0cbcdad6df01786b8b2c4be511c3d7932d16de015ffc0919fed06c99c726 | 34364 |
++| [AEOS v1.2](CITYSENSE_AGENTIC_ENGINEERING_OPERATING_SYSTEM_v1_2.md) | C:\Users\Lenovo\Downloads\CITYSENSE_AGENTIC_ENGINEERING_OPERATING_SYSTEM_v1_2.md | 6e71631526adea4473e6c121667be31d24dfca21d682e6bf7f544b41c4d82b74 | 17853 |
++
++Headers still say Blueprint 0.3 and AEOS 1.1/PROPOSED; filenames, addenda and current approval establish adopted
++v0.4/v1.2. No source bytes were edited. Both old originals are full byte prefixes of the new files.
++[Verification](evidence/document-intake/verification.json) records full hashes and equality, prior-source preservation,
++current user-request provenance and the exact modified/added paths.
++The previous [Founder packet](evidence/document-intake/FOUNDER_REVIEW_PACKET.orchestration-acceptance.md)
++was archived before its current-facing replacement.
+--- before/docs/governance/STATUS.md
++++ after/docs/governance/STATUS.md
+@@ -55,3 +55,21 @@
+ T-01 integrated slice contract design then implementation only after prerequisites and founder authorization.
+ [Backlog](BACKLOG.md) defines all dependencies and acceptance.
+ STOP: await governance approval and explicit next-ticket scope; do not start these tickets automatically.
++
++## Current document-intake overlay — 2026-10-10
++
++Blueprint v0.4 and AEOS v1.2 now exist as full verified canonical files; see [versions](VERSION_REGISTER.md).
++The source-availability gap in the historical acceptance report is closed. All 45 inherited statuses are unchanged;
++P-005–007 add three DECIDED controls. Header version discrepancies are recorded outside unchanged sources.
++Current maintenance verification: see [receipt](evidence/document-intake/verification.json) and
++[Founder packet](FOUNDER_REVIEW_PACKET.md); maintenance PASS with independent QA; stage DOC-INTAKE-2026-10-10
++is FOUNDER_REVIEW, not APPROVED_COMPLETE. Review artifact: intake-final-1.
++
++Orchestration acceptance remains historical PARTIAL. Native profile loading, enforced filesystem isolation,
++actual integrated UI/runtime and physical-device acceptance remain unverified.
++Governance controls are documentation, not executable permission enforcement.
++[STAGE_GATES](STAGE_GATES.md) defines UX-0–4; every future stage is blocked pending explicit approval.
++Stage 1B remains PARTIAL; map-style approval requires closure or explicit risk waiver.
++CF-01/02/03 are proposals only; no pilot metrics, commercial priority or /v1 semantic change accepted.
++Inventory/rights/placement/privacy/access/visual/device blockers remain in [risks](RISK_REGISTER.md).
++No product implementation, visual captures, map stage or deployment occurred during this intake.
+--- before/docs/governance/TICKETS/T-01-VERTICAL-SLICE.md
++++ after/docs/governance/TICKETS/T-01-VERTICAL-SLICE.md
+@@ -51,3 +51,22 @@
+ Protected: Sprint 1–3 code/contracts/ADRs/protocol/parameters/migrations, Stage 1/1B/1C evidence and user work.
+ Rollback: remove/revert only ticket-owned additions or patches after inspecting current diff; never reset unrelated work.
+ Delivery state: PROPOSED / CR_DRAFT. Founder approval and open prerequisites remain PENDING.
++
++## Current stage permission
++
++[STAGE_GATES](../STAGE_GATES.md) and [FOUNDER_APPROVALS](../FOUNDER_APPROVALS.md) govern this proposed ticket.
++Permission: BLOCKED_AWAITING_FOUNDER_APPROVAL. Every phase needs its exact stage/artifact/scope approval;
++CONTRACT_READY/TASK_READY and predecessor completion are insufficient.
++Independent QA precedes Founder review; UX-0–4 each need actual visual artifacts and separate Founder approval.
++Stage 1B closure or explicit Founder waiver with risks is required before map visual-style sign-off.
++No product, capture, new map stage or downstream execution is authorized by this update.
++
++## Proposed minimum measurable slice
++
++After prerequisites and separate execution approval: one approved tourist need and essential constraint set;
++positive case has at least two real, lawful, independently evidenced eligible candidates for comparison,
++up to five only where defensible. Tourist can open QR, state need, compare, select exact supplied geometry,
++read current provenance/caveats and understand truthful available/unavailable next actions.
++Independent QA verifies validity, shared request revision, stale-response rejection and explicit selection,
++plus a meaningful denied/missing/stale-data case with honest fewer/no results. No fabricated numeric success threshold.
++Use only the approved pilot instrument and consented evidence; no booking/payment/provider activation.
+--- before/docs/governance/TICKETS/T-02-INVENTORY.md
++++ after/docs/governance/TICKETS/T-02-INVENTORY.md
+@@ -39,3 +39,12 @@
+ Protected: Sprint 1–3 code/contracts/ADRs/protocol/parameters/migrations, Stage 1/1B/1C evidence and user work.
+ Rollback: remove/revert only ticket-owned additions or patches after inspecting current diff; never reset unrelated work.
+ Delivery state: PROPOSED / CR_DRAFT. Founder approval and open prerequisites remain PENDING.
++
++## Current stage permission
++
++[STAGE_GATES](../STAGE_GATES.md) and [FOUNDER_APPROVALS](../FOUNDER_APPROVALS.md) govern this proposed ticket.
++Permission: BLOCKED_AWAITING_FOUNDER_APPROVAL. Every phase needs its exact stage/artifact/scope approval;
++CONTRACT_READY/TASK_READY and predecessor completion are insufficient.
++Independent QA precedes Founder review; UX-0–4 each need actual visual artifacts and separate Founder approval.
++Stage 1B closure or explicit Founder waiver with risks is required before map visual-style sign-off.
++No product, capture, new map stage or downstream execution is authorized by this update.
+--- before/docs/governance/TICKETS/T-03-VISUAL-REVIEW.md
++++ after/docs/governance/TICKETS/T-03-VISUAL-REVIEW.md
+@@ -37,3 +37,12 @@
+ Protected: Sprint 1–3 code/contracts/ADRs/protocol/parameters/migrations, Stage 1/1B/1C evidence and user work.
+ Rollback: remove/revert only ticket-owned additions or patches after inspecting current diff; never reset unrelated work.
+ Delivery state: PROPOSED / CR_DRAFT. Founder approval and open prerequisites remain PENDING.
++
++## Current stage permission
++
++[STAGE_GATES](../STAGE_GATES.md) and [FOUNDER_APPROVALS](../FOUNDER_APPROVALS.md) govern this proposed ticket.
++Permission: BLOCKED_AWAITING_FOUNDER_APPROVAL. Every phase needs its exact stage/artifact/scope approval;
++CONTRACT_READY/TASK_READY and predecessor completion are insufficient.
++Independent QA precedes Founder review; UX-0–4 each need actual visual artifacts and separate Founder approval.
++Stage 1B closure or explicit Founder waiver with risks is required before map visual-style sign-off.
++No product, capture, new map stage or downstream execution is authorized by this update.

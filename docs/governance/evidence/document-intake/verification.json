@@ -1,0 +1,240 @@
+{
+  "recorded_at": "2026-10-10T20:00:06.490286+04:00",
+  "task": "DOC-INTAKE-2026-10-10",
+  "result": "PASS",
+  "scope": "Documentation content-integrity and protection checks; not product/runtime/visual/native-profile acceptance",
+  "base_head": "eadf331e4b7c262fb5c2216d051f7f6e56a456bf",
+  "head_now": "eadf331e4b7c262fb5c2216d051f7f6e56a456bf",
+  "baseline_existing_files": 452,
+  "tracked_files_checked": 387,
+  "sources": [
+    {
+      "source": "C:/Users/Lenovo/Downloads/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "canonical": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "sha256_source": "6dab0cbcdad6df01786b8b2c4be511c3d7932d16de015ffc0919fed06c99c726",
+      "sha256_canonical": "6dab0cbcdad6df01786b8b2c4be511c3d7932d16de015ffc0919fed06c99c726",
+      "bytes": 34364,
+      "byte_equal": true,
+      "prior_byte_prefix": true
+    },
+    {
+      "source": "C:/Users/Lenovo/Downloads/CITYSENSE_AGENTIC_ENGINEERING_OPERATING_SYSTEM_v1_2.md",
+      "canonical": "docs/governance/CITYSENSE_AGENTIC_ENGINEERING_OPERATING_SYSTEM_v1_2.md",
+      "sha256_source": "6e71631526adea4473e6c121667be31d24dfca21d682e6bf7f544b41c4d82b74",
+      "sha256_canonical": "6e71631526adea4473e6c121667be31d24dfca21d682e6bf7f544b41c4d82b74",
+      "bytes": 17853,
+      "byte_equal": true,
+      "prior_byte_prefix": true
+    }
+  ],
+  "checks": {
+    "sources_byte_equal": true,
+    "old_sources_full_byte_prefixes": true,
+    "original_45_statuses_unchanged": true,
+    "current_48_ids_unique": true,
+    "register_matches_source": true,
+    "traceability_statuses_match": true,
+    "no_unapproved_existing_changes": true,
+    "no_deleted_files": true,
+    "all_387_tracked_files_unchanged": true,
+    "old_governance_and_config_preserved_except_allowlist": true,
+    "archived_founder_packet_exact": true,
+    "user_request_byte_equal": true,
+    "agents_at_most_120_lines": true,
+    "local_links_resolve": true,
+    "traceability_interface_ids_valid": true,
+    "portfolio_dependencies_valid_acyclic": true,
+    "future_initiatives_blocked": true,
+    "native_config_toml_parses_and_unchanged": true
+  },
+  "errors": {
+    "links": [],
+    "invalid_interfaces": [],
+    "unknown_dependencies": [],
+    "changed_outside_allowlist": [],
+    "deleted": []
+  },
+  "modified": [
+    {
+      "path": "AGENTS.md",
+      "before_sha256": "4dc91d9422a21beb364a0426889b2d9f8383335898211b0af0da684f9078ce68",
+      "after_sha256": "4e09914b417c40eaef6141abf9ca5a7b7f35c5c3383d94c7bb2c37fc21eb53bf"
+    },
+    {
+      "path": "docs/governance/BACKLOG.md",
+      "before_sha256": "ef31538df261c4aff0308e279db9414c8a6fd1ee89140196fb1cd92ea5188f82",
+      "after_sha256": "27638ef65bc26b70146c1874ccddc3dca939b871c5aa91d59d635cace47c9844"
+    },
+    {
+      "path": "docs/governance/CHANGE_REQUESTS/README.md",
+      "before_sha256": "e984aa089908308aa8aed3830f54db4717553986a7d8299622a1dda6d3f58181",
+      "after_sha256": "102857ce6b69da740ccee1ae3fb06f44ff0d0bff207d420f89641113847c272b"
+    },
+    {
+      "path": "docs/governance/CHIEF_ENGINEER_WORKFLOW.md",
+      "before_sha256": "e24b354de8b6f0a228e4df329b9eea5441afeabffec63ad55ed004a9bfb406f9",
+      "after_sha256": "0205a82f66b01c4bfc6a564855bf2fe75afe4d94f48e0149241e29923cf8d167"
+    },
+    {
+      "path": "docs/governance/DECISION_REGISTER.md",
+      "before_sha256": "5cfb763be6249fa5848bcf2d275cade2f548298a726fda263372084b24d6afc3",
+      "after_sha256": "91b2cc050bab076602f0944387ced89a059db64c652356b7108ce7fa63e41811"
+    },
+    {
+      "path": "docs/governance/FOUNDER_REVIEW_PACKET.md",
+      "before_sha256": "0788490d009c13299b888364e0f297b1ed3291ba0430a57ddd623d276c77402c",
+      "after_sha256": "d02fb6240c977ff6f48411c09f8b9369a1269c252874efbd8f967fb3389b7880"
+    },
+    {
+      "path": "docs/governance/HANDOFF_TEMPLATE.md",
+      "before_sha256": "3f81a85f283a5c75efb62ff40c1bf15a4d73fb14fcd19909569edfbbfe345176",
+      "after_sha256": "ddf0b5ea07b0b888895282a3c2924b81613e9d873f49b65447aeb33df8244294"
+    },
+    {
+      "path": "docs/governance/PORTFOLIO_BOARD.yaml",
+      "before_sha256": "1b19c6398ffd6d3481b5bd4fc585bb4692c951ee1a79728826e592810d62eff4",
+      "after_sha256": "514539d00cc590b63a23769e6142614ec0926d4f08b68bfcdd01dd9942580642"
+    },
+    {
+      "path": "docs/governance/PROJECT_CHARTER.md",
+      "before_sha256": "9cdddb665c2b682b74d416d5e7d9237bef0562cebd9583ce85534b05e51a8c9f",
+      "after_sha256": "bf2298c752216041b174bb5ffb361f243c099f49e0e1e629269eef2e130149a8"
+    },
+    {
+      "path": "docs/governance/README.md",
+      "before_sha256": "e91b99818eccbb794e2ad1f578afd7de9d62932720c955539810a1f16c9ab225",
+      "after_sha256": "b55fbb395b57659787181162765a764dfb12328d816ce51334a7aa45cc310852"
+    },
+    {
+      "path": "docs/governance/RECONCILIATION.md",
+      "before_sha256": "ac3cb3c898869f2058dc2d6442cc699a2baf08521a63ee2c6a4d7f4c51dc2ca0",
+      "after_sha256": "0ee39ccda500eec2c3e70bfa658940fe5b284c91ab2862883f9ade1a7e50094e"
+    },
+    {
+      "path": "docs/governance/RELEASE_GATES.md",
+      "before_sha256": "b8ed54139ef6cd98bd6d1124f08780c32eee21b6ca72ee3c6d29b369735883e0",
+      "after_sha256": "a819d69c38df57c3a1783dc57bc88ad7dddbc0c26c0e1897a9f4edd7e6eea058"
+    },
+    {
+      "path": "docs/governance/ROLES/README.md",
+      "before_sha256": "2152404d506ae2c7cc5d1b46d947ef484a670927e96e0f0378b001d5b7d5d5bf",
+      "after_sha256": "2c5e6c7298e5a79363e743c1e745350b632298411fb20346639d39d701d8e51d"
+    },
+    {
+      "path": "docs/governance/SOURCE_REGISTER.md",
+      "before_sha256": "b6b394de002a26ff62242e6cea41cf182252c6b4656c91680006d054eb687f79",
+      "after_sha256": "6dcc8568ec5e1524dc4209d536868cea09a9fb7270402f43bf3a134652971f1c"
+    },
+    {
+      "path": "docs/governance/STATUS.md",
+      "before_sha256": "1eae55e604a8d5d5715d477f793b08c5a79f996d7e655cbc298625d1ba459513",
+      "after_sha256": "87dabf62b4e3016bf4efda36c9f31212d77212efbfa7834fdf2949e88e41b791"
+    },
+    {
+      "path": "docs/governance/TICKETS/T-01-VERTICAL-SLICE.md",
+      "before_sha256": "69047f0f4691e4466a005f4787d7efcb9bbbbfb1a90b7310d37b1067a96bce7d",
+      "after_sha256": "482315bf4098332e955b308f9372852f5acbb5b0090ffde5a4088a4c32832e5d"
+    },
+    {
+      "path": "docs/governance/TICKETS/T-02-INVENTORY.md",
+      "before_sha256": "e7bccc1e018b23d1d756bc0444078443d38cab312dc90c04f3246939ec950b5f",
+      "after_sha256": "a7b1cee1ef913134de802df83d2a5102722ebf23c040e0e6960d3ff27b2f19e7"
+    },
+    {
+      "path": "docs/governance/TICKETS/T-03-VISUAL-REVIEW.md",
+      "before_sha256": "a6709dba5ef10ae03923e60ca46786d3847d5a9c85e91bbca902647b9fb459b5",
+      "after_sha256": "c34b3632b48a95135caed12b22eee19e8d22ce7339baa40d541bb9fe5db53d71"
+    }
+  ],
+  "added": [
+    {
+      "path": "docs/governance/CITYSENSE_AGENTIC_ENGINEERING_OPERATING_SYSTEM_v1_2.md",
+      "sha256": "6e71631526adea4473e6c121667be31d24dfca21d682e6bf7f544b41c4d82b74"
+    },
+    {
+      "path": "docs/governance/DECISION_TRACEABILITY.yaml",
+      "sha256": "aac07a1ff3cf2b3d50100d5120e9fef3aa605450cb88a67b0c258c1d15fe47db"
+    },
+    {
+      "path": "docs/governance/FOUNDER_APPROVALS.md",
+      "sha256": "5c22b7fc8d6b5baf4bde970b223708ed43b6c21bc2ebfb4a18db279e866de3b2"
+    },
+    {
+      "path": "docs/governance/GOVERNANCE_RECONCILIATION_v0_4_v1_2.md",
+      "sha256": "b1986fa373dd3100ea2e12d80150223958318d311c4bf00a03d7b43c70ae078b"
+    },
+    {
+      "path": "docs/governance/STAGE_GATES.md",
+      "sha256": "57edb681478236f54941e278a2d4068d722a904d22df2728bab566da1599724b"
+    },
+    {
+      "path": "docs/governance/VERSION_REGISTER.md",
+      "sha256": "983ad85929be6dfb8e354350adf9d2d019f3171a1cc173077821ec9dc11ca66d"
+    },
+    {
+      "path": "docs/governance/evidence/document-intake/BASELINE.json",
+      "sha256": "51faf94cda99fbf63214d50e8a4af75a715cc2e4a28320a6664dc57fdd9f1e74"
+    },
+    {
+      "path": "docs/governance/evidence/document-intake/FOUNDER_REVIEW_PACKET.orchestration-acceptance.md",
+      "sha256": "0788490d009c13299b888364e0f297b1ed3291ba0430a57ddd623d276c77402c"
+    },
+    {
+      "path": "docs/governance/evidence/document-intake/MAINTENANCE_DIFF.patch",
+      "sha256": "50f5389051f2f3371c4c0ff5052580f44b54f7426f39756331fa692cb1453555"
+    },
+    {
+      "path": "docs/governance/evidence/document-intake/REVIEW_HANDOFFS.md",
+      "sha256": "c0a5fd9579636be3eda4a0bc27b8596f467f7e168da9e3d9462a853c16c3e43d"
+    },
+    {
+      "path": "docs/governance/evidence/document-intake/USER_REQUEST.md",
+      "sha256": "e47fa32d96908ad34f940177e026f6da8af5ce815c28c1e0a03c2af51e57511b"
+    },
+    {
+      "path": "docs/governance/evidence/document-intake/verification.json",
+      "sha256": null
+    },
+    {
+      "path": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "sha256": "6dab0cbcdad6df01786b8b2c4be511c3d7932d16de015ffc0919fed06c99c726"
+    },
+    {
+      "path": "docs/product/README.md",
+      "sha256": "4895ee25b2c32e45cf5930cedaa2a96cf92a5cf737a514e6147e8f8e4e53849b"
+    }
+  ],
+  "created_directories": [
+    "docs/product",
+    "docs/governance/evidence/document-intake"
+  ],
+  "receipt_self_hash": "Intentionally omitted; no recursive self-hash",
+  "independent_qa": {
+    "agent": "/root/intake_independent_qa",
+    "mode": "READ_ONLY_PORTABLE_QA",
+    "result": "PASS",
+    "reviewed": "Concrete integrated draft before final administrative metadata; reviewed hashes in REVIEW_HANDOFFS.md",
+    "handoff": "docs/governance/evidence/document-intake/REVIEW_HANDOFFS.md",
+    "founder_approval": "Not granted"
+  },
+  "review_artifact": "DOC-INTAKE-2026-10-10 / intake-final-1",
+  "verification_history": [
+    {
+      "run": "initial construction integrity",
+      "result": "PARTIAL",
+      "condition": "Five local links targeted verification.json before receipt creation",
+      "correction": "Receipt created; subsequent full checks PASS; no acceptance waiver"
+    },
+    {
+      "run": "final after independent QA and metadata finalization",
+      "result": "PASS"
+    }
+  ],
+  "current_link_check_exclusions": [
+    "Byte-preserved canonical source documents",
+    "Historical SOURCES artifacts",
+    "Byte-preserved user request",
+    "Archived original-context Founder packet; retained as historical bytes, not current navigation"
+  ],
+  "founder_state": "FOUNDER_REVIEW; no completion or successor execution approval"
+}

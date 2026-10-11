@@ -1,0 +1,857 @@
+{
+  "format": "YAML 1.2 JSON-compatible subset",
+  "as_of": "2026-10-10",
+  "policy": "Exact approved source clauses and statuses; ownership/interface mappings are governance indexes, not new executable contracts. Every future stage requires its own Founder approval.",
+  "source_sha256": "6dab0cbcdad6df01786b8b2c4be511c3d7932d16de015ffc0919fed06c99c726",
+  "inherited_statuses_preserved": 45,
+  "added_decisions": 3,
+  "decisions": [
+    {
+      "id": "P-001",
+      "status": "DECIDED",
+      "line": 19,
+      "clause": "**DECIDED — P-001.** CitySense is a context-aware urban discovery, decision-support, and experience-action platform, initially for **tourists in Batumi**. It matches individual needs, location, time, and credible city conditions to suitable places/activities; provides understandable alternatives, mapping, travel feasibility, and routes; and can connect users to bookings or partner offers. It must not devolve into a generic tourist chatbot, directory, coupon catalogue, or sensor dashboard.",
+      "decision_owner": "Founder",
+      "accountable_role": "product_research",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "REQUEST_SELECTION",
+        "REST_PRIVATE_V1"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "P-002",
+      "status": "DECIDED",
+      "line": 21,
+      "clause": "**DECIDED — P-002.** User needs and hard constraints determine eligibility and suitability before commercial prioritization. Place/time/urban-state evidence and the uncertainty of that evidence must remain explainable. Dynamic facts are never fabricated.",
+      "decision_owner": "Founder",
+      "accountable_role": "product_research",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "REQUEST_SELECTION",
+        "REST_PRIVATE_V1"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "P-003",
+      "status": "DECIDED",
+      "line": 23,
+      "clause": "**DECIDED — P-003.** The long-term product includes partner workflows and a path from recommendation to action or booking. These are integral product concerns, even when outside a narrow implementation ticket.",
+      "decision_owner": "Founder",
+      "accountable_role": "product_research",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "REQUEST_SELECTION",
+        "REST_PRIVATE_V1"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "P-004",
+      "status": "DECIDED",
+      "line": 25,
+      "clause": "**DECIDED — P-004.** Initial use and validation are **mobile web** via a QR entry channel in guest accommodations; no mandatory app installation for this pilot.",
+      "decision_owner": "Founder",
+      "accountable_role": "product_research",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "REQUEST_SELECTION",
+        "REST_PRIVATE_V1"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "G-001",
+      "status": "DECIDED",
+      "line": 29,
+      "clause": "**DECIDED — G-001.** Target November 2026: **closed, supervised MVP pilot with actual tourists**, not a public production launch.",
+      "decision_owner": "Founder",
+      "accountable_role": "product_research",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "REQUEST_SELECTION"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "G-002",
+      "status": "DECIDED",
+      "line": 31,
+      "clause": "**DECIDED — G-002.** Initial distribution opportunity: a founder contact manages **30 apartments in Orbi City A Block, Batumi**. A QR entry point in rooms is the proposed acquisition channel. Placement and access permissions, active occupancy, and operational arrangements remain **TO VERIFY**; the existence of 30 apartments is not a claim of 30 participants or scans.",
+      "decision_owner": "Founder",
+      "accountable_role": "product_research",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "REQUEST_SELECTION"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "G-003",
+      "status": "PROPOSED",
+      "line": 33,
+      "clause": "**PROPOSED — G-003.** Start with 3–5 permitted apartments for a moderated usability shakedown, then extend to up to 30 if the experience and instrumentation pass review.",
+      "decision_owner": "Founder",
+      "accountable_role": "product_research",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "REQUEST_SELECTION"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "G-004",
+      "status": "DECIDED",
+      "line": 35,
+      "clause": "**DECIDED — G-004.** **Tourist value precedes commercial conversion** as the primary research hypothesis. The product must provide value even when no partner offer is available.",
+      "decision_owner": "Founder",
+      "accountable_role": "product_research",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "REQUEST_SELECTION"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "G-005",
+      "status": "TO VALIDATE",
+      "line": 37,
+      "clause": "**TO VALIDATE — G-005.** Relative to tourists' ordinary Google Maps / AI assistant / host-advice workflow, CitySense helps people reach a **constraint-valid, informed selection** more easily and efficiently: fewer steps, less time, clearer comparison and fewer verifiable constraint violations. This is not a claim of superior venue-service quality or post-visit satisfaction.",
+      "decision_owner": "Founder",
+      "accountable_role": "product_research",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "REQUEST_SELECTION"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "B-001",
+      "status": "DECIDED",
+      "line": 41,
+      "clause": "**DECIDED — B-001.** Initial commercial partner segments are (a) tours, (b) paid attractions, and (c) paid sports courts. Cafés/restaurants are a separate potential low-friction extension, not a replacement for these first segments.",
+      "decision_owner": "Founder",
+      "accountable_role": "partner_booking",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "OPPORTUNITY_CONTRACT",
+        "SERVICES_READ",
+        "ACTIONS_CALLBACK"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "B-002",
+      "status": "DECIDED",
+      "line": 43,
+      "clause": "**DECIDED — B-002.** Hybrid inventory and booking integration: initial **manual confirmation by partners**, later provider/API synchronization where available and permitted. Partner-provided opening hours, bookable capacity, time slots, prices, cancellation policies, and exceptions are distinct fields. A booking request is not a confirmed booking. No guaranteed availability without authoritative confirmation.",
+      "decision_owner": "Founder",
+      "accountable_role": "partner_booking",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "OPPORTUNITY_CONTRACT",
+        "SERVICES_READ",
+        "ACTIONS_CALLBACK"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "B-003",
+      "status": "DECIDED",
+      "line": 45,
+      "clause": "**DECIDED — B-003.** The payment transaction should be processed by an **authorized third-party payment provider**, not a home-built payment-processing system. This choice does **not** establish an exemption from all payment, platform, consumer-protection, tax, privacy, or marketplace obligations. Exact merchant-of-record, settlement, refund and liability topology remain **TO VERIFY** with the provider and legal review.",
+      "decision_owner": "Founder",
+      "accountable_role": "partner_booking",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "OPPORTUNITY_CONTRACT",
+        "SERVICES_READ",
+        "ACTIONS_CALLBACK"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "B-004",
+      "status": "TO VALIDATE",
+      "line": 47,
+      "clause": "**TO VALIDATE — B-004.** Commission on a **completed/eligible booking** is an initial monetization hypothesis, with rate and settlement timing to be negotiated, not a finalized pricing policy. Count incremental value rather than all attributed clicks as incremental revenue.",
+      "decision_owner": "Founder",
+      "accountable_role": "partner_booking",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "OPPORTUNITY_CONTRACT",
+        "SERVICES_READ",
+        "ACTIONS_CALLBACK"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "B-005",
+      "status": "PROPOSED",
+      "line": 49,
+      "clause": "**PROPOSED — B-005.** Café/restaurant acquisition experiment: voluntary, verified, contextual offer codes / QR redemption or manually confirmed reservation requests, with simple operator verification and a clear attribution ledger. No automatic POS integration required in the first experiment. This mechanism is neither implemented nor proven to drive incremental purchases.",
+      "decision_owner": "Founder",
+      "accountable_role": "partner_booking",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "OPPORTUNITY_CONTRACT",
+        "SERVICES_READ",
+        "ACTIONS_CALLBACK"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "B-006",
+      "status": "PROPOSED",
+      "line": 51,
+      "clause": "**PROPOSED — B-006.** Partner-facing minimum workspace: verified listing and locations, offerings, schedules/capacity, request queue, confirm/decline/expire, cancellation/refund-policy references, and completed-service reporting. API integrations and advanced analytics follow later.",
+      "decision_owner": "Founder",
+      "accountable_role": "partner_booking",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "OPPORTUNITY_CONTRACT",
+        "SERVICES_READ",
+        "ACTIONS_CALLBACK"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "R-001",
+      "status": "DECIDED",
+      "line": 61,
+      "clause": "**DECIDED — R-001.** Stage 1: validate required user constraints and build an eligible set using interest/intent, budget, time budget, mobility/accessibility requirements, actual place coordinates/entrances, travel feasibility, operational availability, and credible city conditions where available. Distinguish required constraints from soft preferences. If evidence cannot establish a hard safety/access constraint, do not state that it is satisfied.",
+      "decision_owner": "Founder",
+      "accountable_role": "decision_engine",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "CORE",
+        "REST_PRIVATE_V1",
+        "REQUEST_SELECTION",
+        "GEOMETRY_EVIDENCE"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "R-002",
+      "status": "DECIDED",
+      "line": 63,
+      "clause": "**DECIDED — R-002.** Stage 2: rank by user suitability without partner status changing the underlying suitability score. Only within **materially equivalent suitable alternatives** may eligible partner options receive an additional **transparent commercial priority**. Equivalence tolerance/policy is **TO VALIDATE**, not an invented fixed score delta. Paid/partner ranking influence must not be presented as an organic quality signal; disclosure and applicable consumer rules must be reviewed.",
+      "decision_owner": "Founder",
+      "accountable_role": "decision_engine",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "CORE",
+        "REST_PRIVATE_V1",
+        "REQUEST_SELECTION",
+        "GEOMETRY_EVIDENCE"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": [
+        "CF-02"
+      ]
+    },
+    {
+      "id": "R-003",
+      "status": "DECIDED",
+      "line": 65,
+      "clause": "**DECIDED — R-003.** Following a natural-language request, the interface presents **five alternatives as the desired default** and allows active user choice and comparison. **Safety fallback:** if fewer than five defensible, feasible candidates exist, show fewer and explain why; never fabricate or relax hard constraints to fill five slots.",
+      "decision_owner": "Founder",
+      "accountable_role": "decision_engine",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "CORE",
+        "REST_PRIVATE_V1",
+        "REQUEST_SELECTION",
+        "GEOMETRY_EVIDENCE"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "R-004",
+      "status": "DECIDED",
+      "line": 67,
+      "clause": "**DECIDED — R-004.** A card selection synchronizes a persistent shared UI state, focuses the MapLibre/MapTiler map on the exact place/entrance, animates camera zoom/pitch only as feasible and accessible, and visually highlights the selected point/object. High-quality **3D-looking emphasis** is an interaction goal; custom 3D geometry is not a prerequisite. Do not imply a 3D building exists where map data does not supply one.",
+      "decision_owner": "Founder",
+      "accountable_role": "decision_engine",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "CORE",
+        "REST_PRIVATE_V1",
+        "REQUEST_SELECTION",
+        "GEOMETRY_EVIDENCE"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "R-005",
+      "status": "DECIDED",
+      "line": 69,
+      "clause": "**DECIDED — R-005.** A concise anchored information window or contextual side/bottom panel shows **why recommended**, suitability criteria, evidence sources and timestamps, verified vs inferred vs unavailable vs partner-confirmed facts, important caveats, ETA/distance if actually available, availability/accessibility status, and next actions (route, compare, contact, booking/request where supported). Avoid a cluttered overlay obscuring the map.",
+      "decision_owner": "Founder",
+      "accountable_role": "decision_engine",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "CORE",
+        "REST_PRIVATE_V1",
+        "REQUEST_SELECTION",
+        "GEOMETRY_EVIDENCE"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "R-006",
+      "status": "DECIDED",
+      "line": 71,
+      "clause": "**DECIDED — R-006.** The map, chat, five-result list, selected place, route and action/booking share the same active request/selection context. Reject stale asynchronous responses; preserve state when preferences change. Do not duplicate the ranking algorithm in the browser or let an LLM invent attributes, live conditions, places, availability or routes.",
+      "decision_owner": "Founder",
+      "accountable_role": "decision_engine",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "CORE",
+        "REST_PRIVATE_V1",
+        "REQUEST_SELECTION",
+        "GEOMETRY_EVIDENCE"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "R-007",
+      "status": "TO VERIFY",
+      "line": 73,
+      "clause": "**TO VERIFY — R-007.** Live traffic quality, physical mobility accessibility data, public operating hours, route/ETA accuracy, weather and local dynamics in Batumi. Unsupported coverage must be marked unavailable rather than simulated. Distinguish static proxies (e.g., distance from traffic) from current measured noise/crowding.",
+      "decision_owner": "Founder",
+      "accountable_role": "decision_engine",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "CORE",
+        "REST_PRIVATE_V1",
+        "REQUEST_SELECTION",
+        "GEOMETRY_EVIDENCE"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "R-008",
+      "status": "DECIDED",
+      "line": 75,
+      "clause": "**DECIDED — R-008.** The system supports **informed user choice**, not an objective claim to find the psychologically or experientially \"best\" venue. Present up to five credible, high-relevance options as the initial shortlist, with transparent differences and user-controlled reordering/refinement; support additional eligible results without unnecessary repeats. Never imply a mathematically calibrated probability of \"best\" unless independently modeled and validated.",
+      "decision_owner": "Founder",
+      "accountable_role": "decision_engine",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "CORE",
+        "REST_PRIVATE_V1",
+        "REQUEST_SELECTION",
+        "GEOMETRY_EVIDENCE"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "R-009",
+      "status": "DECIDED",
+      "line": 77,
+      "clause": "**DECIDED — R-009.** Candidate retrieval must not accidentally discard superior eligible options due to arbitrary ID ordering or an early fixed limit. Define a measurable retrieval/coverage policy, then apply hard-constraint verification, suitability ranking, bounded diversity when relevant, and only then the conditional partner policy in R-002. Diversity must not contradict an explicit narrow user interest.",
+      "decision_owner": "Founder",
+      "accountable_role": "decision_engine",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "CORE",
+        "REST_PRIVATE_V1",
+        "REQUEST_SELECTION",
+        "GEOMETRY_EVIDENCE"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": [
+        "CF-03"
+      ]
+    },
+    {
+      "id": "R-010",
+      "status": "DECIDED",
+      "line": 79,
+      "clause": "**DECIDED — R-010.** Validation is layered: (a) **constraint validity** for known, independently checkable requirements; (b) **comparative relevance** using documented criteria and, where appropriate, blinded human review; (c) **choice-interface efficiency and usability**. Unknown critical facts must not be silently counted as satisfied, and an abstention is preferable to a fabricated fifth suggestion. The overall 0–100 suitability score and \"probability of best experience\" are not empirically calibrated without separate studies.",
+      "decision_owner": "Founder",
+      "accountable_role": "decision_engine",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "CORE",
+        "REST_PRIVATE_V1",
+        "REQUEST_SELECTION",
+        "GEOMETRY_EVIDENCE"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "V-001",
+      "status": "DECIDED",
+      "line": 94,
+      "clause": "**DECIDED — V-001 (supersedes v0.1).** The primary closed-pilot hypothesis is that CitySense helps a tourist **identify and select an option that satisfies their explicit, objectively checkable requirements, using a fast, understandable and visually effective comparison process**. Quality of the service eventually delivered by an attraction, tour operator, café or sports venue, psychological utility and post-visit satisfaction are **not primary MVP KPIs**. They may be collected separately as exploratory feedback, not represented as proof of ranking accuracy.",
+      "decision_owner": "Founder",
+      "accountable_role": "product_research",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "RESEARCH_REPLAY"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": [
+        "CF-01"
+      ]
+    },
+    {
+      "id": "V-002",
+      "status": "PROPOSED",
+      "line": 96,
+      "clause": "**PROPOSED — V-002.** Primary product KPIs should be measured jointly rather than collapsed into a subjective \"usefulness\" score:",
+      "decision_owner": "Founder",
+      "accountable_role": "product_research",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "RESEARCH_REPLAY"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "V-003",
+      "status": "PROPOSED",
+      "line": 107,
+      "clause": "**PROPOSED — V-003.** Secondary funnel metrics include QR scan-to-start, prompt submission, shortlist render, priority/filter change, cards compared, map focus/highlight, detail view, selection, route opened, contact/booking intent, and partner-confirmed commercial conversion **only where independent confirmation exists**. Define precise event schemas, denominators, duplicate-session handling, retention, missing-response rates and participant privacy boundaries before instrumentation. Clicks and route launches are behavioral signals, not verified visits or service satisfaction.",
+      "decision_owner": "Founder",
+      "accountable_role": "product_research",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "RESEARCH_REPLAY"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "V-004",
+      "status": "PROPOSED",
+      "line": 109,
+      "clause": "**PROPOSED — V-004.** Compare matched decision tasks against each participant's ordinary Maps/AI/host-advice workflow, measuring VDCR/violations, decision time and UX errors. Account for order effects and unequal information access. With the likely small Orbi City sample, report exploratory results and uncertainty, not statistical superiority.",
+      "decision_owner": "Founder",
+      "accountable_role": "product_research",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "RESEARCH_REPLAY"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "V-005",
+      "status": "TO VERIFY",
+      "line": 111,
+      "clause": "**TO VERIFY — V-005.** Lawful, privacy-minimizing event collection; any consent/notice requirements; room-group-level QR attribution without unnecessary person-level identification; opt-out/withdrawal and deletion policy; data retention and access control. Never collect continuous location tracking by default.",
+      "decision_owner": "Founder",
+      "accountable_role": "product_research",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "RESEARCH_REPLAY"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "V-006",
+      "status": "DECIDED",
+      "line": 113,
+      "clause": "**DECIDED — V-006.** Keep three outcome classes separate: (1) **verified decision validity** and decision efficiency (MVP core), (2) **self-reported or inferred user action** (secondary), and (3) **provider-confirmed fulfilled booking/payment** (commercial outcome, unavailable without partner/provider evidence). Do not claim any of these establishes the quality of the consumed service or causal incrementality by itself.",
+      "decision_owner": "Founder",
+      "accountable_role": "product_research",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "RESEARCH_REPLAY"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": [
+        "CF-01"
+      ]
+    },
+    {
+      "id": "E-001",
+      "status": "TO VALIDATE",
+      "line": 129,
+      "clause": "**TO VALIDATE — E-001.** Tourist benefit: faster and easier **constraint-valid selection**, understandable comparisons and lower search friction. Better experienced venue/service quality and post-visit satisfaction are outside the primary MVP claim.",
+      "decision_owner": "Founder",
+      "accountable_role": "product_research",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "RESEARCH_REPLAY"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "E-002",
+      "status": "TO VALIDATE",
+      "line": 131,
+      "clause": "**TO VALIDATE — E-002.** Partner benefit: verified **incremental** bookings/visits, filled unused capacity, improved qualified leads; net benefit must account for discounts, commissions, service cost, no-shows and cannibalization.",
+      "decision_owner": "Founder",
+      "accountable_role": "product_research",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "RESEARCH_REPLAY"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "E-003",
+      "status": "TO VALIDATE",
+      "line": 133,
+      "clause": "**TO VALIDATE — E-003.** CitySense benefit: revenue from eligible transactions or later subscriptions vs customer acquisition cost, partner onboarding, API/provider fees, support, payment fees (where applicable), infrastructure, refunds/disputes and regulatory overhead.",
+      "decision_owner": "Founder",
+      "accountable_role": "product_research",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "RESEARCH_REPLAY"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "E-004",
+      "status": "TO VALIDATE",
+      "line": 135,
+      "clause": "**TO VALIDATE — E-004.** QR rooms offer a bounded acquisition experiment, not proven scalable distribution. Hotel/operator permission, economics, churn and permission to message visitors require separate validation.",
+      "decision_owner": "Founder",
+      "accountable_role": "product_research",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "RESEARCH_REPLAY"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "X-001",
+      "status": "DECIDED",
+      "line": 198,
+      "clause": "**DECIDED — X-001. Platform extensibility.** CitySense must be designed as an extensible **place × service × provider × availability × action** platform, not a hardcoded list of tourism categories. This is an architectural requirement, not a claim that the integrations exist or have commercial agreements. Preserve the November pilot's narrower core user journey.",
+      "decision_owner": "Founder",
+      "accountable_role": "service_integrations",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "SERVICES_READ",
+        "ACTIONS_CALLBACK",
+        "OPENAPI_EXTERNAL",
+        "MCP_EXTERNAL"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "X-002",
+      "status": "DECIDED",
+      "line": 200,
+      "clause": "**DECIDED — X-002. Expandable service taxonomy.** Initial architecture must be capable of representing: travel eSIM/SIM offers and activation links; licensed/private tour operators; authorized drivers, private transfers and transport contacts; destination and partner contact details; paid experiences/sports facilities; future city-specific digital services. Each concrete category's product scope and implementation remains PROPOSED or DEFERRED until prioritized. No implicit assumption that independent drivers or tour providers are licensed, insured, available, or willing to contract.",
+      "decision_owner": "Founder",
+      "accountable_role": "service_integrations",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "SERVICES_READ",
+        "ACTIONS_CALLBACK",
+        "OPENAPI_EXTERNAL",
+        "MCP_EXTERNAL"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "X-003",
+      "status": "DECIDED",
+      "line": 202,
+      "clause": "**DECIDED — X-003. Single domain core, multiple clients.** Mobile PWA, Telegram bot/Mini App, partner workspace and future external AI agents should consume versioned, governed service/action APIs, not separately implement availability, ranking, booking or entitlements. A provider adapter / connector layer separates external inventory and fulfillment from the domain model. Do not prematurely build a generic plug-in runtime or force every domain into an impoverished single schema.",
+      "decision_owner": "Founder",
+      "accountable_role": "service_integrations",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "SERVICES_READ",
+        "ACTIONS_CALLBACK",
+        "OPENAPI_EXTERNAL",
+        "MCP_EXTERNAL"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "X-004",
+      "status": "DECIDED",
+      "line": 204,
+      "clause": "**DECIDED — X-004. Agent-ready interface.** Maintain machine-readable OpenAPI schemas for public/partner access where permitted and explore an MCP-facing adapter as a secondary distribution surface. Read-only tools (service discovery, details, eligibility, availability with freshness/provenance) are distinct from write tools (quote, request, confirm, cancel). Auth, scopes, partner permissions, user consent, usage quotas and audit are mandatory before external agent access. A tool schema alone is not an externally accessible service.",
+      "decision_owner": "Founder",
+      "accountable_role": "service_integrations",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "SERVICES_READ",
+        "ACTIONS_CALLBACK",
+        "OPENAPI_EXTERNAL",
+        "MCP_EXTERNAL"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "X-005",
+      "status": "DECIDED",
+      "line": 206,
+      "clause": "**DECIDED — X-005. Honest transactions.** Distinguish VERIFIED_CONTACT, INFORMATION_ONLY, REDIRECT_TO_PROVIDER, REQUESTED, PENDING_PARTNER, CONFIRMED, DECLINED, EXPIRED, CANCELLED, COMPLETED. Fulfillment must come from an authorized source. SIM/eSIM purchase and activation, transportation reservations and payments can have different provider/legal obligations; never simulate activation/availability/confirmation. No raw payment data handling or unapproved booking writes.",
+      "decision_owner": "Founder",
+      "accountable_role": "service_integrations",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "SERVICES_READ",
+        "ACTIONS_CALLBACK",
+        "OPENAPI_EXTERNAL",
+        "MCP_EXTERNAL"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "X-006",
+      "status": "DECIDED",
+      "line": 208,
+      "clause": "**DECIDED — X-006. Multi-city design without premature rollout.** City-dependent providers, locales, currencies, taxonomies, map coverage, law, rights and service-area geometry must be configurable by city/market. Stable globally unique entity IDs, versioned schemas, geo/timezones/currency and source provenance are essential. Batumi remains the only initial pilot market. No global scale claim until interoperability, supply acquisition, costs and regional legal feasibility are demonstrated.",
+      "decision_owner": "Founder",
+      "accountable_role": "service_integrations",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "SERVICES_READ",
+        "ACTIONS_CALLBACK",
+        "OPENAPI_EXTERNAL",
+        "MCP_EXTERNAL"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "X-007",
+      "status": "DECIDED",
+      "line": 210,
+      "clause": "**DECIDED — X-007. Human relevance over promotion.** Services can be candidates only if they genuinely fit a stated need and hard constraints; paid inventory must not bypass evidence and ranking rules. Disclose commercial relationships and price/availability uncertainty. Do not infer personalization attributes or collect location/identity beyond the purpose and consent.",
+      "decision_owner": "Founder",
+      "accountable_role": "service_integrations",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "SERVICES_READ",
+        "ACTIONS_CALLBACK",
+        "OPENAPI_EXTERNAL",
+        "MCP_EXTERNAL"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "X-008",
+      "status": "PROPOSED",
+      "line": 212,
+      "clause": "**PROPOSED — X-008. Capability-oriented service contract.** Model a `ServiceOffering` connected to a `Provider`, `Place` or service area, `Capability`, `PriceQuote`, `AvailabilityAssertion`, `ContactChannel`, `ActionPolicy` and `EvidenceRecord`. Distinguish place-based offerings (court), mobile/on-demand services (driver), remote/digital services (eSIM) and informational contact listings; do not require all offerings to have a single geographic point. Extend through category-specific validated attributes rather than dozens of nullable universal columns.",
+      "decision_owner": "Founder",
+      "accountable_role": "service_integrations",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "SERVICES_READ",
+        "ACTIONS_CALLBACK",
+        "OPENAPI_EXTERNAL",
+        "MCP_EXTERNAL"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "X-009",
+      "status": "PROPOSED",
+      "line": 214,
+      "clause": "**PROPOSED — X-009. Connector lifecycle and trust.** `DISCOVERED -> CONTACTED -> APPROVED -> TESTING -> ACTIVE -> SUSPENDED/REVOKED`; per-connector capability negotiation, sandbox contract tests, inventory freshness, error handling, rate limits, rights records and revocation. Do not publish partner contact details or integrate private endpoints without authorization.",
+      "decision_owner": "Founder",
+      "accountable_role": "service_integrations",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "SERVICES_READ",
+        "ACTIONS_CALLBACK",
+        "OPENAPI_EXTERNAL",
+        "MCP_EXTERNAL"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "X-010",
+      "status": "PROPOSED",
+      "line": 216,
+      "clause": "**PROPOSED — X-010. Phased implementation.** Phase A: schema and interfaces compatible with the current registry, read-only service discovery and verified contacts, no agent write tools. Phase B: partner-verified availability/request workflows for one narrow segment. Phase C: eSIM/private transfer partner integrations following signed terms, legal review and provider sandbox tests. Phase D: independently authorized external agent API/MCP actions, tenant scopes and monitored production reliability. Stages require founder gates; they are not automatic scope for November.",
+      "decision_owner": "Founder",
+      "accountable_role": "service_integrations",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "inherited unchanged from v0.3",
+      "interfaces": [
+        "SERVICES_READ",
+        "ACTIONS_CALLBACK",
+        "OPENAPI_EXTERNAL",
+        "MCP_EXTERNAL"
+      ],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "P-005",
+      "status": "DECIDED",
+      "line": 248,
+      "clause": "**P-005 DECIDED:** CitySense development uses sequential founder-controlled stage gates: scope approved first, work performed within that scope, technical QA, founder evaluation of concrete outcomes, and explicit approval before the next stage. No agent, including the Chief Engineer, may infer approval from silence, reports, green tests or roadmap position. Approval is specific to stage and artifact version; changed requirements need a new recorded decision.",
+      "decision_owner": "Founder",
+      "accountable_role": "chief_engineer",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "v0.4 added clause",
+      "interfaces": [],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "P-006",
+      "status": "DECIDED",
+      "line": 250,
+      "clause": "**P-006 DECIDED:** UI/UX and cartographic presentation require visual founder approval at distinct design checkpoints before broad production implementation. Review must use genuine rendered previews and reproducible demos where available, at representative mobile/desktop viewports, with realistic and rights-compliant Batumi data; no fabricated map evidence. Design quality and usability are separate acceptance dimensions from code correctness.",
+      "decision_owner": "Founder",
+      "accountable_role": "mobile_pwa",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "v0.4 added clause",
+      "interfaces": [],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    },
+    {
+      "id": "P-007",
+      "status": "DECIDED",
+      "line": 252,
+      "clause": "**P-007 DECIDED:** Scope changes and new ideas must be logged, evaluated for impact across modules and approved before entering implementation. The Chief Engineer curates dependency-aware stage packets and a durable decision record; specialist agents cannot change accepted product outcomes through incidental technical decisions.",
+      "decision_owner": "Founder",
+      "accountable_role": "chief_engineer",
+      "source": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "status_origin": "v0.4 added clause",
+      "interfaces": [],
+      "implementation_evidence": "docs/governance/STATUS.md",
+      "approval_gate": "docs/governance/STAGE_GATES.md",
+      "conflicts": []
+    }
+  ]
+}
+

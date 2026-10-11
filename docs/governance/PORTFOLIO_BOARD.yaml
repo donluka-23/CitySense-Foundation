@@ -1,0 +1,299 @@
+{
+  "format": "YAML 1.2 JSON-compatible subset; no external YAML parser required",
+  "as_of": "2026-10-10",
+  "authorization": "CURRENT_DOCUMENT_INTAKE_ONLY_NO_PRODUCT_EXECUTION",
+  "plan_status": "PROPOSED_NOT_EXECUTING",
+  "next_ticket_limit": 3,
+  "initiatives": [
+    {
+      "id": "GOV",
+      "owner": "chief_engineer",
+      "decision_ids": [
+        "G-001",
+        "X-003",
+        "P-005",
+        "P-006",
+        "P-007"
+      ],
+      "stage": "INTEGRATION_REVIEW",
+      "status": "DOCUMENT_INTAKE_FOUNDER_REVIEW",
+      "depends_on": [],
+      "gate": "Founder reviews governance; no task execution implied",
+      "blockers": [
+        "FA-10"
+      ],
+      "evidence": "docs/governance/evidence/document-intake/verification.json",
+      "charter": "docs/governance/PROJECT_CHARTER.md",
+      "delivery_stage_id": "DOC-INTAKE-2026-10-10",
+      "delivery_lifecycle": "FOUNDER_REVIEW",
+      "authorization_state": "AUTHORIZED_DOCUMENT_MAINTENANCE_ONLY",
+      "authorization_reference": "FA-DOC-INTAKE-2026-10-10-001"
+    },
+    {
+      "id": "INVENTORY",
+      "owner": "geospatial_data",
+      "decision_ids": [
+        "R-001",
+        "R-007",
+        "R-009"
+      ],
+      "stage": "CR_DRAFT",
+      "status": "PROPOSED",
+      "ticket": "T-02",
+      "depends_on": [
+        "GOV"
+      ],
+      "gate": "Task/source/field authority and independent evidence review",
+      "blockers": [
+        "FA-02",
+        "RISK-01",
+        "RISK-02"
+      ],
+      "evidence": "docs/governance/TICKETS/T-02-INVENTORY.md",
+      "charter": "docs/governance/PROJECT_CHARTER.md",
+      "delivery_stage_id": "TBD_REQUIRES_FOUNDER_SCOPE",
+      "delivery_lifecycle": "DRAFT_PLAN",
+      "authorization_state": "BLOCKED_AWAITING_FOUNDER_APPROVAL",
+      "authorization_reference": null
+    },
+    {
+      "id": "VISUAL",
+      "owner": "cartography",
+      "decision_ids": [
+        "R-004",
+        "R-005"
+      ],
+      "stage": "CR_DRAFT",
+      "status": "PROPOSED",
+      "ticket": "T-03",
+      "depends_on": [
+        "GOV"
+      ],
+      "gate": "Lawful actual artifacts and human visual approval; no Stage 2",
+      "blockers": [
+        "FA-07",
+        "RISK-05"
+      ],
+      "evidence": "docs/governance/TICKETS/T-03-VISUAL-REVIEW.md",
+      "charter": "docs/governance/PROJECT_CHARTER.md",
+      "delivery_stage_id": "TBD_REQUIRES_FOUNDER_SCOPE",
+      "delivery_lifecycle": "DRAFT_PLAN",
+      "authorization_state": "BLOCKED_AWAITING_FOUNDER_APPROVAL",
+      "authorization_reference": null
+    },
+    {
+      "id": "CONTRACTS",
+      "owner": "chief_engineer",
+      "decision_ids": [
+        "R-006",
+        "R-009",
+        "V-001",
+        "X-003"
+      ],
+      "stage": "CR_DRAFT",
+      "status": "PROPOSED_PHASE_OF_T-01",
+      "ticket": "T-01",
+      "depends_on": [
+        "GOV"
+      ],
+      "gate": "Founder conflict/privacy decisions; schema owner and consumers agree",
+      "blockers": [
+        "CF-01",
+        "CF-03",
+        "FA-01",
+        "FA-04",
+        "FA-06"
+      ],
+      "evidence": "docs/governance/INTERFACE_REGISTRY.yaml",
+      "charter": "docs/governance/PROJECT_CHARTER.md",
+      "delivery_stage_id": "TBD_REQUIRES_FOUNDER_SCOPE",
+      "delivery_lifecycle": "DRAFT_PLAN",
+      "authorization_state": "BLOCKED_AWAITING_FOUNDER_APPROVAL",
+      "authorization_reference": null
+    },
+    {
+      "id": "SLICE",
+      "owner": "mobile_pwa",
+      "decision_ids": [
+        "P-004",
+        "R-003",
+        "R-006",
+        "R-010"
+      ],
+      "stage": "CR_DRAFT",
+      "status": "PROPOSED",
+      "ticket": "T-01",
+      "depends_on": [
+        "INVENTORY",
+        "VISUAL",
+        "CONTRACTS"
+      ],
+      "gate": "Explicit implementation and any Stage 2 approval; independent integration/mobile/security QA",
+      "blockers": [
+        "FA-10",
+        "RISK-04",
+        "RISK-06"
+      ],
+      "evidence": "docs/governance/INTEGRATION_MATRIX.md",
+      "charter": "docs/governance/PROJECT_CHARTER.md",
+      "delivery_stage_id": "TBD_REQUIRES_FOUNDER_SCOPE",
+      "delivery_lifecycle": "DRAFT_PLAN",
+      "authorization_state": "BLOCKED_AWAITING_FOUNDER_APPROVAL",
+      "authorization_reference": null
+    },
+    {
+      "id": "PILOT",
+      "owner": "product_research",
+      "decision_ids": [
+        "G-001",
+        "G-002",
+        "V-001",
+        "V-006"
+      ],
+      "stage": "IDEA_INBOX",
+      "status": "PROPOSED_CLOSED_PILOT",
+      "depends_on": [
+        "SLICE"
+      ],
+      "gate": "Permission, participants, protocol/privacy/support and founder go/no-go",
+      "blockers": [
+        "FA-01",
+        "FA-03",
+        "FA-04",
+        "RISK-03"
+      ],
+      "evidence": "docs/governance/RELEASE_GATES.md",
+      "charter": "docs/governance/PROJECT_CHARTER.md",
+      "delivery_stage_id": "TBD_REQUIRES_FOUNDER_SCOPE",
+      "delivery_lifecycle": "DRAFT_PLAN",
+      "authorization_state": "BLOCKED_AWAITING_FOUNDER_APPROVAL",
+      "authorization_reference": null
+    },
+    {
+      "id": "CONTACTS_ACTIONS",
+      "owner": "partner_booking",
+      "decision_ids": [
+        "B-001",
+        "B-002",
+        "X-005"
+      ],
+      "stage": "IDEA_INBOX",
+      "status": "OPTIONAL_UNBUILT",
+      "depends_on": [
+        "INVENTORY",
+        "CONTRACTS"
+      ],
+      "gate": "Verified publication/partners; action authority/consent/lifecycle separately approved",
+      "blockers": [
+        "FA-08",
+        "RISK-07",
+        "RISK-08"
+      ],
+      "evidence": "docs/governance/SERVICE_PLATFORM_EXTENSION_RFC.md",
+      "charter": "docs/governance/PROJECT_CHARTER.md",
+      "delivery_stage_id": "TBD_REQUIRES_FOUNDER_SCOPE",
+      "delivery_lifecycle": "DRAFT_PLAN",
+      "authorization_state": "BLOCKED_AWAITING_FOUNDER_APPROVAL",
+      "authorization_reference": null
+    },
+    {
+      "id": "SERVICES",
+      "owner": "service_integrations",
+      "decision_ids": [
+        "X-001",
+        "X-002",
+        "X-008",
+        "X-009",
+        "X-010"
+      ],
+      "stage": "IDEA_INBOX",
+      "status": "RFC_ONLY_FUTURE_IMPLEMENTATION_DEFERRED",
+      "depends_on": [
+        "CONTRACTS"
+      ],
+      "gate": "Minimal additive RFC review, not a November framework requirement",
+      "blockers": [
+        "CF-04",
+        "FA-09",
+        "RISK-10"
+      ],
+      "evidence": "docs/governance/SERVICE_PLATFORM_EXTENSION_RFC.md",
+      "charter": "docs/governance/PROJECT_CHARTER.md",
+      "delivery_stage_id": "TBD_REQUIRES_FOUNDER_SCOPE",
+      "delivery_lifecycle": "DRAFT_PLAN",
+      "authorization_state": "BLOCKED_AWAITING_FOUNDER_APPROVAL",
+      "authorization_reference": null
+    },
+    {
+      "id": "AGENT_ACCESS",
+      "owner": "agent_interfaces",
+      "decision_ids": [
+        "X-004",
+        "X-005"
+      ],
+      "stage": "IDEA_INBOX",
+      "status": "PROPOSED_ACCESS_UNRELEASED",
+      "depends_on": [
+        "SERVICES"
+      ],
+      "gate": "Identity, rights/consent, quotas and independent external-release review",
+      "blockers": [
+        "FA-09",
+        "RISK-09"
+      ],
+      "evidence": "docs/governance/AGENT_ACCESS_BOUNDARIES.md",
+      "charter": "docs/governance/PROJECT_CHARTER.md",
+      "delivery_stage_id": "TBD_REQUIRES_FOUNDER_SCOPE",
+      "delivery_lifecycle": "DRAFT_PLAN",
+      "authorization_state": "BLOCKED_AWAITING_FOUNDER_APPROVAL",
+      "authorization_reference": null
+    },
+    {
+      "id": "RESEARCH",
+      "owner": "product_research",
+      "decision_ids": [
+        "R-010",
+        "V-006"
+      ],
+      "stage": "IDEA_INBOX",
+      "status": "PRESERVED_SEPARATE_RESEARCH_TRACK",
+      "depends_on": [],
+      "gate": "Protected protocol; genuine A1/field evidence and independent review",
+      "blockers": [
+        "FA-01",
+        "RISK-11"
+      ],
+      "evidence": "docs/RESEARCH_VALIDATION_READINESS.md",
+      "charter": "docs/governance/PROJECT_CHARTER.md",
+      "delivery_stage_id": "TBD_REQUIRES_FOUNDER_SCOPE",
+      "delivery_lifecycle": "DRAFT_PLAN",
+      "authorization_state": "BLOCKED_AWAITING_FOUNDER_APPROVAL",
+      "authorization_reference": null
+    },
+    {
+      "id": "TELEGRAM",
+      "owner": "telegram",
+      "decision_ids": [
+        "X-003",
+        "R-006"
+      ],
+      "stage": "IDEA_INBOX",
+      "status": "DEMO_PRESERVED_EXTENSION_DEFERRED",
+      "depends_on": [
+        "CONTRACTS"
+      ],
+      "gate": "Separate future client scope; no polling/cap change by implication",
+      "blockers": [
+        "CF-05"
+      ],
+      "evidence": "docs/TELEGRAM_DEMO_SPEC.md",
+      "charter": "docs/governance/PROJECT_CHARTER.md",
+      "delivery_stage_id": "TBD_REQUIRES_FOUNDER_SCOPE",
+      "delivery_lifecycle": "DRAFT_PLAN",
+      "authorization_state": "BLOCKED_AWAITING_FOUNDER_APPROVAL",
+      "authorization_reference": null
+    }
+  ],
+  "stage_gate_reference": "docs/governance/STAGE_GATES.md",
+  "approval_ledger": "docs/governance/FOUNDER_APPROVALS.md"
+}
