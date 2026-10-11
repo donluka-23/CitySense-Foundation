@@ -1,0 +1,163 @@
+{
+  "as_of": "2026-10-10",
+  "classification": "ACTUAL_INVOCATIONS_PORTABLE_ROLE_INSTRUCTIONS",
+  "evidence_basis": "Actual collaboration.spawn_agent calls and completed returned handoffs in the session runtime transcript; this is a Chief-recorded ledger, not an exported runtime trace.",
+  "base_head": "eadf331e4b7c262fb5c2216d051f7f6e56a456bf",
+  "complete_goal_given_to_every_worker": "Tourist QR -> need -> up to five lawful evidence-backed constraint-valid alternatives -> compare/refine -> selected map/evidence -> understand supported next actions",
+  "invocations": [
+    {
+      "sequence": 1,
+      "audit": "OA-PRODUCT",
+      "task_name": "acceptance_product",
+      "agent": "/root/acceptance_product",
+      "profiles": [
+        "product_research"
+      ],
+      "dispatch_condition": "initial independent audit wave",
+      "tool": "collaboration.spawn_agent",
+      "fork_turns": "none",
+      "model_override": false,
+      "scope": "READ_ONLY audit; no write paths, functional tests, providers, credentials, UI, stage or deployment",
+      "native_profile_selected": false,
+      "instruction_application": "Worker explicitly instructed to read and follow configured role TOML plus portable role Markdown",
+      "role_layer_hashes": {
+        ".codex/roles/product_research.toml": "00a3ce8089b6340e1c6b850d55fe560a9a6b8907ea25676443f904708b058a3c"
+      },
+      "profile_reads_confirmed_by_returned_handoff": true,
+      "returned_handoff": "docs/governance/evidence/orchestration-acceptance/OA-PRODUCT.md",
+      "status": "COMPLETED",
+      "files_written_by_worker_reported": [],
+      "chief_integrated": true,
+      "integration_record": "Report retains whole goal and T-01 container, separates protocols, keeps commercial priority inactive and requires both positive comparison and no-data evidence."
+    },
+    {
+      "sequence": 2,
+      "audit": "OA-GEO",
+      "task_name": "acceptance_geospatial",
+      "agent": "/root/acceptance_geospatial",
+      "profiles": [
+        "geospatial_data"
+      ],
+      "dispatch_condition": "initial independent audit wave",
+      "tool": "collaboration.spawn_agent",
+      "fork_turns": "none",
+      "model_override": false,
+      "scope": "READ_ONLY audit; no write paths, functional tests, providers, credentials, UI, stage or deployment",
+      "native_profile_selected": false,
+      "instruction_application": "Worker explicitly instructed to read and follow configured role TOML plus portable role Markdown",
+      "role_layer_hashes": {
+        ".codex/roles/geospatial_data.toml": "d7b42e6b6a5b63d1a6aaf974bfefa2efd45927ec92141793d41d6b00d1b135b0"
+      },
+      "profile_reads_confirmed_by_returned_handoff": true,
+      "returned_handoff": "docs/governance/evidence/orchestration-acceptance/OA-GEO.md",
+      "status": "COMPLETED",
+      "files_written_by_worker_reported": [],
+      "chief_integrated": true,
+      "integration_record": "Inventory precedes real shortlist claims; matrix adds boundary-versus-entrance and freshness-versus-presence negative acceptance."
+    },
+    {
+      "sequence": 3,
+      "audit": "OA-VISUAL",
+      "task_name": "acceptance_visual",
+      "agent": "/root/acceptance_visual",
+      "profiles": [
+        "cartography",
+        "mobile_pwa"
+      ],
+      "dispatch_condition": "initial independent audit wave",
+      "tool": "collaboration.spawn_agent",
+      "fork_turns": "none",
+      "model_override": false,
+      "scope": "READ_ONLY audit; no write paths, functional tests, providers, credentials, UI, stage or deployment",
+      "native_profile_selected": false,
+      "instruction_application": "Worker explicitly instructed to read and follow configured role TOML plus portable role Markdown",
+      "role_layer_hashes": {
+        ".codex/roles/cartography.toml": "b2ce95a60692a6aab27818b2d5a11318b3c34b1532b28158f1ece0fb93375779",
+        ".codex/roles/mobile_pwa.toml": "3a4d759eb613030cb8b20b924ed98c35047b3456fb3f545898d74475ea044088"
+      },
+      "profile_reads_confirmed_by_returned_handoff": true,
+      "returned_handoff": "docs/governance/evidence/orchestration-acceptance/OA-VISUAL.md",
+      "status": "COMPLETED",
+      "files_written_by_worker_reported": [],
+      "chief_integrated": true,
+      "integration_record": "Report enumerates reference, QR, need, shortlist, compare/refine, map/evidence, selection/actions and integrated-mobile approval gates; all pending."
+    },
+    {
+      "sequence": 4,
+      "audit": "OA-PLATFORM",
+      "task_name": "acceptance_platform",
+      "agent": "/root/acceptance_platform",
+      "profiles": [
+        "platform"
+      ],
+      "dispatch_condition": "after OA-PRODUCT completion released concurrency slot",
+      "tool": "collaboration.spawn_agent",
+      "fork_turns": "none",
+      "model_override": false,
+      "scope": "READ_ONLY audit; no write paths, functional tests, providers, credentials, UI, stage or deployment",
+      "native_profile_selected": false,
+      "instruction_application": "Worker explicitly instructed to read and follow configured role TOML plus portable role Markdown",
+      "role_layer_hashes": {
+        ".codex/roles/platform.toml": "35a8fbcf6257eb49733d46c01ff919c55e9232981febbb3e161da02aff15edb6"
+      },
+      "profile_reads_confirmed_by_returned_handoff": true,
+      "returned_handoff": "docs/governance/evidence/orchestration-acceptance/OA-PLATFORM.md",
+      "status": "COMPLETED",
+      "files_written_by_worker_reported": [],
+      "chief_integrated": true,
+      "integration_record": "Report lists eight paths and absent request/selection seam, preserves exactly-two comparison, requires explicit coverage/version/browser access approval before T-01."
+    },
+    {
+      "sequence": 5,
+      "audit": "OA-QA",
+      "task_name": "acceptance_qa",
+      "agent": "/root/acceptance_qa",
+      "profiles": [
+        "qa"
+      ],
+      "dispatch_condition": "after OA-GEO/OA-VISUAL completion; independent audit followed by Chief report review",
+      "tool": "collaboration.spawn_agent",
+      "fork_turns": "none",
+      "model_override": false,
+      "scope": "READ_ONLY audit; no write paths, functional tests, providers, credentials, UI, stage or deployment",
+      "native_profile_selected": false,
+      "instruction_application": "Worker explicitly instructed to read and follow configured role TOML plus portable role Markdown",
+      "role_layer_hashes": {
+        ".codex/roles/qa.toml": "217259134d03ebb7e3204566786ffca4e44f033f8becc124b05b6b38da7d1c61"
+      },
+      "profile_reads_confirmed_by_returned_handoff": true,
+      "returned_handoff": "docs/governance/evidence/orchestration-acceptance/OA-QA.md",
+      "status": "COMPLETED",
+      "files_written_by_worker_reported": [],
+      "chief_integrated": true,
+      "integration_record": "Both substantive corrections and named accessibility checks applied; report retains PARTIAL, pending founder phase approval and no runtime/native-loader certification."
+    }
+  ],
+  "independent_qa_draft_review": true,
+  "qa_corrections_applied_by_chief": [
+    "publication vs local research/cache permissions",
+    "independent comparative relevance audit against reviewed pool",
+    "explicit accessibility modalities"
+  ],
+  "isolation": {
+    "task_context": "fresh workers with fork_turns=none",
+    "max_simultaneous_workers": 3,
+    "chief_included_in_four_slot_limit": true,
+    "filesystem": "shared workspace",
+    "worktrees_created": 0,
+    "enforced_read_only_sandbox_verified": false,
+    "native_profile_loader_verified": false,
+    "scope_preservation": "worker reports and final pre/post file hashes, not OS isolation"
+  },
+  "features": {
+    "multi_agent": "stable enabled; current codex features list inspected",
+    "multi_agent_v2": "stable disabled; unchanged"
+  },
+  "limitations": [
+    "Zero native named-profile launches verified.",
+    "Six configured role layers were applied portably across five actual agents.",
+    "No product/runtime/field acceptance follows from report completion.",
+    "v0.4 missing-source boundary remains unresolved.",
+    "Full tool output/prompt transcript is retained in the session, not exported as a machine-authenticated trace."
+  ]
+}
