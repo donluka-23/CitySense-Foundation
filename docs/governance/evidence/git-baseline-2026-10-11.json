@@ -1,0 +1,1489 @@
+{
+  "schema": "CitySense Git baseline audit and commit preparation v1",
+  "as_of_client_date": "2026-10-11",
+  "timezone": "Asia/Tbilisi",
+  "readiness": "READY_TO_COMMIT",
+  "authorization": "Audit and commit preparation only. No git add, commit, push, product edits, history rewrites or future-stage approvals.",
+  "git": {
+    "branch": "stage/1c-map-navigation",
+    "head": "eadf331e4b7c262fb5c2216d051f7f6e56a456bf",
+    "tracked_files": 387,
+    "initial_staged_changes": 0,
+    "initial_unstaged_tracked_changes": 0,
+    "initial_untracked_files": 79,
+    "initial_short_status_collapsed_entries": 4,
+    "initial_file_status": [
+      "?? .codex/config.toml",
+      "?? .codex/roles/agent_interfaces.toml",
+      "?? .codex/roles/cartography.toml",
+      "?? .codex/roles/chief_engineer.toml",
+      "?? .codex/roles/decision_engine.toml",
+      "?? .codex/roles/geospatial_data.toml",
+      "?? .codex/roles/mobile_pwa.toml",
+      "?? .codex/roles/partner_booking.toml",
+      "?? .codex/roles/platform.toml",
+      "?? .codex/roles/product_research.toml",
+      "?? .codex/roles/qa.toml",
+      "?? .codex/roles/security.toml",
+      "?? .codex/roles/service_integrations.toml",
+      "?? .codex/roles/telegram.toml",
+      "?? AGENTS.md",
+      "?? docs/governance/AGENT_ACCESS_BOUNDARIES.md",
+      "?? docs/governance/BACKLOG.md",
+      "?? docs/governance/BOOTSTRAP_VERIFICATION.json",
+      "?? docs/governance/CHANGE_REQUESTS/CR-TEMPLATE.md",
+      "?? docs/governance/CHANGE_REQUESTS/README.md",
+      "?? docs/governance/CHIEF_ENGINEER_WORKFLOW.md",
+      "?? docs/governance/CITYSENSE_AGENTIC_ENGINEERING_OPERATING_SYSTEM_v1_2.md",
+      "?? docs/governance/CODEX_COMPATIBILITY.md",
+      "?? docs/governance/DECISION_REGISTER.md",
+      "?? docs/governance/DECISION_TRACEABILITY.yaml",
+      "?? docs/governance/FILE_MANIFEST.md",
+      "?? docs/governance/FOUNDER_APPROVALS.md",
+      "?? docs/governance/FOUNDER_REVIEW_PACKET.md",
+      "?? docs/governance/GOVERNANCE_RECONCILIATION_v0_4_v1_2.md",
+      "?? docs/governance/HANDOFF_TEMPLATE.md",
+      "?? docs/governance/INTEGRATION_MATRIX.md",
+      "?? docs/governance/INTERFACE_REGISTRY.yaml",
+      "?? docs/governance/ORCHESTRATION_ACCEPTANCE_REPORT.md",
+      "?? docs/governance/PORTFOLIO_BOARD.yaml",
+      "?? docs/governance/PROJECT_CHARTER.md",
+      "?? docs/governance/README.md",
+      "?? docs/governance/RECONCILIATION.md",
+      "?? docs/governance/RELEASE_GATES.md",
+      "?? docs/governance/RISK_REGISTER.md",
+      "?? docs/governance/ROLES/README.md",
+      "?? docs/governance/ROLES/agent_interfaces.md",
+      "?? docs/governance/ROLES/cartography.md",
+      "?? docs/governance/ROLES/chief_engineer.md",
+      "?? docs/governance/ROLES/decision_engine.md",
+      "?? docs/governance/ROLES/geospatial_data.md",
+      "?? docs/governance/ROLES/mobile_pwa.md",
+      "?? docs/governance/ROLES/partner_booking.md",
+      "?? docs/governance/ROLES/platform.md",
+      "?? docs/governance/ROLES/product_research.md",
+      "?? docs/governance/ROLES/qa.md",
+      "?? docs/governance/ROLES/security.md",
+      "?? docs/governance/ROLES/service_integrations.md",
+      "?? docs/governance/ROLES/telegram.md",
+      "?? docs/governance/SERVICE_PLATFORM_EXTENSION_RFC.md",
+      "?? docs/governance/SOURCES/CITYSENSE_AGENTIC_ENGINEERING_OPERATING_SYSTEM_v1_1.md",
+      "?? docs/governance/SOURCES/CITYSENSE_PRODUCT_BLUEPRINT_v0_3.md",
+      "?? docs/governance/SOURCES/CODEX_BOOTSTRAP_AGENTIC_TEAM_PROMPT_v1_1.md",
+      "?? docs/governance/SOURCE_REGISTER.md",
+      "?? docs/governance/STAGE_GATES.md",
+      "?? docs/governance/STATUS.md",
+      "?? docs/governance/TICKETS/T-01-VERTICAL-SLICE.md",
+      "?? docs/governance/TICKETS/T-02-INVENTORY.md",
+      "?? docs/governance/TICKETS/T-03-VISUAL-REVIEW.md",
+      "?? docs/governance/VERSION_REGISTER.md",
+      "?? docs/governance/evidence/document-intake/BASELINE.json",
+      "?? docs/governance/evidence/document-intake/FOUNDER_REVIEW_PACKET.orchestration-acceptance.md",
+      "?? docs/governance/evidence/document-intake/MAINTENANCE_DIFF.patch",
+      "?? docs/governance/evidence/document-intake/REVIEW_HANDOFFS.md",
+      "?? docs/governance/evidence/document-intake/USER_REQUEST.md",
+      "?? docs/governance/evidence/document-intake/verification.json",
+      "?? docs/governance/evidence/orchestration-acceptance/INVOCATIONS.json",
+      "?? docs/governance/evidence/orchestration-acceptance/OA-GEO.md",
+      "?? docs/governance/evidence/orchestration-acceptance/OA-PLATFORM.md",
+      "?? docs/governance/evidence/orchestration-acceptance/OA-PRODUCT.md",
+      "?? docs/governance/evidence/orchestration-acceptance/OA-QA.md",
+      "?? docs/governance/evidence/orchestration-acceptance/OA-VISUAL.md",
+      "?? docs/governance/evidence/orchestration-acceptance/verification.json",
+      "?? docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "?? docs/product/README.md"
+    ],
+    "commits_created": 0,
+    "staging_performed": false,
+    "push_performed": false,
+    "initial_head_tree": "57d269672d26a9630832a234e34c7fac6a0acc3c"
+  },
+  "category_counts_by_origin": {
+    "governance_bootstrap": 56,
+    "orchestration_acceptance": 9,
+    "blueprint_aeos_intake": 14,
+    "map_stage_1_1b": 0,
+    "existing_product_research": 0,
+    "unknown_unrelated": 0
+  },
+  "category_counts_by_latest_contributor": {
+    "governance_bootstrap": 39,
+    "orchestration_acceptance": 8,
+    "blueprint_aeos_intake": 32,
+    "map_stage_1_1b": 0,
+    "existing_product_research": 0,
+    "unknown_unrelated": 0
+  },
+  "overlap_explanation": "Intake updated 17 earlier bootstrap files and the earlier orchestration Founder packet. These 18 are Git-untracked additions, not tracked modifications; C3 includes their final bytes without recreating prior worktree states.",
+  "files": [
+    {
+      "path": ".codex/config.toml",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 2484,
+      "sha256": "38254755e3d9c026f29c777eab46e4908dd88bf3350a4d9423e3e238ced32b56"
+    },
+    {
+      "path": ".codex/roles/agent_interfaces.toml",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 1094,
+      "sha256": "b90e065b55b4236bf5dbf89301a69aa955aa8fae22d30489f56f62475364a480"
+    },
+    {
+      "path": ".codex/roles/cartography.toml",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 1040,
+      "sha256": "b2ce95a60692a6aab27818b2d5a11318b3c34b1532b28158f1ece0fb93375779"
+    },
+    {
+      "path": ".codex/roles/chief_engineer.toml",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 1055,
+      "sha256": "04345d8a208dbf6c882e2fa3a29a035887d729f5b5f36cb62d22f5045d6a8df0"
+    },
+    {
+      "path": ".codex/roles/decision_engine.toml",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 1109,
+      "sha256": "36d2b800cea9a400fce02db4fe9bc3681c6273be7de39d171a8b3d19e3365941"
+    },
+    {
+      "path": ".codex/roles/geospatial_data.toml",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 1094,
+      "sha256": "d7b42e6b6a5b63d1a6aaf974bfefa2efd45927ec92141793d41d6b00d1b135b0"
+    },
+    {
+      "path": ".codex/roles/mobile_pwa.toml",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 1059,
+      "sha256": "3a4d759eb613030cb8b20b924ed98c35047b3456fb3f545898d74475ea044088"
+    },
+    {
+      "path": ".codex/roles/partner_booking.toml",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 1094,
+      "sha256": "3932ea2eff3f9c5555d61b778f87a8e519beb8a39e4fa945b49c6693bdba63a3"
+    },
+    {
+      "path": ".codex/roles/platform.toml",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 1094,
+      "sha256": "35a8fbcf6257eb49733d46c01ff919c55e9232981febbb3e161da02aff15edb6"
+    },
+    {
+      "path": ".codex/roles/product_research.toml",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 1059,
+      "sha256": "00a3ce8089b6340e1c6b850d55fe560a9a6b8907ea25676443f904708b058a3c"
+    },
+    {
+      "path": ".codex/roles/qa.toml",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 1082,
+      "sha256": "217259134d03ebb7e3204566786ffca4e44f033f8becc124b05b6b38da7d1c61"
+    },
+    {
+      "path": ".codex/roles/security.toml",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 1101,
+      "sha256": "b0b3d3400e789a977d47390db5203b95cf638142a02ea0a37ce29885729a8c33"
+    },
+    {
+      "path": ".codex/roles/service_integrations.toml",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 1122,
+      "sha256": "b8570af51e94812c9ee4d7cbfffed0bf0e4c8fde0d623d57c1b665235548a2e6"
+    },
+    {
+      "path": ".codex/roles/telegram.toml",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 1043,
+      "sha256": "f6a4534c41d3fad03242fb6bfdb1876af6b9bac2477e670b4d90cc4a88e8cfb2"
+    },
+    {
+      "path": "AGENTS.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Blueprint and AEOS document intake",
+      "intake_updated_existing_untracked_file": true,
+      "commit_group": "C3",
+      "bytes": 4839,
+      "sha256": "4e09914b417c40eaef6141abf9ca5a7b7f35c5c3383d94c7bb2c37fc21eb53bf"
+    },
+    {
+      "path": "docs/governance/AGENT_ACCESS_BOUNDARIES.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 3644,
+      "sha256": "6faa2b1988ae9e09856e97a40a8549a12c3be5f24f12bde5900c47fc44e3b84d"
+    },
+    {
+      "path": "docs/governance/BACKLOG.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Blueprint and AEOS document intake",
+      "intake_updated_existing_untracked_file": true,
+      "commit_group": "C3",
+      "bytes": 7557,
+      "sha256": "27638ef65bc26b70146c1874ccddc3dca939b871c5aa91d59d635cace47c9844"
+    },
+    {
+      "path": "docs/governance/BOOTSTRAP_VERIFICATION.json",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 8948,
+      "sha256": "13480140453475e3e328f1fd41ad72f3396ad6b9dc6c7597232f5a51ade12566"
+    },
+    {
+      "path": "docs/governance/CHANGE_REQUESTS/CR-TEMPLATE.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 783,
+      "sha256": "4fc629a1d9a4b9a3ae9286e413635262fda5a53c4403ec4112e87a308a0f8189"
+    },
+    {
+      "path": "docs/governance/CHANGE_REQUESTS/README.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Blueprint and AEOS document intake",
+      "intake_updated_existing_untracked_file": true,
+      "commit_group": "C3",
+      "bytes": 2054,
+      "sha256": "102857ce6b69da740ccee1ae3fb06f44ff0d0bff207d420f89641113847c272b"
+    },
+    {
+      "path": "docs/governance/CHIEF_ENGINEER_WORKFLOW.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Blueprint and AEOS document intake",
+      "intake_updated_existing_untracked_file": true,
+      "commit_group": "C3",
+      "bytes": 5058,
+      "sha256": "0205a82f66b01c4bfc6a564855bf2fe75afe4d94f48e0149241e29923cf8d167"
+    },
+    {
+      "path": "docs/governance/CITYSENSE_AGENTIC_ENGINEERING_OPERATING_SYSTEM_v1_2.md",
+      "git_status": "??",
+      "created_by": "Blueprint and AEOS document intake",
+      "last_workstream": "Blueprint and AEOS document intake",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C3",
+      "bytes": 17853,
+      "sha256": "6e71631526adea4473e6c121667be31d24dfca21d682e6bf7f544b41c4d82b74"
+    },
+    {
+      "path": "docs/governance/CODEX_COMPATIBILITY.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 2568,
+      "sha256": "bc509d9cc771fdfe6dc021cacb8b3bf8f82834a9fd37be54fc1368957e93aba5"
+    },
+    {
+      "path": "docs/governance/DECISION_REGISTER.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Blueprint and AEOS document intake",
+      "intake_updated_existing_untracked_file": true,
+      "commit_group": "C3",
+      "bytes": 8194,
+      "sha256": "91b2cc050bab076602f0944387ced89a059db64c652356b7108ce7fa63e41811"
+    },
+    {
+      "path": "docs/governance/DECISION_TRACEABILITY.yaml",
+      "git_status": "??",
+      "created_by": "Blueprint and AEOS document intake",
+      "last_workstream": "Blueprint and AEOS document intake",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C3",
+      "bytes": 44646,
+      "sha256": "aac07a1ff3cf2b3d50100d5120e9fef3aa605450cb88a67b0c258c1d15fe47db"
+    },
+    {
+      "path": "docs/governance/FILE_MANIFEST.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 2718,
+      "sha256": "9f399eb41f1b2807b024c37ca958751892549ad97af562b3cb02396f98d6f929"
+    },
+    {
+      "path": "docs/governance/FOUNDER_APPROVALS.md",
+      "git_status": "??",
+      "created_by": "Blueprint and AEOS document intake",
+      "last_workstream": "Blueprint and AEOS document intake",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C3",
+      "bytes": 2422,
+      "sha256": "5c22b7fc8d6b5baf4bde970b223708ed43b6c21bc2ebfb4a18db279e866de3b2"
+    },
+    {
+      "path": "docs/governance/FOUNDER_REVIEW_PACKET.md",
+      "git_status": "??",
+      "created_by": "Orchestration acceptance",
+      "last_workstream": "Blueprint and AEOS document intake",
+      "intake_updated_existing_untracked_file": true,
+      "commit_group": "C3",
+      "bytes": 12843,
+      "sha256": "d02fb6240c977ff6f48411c09f8b9369a1269c252874efbd8f967fb3389b7880"
+    },
+    {
+      "path": "docs/governance/GOVERNANCE_RECONCILIATION_v0_4_v1_2.md",
+      "git_status": "??",
+      "created_by": "Blueprint and AEOS document intake",
+      "last_workstream": "Blueprint and AEOS document intake",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C3",
+      "bytes": 6453,
+      "sha256": "b1986fa373dd3100ea2e12d80150223958318d311c4bf00a03d7b43c70ae078b"
+    },
+    {
+      "path": "docs/governance/HANDOFF_TEMPLATE.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Blueprint and AEOS document intake",
+      "intake_updated_existing_untracked_file": true,
+      "commit_group": "C3",
+      "bytes": 2801,
+      "sha256": "ddf0b5ea07b0b888895282a3c2924b81613e9d873f49b65447aeb33df8244294"
+    },
+    {
+      "path": "docs/governance/INTEGRATION_MATRIX.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 3959,
+      "sha256": "896a7b8b9707b53cb417558cb8f6d4c78d82a83343684332f116fc19ea6e57ed"
+    },
+    {
+      "path": "docs/governance/INTERFACE_REGISTRY.yaml",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 10233,
+      "sha256": "9e1ac2e99aa98722c91bfdf1cc8dd51b82e6ac1238b976a214a9a5416dbb5b01"
+    },
+    {
+      "path": "docs/governance/ORCHESTRATION_ACCEPTANCE_REPORT.md",
+      "git_status": "??",
+      "created_by": "Orchestration acceptance",
+      "last_workstream": "Orchestration acceptance",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C2",
+      "bytes": 20769,
+      "sha256": "6cad0f9291169a879202b37cf399fca622caa9b258610970b0dbc5a44b82c14d"
+    },
+    {
+      "path": "docs/governance/PORTFOLIO_BOARD.yaml",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Blueprint and AEOS document intake",
+      "intake_updated_existing_untracked_file": true,
+      "commit_group": "C3",
+      "bytes": 8897,
+      "sha256": "514539d00cc590b63a23769e6142614ec0926d4f08b68bfcdd01dd9942580642"
+    },
+    {
+      "path": "docs/governance/PROJECT_CHARTER.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Blueprint and AEOS document intake",
+      "intake_updated_existing_untracked_file": true,
+      "commit_group": "C3",
+      "bytes": 3158,
+      "sha256": "bf2298c752216041b174bb5ffb361f243c099f49e0e1e629269eef2e130149a8"
+    },
+    {
+      "path": "docs/governance/README.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Blueprint and AEOS document intake",
+      "intake_updated_existing_untracked_file": true,
+      "commit_group": "C3",
+      "bytes": 3546,
+      "sha256": "b55fbb395b57659787181162765a764dfb12328d816ce51334a7aa45cc310852"
+    },
+    {
+      "path": "docs/governance/RECONCILIATION.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Blueprint and AEOS document intake",
+      "intake_updated_existing_untracked_file": true,
+      "commit_group": "C3",
+      "bytes": 6412,
+      "sha256": "0ee39ccda500eec2c3e70bfa658940fe5b284c91ab2862883f9ade1a7e50094e"
+    },
+    {
+      "path": "docs/governance/RELEASE_GATES.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Blueprint and AEOS document intake",
+      "intake_updated_existing_untracked_file": true,
+      "commit_group": "C3",
+      "bytes": 4086,
+      "sha256": "a819d69c38df57c3a1783dc57bc88ad7dddbc0c26c0e1897a9f4edd7e6eea058"
+    },
+    {
+      "path": "docs/governance/RISK_REGISTER.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 4526,
+      "sha256": "da4f169e0e5eb18371b5d83127fc4d6bdef05c2e58d92b9cc2a4e5dbbe32eb6f"
+    },
+    {
+      "path": "docs/governance/ROLES/README.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Blueprint and AEOS document intake",
+      "intake_updated_existing_untracked_file": true,
+      "commit_group": "C3",
+      "bytes": 3426,
+      "sha256": "2c5e6c7298e5a79363e743c1e745350b632298411fb20346639d39d701d8e51d"
+    },
+    {
+      "path": "docs/governance/ROLES/agent_interfaces.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 1627,
+      "sha256": "4abd92bedc5f278b6c4184b601ec36ecdfab6ddf66fca0216230bb73108c0996"
+    },
+    {
+      "path": "docs/governance/ROLES/cartography.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 1500,
+      "sha256": "5efbed3d64ebeb6d0d5d2f68c892ce4d5f767abfc5addfaf0761f61adec7c4d4"
+    },
+    {
+      "path": "docs/governance/ROLES/chief_engineer.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 1470,
+      "sha256": "c9913bd67d6cfbf3506ce289123703f8d89482a0467240ffe89bddc196cac295"
+    },
+    {
+      "path": "docs/governance/ROLES/decision_engine.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 1689,
+      "sha256": "5736ddfca1ef9a4a15540cf00c187692a2af283bba85f9d86d58af8aef21ebea"
+    },
+    {
+      "path": "docs/governance/ROLES/geospatial_data.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 1735,
+      "sha256": "fc6c560dace5e703ad73a1cc4ae2e2224102063cccc9d4b678463c649f4f6b5f"
+    },
+    {
+      "path": "docs/governance/ROLES/mobile_pwa.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 1540,
+      "sha256": "7cd7488685e1bc0f88b00ce8787c2697cfd601de5ad252ad1c3e95f9108da4ca"
+    },
+    {
+      "path": "docs/governance/ROLES/partner_booking.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 1561,
+      "sha256": "1b2fd1b17b6eed443f18e8cf45562fef364f580fbf535fec9c6cd8e4712f2286"
+    },
+    {
+      "path": "docs/governance/ROLES/platform.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 1619,
+      "sha256": "f3b52a80b233224a37b09ac3f88f541614fc5972f04efcc66e75c39f552f2059"
+    },
+    {
+      "path": "docs/governance/ROLES/product_research.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 1490,
+      "sha256": "36e7e55a007944a037b58eb0fba5d6b73b5076c554ab3e804c2e2daa8ba8ba4b"
+    },
+    {
+      "path": "docs/governance/ROLES/qa.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 1578,
+      "sha256": "d8f6a88b3bc84fa0e7ac914ef8b6a687b0d88ff4e95f8f333d665f8ea6f18d69"
+    },
+    {
+      "path": "docs/governance/ROLES/security.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 1600,
+      "sha256": "500b246112c333f9f9b026b27e9e610eb709ee1832afb2ae46286b76136d37aa"
+    },
+    {
+      "path": "docs/governance/ROLES/service_integrations.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 1615,
+      "sha256": "b22eaf5a3e0808887e8882f2b86e68edca853ab6b7d9275b745bfc1b445d0f42"
+    },
+    {
+      "path": "docs/governance/ROLES/telegram.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 1513,
+      "sha256": "33fe5252fcfb7740a861564a533e425a3dd7f470ca59d1099b60866d10660614"
+    },
+    {
+      "path": "docs/governance/SERVICE_PLATFORM_EXTENSION_RFC.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 5939,
+      "sha256": "27c66a5b8f6293698bafa9743b20c97dbb160c21f2cfd00a840272877cc5f116"
+    },
+    {
+      "path": "docs/governance/SOURCES/CITYSENSE_AGENTIC_ENGINEERING_OPERATING_SYSTEM_v1_1.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 13294,
+      "sha256": "5257bff47bc1dd390c1dd31b22816b2903f45f34363aea63f1419d2e96e37a77"
+    },
+    {
+      "path": "docs/governance/SOURCES/CITYSENSE_PRODUCT_BLUEPRINT_v0_3.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 32599,
+      "sha256": "8bb9166fb1d7e6642e8654cfd31dcedd9d008b1fae7f41f9f6be01b9dfda7f12"
+    },
+    {
+      "path": "docs/governance/SOURCES/CODEX_BOOTSTRAP_AGENTIC_TEAM_PROMPT_v1_1.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Governance bootstrap",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C1",
+      "bytes": 8827,
+      "sha256": "0acc067b37e80de3da5f5eb6f03065b42cbfaabf3d774dde5d848eb524906bb1"
+    },
+    {
+      "path": "docs/governance/SOURCE_REGISTER.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Blueprint and AEOS document intake",
+      "intake_updated_existing_untracked_file": true,
+      "commit_group": "C3",
+      "bytes": 3548,
+      "sha256": "6dcc8568ec5e1524dc4209d536868cea09a9fb7270402f43bf3a134652971f1c"
+    },
+    {
+      "path": "docs/governance/STAGE_GATES.md",
+      "git_status": "??",
+      "created_by": "Blueprint and AEOS document intake",
+      "last_workstream": "Blueprint and AEOS document intake",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C3",
+      "bytes": 6056,
+      "sha256": "57edb681478236f54941e278a2d4068d722a904d22df2728bab566da1599724b"
+    },
+    {
+      "path": "docs/governance/STATUS.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Blueprint and AEOS document intake",
+      "intake_updated_existing_untracked_file": true,
+      "commit_group": "C3",
+      "bytes": 6211,
+      "sha256": "87dabf62b4e3016bf4efda36c9f31212d77212efbfa7834fdf2949e88e41b791"
+    },
+    {
+      "path": "docs/governance/TICKETS/T-01-VERTICAL-SLICE.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Blueprint and AEOS document intake",
+      "intake_updated_existing_untracked_file": true,
+      "commit_group": "C3",
+      "bytes": 5600,
+      "sha256": "482315bf4098332e955b308f9372852f5acbb5b0090ffde5a4088a4c32832e5d"
+    },
+    {
+      "path": "docs/governance/TICKETS/T-02-INVENTORY.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Blueprint and AEOS document intake",
+      "intake_updated_existing_untracked_file": true,
+      "commit_group": "C3",
+      "bytes": 3649,
+      "sha256": "a7b1cee1ef913134de802df83d2a5102722ebf23c040e0e6960d3ff27b2f19e7"
+    },
+    {
+      "path": "docs/governance/TICKETS/T-03-VISUAL-REVIEW.md",
+      "git_status": "??",
+      "created_by": "Governance bootstrap",
+      "last_workstream": "Blueprint and AEOS document intake",
+      "intake_updated_existing_untracked_file": true,
+      "commit_group": "C3",
+      "bytes": 3449,
+      "sha256": "c34b3632b48a95135caed12b22eee19e8d22ce7339baa40d541bb9fe5db53d71"
+    },
+    {
+      "path": "docs/governance/VERSION_REGISTER.md",
+      "git_status": "??",
+      "created_by": "Blueprint and AEOS document intake",
+      "last_workstream": "Blueprint and AEOS document intake",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C3",
+      "bytes": 2880,
+      "sha256": "983ad85929be6dfb8e354350adf9d2d019f3171a1cc173077821ec9dc11ca66d"
+    },
+    {
+      "path": "docs/governance/evidence/document-intake/BASELINE.json",
+      "git_status": "??",
+      "created_by": "Blueprint and AEOS document intake",
+      "last_workstream": "Blueprint and AEOS document intake",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C3",
+      "bytes": 144829,
+      "sha256": "51faf94cda99fbf63214d50e8a4af75a715cc2e4a28320a6664dc57fdd9f1e74"
+    },
+    {
+      "path": "docs/governance/evidence/document-intake/FOUNDER_REVIEW_PACKET.orchestration-acceptance.md",
+      "git_status": "??",
+      "created_by": "Blueprint and AEOS document intake",
+      "last_workstream": "Blueprint and AEOS document intake",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C3",
+      "bytes": 3893,
+      "sha256": "0788490d009c13299b888364e0f297b1ed3291ba0430a57ddd623d276c77402c"
+    },
+    {
+      "path": "docs/governance/evidence/document-intake/MAINTENANCE_DIFF.patch",
+      "git_status": "??",
+      "created_by": "Blueprint and AEOS document intake",
+      "last_workstream": "Blueprint and AEOS document intake",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C3",
+      "bytes": 49169,
+      "sha256": "50f5389051f2f3371c4c0ff5052580f44b54f7426f39756331fa692cb1453555"
+    },
+    {
+      "path": "docs/governance/evidence/document-intake/REVIEW_HANDOFFS.md",
+      "git_status": "??",
+      "created_by": "Blueprint and AEOS document intake",
+      "last_workstream": "Blueprint and AEOS document intake",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C3",
+      "bytes": 7859,
+      "sha256": "c0a5fd9579636be3eda4a0bc27b8596f467f7e168da9e3d9462a853c16c3e43d"
+    },
+    {
+      "path": "docs/governance/evidence/document-intake/USER_REQUEST.md",
+      "git_status": "??",
+      "created_by": "Blueprint and AEOS document intake",
+      "last_workstream": "Blueprint and AEOS document intake",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C3",
+      "bytes": 5837,
+      "sha256": "e47fa32d96908ad34f940177e026f6da8af5ce815c28c1e0a03c2af51e57511b"
+    },
+    {
+      "path": "docs/governance/evidence/document-intake/verification.json",
+      "git_status": "??",
+      "created_by": "Blueprint and AEOS document intake",
+      "last_workstream": "Blueprint and AEOS document intake",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C3",
+      "bytes": 10313,
+      "sha256": "19865f44c26965c031a827119812f0edef6b9d290508921a63abce812e72ed07"
+    },
+    {
+      "path": "docs/governance/evidence/orchestration-acceptance/INVOCATIONS.json",
+      "git_status": "??",
+      "created_by": "Orchestration acceptance",
+      "last_workstream": "Orchestration acceptance",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C2",
+      "bytes": 8187,
+      "sha256": "5cc1a1930ac7104368567b0c4c7086dee45e21688ba0875d248d42ad8e189c7a"
+    },
+    {
+      "path": "docs/governance/evidence/orchestration-acceptance/OA-GEO.md",
+      "git_status": "??",
+      "created_by": "Orchestration acceptance",
+      "last_workstream": "Orchestration acceptance",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C2",
+      "bytes": 3598,
+      "sha256": "dc55dcc962ca25a91084ddbe22f089330f0549fd504bafe02edf2ccfbac26236"
+    },
+    {
+      "path": "docs/governance/evidence/orchestration-acceptance/OA-PLATFORM.md",
+      "git_status": "??",
+      "created_by": "Orchestration acceptance",
+      "last_workstream": "Orchestration acceptance",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C2",
+      "bytes": 3916,
+      "sha256": "9d054c727ddb666642df04c991e0b1634a9d67ed77ef17b964f99533ce61a7b5"
+    },
+    {
+      "path": "docs/governance/evidence/orchestration-acceptance/OA-PRODUCT.md",
+      "git_status": "??",
+      "created_by": "Orchestration acceptance",
+      "last_workstream": "Orchestration acceptance",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C2",
+      "bytes": 3663,
+      "sha256": "3a8a6602f55fbb3a8651633cf2d160483d6f225da9cd70a75526017b718b0435"
+    },
+    {
+      "path": "docs/governance/evidence/orchestration-acceptance/OA-QA.md",
+      "git_status": "??",
+      "created_by": "Orchestration acceptance",
+      "last_workstream": "Orchestration acceptance",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C2",
+      "bytes": 3855,
+      "sha256": "7d021b379e347a04710c36b0154f9e09e44253c93581d4c386acb184aa0d4671"
+    },
+    {
+      "path": "docs/governance/evidence/orchestration-acceptance/OA-VISUAL.md",
+      "git_status": "??",
+      "created_by": "Orchestration acceptance",
+      "last_workstream": "Orchestration acceptance",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C2",
+      "bytes": 3983,
+      "sha256": "798fe26c14db5fdc97829869bc6922df9e676123c6021beb2347478b6eae5673"
+    },
+    {
+      "path": "docs/governance/evidence/orchestration-acceptance/verification.json",
+      "git_status": "??",
+      "created_by": "Orchestration acceptance",
+      "last_workstream": "Orchestration acceptance",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C2",
+      "bytes": 5095,
+      "sha256": "3318bca26869587feab6d2092b5699e55031b618fcbe760086648aaa64c14425"
+    },
+    {
+      "path": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+      "git_status": "??",
+      "created_by": "Blueprint and AEOS document intake",
+      "last_workstream": "Blueprint and AEOS document intake",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C3",
+      "bytes": 34364,
+      "sha256": "6dab0cbcdad6df01786b8b2c4be511c3d7932d16de015ffc0919fed06c99c726"
+    },
+    {
+      "path": "docs/product/README.md",
+      "git_status": "??",
+      "created_by": "Blueprint and AEOS document intake",
+      "last_workstream": "Blueprint and AEOS document intake",
+      "intake_updated_existing_untracked_file": false,
+      "commit_group": "C3",
+      "bytes": 1407,
+      "sha256": "4895ee25b2c32e45cf5930cedaa2a96cf92a5cf737a514e6147e8f8e4e53849b"
+    }
+  ],
+  "commit_groups": [
+    {
+      "id": "C1",
+      "message": "chore(governance): establish agent roles and bootstrap reference artifacts",
+      "purpose": "Unchanged bootstrap artifacts only; later intake-updated bootstrap files are in C3.",
+      "depends_on": [],
+      "files": [
+        ".codex/config.toml",
+        ".codex/roles/agent_interfaces.toml",
+        ".codex/roles/cartography.toml",
+        ".codex/roles/chief_engineer.toml",
+        ".codex/roles/decision_engine.toml",
+        ".codex/roles/geospatial_data.toml",
+        ".codex/roles/mobile_pwa.toml",
+        ".codex/roles/partner_booking.toml",
+        ".codex/roles/platform.toml",
+        ".codex/roles/product_research.toml",
+        ".codex/roles/qa.toml",
+        ".codex/roles/security.toml",
+        ".codex/roles/service_integrations.toml",
+        ".codex/roles/telegram.toml",
+        "docs/governance/AGENT_ACCESS_BOUNDARIES.md",
+        "docs/governance/BOOTSTRAP_VERIFICATION.json",
+        "docs/governance/CHANGE_REQUESTS/CR-TEMPLATE.md",
+        "docs/governance/CODEX_COMPATIBILITY.md",
+        "docs/governance/FILE_MANIFEST.md",
+        "docs/governance/INTEGRATION_MATRIX.md",
+        "docs/governance/INTERFACE_REGISTRY.yaml",
+        "docs/governance/RISK_REGISTER.md",
+        "docs/governance/ROLES/agent_interfaces.md",
+        "docs/governance/ROLES/cartography.md",
+        "docs/governance/ROLES/chief_engineer.md",
+        "docs/governance/ROLES/decision_engine.md",
+        "docs/governance/ROLES/geospatial_data.md",
+        "docs/governance/ROLES/mobile_pwa.md",
+        "docs/governance/ROLES/partner_booking.md",
+        "docs/governance/ROLES/platform.md",
+        "docs/governance/ROLES/product_research.md",
+        "docs/governance/ROLES/qa.md",
+        "docs/governance/ROLES/security.md",
+        "docs/governance/ROLES/service_integrations.md",
+        "docs/governance/ROLES/telegram.md",
+        "docs/governance/SERVICE_PLATFORM_EXTENSION_RFC.md",
+        "docs/governance/SOURCES/CITYSENSE_AGENTIC_ENGINEERING_OPERATING_SYSTEM_v1_1.md",
+        "docs/governance/SOURCES/CITYSENSE_PRODUCT_BLUEPRINT_v0_3.md",
+        "docs/governance/SOURCES/CODEX_BOOTSTRAP_AGENTIC_TEAM_PROMPT_v1_1.md"
+      ]
+    },
+    {
+      "id": "C2",
+      "message": "docs(governance): record multi-agent orchestration acceptance and audit handoffs",
+      "purpose": "Historical PARTIAL acceptance report and original read-only agent evidence; current Founder packet is C3.",
+      "depends_on": [
+        "C1"
+      ],
+      "files": [
+        "docs/governance/ORCHESTRATION_ACCEPTANCE_REPORT.md",
+        "docs/governance/evidence/orchestration-acceptance/INVOCATIONS.json",
+        "docs/governance/evidence/orchestration-acceptance/OA-GEO.md",
+        "docs/governance/evidence/orchestration-acceptance/OA-PLATFORM.md",
+        "docs/governance/evidence/orchestration-acceptance/OA-PRODUCT.md",
+        "docs/governance/evidence/orchestration-acceptance/OA-QA.md",
+        "docs/governance/evidence/orchestration-acceptance/OA-VISUAL.md",
+        "docs/governance/evidence/orchestration-acceptance/verification.json"
+      ]
+    },
+    {
+      "id": "C3",
+      "message": "docs(governance): adopt Blueprint v0.4 and AEOS v1.2 with founder stage gates",
+      "purpose": "14 intake additions +18 intake-updated existing files; preserve final current bytes, source copies and earlier packet archive.",
+      "depends_on": [
+        "C1",
+        "C2"
+      ],
+      "files": [
+        "AGENTS.md",
+        "docs/governance/BACKLOG.md",
+        "docs/governance/CHANGE_REQUESTS/README.md",
+        "docs/governance/CHIEF_ENGINEER_WORKFLOW.md",
+        "docs/governance/CITYSENSE_AGENTIC_ENGINEERING_OPERATING_SYSTEM_v1_2.md",
+        "docs/governance/DECISION_REGISTER.md",
+        "docs/governance/DECISION_TRACEABILITY.yaml",
+        "docs/governance/FOUNDER_APPROVALS.md",
+        "docs/governance/FOUNDER_REVIEW_PACKET.md",
+        "docs/governance/GOVERNANCE_RECONCILIATION_v0_4_v1_2.md",
+        "docs/governance/HANDOFF_TEMPLATE.md",
+        "docs/governance/PORTFOLIO_BOARD.yaml",
+        "docs/governance/PROJECT_CHARTER.md",
+        "docs/governance/README.md",
+        "docs/governance/RECONCILIATION.md",
+        "docs/governance/RELEASE_GATES.md",
+        "docs/governance/ROLES/README.md",
+        "docs/governance/SOURCE_REGISTER.md",
+        "docs/governance/STAGE_GATES.md",
+        "docs/governance/STATUS.md",
+        "docs/governance/TICKETS/T-01-VERTICAL-SLICE.md",
+        "docs/governance/TICKETS/T-02-INVENTORY.md",
+        "docs/governance/TICKETS/T-03-VISUAL-REVIEW.md",
+        "docs/governance/VERSION_REGISTER.md",
+        "docs/governance/evidence/document-intake/BASELINE.json",
+        "docs/governance/evidence/document-intake/FOUNDER_REVIEW_PACKET.orchestration-acceptance.md",
+        "docs/governance/evidence/document-intake/MAINTENANCE_DIFF.patch",
+        "docs/governance/evidence/document-intake/REVIEW_HANDOFFS.md",
+        "docs/governance/evidence/document-intake/USER_REQUEST.md",
+        "docs/governance/evidence/document-intake/verification.json",
+        "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+        "docs/product/README.md"
+      ]
+    },
+    {
+      "id": "C4",
+      "message": "docs(governance): record Git baseline audit and reviewed commit plan",
+      "purpose": "This audit's new report and manifest only; no earlier file is edited.",
+      "depends_on": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "files": [
+        "docs/governance/GIT_BASELINE_AUDIT_2026-10-11.md",
+        "docs/governance/evidence/git-baseline-2026-10-11.json"
+      ]
+    }
+  ],
+  "commit_plan_policy": "Exact path allowlists, current file hashes, no directory-wide or blanket staging; no reconstruction/overwriting old versions. Full series must land as a baseline before further work; intermediate commits are not independently complete documentation releases. None executed.",
+  "validation": {
+    "checks": {
+      "tracked_changes_empty": true,
+      "all_387_tracked_sha256_preserved": true,
+      "protected_434_baseline_sha256_preserved": true,
+      "intake_receipt_hashes_match": true,
+      "approved_source_checksums_match": true,
+      "supplied_sources_equal_canonical": true,
+      "original_45_statuses_preserved": true,
+      "current_48_register_entries_match": true,
+      "traceability_lines_status_interfaces_match": true,
+      "portfolio_acyclic": true,
+      "future_initiatives_blocked": true,
+      "no_completion_approval_recorded": true,
+      "native_toml_14_parse": true,
+      "current_local_links_resolve": true,
+      "historical_archive_exact_bytes": true,
+      "maintenance_diff_exact": true,
+      "git_blob_filters_preserve_pending_bytes": true,
+      "head_matches_all_receipts": true
+    },
+    "sources": [
+      {
+        "path": "docs/governance/SOURCES/CITYSENSE_PRODUCT_BLUEPRINT_v0_3.md",
+        "expected_sha256": "8bb9166fb1d7e6642e8654cfd31dcedd9d008b1fae7f41f9f6be01b9dfda7f12",
+        "actual_sha256": "8bb9166fb1d7e6642e8654cfd31dcedd9d008b1fae7f41f9f6be01b9dfda7f12",
+        "matches": true
+      },
+      {
+        "path": "docs/governance/SOURCES/CITYSENSE_AGENTIC_ENGINEERING_OPERATING_SYSTEM_v1_1.md",
+        "expected_sha256": "5257bff47bc1dd390c1dd31b22816b2903f45f34363aea63f1419d2e96e37a77",
+        "actual_sha256": "5257bff47bc1dd390c1dd31b22816b2903f45f34363aea63f1419d2e96e37a77",
+        "matches": true
+      },
+      {
+        "path": "docs/governance/SOURCES/CODEX_BOOTSTRAP_AGENTIC_TEAM_PROMPT_v1_1.md",
+        "expected_sha256": "0acc067b37e80de3da5f5eb6f03065b42cbfaabf3d774dde5d848eb524906bb1",
+        "actual_sha256": "0acc067b37e80de3da5f5eb6f03065b42cbfaabf3d774dde5d848eb524906bb1",
+        "matches": true
+      },
+      {
+        "path": "docs/product/CITYSENSE_PRODUCT_BLUEPRINT_v0_4.md",
+        "expected_sha256": "6dab0cbcdad6df01786b8b2c4be511c3d7932d16de015ffc0919fed06c99c726",
+        "actual_sha256": "6dab0cbcdad6df01786b8b2c4be511c3d7932d16de015ffc0919fed06c99c726",
+        "matches": true,
+        "external_source_available": true,
+        "external_source_equal": true
+      },
+      {
+        "path": "docs/governance/CITYSENSE_AGENTIC_ENGINEERING_OPERATING_SYSTEM_v1_2.md",
+        "expected_sha256": "6e71631526adea4473e6c121667be31d24dfca21d682e6bf7f544b41c4d82b74",
+        "actual_sha256": "6e71631526adea4473e6c121667be31d24dfca21d682e6bf7f544b41c4d82b74",
+        "matches": true,
+        "external_source_available": true,
+        "external_source_equal": true
+      }
+    ],
+    "link_counts": {
+      "local": 278,
+      "external_not_fetched": 2
+    },
+    "current_broken_links": [],
+    "historical_archive_original_context_links": [
+      {
+        "path": "docs/governance/evidence/document-intake/FOUNDER_REVIEW_PACKET.orchestration-acceptance.md",
+        "target": "ORCHESTRATION_ACCEPTANCE_REPORT.md"
+      }
+    ],
+    "protected_mismatches": [],
+    "recorded_hash_mismatches": [],
+    "tracked_mismatches": [],
+    "toml_files": [
+      ".codex/config.toml",
+      ".codex/roles/agent_interfaces.toml",
+      ".codex/roles/cartography.toml",
+      ".codex/roles/chief_engineer.toml",
+      ".codex/roles/decision_engine.toml",
+      ".codex/roles/geospatial_data.toml",
+      ".codex/roles/mobile_pwa.toml",
+      ".codex/roles/partner_booking.toml",
+      ".codex/roles/platform.toml",
+      ".codex/roles/product_research.toml",
+      ".codex/roles/qa.toml",
+      ".codex/roles/security.toml",
+      ".codex/roles/service_integrations.toml",
+      ".codex/roles/telegram.toml"
+    ],
+    "historical_receipts": "Preserved snapshots, not rewritten to describe the current 79 files or accepted product capabilities",
+    "conflicts": "CF-01/02/03 unresolved; protected contracts unchanged",
+    "approval_boundary": "Current audit/preparation only; no add/commit/push, completion or successor execution approval"
+  },
+  "secret_scan": {
+    "scope": "All tracked and nonignored untracked files; ignored private contents excluded",
+    "files_scanned": 466,
+    "tracked_scanned": 387,
+    "pending_scanned": 79,
+    "bytes_read": 4968720,
+    "extension_counts": {
+      ".example": 1,
+      ".yml": 3,
+      "<none>": 3,
+      ".md": 120,
+      ".json": 127,
+      ".txt": 28,
+      ".log": 75,
+      ".xml": 8,
+      ".overpassql": 6,
+      ".jsonl": 6,
+      ".gitignore": 1,
+      ".sql": 2,
+      ".ini": 1,
+      ".py": 56,
+      ".mako": 1,
+      ".toml": 15,
+      ".lock": 1,
+      ".mjs": 6,
+      ".html": 2,
+      ".yaml": 3,
+      ".patch": 1
+    },
+    "binary_files": [],
+    "sensitive_or_generated_names": [
+      {
+        "path": ".env.example",
+        "pending": false
+      }
+    ],
+    "findings": [
+      {
+        "path": ".github/workflows/ci.yml",
+        "line": 59,
+        "kind": "literal_sensitive_assignment",
+        "classification": "VARIABLE_OR_DOCUMENTATION_REFERENCE",
+        "pending": false
+      },
+      {
+        "path": "artifacts/checks/pytest.xml",
+        "line": 1,
+        "kind": "credential_url",
+        "classification": "SYNTHETIC_RESERVED_DOMAIN_TEST_CREDENTIAL",
+        "pending": false,
+        "initial_classification": "LOCAL_DEVELOPMENT_CREDENTIAL_REVIEW",
+        "review_evidence": "Credential-shaped https URL in test_ingestion fixture and copied pytest evidence; host reserved test/example domain, not production credential."
+      },
+      {
+        "path": "artifacts/sprint2/checks-initial/pytest.xml",
+        "line": 40,
+        "kind": "credential_url",
+        "classification": "SYNTHETIC_RESERVED_DOMAIN_TEST_CREDENTIAL",
+        "pending": false,
+        "initial_classification": "LOCAL_DEVELOPMENT_CREDENTIAL_REVIEW",
+        "review_evidence": "Credential-shaped https URL in test_ingestion fixture and copied pytest evidence; host reserved test/example domain, not production credential."
+      },
+      {
+        "path": "artifacts/sprint2/checks/pytest.xml",
+        "line": 1,
+        "kind": "credential_url",
+        "classification": "SYNTHETIC_RESERVED_DOMAIN_TEST_CREDENTIAL",
+        "pending": false,
+        "initial_classification": "LOCAL_DEVELOPMENT_CREDENTIAL_REVIEW",
+        "review_evidence": "Credential-shaped https URL in test_ingestion fixture and copied pytest evidence; host reserved test/example domain, not production credential."
+      },
+      {
+        "path": "artifacts/sprint2/final-checks/pytest.xml",
+        "line": 1,
+        "kind": "credential_url",
+        "classification": "SYNTHETIC_RESERVED_DOMAIN_TEST_CREDENTIAL",
+        "pending": false,
+        "initial_classification": "LOCAL_DEVELOPMENT_CREDENTIAL_REVIEW",
+        "review_evidence": "Credential-shaped https URL in test_ingestion fixture and copied pytest evidence; host reserved test/example domain, not production credential."
+      },
+      {
+        "path": "artifacts/sprint2/verified-final/pytest.xml",
+        "line": 1,
+        "kind": "credential_url",
+        "classification": "SYNTHETIC_RESERVED_DOMAIN_TEST_CREDENTIAL",
+        "pending": false,
+        "initial_classification": "LOCAL_DEVELOPMENT_CREDENTIAL_REVIEW",
+        "review_evidence": "Credential-shaped https URL in test_ingestion fixture and copied pytest evidence; host reserved test/example domain, not production credential."
+      },
+      {
+        "path": "artifacts/sprint3/checks/pytest.xml",
+        "line": 1,
+        "kind": "credential_url",
+        "classification": "SYNTHETIC_RESERVED_DOMAIN_TEST_CREDENTIAL",
+        "pending": false,
+        "initial_classification": "LOCAL_DEVELOPMENT_CREDENTIAL_REVIEW",
+        "review_evidence": "Credential-shaped https URL in test_ingestion fixture and copied pytest evidence; host reserved test/example domain, not production credential."
+      },
+      {
+        "path": "artifacts/sprint3/final-checks/pytest.xml",
+        "line": 1,
+        "kind": "credential_url",
+        "classification": "SYNTHETIC_RESERVED_DOMAIN_TEST_CREDENTIAL",
+        "pending": false,
+        "initial_classification": "LOCAL_DEVELOPMENT_CREDENTIAL_REVIEW",
+        "review_evidence": "Credential-shaped https URL in test_ingestion fixture and copied pytest evidence; host reserved test/example domain, not production credential."
+      },
+      {
+        "path": "artifacts/sprint3/initial-pytest.xml",
+        "line": 1,
+        "kind": "credential_url",
+        "classification": "SYNTHETIC_RESERVED_DOMAIN_TEST_CREDENTIAL",
+        "pending": false,
+        "initial_classification": "LOCAL_DEVELOPMENT_CREDENTIAL_REVIEW",
+        "review_evidence": "Credential-shaped https URL in test_ingestion fixture and copied pytest evidence; host reserved test/example domain, not production credential."
+      },
+      {
+        "path": "docs/design/DIGITAL_TWIN_VALIDATION_REPORT.md",
+        "line": 93,
+        "kind": "literal_sensitive_assignment",
+        "classification": "PLACEHOLDER_OR_TEST_REFERENCE",
+        "pending": false
+      },
+      {
+        "path": "docs/design/MAP_STAGE_1B_REPORT.md",
+        "line": 161,
+        "kind": "literal_sensitive_assignment",
+        "classification": "PLACEHOLDER_OR_TEST_REFERENCE",
+        "pending": false
+      },
+      {
+        "path": "docs/design/MAP_STAGE_1B_REPORT.md",
+        "line": 162,
+        "kind": "literal_sensitive_assignment",
+        "classification": "PLACEHOLDER_OR_TEST_REFERENCE",
+        "pending": false
+      },
+      {
+        "path": "docs/design/MAP_STAGE_1C_REPORT.md",
+        "line": 85,
+        "kind": "literal_sensitive_assignment",
+        "classification": "PLACEHOLDER_OR_TEST_REFERENCE",
+        "pending": false
+      },
+      {
+        "path": "services/api/scripts/init_local_env.py",
+        "line": 11,
+        "kind": "credential_url",
+        "classification": "VARIABLE_OR_DOCUMENTATION_REFERENCE",
+        "pending": false
+      },
+      {
+        "path": "services/api/tests/test_ingestion.py",
+        "line": 128,
+        "kind": "credential_url",
+        "classification": "SYNTHETIC_RESERVED_DOMAIN_TEST_CREDENTIAL",
+        "pending": false,
+        "initial_classification": "LOCAL_DEVELOPMENT_CREDENTIAL_REVIEW",
+        "review_evidence": "Credential-shaped https URL in test_ingestion fixture and copied pytest evidence; host reserved test/example domain, not production credential."
+      },
+      {
+        "path": "services/api/tests/test_security.py",
+        "line": 15,
+        "kind": "literal_sensitive_assignment",
+        "classification": "SYNTHETIC_UNIT_TEST_FIXTURE",
+        "pending": false,
+        "initial_classification": "REVIEW_REQUIRED",
+        "review_evidence": "Explicit Settings authentication tests: rejection of short key / repeated test key."
+      },
+      {
+        "path": "services/api/tests/test_security.py",
+        "line": 19,
+        "kind": "literal_sensitive_assignment",
+        "classification": "SYNTHETIC_UNIT_TEST_FIXTURE",
+        "pending": false,
+        "initial_classification": "REVIEW_REQUIRED",
+        "review_evidence": "Explicit Settings authentication tests: rejection of short key / repeated test key."
+      },
+      {
+        "path": "tools/map-stage-1/README.md",
+        "line": 16,
+        "kind": "literal_sensitive_assignment",
+        "classification": "PLACEHOLDER_OR_TEST_REFERENCE",
+        "pending": false
+      },
+      {
+        "path": "tools/map-stage-1/README.md",
+        "line": 17,
+        "kind": "literal_sensitive_assignment",
+        "classification": "PLACEHOLDER_OR_TEST_REFERENCE",
+        "pending": false
+      },
+      {
+        "path": "tools/map-stage-1c/README.md",
+        "line": 11,
+        "kind": "literal_sensitive_assignment",
+        "classification": "PLACEHOLDER_OR_TEST_REFERENCE",
+        "pending": false
+      },
+      {
+        "path": "tools/map-stage-1c/tests/test_server.py",
+        "line": 42,
+        "kind": "slack_token",
+        "classification": "SYNTHETIC_UNIT_TEST_FIXTURE",
+        "pending": false,
+        "initial_classification": "REVIEW_REQUIRED",
+        "review_evidence": "Explicit known-secret sentinel test; value contains fake marker."
+      }
+    ],
+    "counts": {
+      "VARIABLE_OR_DOCUMENTATION_REFERENCE": 2,
+      "SYNTHETIC_RESERVED_DOMAIN_TEST_CREDENTIAL": 9,
+      "PLACEHOLDER_OR_TEST_REFERENCE": 7,
+      "SYNTHETIC_UNIT_TEST_FIXTURE": 3
+    },
+    "pending_findings": 0,
+    "attributes_output": "",
+    "git_line_endings": {
+      "core.autocrlf": "false",
+      "core.safecrlf": "true",
+      "core.eol": "UNSET"
+    },
+    "limitation": "Pattern scan is not proof of absence of every secret; no matched values printed.",
+    "reviewed_unresolved_candidates": 0,
+    "initial_counts": {
+      "VARIABLE_OR_DOCUMENTATION_REFERENCE": 2,
+      "LOCAL_DEVELOPMENT_CREDENTIAL_REVIEW": 9,
+      "PLACEHOLDER_OR_TEST_REFERENCE": 7,
+      "REVIEW_REQUIRED": 3
+    }
+  },
+  "ignored_content": {
+    "top_level_or_collapsed_paths": [
+      ".local/",
+      ".ruff_cache/",
+      "apps/digital-twin/.ruff_cache/",
+      "artifacts/api-stderr.log",
+      "artifacts/api-stdout.log",
+      "artifacts/map-stage-1/mapbox-product-terms-2026-07-21.pdf",
+      "artifacts/map-stage-1/mapbox-product-terms-2026-07-21.txt",
+      "artifacts/sprint2/clean-install/",
+      "artifacts/sprint2/live-osm/",
+      "artifacts/sprint3/clean-install/",
+      "artifacts/sprint3/real-data/",
+      "artifacts/sprint3/real-inventory.json",
+      "artifacts/sprint3/telegram-real.json",
+      "services/api/.mypy_cache/",
+      "services/api/.pytest_cache/",
+      "services/api/.ruff_cache/",
+      "services/api/.venv/",
+      "services/api/migrations/__pycache__/",
+      "services/api/migrations/versions/__pycache__/",
+      "services/api/scripts/__pycache__/",
+      "services/api/src/citysense/__pycache__/",
+      "services/api/src/citysense_core.egg-info/",
+      "services/api/tests/__pycache__/",
+      "tools/map-stage-1/__pycache__/",
+      "tools/map-stage-1/node_modules/"
+    ],
+    "contents_scanned": false,
+    "explanation": "Inventory only for private .local, venvs/dependencies/caches, restricted captures, disposable logs and third-party rights copies. None appears among proposed files; no ignored paths are included."
+  },
+  "tracked_generated_evidence": {
+    "log_files": 75,
+    "xml_files": 8,
+    "classification": "Preexisting intentional historical checks/research/map evidence. Scanned for secrets, byte unchanged, excluded from all commits. No binary files found in 466 visible files."
+  },
+  "known_issues": [
+    {
+      "issue": "New approved source filenames/addenda establish v0.4/v1.2, inherited embedded headers retain v0.3/v1.1/PROPOSED.",
+      "impact": "Documented in VERSION_REGISTER; not repaired in approved byte-preserved sources; not a commit blocker."
+    },
+    {
+      "issue": "Archived Founder packet keeps original-directory-context link to ORCHESTRATION_ACCEPTANCE_REPORT.md.",
+      "impact": "Historical archive byte integrity wins; current navigation resolves, current governance report is the navigation destination."
+    },
+    {
+      "issue": "Historical receipt counts/hashes/claims describe their dated sessions, not the proposed individual Git commit boundaries.",
+      "impact": "Preserve receipts unchanged; intake receipt and current manifest explain later overlays."
+    },
+    {
+      "issue": "CF-01/02/03 remain unresolved and intake completion is not Founder-approved.",
+      "impact": "No contract changes; proposals can be stored without implying their acceptance. This commit plan remains unapproved."
+    }
+  ],
+  "inspection_corrections": [
+    {
+      "inspection": "Default-encoding documentation validator",
+      "initial_result": "UnicodeDecodeError on Windows cp1252",
+      "correction": "All text reads explicitly UTF-8; full rerun 18 checks PASS."
+    },
+    {
+      "inspection": "Optional .gitattributes and exploratory old compose/test filenames",
+      "initial_result": "Not found",
+      "correction": "No attributes found by git check-attr; actual security/ingestion/map test fixtures reviewed. No acceptance check waived."
+    },
+    {
+      "inspection": "Secret-scan execution capture",
+      "initial_result": "Initial call yielded a running process before output; its V8 wrapper did not retain final output.",
+      "correction": "Captured full successful scan through session polling. A later Ctrl-C request received already-completed exit 0; no process remained. Final scan completed; no contents/values printed."
+    },
+    {
+      "inspection": "Independent QA secret-summary consistency",
+      "initial_result": "Summary retained pre-triage labels after individual findings were reclassified",
+      "correction": "Current counts recomputed from reviewed findings; initial_counts preserves original triage values. Independently rechecked PASS."
+    },
+    {
+      "inspection": "Independent QA HEAD-tree terminology",
+      "initial_result": "HEAD^{tree} capture named initial_index_tree",
+      "correction": "Renamed initial_head_tree and index_content preservation; empty staged diff and reviewer stage-zero comparison establish index content equality, not raw index-byte identity."
+    }
+  ],
+  "independent_qa": {
+    "state": "PASS",
+    "agent": "/root/intake_independent_qa",
+    "instructions": "portable qa; native loader and OS isolation not tested",
+    "mode": "READ_ONLY",
+    "as_of_client_date": "2026-10-11",
+    "reviewer_reported_approximate_time": "11:25–11:30 Asia/Tbilisi",
+    "environment": "Windows 11, PowerShell, Python 3.12.13",
+    "checks": "Independent exact 81-file coverage and groups, original79 hashes/provenance,387 tracked/434 protected bytes,sources/registers/links/traceability/TOML/dependencies/approval boundaries and prospective Git blobs;285 local links with documented historical exception.",
+    "pending_files_secret_scanned": 81,
+    "secret_candidates": 0,
+    "files_changed_by_reviewer": 0,
+    "reviewed_draft_report_sha256": "942c4bf46d83f0a95d13ae7483a2a87ff41b6affc63f3f9dd57ff9f52358bd58",
+    "reviewed_draft_manifest_sha256": "a505eb6d78245ade500560fc679e60e9b8d77bccc108f640ce53218f677f3a7e",
+    "preserved_intake_receipt_sha256": "19865f44c26965c031a827119812f0edef6b9d290508921a63abce812e72ed07",
+    "handoff": "PASS, no blocking fixes. Finalize only two audit artifacts' review/readiness/preservation metadata, refresh report hash, submit exact C1-C4 plan and stop.",
+    "authority": "No completion, commit or future-stage approval granted; no product execution/tests, installs, providers/captures or Git mutations."
+  },
+  "new_audit_artifacts": [
+    {
+      "path": "docs/governance/GIT_BASELINE_AUDIT_2026-10-11.md",
+      "sha256": "a5fd8e32c87c47917f8cb0c23b8247dbb056af61107fac6d784e2109b5edc670"
+    },
+    {
+      "path": "docs/governance/evidence/git-baseline-2026-10-11.json",
+      "sha256": null,
+      "self_hash": "Intentionally omitted; cannot recursively hash this manifest"
+    }
+  ],
+  "preservation_after_audit": {
+    "state": "PASS",
+    "original_visible_files_unchanged": 466,
+    "tracked_files_unchanged": 387,
+    "original_untracked_files_unchanged": 79,
+    "new_files": 2,
+    "final_untracked_files": 81,
+    "index_content_unchanged": true,
+    "staged_changes": 0,
+    "unstaged_tracked_changes": 0,
+    "deleted_files": 0,
+    "head_unchanged": true,
+    "method": "Original79 manifest hashes plus all387 tracked hashes compared with initial snapshot/recorded baseline; exact81 plan coverage and QA confirmation. Final metadata affects only these two newly created audit artifacts."
+  },
+  "limitations": [
+    "Pattern scan does not prove absence of all secrets; ignored private contents and historic Git object history not scanned.",
+    "External links not fetched; 278 current local links checked with one documented historical original-context exception.",
+    "No product/API/map runtime suites or integrations executed; technical commit readiness is not pilot readiness or Founder execution permission.",
+    "Windows machine paths and draft reviewer hashes are provenance, not portable runtime configuration or final artifact acceptance."
+  ],
+  "stop": "Founder approval of exact commit plan required; do not stage, commit, push or advance product stages."
+}
+
