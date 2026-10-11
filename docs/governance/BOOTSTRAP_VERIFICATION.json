@@ -1,0 +1,236 @@
+{
+  "as_of_client_date": "2026-10-10",
+  "client_time_zone": "Asia/Tbilisi",
+  "status": "CHECKS_PASSED_FOUNDER_REVIEW_PENDING",
+  "authorization": "additive governance and supported declared-role configuration only",
+  "git": {
+    "branch": "stage/1c-map-navigation",
+    "audited_head": "eadf331e4b7c262fb5c2216d051f7f6e56a456bf",
+    "protected_baseline": "0e0440a28b2d1c82a70aa545c3e8bf3479e0cea0",
+    "initial_working_tree": "clean",
+    "tracked_diff": "",
+    "remote_output": "empty",
+    "commits_created": 0,
+    "worktrees_created": 0
+  },
+  "created_files": [
+    ".codex/config.toml",
+    ".codex/roles/agent_interfaces.toml",
+    ".codex/roles/cartography.toml",
+    ".codex/roles/chief_engineer.toml",
+    ".codex/roles/decision_engine.toml",
+    ".codex/roles/geospatial_data.toml",
+    ".codex/roles/mobile_pwa.toml",
+    ".codex/roles/partner_booking.toml",
+    ".codex/roles/platform.toml",
+    ".codex/roles/product_research.toml",
+    ".codex/roles/qa.toml",
+    ".codex/roles/security.toml",
+    ".codex/roles/service_integrations.toml",
+    ".codex/roles/telegram.toml",
+    "AGENTS.md",
+    "docs/governance/AGENT_ACCESS_BOUNDARIES.md",
+    "docs/governance/BACKLOG.md",
+    "docs/governance/BOOTSTRAP_VERIFICATION.json",
+    "docs/governance/CHANGE_REQUESTS/CR-TEMPLATE.md",
+    "docs/governance/CHANGE_REQUESTS/README.md",
+    "docs/governance/CHIEF_ENGINEER_WORKFLOW.md",
+    "docs/governance/CODEX_COMPATIBILITY.md",
+    "docs/governance/DECISION_REGISTER.md",
+    "docs/governance/FILE_MANIFEST.md",
+    "docs/governance/HANDOFF_TEMPLATE.md",
+    "docs/governance/INTEGRATION_MATRIX.md",
+    "docs/governance/INTERFACE_REGISTRY.yaml",
+    "docs/governance/PORTFOLIO_BOARD.yaml",
+    "docs/governance/PROJECT_CHARTER.md",
+    "docs/governance/README.md",
+    "docs/governance/RECONCILIATION.md",
+    "docs/governance/RELEASE_GATES.md",
+    "docs/governance/RISK_REGISTER.md",
+    "docs/governance/ROLES/README.md",
+    "docs/governance/ROLES/agent_interfaces.md",
+    "docs/governance/ROLES/cartography.md",
+    "docs/governance/ROLES/chief_engineer.md",
+    "docs/governance/ROLES/decision_engine.md",
+    "docs/governance/ROLES/geospatial_data.md",
+    "docs/governance/ROLES/mobile_pwa.md",
+    "docs/governance/ROLES/partner_booking.md",
+    "docs/governance/ROLES/platform.md",
+    "docs/governance/ROLES/product_research.md",
+    "docs/governance/ROLES/qa.md",
+    "docs/governance/ROLES/security.md",
+    "docs/governance/ROLES/service_integrations.md",
+    "docs/governance/ROLES/telegram.md",
+    "docs/governance/SERVICE_PLATFORM_EXTENSION_RFC.md",
+    "docs/governance/SOURCES/CITYSENSE_AGENTIC_ENGINEERING_OPERATING_SYSTEM_v1_1.md",
+    "docs/governance/SOURCES/CITYSENSE_PRODUCT_BLUEPRINT_v0_3.md",
+    "docs/governance/SOURCES/CODEX_BOOTSTRAP_AGENTIC_TEAM_PROMPT_v1_1.md",
+    "docs/governance/SOURCE_REGISTER.md",
+    "docs/governance/STATUS.md",
+    "docs/governance/TICKETS/T-01-VERTICAL-SLICE.md",
+    "docs/governance/TICKETS/T-02-INVENTORY.md",
+    "docs/governance/TICKETS/T-03-VISUAL-REVIEW.md"
+  ],
+  "modified_preexisting_files": [],
+  "preservation": {
+    "method": "SHA-256 of all existing tracked files before and after bootstrap",
+    "tracked_files_checked": 387,
+    "changed_files": [],
+    "missing_files": [],
+    "unexpected_tracked_files": []
+  },
+  "approved_source_copies": [
+    {
+      "name": "CITYSENSE_PRODUCT_BLUEPRINT_v0_3.md",
+      "sha256": "8bb9166fb1d7e6642e8654cfd31dcedd9d008b1fae7f41f9f6be01b9dfda7f12",
+      "bytes": 32599,
+      "repository_path": "docs/governance/SOURCES/CITYSENSE_PRODUCT_BLUEPRINT_v0_3.md",
+      "byte_equality_with_original": true
+    },
+    {
+      "name": "CITYSENSE_AGENTIC_ENGINEERING_OPERATING_SYSTEM_v1_1.md",
+      "sha256": "5257bff47bc1dd390c1dd31b22816b2903f45f34363aea63f1419d2e96e37a77",
+      "bytes": 13294,
+      "repository_path": "docs/governance/SOURCES/CITYSENSE_AGENTIC_ENGINEERING_OPERATING_SYSTEM_v1_1.md",
+      "byte_equality_with_original": true
+    },
+    {
+      "name": "CODEX_BOOTSTRAP_AGENTIC_TEAM_PROMPT_v1_1.md",
+      "sha256": "0acc067b37e80de3da5f5eb6f03065b42cbfaabf3d774dde5d848eb524906bb1",
+      "bytes": 8827,
+      "repository_path": "docs/governance/SOURCES/CODEX_BOOTSTRAP_AGENTIC_TEAM_PROMPT_v1_1.md",
+      "byte_equality_with_original": true
+    }
+  ],
+  "checks": [
+    {
+      "check": "stdlib governance validation through python -B stdin",
+      "result": "PASS",
+      "toml_files": 14,
+      "role_names_paths_keys_checked": true,
+      "role_defaults": "read-only",
+      "yaml_files": 2,
+      "yaml_format": "YAML 1.2 JSON-compatible subset, parsed with stdlib json",
+      "decision_ids_and_source_statuses": 45,
+      "initiative_count": 11,
+      "dependency_graph": "acyclic with existing dependency IDs",
+      "interface_count": 13,
+      "producer_consumer_schema_test_owners_checked": true,
+      "markdown_links_checked": 109,
+      "root_agents_lines": 47,
+      "manifest_file_count": 56,
+      "errors": []
+    },
+    {
+      "check": "existing deterministic contract export parity",
+      "command": "services/api/.venv/Scripts/python.exe -B services/api/scripts/export_contracts.py --check",
+      "process_environment": {
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "PYTHONPATH": "D:\\citysense-foundation\\services\\api\\src"
+      },
+      "result": "PASS",
+      "exit_code": 0,
+      "output": "Contract exports match",
+      "exports_regenerated": false
+    },
+    {
+      "check": "codex --version and existing feature/config loading",
+      "version": "codex-cli 0.162.0-alpha.2",
+      "command": "codex features list",
+      "result": "PASS",
+      "multi_agent": {
+        "stage": "stable",
+        "enabled": true
+      },
+      "multi_agent_v2": {
+        "stage": "stable",
+        "enabled": false
+      },
+      "project_trust": "already trusted",
+      "config_style": "explicit agents.<name>.description/config_file with .codex/roles layers",
+      "named_role_spawn_exercised": false
+    }
+  ],
+  "independent_reviews": [
+    {
+      "agent": "product_contract_audit",
+      "mode": "READ_ONLY",
+      "outcome": "PASS after corrected Batumi boundary-anchor geography and config-header wording"
+    },
+    {
+      "agent": "service_security_audit",
+      "mode": "READ_ONLY",
+      "outcome": "PASS; external access proposal status wording clarified"
+    },
+    {
+      "agent": "map_qa_audit",
+      "mode": "READ_ONLY",
+      "outcome": "PASS; missing raw artifacts described as not located in inspected repository"
+    }
+  ],
+  "actual_audit_agents_spawned": 3,
+  "declared_role_profiles": [
+    "chief_engineer",
+    "product_research",
+    "cartography",
+    "geospatial_data",
+    "decision_engine",
+    "mobile_pwa",
+    "telegram",
+    "partner_booking",
+    "platform",
+    "service_integrations",
+    "agent_interfaces",
+    "security",
+    "qa"
+  ],
+  "persistent_workers_created": false,
+  "unsuccessful_checks": [
+    {
+      "command": "codex --strict-config ... features list",
+      "result": "UNSUPPORTED",
+      "reason": "Installed CLI reports --strict-config is not supported for codex features; not counted as schema validation"
+    },
+    {
+      "check": "initial ad hoc governance validator",
+      "result": "VALIDATOR_CORRECTED_AND_RERUN",
+      "reason": "Overescaped regex and null separator caused a warning and false count/path errors; validator corrected; final pass shown above"
+    }
+  ],
+  "not_run": [
+    "API/map test suites",
+    "real PostGIS/Docker/Linux/hosted CI",
+    "named declared-role spawning",
+    "browser screenshots or measurements",
+    "physical mobile checks",
+    "genuine model A1",
+    "Telegram connection",
+    "provider integrations",
+    "tourist field pilot"
+  ],
+  "unchanged_or_not_started": {
+    "source_code": true,
+    "migrations": true,
+    "accepted_adrs": true,
+    "protected_research_protocol": true,
+    "old_evidence": true,
+    "lockfiles": true,
+    "global_codex_configuration": true,
+    "model_and_reasoning_settings": true,
+    "features": true,
+    "external_tools_installed": false,
+    "stage_2_started": false,
+    "product_functionality_started": false,
+    "providers_contacted": false,
+    "credentials_used_for_integrations": false,
+    "engineering_tickets_started": false
+  },
+  "limitations": [
+    "Profile files are role definitions, not always-running workers.",
+    "Read-only defaults can be superseded by parent live runtime permissions; not an OS guarantee in this session.",
+    "YAML uses the valid YAML 1.2 JSON-compatible subset and was validated with the standard-library JSON parser; no external YAML parser installed.",
+    "Historical Sprint/map tests remain historical and do not establish pilot verification.",
+    "No founder conflict resolution, release acceptance or next-ticket approval is inferred."
+  ],
+  "stop_point": "Governance and agent configuration complete; await founder review and explicit next-ticket authorization."
+}

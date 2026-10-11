@@ -1,0 +1,53 @@
+# Project-scoped declared roles. Existing stable multi_agent feature is left unchanged.
+# No model, reasoning, feature, provider or MCP overrides; role layers request read-only defaults.
+[agents.chief_engineer]
+description = "Dependency planning, contract reconciliation, integration and founder escalations."
+config_file = "roles/chief_engineer.toml"
+
+[agents.product_research]
+description = "Tourist tasks, required constraints, separate product-pilot measurement and protected research review."
+config_file = "roles/product_research.toml"
+
+[agents.cartography]
+description = "Existing map experiments, camera/selection seams, lawful provider visuals and human visual acceptance."
+config_file = "roles/cartography.toml"
+
+[agents.geospatial_data]
+description = "Place identity, entrances, geometry semantics, provenance, freshness and publication rights."
+config_file = "roles/geospatial_data.toml"
+
+[agents.decision_engine]
+description = "Single backend eligibility, retrieval policy, uncertainty, suitability and comparative relevance."
+config_file = "roles/decision_engine.toml"
+
+[agents.mobile_pwa]
+description = "Future QR mobile flow, accessible comparison and shared request/selection context."
+config_file = "roles/mobile_pwa.toml"
+
+[agents.telegram]
+description = "Preserved private command adapter; future Mini App/client seam only through approved tickets."
+config_file = "roles/telegram.toml"
+
+[agents.partner_booking]
+description = "Partner permissions, schedules/capacity, manual request authority and later fulfillment lifecycle."
+config_file = "roles/partner_booking.toml"
+
+[agents.platform]
+description = "Modular-monolith application service, private REST, persistence, exports and integration checks."
+config_file = "roles/platform.toml"
+
+[agents.service_integrations]
+description = "Proposed provider adapters, typed services, contacts, service areas, digital offerings and market configuration."
+config_file = "roles/service_integrations.toml"
+
+[agents.agent_interfaces]
+description = "Versioned machine surfaces, future OpenAPI/MCP adapters, client scopes and consent boundaries."
+config_file = "roles/agent_interfaces.toml"
+
+[agents.security]
+description = "Independent identity, rights, consent, retention/revocation, unsafe links/tools and transaction threat review."
+config_file = "roles/security.toml"
+
+[agents.qa]
+description = "Independent behavior, contract, integration, physical mobile and human visual evidence review."
+config_file = "roles/qa.toml"

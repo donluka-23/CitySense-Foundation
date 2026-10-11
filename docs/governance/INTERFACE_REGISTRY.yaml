@@ -1,0 +1,275 @@
+{
+  "format": "YAML 1.2 JSON-compatible subset",
+  "as_of": "2026-10-10",
+  "policy": "Versions marked TBD are proposals, not executable contracts. Shared edits are sequential Chief assignments.",
+  "interfaces": [
+    {
+      "id": "CORE",
+      "version": "existing model version/hash",
+      "status": "IMPLEMENTED_PROTECTED",
+      "producer": "engine.evaluate / frozen models and parameters",
+      "consumers": [
+        "platform.IntelligenceService",
+        "legacy evaluate/replay",
+        "research harness"
+      ],
+      "schema_paths": [
+        "services/api/src/citysense/models.py",
+        "services/api/src/citysense/parameters/heuristic-0.2.0.json"
+      ],
+      "schema_owner": "decision_engine",
+      "test_owner": "qa",
+      "test_paths": [
+        "services/api/tests/test_engine.py",
+        "services/api/tests/test_evaluation.py"
+      ],
+      "compatibility": "Preserve B0 hash/null/time/replay and protected evaluation; founder approval required for change",
+      "integration_owner": "chief_engineer"
+    },
+    {
+      "id": "REST_PRIVATE_V1",
+      "version": "/v1",
+      "status": "IMPLEMENTED_PRIVATE_OPERATOR",
+      "producer": "platform_api -> IntelligenceService",
+      "consumers": [
+        "private Telegram command adapter",
+        "authorized operator clients"
+      ],
+      "schema_paths": [
+        "docs/contracts/openapi.json",
+        "docs/OPENAPI_CONTRACT.md"
+      ],
+      "schema_owner": "platform",
+      "test_owner": "qa",
+      "test_paths": [
+        "services/api/tests/test_platform.py",
+        "services/api/scripts/export_contracts.py"
+      ],
+      "compatibility": "Stable operation IDs; search stable ID limit<=30/no cursor; pairwise comparison exactly two; breaking semantics require /v2",
+      "integration_owner": "chief_engineer"
+    },
+    {
+      "id": "RESEARCH_REPLAY",
+      "version": "existing /v1/evaluate and /v1/replay",
+      "status": "IMPLEMENTED_PROTECTED",
+      "producer": "app.py / db snapshot repository",
+      "consumers": [
+        "authorized research operator",
+        "replay harness"
+      ],
+      "schema_paths": [
+        "docs/contracts/openapi.json",
+        "services/api/src/citysense/models.py"
+      ],
+      "schema_owner": "decision_engine",
+      "test_owner": "qa",
+      "test_paths": [
+        "services/api/tests/test_postgis.py",
+        "services/api/tests/test_engine.py"
+      ],
+      "compatibility": "Dynamic reads are not persisted snapshots; archive only with rights; no silent ledger/metric rewrite",
+      "integration_owner": "chief_engineer"
+    },
+    {
+      "id": "GEOMETRY_EVIDENCE",
+      "version": "migration 0002 and existing schemas",
+      "status": "IMPLEMENTED",
+      "producer": "ingestion / geometry repository / selected stored evidence",
+      "consumers": [
+        "IntelligenceService",
+        "future PWA data seam"
+      ],
+      "schema_paths": [
+        "docs/contracts/geometry-revision.schema.json",
+        "services/api/src/citysense/models.py"
+      ],
+      "schema_owner": "geospatial_data",
+      "test_owner": "qa",
+      "test_paths": [
+        "services/api/tests/test_ingestion.py",
+        "services/api/tests/test_platform.py"
+      ],
+      "compatibility": "Point as-of geometry/provenance; unknown features withheld; entrance/routes not implied",
+      "integration_owner": "chief_engineer"
+    },
+    {
+      "id": "TELEGRAM_PRIVATE",
+      "version": "Sprint 3 command demo",
+      "status": "IMPLEMENTED_ADAPTER_REAL_CONNECTION_UNVERIFIED",
+      "producer": "telegram_demo -> authenticated private REST",
+      "consumers": [
+        "allowlisted demo user"
+      ],
+      "schema_paths": [
+        "docs/contracts/telegram-demo.schema.json",
+        "docs/TELEGRAM_DEMO_SPEC.md"
+      ],
+      "schema_owner": "telegram",
+      "test_owner": "qa",
+      "test_paths": [
+        "services/api/tests/test_telegram_demo.py"
+      ],
+      "compatibility": "Three results, max-five place allowlist; real/synthetic separate; no natural-language/booking runtime",
+      "integration_owner": "chief_engineer"
+    },
+    {
+      "id": "AGENT_INTERNAL",
+      "version": "existing five-tool prototype",
+      "status": "IN_PROCESS_ONLY_NO_MCP_TRANSPORT",
+      "producer": "agent_tools -> IntelligenceService",
+      "consumers": [
+        "trusted in-process clients"
+      ],
+      "schema_paths": [
+        "docs/contracts/mcp-tools-design.json",
+        "docs/MCP_INTERFACE_DESIGN.md"
+      ],
+      "schema_owner": "agent_interfaces",
+      "test_owner": "qa",
+      "test_paths": [
+        "services/api/tests/test_platform.py",
+        "services/api/scripts/export_contracts.py"
+      ],
+      "compatibility": "Same AccessContext/source policy; annotations do not authorize remote access",
+      "integration_owner": "chief_engineer"
+    },
+    {
+      "id": "OPPORTUNITY_CONTRACT",
+      "version": "existing ProviderEntity/Offer/BookingAttribution",
+      "status": "CONTRACTS_ONLY_NO_RUNTIME",
+      "producer": "opportunities.py declarations",
+      "consumers": [
+        "contract tests",
+        "future compatibility mapper"
+      ],
+      "schema_paths": [
+        "docs/contracts/provider-entity.schema.json",
+        "services/api/src/citysense/opportunities.py"
+      ],
+      "schema_owner": "service_integrations",
+      "test_owner": "qa",
+      "test_paths": [
+        "services/api/tests/test_opportunities.py"
+      ],
+      "compatibility": "Point/place required; preserve export and organic-score separation; no supplier availability implied",
+      "integration_owner": "chief_engineer"
+    },
+    {
+      "id": "MAP_EXPERIMENT",
+      "version": "Stage 1C on Stage 1B config",
+      "status": "ISOLATED_EXPERIMENT",
+      "producer": "tools/map-stage-1c / provider styles",
+      "consumers": [
+        "local desktop experiment",
+        "human visual review"
+      ],
+      "schema_paths": [
+        "tools/map-stage-1c/README.md",
+        "tools/map-stage-1c/navigation.mjs"
+      ],
+      "schema_owner": "cartography",
+      "test_owner": "qa",
+      "test_paths": [
+        "tools/map-stage-1c/tests/navigation.test.mjs",
+        "tools/map-stage-1c/tests/test_server.py"
+      ],
+      "compatibility": "No CitySense API integration; retain attribution/reduced motion; no Stage 2",
+      "integration_owner": "chief_engineer"
+    },
+    {
+      "id": "REQUEST_SELECTION",
+      "version": "PROPOSED_TBD",
+      "status": "PROPOSED_UNBUILT",
+      "producer": "future versioned decision/request service",
+      "consumers": [
+        "future PWA cards/map/evidence",
+        "future Telegram client"
+      ],
+      "schema_paths": [
+        "docs/governance/TICKETS/T-01-VERTICAL-SLICE.md"
+      ],
+      "schema_owner": "platform",
+      "test_owner": "qa",
+      "test_paths": [],
+      "acceptance": "Request revision, candidate/entrance/evidence version and active selection; stale-response/refinement/no-data/rights tests",
+      "compatibility": "CF-03 compatibility gate; existing /v1 and engine unchanged until approved",
+      "integration_owner": "chief_engineer"
+    },
+    {
+      "id": "SERVICES_READ",
+      "version": "PROPOSED_TBD_NO_ENDPOINTS",
+      "status": "PROPOSED_UNIMPLEMENTED",
+      "producer": "future offering/provider adapter service",
+      "consumers": [
+        "future PWA/partner client",
+        "future authorized read API"
+      ],
+      "schema_paths": [
+        "docs/governance/SERVICE_PLATFORM_EXTENSION_RFC.md"
+      ],
+      "schema_owner": "service_integrations",
+      "test_owner": "qa",
+      "test_paths": [],
+      "acceptance": "Tagged point/service-area/digital/contact; freshness/rights/revocation and fixed-place compatibility tests",
+      "compatibility": "Additive versioned schema review; preserve ProviderEntity and numeric Evidence",
+      "integration_owner": "chief_engineer"
+    },
+    {
+      "id": "ACTIONS_CALLBACK",
+      "version": "PROPOSED_TBD_NO_ENDPOINTS",
+      "status": "PROPOSED_UNIMPLEMENTED_DEFERRED",
+      "producer": "future partner action service and authenticated provider callback",
+      "consumers": [
+        "future confirmed user action",
+        "partner queue/status"
+      ],
+      "schema_paths": [
+        "docs/governance/SERVICE_PLATFORM_EXTENSION_RFC.md",
+        "docs/governance/AGENT_ACCESS_BOUNDARIES.md"
+      ],
+      "schema_owner": "partner_booking",
+      "test_owner": "security",
+      "test_paths": [],
+      "acceptance": "Scoped consent/idempotency, hold/concurrency, callback auth/replay/out-of-order and truthful terminal states",
+      "compatibility": "No implicit action in reads; provider is authoritative; no payment topology approved",
+      "integration_owner": "chief_engineer"
+    },
+    {
+      "id": "OPENAPI_EXTERNAL",
+      "version": "PROPOSED_TBD_UNRELEASED",
+      "status": "PROPOSED_ACCESS_DESIGN_NOT_IMPLEMENTED",
+      "producer": "future authenticated gateway over shared service",
+      "consumers": [
+        "future permitted partner/integrator/external AI agent"
+      ],
+      "schema_paths": [
+        "docs/governance/AGENT_ACCESS_BOUNDARIES.md"
+      ],
+      "schema_owner": "agent_interfaces",
+      "test_owner": "security",
+      "test_paths": [],
+      "acceptance": "Version/error/coverage/locale/freshness, tenant/market/rights/scopes/revocation and quota tests",
+      "compatibility": "Checked-in internal OpenAPI is not public release; separate founder/security gate",
+      "integration_owner": "chief_engineer"
+    },
+    {
+      "id": "MCP_EXTERNAL",
+      "version": "PROPOSED_SECONDARY_TBD",
+      "status": "PROPOSED_NO_SERVER",
+      "producer": "future MCP adapter over governed REST/domain service",
+      "consumers": [
+        "future authorized MCP client"
+      ],
+      "schema_paths": [
+        "docs/governance/AGENT_ACCESS_BOUNDARIES.md",
+        "docs/MCP_INTERFACE_DESIGN.md"
+      ],
+      "schema_owner": "agent_interfaces",
+      "test_owner": "security",
+      "test_paths": [],
+      "acceptance": "Same auth/source/consent and read/action split; transport/lifecycle/injection/denial tests",
+      "compatibility": "No tool release or write permission from annotations; no second scorer",
+      "integration_owner": "chief_engineer"
+    }
+  ]
+}
