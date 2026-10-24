@@ -1,0 +1,23 @@
+{
+  "operator": {
+    "name": "",
+    "legalForm": "",
+    "registrationNumber": "",
+    "address": "",
+    "jurisdiction": ""
+  },
+  "contact": {
+    "email": "",
+    "founderAuthorized": false,
+    "mailboxVerified": false,
+    "retentionStatement": ""
+  },
+  "publicOrigin": "",
+  "releaseReview": {
+    "founderPublicationApproval": "",
+    "hostingPrivacyStatement": "",
+    "legalApplicabilityDecision": "",
+    "applicableDisclosureApproval": "",
+    "georgianDisclosureText": ""
+  }
+}

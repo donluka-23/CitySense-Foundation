@@ -1,0 +1,40 @@
+[
+  {
+    "file": "assets/batumi-panorama.png",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Batumi.png",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Batumi.png",
+    "creator": "Alexabsent",
+    "license": "CC0 1.0",
+    "sha256": "330e636d2ab7a56ff1d647616536e9a65eb883449d8de57a584eb64c7a0456ec",
+    "bytes": 1090072,
+    "retrieved_at": "2026-10-11T09:44:07.116510+00:00",
+    "dimensions": [
+      1335,
+      612
+    ],
+    "sha1": "8a5d3a1fb3a3a31da144889743d501dd39625d75",
+    "title": "Batumi.png",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "location_basis": "Commons creator caption and file description identify Batumi; coast file also records camera coordinates. Chief visually inspected downloaded original; no independent field verification.",
+    "modifications": "Original bytes preserved. Center crop/resizing only inside exported artboards; no recoloring, generated extensions, geographic alteration or AI photography."
+  },
+  {
+    "file": "assets/batumi-coast.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Batumi_skyline_as_seen_from_Mtsvane_Kontskhi_cape.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Batumi_skyline_as_seen_from_Mtsvane_Kontskhi_cape.jpg",
+    "creator": "Lex Kravetski",
+    "license": "CC BY 2.0",
+    "sha256": "79a2d6af49da563c2bf3487eefb3c8f54c2c49fbf0c8bb461e1863bca2112123",
+    "bytes": 1051680,
+    "retrieved_at": "2026-10-11T09:44:10.319325+00:00",
+    "dimensions": [
+      2587,
+      1720
+    ],
+    "sha1": "720a97b910d579c20a37935ff9fc69807fc1a9d3",
+    "title": "Batumi skyline as seen from Mtsvane Kontskhi cape.jpg",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "location_basis": "Commons creator caption and file description identify Batumi; coast file also records camera coordinates. Chief visually inspected downloaded original; no independent field verification.",
+    "modifications": "Original bytes preserved. Center crop/resizing only inside exported artboards; no recoloring, generated extensions, geographic alteration or AI photography."
+  }
+]

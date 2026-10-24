@@ -66,3 +66,34 @@ next-stage proposal; specific requested decision. Include independent QA identit
 Documentation-only intake demos/screenshots are N/A: no UI changes or captures authorized.
 Missing evidence must be marked missing, never replaced by a descriptive claim.
 
+
+## Scoped Landing UX-0 overlay - 2026-10-11
+
+Administrative stage LANDING-UX0-VISUAL-v1; artifact landing-ux0-r1. Chief-assigned labels identify this exact task.
+The Founder explicitly authorized creating high-fidelity **static landing concepts inside UX-0**, after selecting the hybrid direction.
+See [actual request](../design/landing/SOURCES/USER_REQUEST.md), [source reconciliation](../design/landing/SOURCE_INTAKE.md)
+and [execution approval](FOUNDER_APPROVALS.md#fa-landing-ux0-2026-10-11-001).
+This is a task-specific overlay, not a change to generic integrated-product UX-0 through UX-4 definitions or protected technical contracts.
+Brief high-fidelity approval was pending; current authority permits bounded exploration, not acceptance of completed layouts.
+
+Lifecycle: APPROVED_TO_EXECUTE -> IN_PROGRESS -> TECH_QA -> FOUNDER_REVIEW only after actual independent QA.
+The [Landing packet](../design/landing/UX0_FOUNDER_REVIEW_PACKET.md) records the current exact result/revision.
+Current result: FOUNDER_REVIEW after actual independent QA PASS on landing-ux0-r1. This is static artifact readiness only.
+Founder completion and visual acceptance remain NOT RECORDED. No successor is authorized.
+Actual static artboards are evidence for composition review, not screenshots of a running UI or map provider.
+Generic product UX-1/2, map Stage 1B closure/waiver, implementation, publication and deployment retain separate gates.
+
+
+## LANDING-WEB r2 track and revision overlay - 2026-10-11
+
+Source: [current direct Founder request](../design/landing/revisions/landing-web-ux0-r2/SOURCES/CONSOLIDATED_FOUNDER_REQUEST.md).
+Historical r1 human review is now REQUEST CHANGES. CR-0001 explicitly authorizes same-stage static revision and one Partners desktop/mobile concept.
+LANDING-UX0-VISUAL-v1 stays the administrative stage; LANDING-WEB is the track; landing-web-ux0-r2 is the reviewed artifact.
+Lifecycle: CHANGES_REQUESTED -> APPROVED_TO_EXECUTE -> IN_PROGRESS -> TECH_QA -> FOUNDER_REVIEW after actual image QA;
+APPROVED_COMPLETE requires a real scoped Founder decision. No completion approval is recorded.
+
+LANDING-WEB serves small corporate/partner public presence. PRODUCT-APP is a separate PWA/desktop track with its own independent UX-0 through UX-4 Founder gates.
+Website palette, layout, component patterns, illustrative interactions and motion do not bind PRODUCT-APP. Shared brand may be proposed, separately evaluated and approved.
+Every future UI/UX phase requires its own approved scope, actual visual evidence and Founder visual review; no acceptance inherits by silence or predecessor success.
+Public contact/policies are pending facts. Static EOI collects nothing. Publication, production UI and affiliate/partner integrations require separate authorization.
+Stage 1B remains PARTIAL; this photo/diagram concept grants no map-style sign-off, risk waiver or new map stage.

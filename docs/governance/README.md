@@ -51,3 +51,18 @@ Next-session prompt:
 > STATUS and the current Founder packet. Verify Git state and active agents. Preserve uncommitted work.
 > Record only actual written Founder decisions. Continue only the exact approved stage/artifact/scope.
 > If none exists, report BLOCKED_AWAITING_FOUNDER_APPROVAL and prepare a bounded proposal without implementation.
+
+## Landing UX-0 scoped visual exploration - 2026-10-11
+
+The current explicit Founder request authorizes static H1/H2/H3 landing compositions only.
+[Landing index](../design/landing/README.md), [source reconciliation](../design/landing/SOURCE_INTAKE.md),
+[visual review packet](../design/landing/UX0_FOUNDER_REVIEW_PACKET.md), [approval ledger](FOUNDER_APPROVALS.md).
+This overlay preserves the historical documentation stage and generic product/map gates; it grants no implementation or publication.
+
+
+## Current LANDING-WEB revision - 2026-10-11
+
+Founder requested changes to historical H1/H2/H3. Current [r2 Founder packet](../design/landing/revisions/landing-web-ux0-r2/FOUNDER_REVIEW_PACKET.md),
+[separate website/product tracks](../design/landing/WEBSITE_TRACKS.md), [single consolidated CR](CHANGE_REQUESTS/CR-0001-LANDING-WEB-UX0-REVISION.md)
+and append-only [approval ledger](FOUNDER_APPROVALS.md) govern this bounded static revision and Partners concept.
+Previous package is preserved evidence; its QA PASS is not Founder visual acceptance. No later execution authority.

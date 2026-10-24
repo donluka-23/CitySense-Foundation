@@ -1,0 +1,975 @@
+{
+  "width": 1440,
+  "height": 3257,
+  "texts": [
+    {
+      "text": "citysense",
+      "bbox": [
+        120.0,
+        33.0,
+        239.5,
+        60.5
+      ],
+      "font_px": 28,
+      "color": "#172D32"
+    },
+    {
+      "text": "The vision",
+      "bbox": [
+        790.0,
+        42.0,
+        861.5,
+        54.0
+      ],
+      "font_px": 16,
+      "color": "#4C6264"
+    },
+    {
+      "text": "How it will work",
+      "bbox": [
+        918.0,
+        42.0,
+        1031.5,
+        54.0
+      ],
+      "font_px": 16,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Potential partners",
+      "bbox": [
+        1101.0,
+        42.0,
+        1227.0,
+        57.5
+      ],
+      "font_px": 16,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Pilot in development",
+      "bbox": [
+        133.0,
+        152.0,
+        260.0,
+        164.5
+      ],
+      "font_px": 13,
+      "color": "#21675F"
+    },
+    {
+      "text": "BATUMI FIRST · CONNECTED CITIES",
+      "bbox": [
+        120.0,
+        204.0,
+        339.0,
+        213.0
+      ],
+      "font_px": 13,
+      "color": "#21675F"
+    },
+    {
+      "text": "Discover a city with context.",
+      "bbox": [
+        120.0,
+        244.0,
+        865.0,
+        299.0
+      ],
+      "font_px": 56,
+      "color": "#172D32"
+    },
+    {
+      "text": "Your needs. Defensible alternatives. Evidence you can inspect.",
+      "bbox": [
+        120.0,
+        326.0,
+        718.5,
+        348.0
+      ],
+      "font_px": 22,
+      "color": "#4C6264"
+    },
+    {
+      "text": "See how it will work",
+      "bbox": [
+        1070.0,
+        326.0,
+        1222.5,
+        338.0
+      ],
+      "font_px": 16,
+      "color": "#FFFFFF"
+    },
+    {
+      "text": "↗",
+      "bbox": [
+        1287.0,
+        325.0,
+        1300.0,
+        335.0
+      ],
+      "font_px": 18,
+      "color": "#FFFFFF"
+    },
+    {
+      "text": "CONCEPT PREVIEW · NON-FUNCTIONAL",
+      "bbox": [
+        148.0,
+        427.0,
+        396.0,
+        436.0
+      ],
+      "font_px": 13,
+      "color": "#21675F"
+    },
+    {
+      "text": "Example request",
+      "bbox": [
+        148.0,
+        464.0,
+        257.5,
+        479.0
+      ],
+      "font_px": 15,
+      "color": "#4C6264"
+    },
+    {
+      "text": "An outdoor activity.",
+      "bbox": [
+        148.0,
+        491.75,
+        356.5,
+        513.25
+      ],
+      "font_px": 22,
+      "color": "#172D32"
+    },
+    {
+      "text": "Step-free access required.",
+      "bbox": [
+        148.0,
+        521.75,
+        416.0,
+        543.25
+      ],
+      "font_px": 22,
+      "color": "#172D32"
+    },
+    {
+      "text": "NONFUNCTIONAL MAP PLACEHOLDER",
+      "bbox": [
+        163.0,
+        585.75,
+        385.0,
+        594.25
+      ],
+      "font_px": 12,
+      "color": "#21675F"
+    },
+    {
+      "text": "Spatial selection goes here.",
+      "bbox": [
+        163.0,
+        634.75,
+        404.0,
+        654.25
+      ],
+      "font_px": 20,
+      "color": "#172D32"
+    },
+    {
+      "text": "No Batumi geography or provider tiles.",
+      "bbox": [
+        163.0,
+        674.75,
+        403.5,
+        688.25
+      ],
+      "font_px": 14,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Illustrative comparison · not live results",
+      "bbox": [
+        148.0,
+        751.75,
+        388.0,
+        765.25
+      ],
+      "font_px": 14,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Alternative A · example",
+      "bbox": [
+        148.0,
+        789.75,
+        334.0,
+        806.75
+      ],
+      "font_px": 17,
+      "color": "#172D32"
+    },
+    {
+      "text": "Access unknown. Excluded until verified.",
+      "bbox": [
+        148.0,
+        842.75,
+        414.0,
+        854.25
+      ],
+      "font_px": 15,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Alternative B · example",
+      "bbox": [
+        604.0,
+        789.75,
+        789.0,
+        806.75
+      ],
+      "font_px": 17,
+      "color": "#172D32"
+    },
+    {
+      "text": "Evidence not populated. No eligible option asserted.",
+      "bbox": [
+        604.0,
+        842.75,
+        952.0,
+        857.75
+      ],
+      "font_px": 15,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Illustrative layout. No live search, routes or availability.",
+      "bbox": [
+        148.0,
+        936.75,
+        482.0,
+        950.25
+      ],
+      "font_px": 14,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Batumi panorama",
+      "bbox": [
+        1096.0,
+        837.0,
+        1197.0,
+        849.5
+      ],
+      "font_px": 13,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Alexabsent · CC0 1.0",
+      "bbox": [
+        1096.0,
+        858.0,
+        1212.5,
+        867.5
+      ],
+      "font_px": 13,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Cropped city photograph",
+      "bbox": [
+        1096.0,
+        879.0,
+        1240.5,
+        891.5
+      ],
+      "font_px": 13,
+      "color": "#4C6264"
+    },
+    {
+      "text": "01 / THE PROPOSED JOURNEY",
+      "bbox": [
+        120.0,
+        1085.0,
+        307.5,
+        1095.5
+      ],
+      "font_px": 13,
+      "color": "#21675F"
+    },
+    {
+      "text": "Less guesswork.",
+      "bbox": [
+        120.0,
+        1122.0,
+        443.0,
+        1164.5
+      ],
+      "font_px": 43,
+      "color": "#172D32"
+    },
+    {
+      "text": "More context.",
+      "bbox": [
+        120.0,
+        1171.0,
+        405.0,
+        1201.5
+      ],
+      "font_px": 43,
+      "color": "#172D32"
+    },
+    {
+      "text": "01",
+      "bbox": [
+        120.0,
+        1254.0,
+        141.0,
+        1267.0
+      ],
+      "font_px": 18,
+      "color": "#21675F"
+    },
+    {
+      "text": "Tell us what matters.",
+      "bbox": [
+        120.0,
+        1296.0,
+        355.0,
+        1314.0
+      ],
+      "font_px": 24,
+      "color": "#172D32"
+    },
+    {
+      "text": "A need and essential constraints, not just a",
+      "bbox": [
+        120.0,
+        1338.0,
+        457.0,
+        1355.5
+      ],
+      "font_px": 18,
+      "color": "#4C6264"
+    },
+    {
+      "text": "category.",
+      "bbox": [
+        120.0,
+        1366.0,
+        193.0,
+        1381.5
+      ],
+      "font_px": 18,
+      "color": "#4C6264"
+    },
+    {
+      "text": "02",
+      "bbox": [
+        536.0,
+        1254.0,
+        557.0,
+        1267.0
+      ],
+      "font_px": 18,
+      "color": "#21675F"
+    },
+    {
+      "text": "Compare with evidence.",
+      "bbox": [
+        536.0,
+        1296.0,
+        807.5,
+        1319.5
+      ],
+      "font_px": 24,
+      "color": "#172D32"
+    },
+    {
+      "text": "Up to five defensible alternatives, or fewer.",
+      "bbox": [
+        536.0,
+        1338.0,
+        874.5,
+        1355.5
+      ],
+      "font_px": 18,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Missing required facts stay unresolved.",
+      "bbox": [
+        536.0,
+        1366.0,
+        842.5,
+        1383.5
+      ],
+      "font_px": 18,
+      "color": "#4C6264"
+    },
+    {
+      "text": "03",
+      "bbox": [
+        952.0,
+        1254.0,
+        973.0,
+        1267.0
+      ],
+      "font_px": 18,
+      "color": "#21675F"
+    },
+    {
+      "text": "Choose with context.",
+      "bbox": [
+        952.0,
+        1296.0,
+        1189.5,
+        1314.0
+      ],
+      "font_px": 24,
+      "color": "#172D32"
+    },
+    {
+      "text": "Inspect the map, sources and unknowns.",
+      "bbox": [
+        952.0,
+        1338.0,
+        1272.0,
+        1355.5
+      ],
+      "font_px": 18,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Understand which next actions are actually",
+      "bbox": [
+        952.0,
+        1366.0,
+        1290.5,
+        1383.5
+      ],
+      "font_px": 18,
+      "color": "#4C6264"
+    },
+    {
+      "text": "supported.",
+      "bbox": [
+        952.0,
+        1394.0,
+        1037.5,
+        1411.5
+      ],
+      "font_px": 18,
+      "color": "#4C6264"
+    },
+    {
+      "text": "02 / WHAT EXISTS, WHAT COMES NEXT",
+      "bbox": [
+        120.0,
+        1532.0,
+        365.0,
+        1542.5
+      ],
+      "font_px": 13,
+      "color": "#21675F"
+    },
+    {
+      "text": "Existing foundation",
+      "bbox": [
+        120.0,
+        1578.0,
+        332.0,
+        1601.0
+      ],
+      "font_px": 23,
+      "color": "#172D32"
+    },
+    {
+      "text": "Internal research and information",
+      "bbox": [
+        120.0,
+        1622.0,
+        384.5,
+        1635.5
+      ],
+      "font_px": 18,
+      "color": "#4C6264"
+    },
+    {
+      "text": "components. They do not yet form a",
+      "bbox": [
+        120.0,
+        1650.0,
+        408.5,
+        1667.5
+      ],
+      "font_px": 18,
+      "color": "#4C6264"
+    },
+    {
+      "text": "connected tourist experience.",
+      "bbox": [
+        120.0,
+        1678.0,
+        354.5,
+        1695.5
+      ],
+      "font_px": 18,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Pilot being developed",
+      "bbox": [
+        536.0,
+        1578.0,
+        773.5,
+        1601.0
+      ],
+      "font_px": 23,
+      "color": "#172D32"
+    },
+    {
+      "text": "QR/mobile discovery, constraints, comparison,",
+      "bbox": [
+        536.0,
+        1622.0,
+        903.0,
+        1639.5
+      ],
+      "font_px": 18,
+      "color": "#4C6264"
+    },
+    {
+      "text": "map evidence and informed selection.",
+      "bbox": [
+        536.0,
+        1650.0,
+        838.0,
+        1667.5
+      ],
+      "font_px": 18,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Long-term vision",
+      "bbox": [
+        952.0,
+        1578.0,
+        1137.0,
+        1601.0
+      ],
+      "font_px": 23,
+      "color": "#172D32"
+    },
+    {
+      "text": "Governed services and authorized AI-agent",
+      "bbox": [
+        952.0,
+        1622.0,
+        1294.0,
+        1639.5
+      ],
+      "font_px": 18,
+      "color": "#4C6264"
+    },
+    {
+      "text": "interfaces. Separately approved; not live.",
+      "bbox": [
+        952.0,
+        1650.0,
+        1272.0,
+        1667.5
+      ],
+      "font_px": 18,
+      "color": "#4C6264"
+    },
+    {
+      "text": "03 / STARTING IN BATUMI",
+      "bbox": [
+        120.0,
+        1785.0,
+        284.0,
+        1795.5
+      ],
+      "font_px": 13,
+      "color": "#21675F"
+    },
+    {
+      "text": "Local discovery.",
+      "bbox": [
+        120.0,
+        1830.0,
+        423.5,
+        1870.5
+      ],
+      "font_px": 41,
+      "color": "#172D32"
+    },
+    {
+      "text": "A considered first step.",
+      "bbox": [
+        120.0,
+        1877.0,
+        564.0,
+        1917.5
+      ],
+      "font_px": 41,
+      "color": "#172D32"
+    },
+    {
+      "text": "PLANNED INVENTORY",
+      "bbox": [
+        800.0,
+        1834.0,
+        939.0,
+        1843.0
+      ],
+      "font_px": 13,
+      "color": "#21675F"
+    },
+    {
+      "text": "Tours",
+      "bbox": [
+        800.0,
+        1884.0,
+        858.5,
+        1899.5
+      ],
+      "font_px": 22,
+      "color": "#172D32"
+    },
+    {
+      "text": "Paid attractions",
+      "bbox": [
+        800.0,
+        1937.0,
+        963.5,
+        1953.5
+      ],
+      "font_px": 22,
+      "color": "#172D32"
+    },
+    {
+      "text": "Sports courts",
+      "bbox": [
+        800.0,
+        1990.0,
+        937.0,
+        2010.5
+      ],
+      "font_px": 22,
+      "color": "#172D32"
+    },
+    {
+      "text": "Later: drivers, transfers and connectivity. No active offers or",
+      "bbox": [
+        120.0,
+        1967.0,
+        589.5,
+        1984.5
+      ],
+      "font_px": 18,
+      "color": "#4C6264"
+    },
+    {
+      "text": "integrations.",
+      "bbox": [
+        120.0,
+        1995.0,
+        218.5,
+        2012.5
+      ],
+      "font_px": 18,
+      "color": "#4C6264"
+    },
+    {
+      "text": "04 / LONG-TERM PLATFORM VISION",
+      "bbox": [
+        120.0,
+        2119.0,
+        345.5,
+        2129.5
+      ],
+      "font_px": 13,
+      "color": "#B9D8C9"
+    },
+    {
+      "text": "From city discovery",
+      "bbox": [
+        120.0,
+        2162.0,
+        513.5,
+        2204.5
+      ],
+      "font_px": 43,
+      "color": "#FFFFFF"
+    },
+    {
+      "text": "to city intelligence.",
+      "bbox": [
+        120.0,
+        2211.0,
+        504.5,
+        2253.5
+      ],
+      "font_px": 43,
+      "color": "#FFFFFF"
+    },
+    {
+      "text": "People, places, local services and authorized AI agents —",
+      "bbox": [
+        120.0,
+        2282.0,
+        594.0,
+        2301.0
+      ],
+      "font_px": 19,
+      "color": "#D0DDD6"
+    },
+    {
+      "text": "connected through evidence and governed interfaces.",
+      "bbox": [
+        120.0,
+        2311.0,
+        572.0,
+        2330.0
+      ],
+      "font_px": 19,
+      "color": "#D0DDD6"
+    },
+    {
+      "text": "01",
+      "bbox": [
+        800.0,
+        2184.0,
+        817.0,
+        2194.5
+      ],
+      "font_px": 15,
+      "color": "#B9D8C9"
+    },
+    {
+      "text": "Source-governed evidence",
+      "bbox": [
+        846.0,
+        2182.0,
+        1070.0,
+        2201.0
+      ],
+      "font_px": 19,
+      "color": "#FFFFFF"
+    },
+    {
+      "text": "02",
+      "bbox": [
+        800.0,
+        2272.0,
+        817.0,
+        2282.5
+      ],
+      "font_px": 15,
+      "color": "#B9D8C9"
+    },
+    {
+      "text": "Contextual need & selection",
+      "bbox": [
+        846.0,
+        2270.0,
+        1083.0,
+        2284.5
+      ],
+      "font_px": 19,
+      "color": "#FFFFFF"
+    },
+    {
+      "text": "03",
+      "bbox": [
+        800.0,
+        2360.0,
+        817.0,
+        2370.5
+      ],
+      "font_px": 15,
+      "color": "#B9D8C9"
+    },
+    {
+      "text": "Authorized service / agent interfaces",
+      "bbox": [
+        846.0,
+        2358.0,
+        1152.0,
+        2377.0
+      ],
+      "font_px": 19,
+      "color": "#FFFFFF"
+    },
+    {
+      "text": "FUTURE · NOT AN OPERATING CITY NETWORK",
+      "bbox": [
+        120.0,
+        2457.0,
+        407.5,
+        2466.0
+      ],
+      "font_px": 13,
+      "color": "#B9D8C9"
+    },
+    {
+      "text": "05 / POTENTIAL PARTNERS",
+      "bbox": [
+        120.0,
+        2618.0,
+        288.0,
+        2628.5
+      ],
+      "font_px": 13,
+      "color": "#21675F"
+    },
+    {
+      "text": "Build local trust,",
+      "bbox": [
+        120.0,
+        2656.0,
+        427.0,
+        2690.5
+      ],
+      "font_px": 40,
+      "color": "#172D32"
+    },
+    {
+      "text": "one conversation at a time.",
+      "bbox": [
+        120.0,
+        2703.0,
+        629.5,
+        2733.0
+      ],
+      "font_px": 40,
+      "color": "#172D32"
+    },
+    {
+      "text": "Exploring partnerships with accommodation hosts and local service providers.",
+      "bbox": [
+        120.0,
+        2780.0,
+        765.5,
+        2799.0
+      ],
+      "font_px": 19,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Accommodation QR pilot proposed; placement permissions pending.",
+      "bbox": [
+        120.0,
+        2809.0,
+        696.5,
+        2828.0
+      ],
+      "font_px": 19,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Enquiry channel awaiting verification",
+      "bbox": [
+        134.0,
+        2877.0,
+        411.0,
+        2892.5
+      ],
+      "font_px": 16,
+      "color": "#21675F"
+    },
+    {
+      "text": "Future option: authorized affiliate links. None active in this concept. Disclosure and commercial policy require",
+      "bbox": [
+        120.0,
+        2948.0,
+        895.5,
+        2963.5
+      ],
+      "font_px": 16,
+      "color": "#4C6264"
+    },
+    {
+      "text": "separate review.",
+      "bbox": [
+        120.0,
+        2973.0,
+        234.0,
+        2988.0
+      ],
+      "font_px": 16,
+      "color": "#4C6264"
+    },
+    {
+      "text": "citysense  /  Pilot in development",
+      "bbox": [
+        120.0,
+        3067.0,
+        400.0,
+        3084.5
+      ],
+      "font_px": 18,
+      "color": "#172D32"
+    },
+    {
+      "text": "Static concept. Publisher identity, jurisdiction, contact, privacy and terms await verification. No collection or working links.",
+      "bbox": [
+        120.0,
+        3104.0,
+        867.5,
+        3117.5
+      ],
+      "font_px": 14,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Photography: Alexabsent / Batumi.png / CC0 1.0.",
+      "bbox": [
+        120.0,
+        3146.0,
+        379.5,
+        3158.0
+      ],
+      "font_px": 12,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Cropped / resized; no endorsement.",
+      "bbox": [
+        120.0,
+        3165.0,
+        312.0,
+        3177.0
+      ],
+      "font_px": 12,
+      "color": "#4C6264"
+    },
+    {
+      "text": "commons.wikimedia.org/wiki/File:Batumi.png",
+      "bbox": [
+        120.0,
+        3184.0,
+        360.5,
+        3196.0
+      ],
+      "font_px": 12,
+      "color": "#4C6264"
+    },
+    {
+      "text": "creativecommons.org/publicdomain/zero/1.0/",
+      "bbox": [
+        120.0,
+        3203.0,
+        364.5,
+        3215.0
+      ],
+      "font_px": 12,
+      "color": "#4C6264"
+    }
+  ],
+  "out_of_bounds": []
+}

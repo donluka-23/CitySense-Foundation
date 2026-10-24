@@ -1,0 +1,216 @@
+{
+  "width": 1440,
+  "height": 1300,
+  "texts": [
+    {
+      "text": "Batumi as context. Evidence as a boundary.",
+      "bbox": [
+        72.0,
+        45.0,
+        883.0,
+        84.0
+      ],
+      "font_px": 40,
+      "color": "#172D32"
+    },
+    {
+      "text": "Authentic photographic reference / original explanatory diagrams / restrained shared brand proposal",
+      "bbox": [
+        72.0,
+        107.0,
+        913.0,
+        126.0
+      ],
+      "font_px": 19,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Batumi coast · 2016 · Lex Kravetski / CC BY 2.0 · cropped",
+      "bbox": [
+        72.0,
+        557.0,
+        391.0,
+        569.5
+      ],
+      "font_px": 13,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Batumi · December 2023 · Alexabsent / CC0 1.0 · cropped",
+      "bbox": [
+        876.0,
+        557.0,
+        1202.5,
+        569.5
+      ],
+      "font_px": 13,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Borrow: cinematic chapters / connected evidence questions / ordered disclosure.",
+      "bbox": [
+        72.0,
+        639.0,
+        1054.0,
+        664.5
+      ],
+      "font_px": 26,
+      "color": "#172D32"
+    },
+    {
+      "text": "Do not copy proprietary layouts. Do not invent Batumi geography, live metrics or verified offers.",
+      "bbox": [
+        72.0,
+        696.0,
+        868.0,
+        715.0
+      ],
+      "font_px": 19,
+      "color": "#4C6264"
+    },
+    {
+      "text": "ONE SCENARIO / THREE READING STRUCTURES",
+      "bbox": [
+        72.0,
+        769.0,
+        366.0,
+        779.5
+      ],
+      "font_px": 13,
+      "color": "#21675F"
+    },
+    {
+      "text": "S1",
+      "bbox": [
+        72.0,
+        811.0,
+        112.5,
+        837.0
+      ],
+      "font_px": 36,
+      "color": "#172D32"
+    },
+    {
+      "text": "Scene → question → fact",
+      "bbox": [
+        72.0,
+        902.0,
+        323.0,
+        925.0
+      ],
+      "font_px": 23,
+      "color": "#172D32"
+    },
+    {
+      "text": "S2",
+      "bbox": [
+        504.0,
+        811.0,
+        544.5,
+        837.0
+      ],
+      "font_px": 36,
+      "color": "#172D32"
+    },
+    {
+      "text": "Context + intent + evidence",
+      "bbox": [
+        504.0,
+        902.0,
+        789.0,
+        919.5
+      ],
+      "font_px": 23,
+      "color": "#172D32"
+    },
+    {
+      "text": "S3",
+      "bbox": [
+        936.0,
+        811.0,
+        976.5,
+        837.0
+      ],
+      "font_px": 36,
+      "color": "#172D32"
+    },
+    {
+      "text": "Need → checks → action",
+      "bbox": [
+        936.0,
+        902.0,
+        1186.0,
+        919.5
+      ],
+      "font_px": 23,
+      "color": "#172D32"
+    },
+    {
+      "text": "Font: Segoe UI / Georgia accent English-only. No approved Georgian translation.",
+      "bbox": [
+        72.0,
+        997.0,
+        741.5,
+        1016.0
+      ],
+      "font_px": 19,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Sources: commons.wikimedia.org/wiki/File:Batumi.png / Alexabsent / CC0 1.0",
+      "bbox": [
+        72.0,
+        1044.0,
+        584.5,
+        1059.0
+      ],
+      "font_px": 15,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Coast: commons.wikimedia.org/wiki/File:Batumi_skyline_as_seen_from_Mtsvane_Kontskhi_cape.jpg",
+      "bbox": [
+        72.0,
+        1080.0,
+        677.5,
+        1093.5
+      ],
+      "font_px": 14,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Lex Kravetski / CC BY 2.0 / creativecommons.org/licenses/by/2.0/ · crop/resizing, no endorsement",
+      "bbox": [
+        72.0,
+        1115.0,
+        719.0,
+        1130.0
+      ],
+      "font_px": 15,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Panorama: creativecommons.org/publicdomain/zero/1.0/ · historical sources, not current conditions",
+      "bbox": [
+        72.0,
+        1150.0,
+        732.5,
+        1165.0
+      ],
+      "font_px": 15,
+      "color": "#4C6264"
+    },
+    {
+      "text": "2026-10-11 / UX-0 revision / Founder visual review required",
+      "bbox": [
+        72.0,
+        1220.0,
+        522.0,
+        1235.5
+      ],
+      "font_px": 16,
+      "color": "#21675F"
+    }
+  ],
+  "out_of_bounds": []
+}

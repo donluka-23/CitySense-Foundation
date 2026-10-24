@@ -1,0 +1,876 @@
+{
+  "width": 1440,
+  "height": 2836,
+  "texts": [
+    {
+      "text": "citysense",
+      "bbox": [
+        120.0,
+        33.0,
+        239.5,
+        60.5
+      ],
+      "font_px": 28,
+      "color": "#172D32"
+    },
+    {
+      "text": "Home",
+      "bbox": [
+        843.0,
+        43.0,
+        886.5,
+        54.5
+      ],
+      "font_px": 16,
+      "color": "#4C6264"
+    },
+    {
+      "text": "For Partners",
+      "bbox": [
+        951.0,
+        43.0,
+        1043.0,
+        54.5
+      ],
+      "font_px": 16,
+      "color": "#21675F"
+    },
+    {
+      "text": "Contact · pending",
+      "bbox": [
+        1126.0,
+        43.0,
+        1252.5,
+        58.5
+      ],
+      "font_px": 16,
+      "color": "#4C6264"
+    },
+    {
+      "text": "PILOT IN DEVELOPMENT  /  WEBSITE CONCEPT",
+      "bbox": [
+        120.0,
+        125.0,
+        388.5,
+        135.0
+      ],
+      "font_px": 12,
+      "color": "#21675F"
+    },
+    {
+      "text": "Local services,",
+      "bbox": [
+        120.0,
+        168.0,
+        498.0,
+        217.0
+      ],
+      "font_px": 57,
+      "color": "#172D32"
+    },
+    {
+      "text": "understood in context.",
+      "bbox": [
+        120.0,
+        233.0,
+        731.0,
+        275.5
+      ],
+      "font_px": 57,
+      "color": "#172D32"
+    },
+    {
+      "text": "CitySense is developing contextual discovery in Batumi. We are exploring participation",
+      "bbox": [
+        120.0,
+        323.0,
+        919.5,
+        344.0
+      ],
+      "font_px": 21,
+      "color": "#4C6264"
+    },
+    {
+      "text": "with service providers and distribution partners.",
+      "bbox": [
+        120.0,
+        354.0,
+        563.0,
+        375.0
+      ],
+      "font_px": 21,
+      "color": "#4C6264"
+    },
+    {
+      "text": "FOUNDING PARTNER PARTICIPATION / PROPOSED",
+      "bbox": [
+        136.0,
+        428.0,
+        451.5,
+        438.5
+      ],
+      "font_px": 13,
+      "color": "#21675F"
+    },
+    {
+      "text": "No commitments, guaranteed leads or working portal.",
+      "bbox": [
+        136.0,
+        460.0,
+        566.5,
+        477.5
+      ],
+      "font_px": 18,
+      "color": "#172D32"
+    },
+    {
+      "text": "01 / SERVICE PARTNERS",
+      "bbox": [
+        120.0,
+        523.0,
+        268.5,
+        533.5
+      ],
+      "font_px": 13,
+      "color": "#21675F"
+    },
+    {
+      "text": "Meet relevant visitor needs responsibly.",
+      "bbox": [
+        120.0,
+        562.0,
+        661.0,
+        590.5
+      ],
+      "font_px": 29,
+      "color": "#172D32"
+    },
+    {
+      "text": "Tours and activities / private drivers and transfers / paid attractions",
+      "bbox": [
+        120.0,
+        622.0,
+        675.5,
+        641.0
+      ],
+      "font_px": 19,
+      "color": "#4C6264"
+    },
+    {
+      "text": "/ sports facilities / eligible local services.",
+      "bbox": [
+        119.5,
+        651.0,
+        450.5,
+        670.0
+      ],
+      "font_px": 19,
+      "color": "#4C6264"
+    },
+    {
+      "text": "A proposed participation path: explain service facts, evidence rights and",
+      "bbox": [
+        120.0,
+        697.0,
+        655.0,
+        714.0
+      ],
+      "font_px": 17,
+      "color": "#4C6264"
+    },
+    {
+      "text": "permitted contact. Actual categories and partners remain to be approved.",
+      "bbox": [
+        120.0,
+        723.0,
+        670.5,
+        740.0
+      ],
+      "font_px": 17,
+      "color": "#4C6264"
+    },
+    {
+      "text": "02 / DISTRIBUTION PARTNERS",
+      "bbox": [
+        744.0,
+        523.0,
+        933.0,
+        533.5
+      ],
+      "font_px": 13,
+      "color": "#21675F"
+    },
+    {
+      "text": "Explore contextual discovery for your",
+      "bbox": [
+        744.0,
+        562.0,
+        1253.0,
+        591.0
+      ],
+      "font_px": 29,
+      "color": "#172D32"
+    },
+    {
+      "text": "guests.",
+      "bbox": [
+        744.0,
+        599.0,
+        840.5,
+        625.0
+      ],
+      "font_px": 29,
+      "color": "#172D32"
+    },
+    {
+      "text": "Hotels / apartments / other accommodation. Potential airport-area",
+      "bbox": [
+        744.0,
+        659.0,
+        1300.0,
+        678.0
+      ],
+      "font_px": 19,
+      "color": "#4C6264"
+    },
+    {
+      "text": "commercial touchpoints, subject to permissions and agreed",
+      "bbox": [
+        744.0,
+        688.0,
+        1241.5,
+        707.0
+      ],
+      "font_px": 19,
+      "color": "#4C6264"
+    },
+    {
+      "text": "incentives.",
+      "bbox": [
+        744.0,
+        717.0,
+        831.5,
+        731.0
+      ],
+      "font_px": 19,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Agree placement, audience, referral terms and responsibilities before a",
+      "bbox": [
+        744.0,
+        763.0,
+        1271.0,
+        780.0
+      ],
+      "font_px": 17,
+      "color": "#4C6264"
+    },
+    {
+      "text": "bounded test. No placement or conversion improvement is promised.",
+      "bbox": [
+        744.0,
+        789.0,
+        1263.0,
+        806.0
+      ],
+      "font_px": 17,
+      "color": "#4C6264"
+    },
+    {
+      "text": "THE PROPOSED VALUE PATH / NOT LIVE",
+      "bbox": [
+        120.0,
+        872.0,
+        369.0,
+        882.5
+      ],
+      "font_px": 13,
+      "color": "#21675F"
+    },
+    {
+      "text": "01",
+      "bbox": [
+        120.0,
+        919.0,
+        149.0,
+        937.0
+      ],
+      "font_px": 25,
+      "color": "#21675F"
+    },
+    {
+      "text": "Tourist need",
+      "bbox": [
+        120.0,
+        965.0,
+        238.0,
+        980.0
+      ],
+      "font_px": 20,
+      "color": "#172D32"
+    },
+    {
+      "text": "02",
+      "bbox": [
+        360.0,
+        919.0,
+        389.0,
+        937.0
+      ],
+      "font_px": 25,
+      "color": "#21675F"
+    },
+    {
+      "text": "Eligibility before",
+      "bbox": [
+        360.0,
+        965.0,
+        515.0,
+        984.5
+      ],
+      "font_px": 20,
+      "color": "#172D32"
+    },
+    {
+      "text": "suitability",
+      "bbox": [
+        360.0,
+        994.0,
+        453.5,
+        1013.5
+      ],
+      "font_px": 20,
+      "color": "#172D32"
+    },
+    {
+      "text": "03",
+      "bbox": [
+        600.0,
+        919.0,
+        629.0,
+        937.0
+      ],
+      "font_px": 25,
+      "color": "#21675F"
+    },
+    {
+      "text": "Relevant business",
+      "bbox": [
+        600.0,
+        965.0,
+        768.0,
+        980.0
+      ],
+      "font_px": 20,
+      "color": "#172D32"
+    },
+    {
+      "text": "04",
+      "bbox": [
+        840.0,
+        919.0,
+        869.0,
+        937.0
+      ],
+      "font_px": 25,
+      "color": "#21675F"
+    },
+    {
+      "text": "Permitted contact or",
+      "bbox": [
+        840.0,
+        965.0,
+        1036.0,
+        980.0
+      ],
+      "font_px": 20,
+      "color": "#172D32"
+    },
+    {
+      "text": "request",
+      "bbox": [
+        840.0,
+        994.0,
+        911.5,
+        1011.5
+      ],
+      "font_px": 20,
+      "color": "#172D32"
+    },
+    {
+      "text": "05",
+      "bbox": [
+        1080.0,
+        919.0,
+        1109.0,
+        937.0
+      ],
+      "font_px": 25,
+      "color": "#21675F"
+    },
+    {
+      "text": "Partner response",
+      "bbox": [
+        1080.0,
+        965.0,
+        1240.5,
+        984.0
+      ],
+      "font_px": 20,
+      "color": "#172D32"
+    },
+    {
+      "text": "Required evidence and permissions first. A request is not confirmation; partner response and fulfillment remain",
+      "bbox": [
+        120.0,
+        1065.0,
+        1044.5,
+        1084.0
+      ],
+      "font_px": 19,
+      "color": "#4C6264"
+    },
+    {
+      "text": "separate.",
+      "bbox": [
+        120.0,
+        1094.0,
+        195.0,
+        1111.0
+      ],
+      "font_px": 19,
+      "color": "#4C6264"
+    },
+    {
+      "text": "EXPRESS INTEREST / STATIC FORM CONCEPT",
+      "bbox": [
+        120.0,
+        1166.0,
+        397.5,
+        1176.5
+      ],
+      "font_px": 13,
+      "color": "#21675F"
+    },
+    {
+      "text": "Help shape the first Batumi use case.",
+      "bbox": [
+        120.0,
+        1205.0,
+        809.0,
+        1244.0
+      ],
+      "font_px": 40,
+      "color": "#172D32"
+    },
+    {
+      "text": "Business name",
+      "bbox": [
+        138.0,
+        1299.0,
+        246.5,
+        1311.5
+      ],
+      "font_px": 17,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Service Partner or Distribution Partner",
+      "bbox": [
+        138.0,
+        1359.0,
+        422.0,
+        1372.0
+      ],
+      "font_px": 17,
+      "color": "#4C6264"
+    },
+    {
+      "text": "One preferred reply channel",
+      "bbox": [
+        138.0,
+        1419.0,
+        348.5,
+        1436.0
+      ],
+      "font_px": 17,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Optional short description",
+      "bbox": [
+        138.0,
+        1479.0,
+        334.0,
+        1496.0
+      ],
+      "font_px": 17,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Preview only · verified contact channel pending",
+      "bbox": [
+        138.0,
+        1538.0,
+        449.5,
+        1551.5
+      ],
+      "font_px": 14,
+      "color": "#21675F"
+    },
+    {
+      "text": "Express interest · proposed",
+      "bbox": [
+        140.0,
+        1628.0,
+        343.0,
+        1643.5
+      ],
+      "font_px": 16,
+      "color": "#FFFFFF"
+    },
+    {
+      "text": "↗",
+      "bbox": [
+        510.0,
+        1627.0,
+        523.0,
+        1637.0
+      ],
+      "font_px": 18,
+      "color": "#FFFFFF"
+    },
+    {
+      "text": "No submission or collection in this concept. Before a real enquiry: publish the verified recipient, purpose,",
+      "bbox": [
+        120.0,
+        1697.0,
+        949.5,
+        1714.5
+      ],
+      "font_px": 18,
+      "color": "#4C6264"
+    },
+    {
+      "text": "retention and consent information.",
+      "bbox": [
+        120.0,
+        1724.0,
+        395.5,
+        1737.5
+      ],
+      "font_px": 18,
+      "color": "#4C6264"
+    },
+    {
+      "text": "A BOUNDED ONBOARDING OUTLINE",
+      "bbox": [
+        120.0,
+        1794.0,
+        348.5,
+        1803.0
+      ],
+      "font_px": 13,
+      "color": "#21675F"
+    },
+    {
+      "text": "01",
+      "bbox": [
+        120.0,
+        1839.0,
+        140.0,
+        1851.0
+      ],
+      "font_px": 17,
+      "color": "#21675F"
+    },
+    {
+      "text": "Introduction and participation path",
+      "bbox": [
+        164.0,
+        1839.0,
+        505.5,
+        1861.0
+      ],
+      "font_px": 22,
+      "color": "#172D32"
+    },
+    {
+      "text": "02",
+      "bbox": [
+        120.0,
+        1891.0,
+        140.0,
+        1903.0
+      ],
+      "font_px": 17,
+      "color": "#21675F"
+    },
+    {
+      "text": "Identity, evidence rights and permission review",
+      "bbox": [
+        164.0,
+        1891.0,
+        620.0,
+        1913.0
+      ],
+      "font_px": 22,
+      "color": "#172D32"
+    },
+    {
+      "text": "03",
+      "bbox": [
+        120.0,
+        1943.0,
+        140.0,
+        1955.0
+      ],
+      "font_px": 17,
+      "color": "#21675F"
+    },
+    {
+      "text": "Service facts and contact rules",
+      "bbox": [
+        164.0,
+        1943.0,
+        455.5,
+        1960.0
+      ],
+      "font_px": 22,
+      "color": "#172D32"
+    },
+    {
+      "text": "04",
+      "bbox": [
+        120.0,
+        1995.0,
+        140.0,
+        2007.0
+      ],
+      "font_px": 17,
+      "color": "#21675F"
+    },
+    {
+      "text": "Participation terms and separately authorized test",
+      "bbox": [
+        164.0,
+        1995.0,
+        646.0,
+        2017.0
+      ],
+      "font_px": 22,
+      "color": "#172D32"
+    },
+    {
+      "text": "FUTURE / AGENT-ACCESSIBLE SERVICES",
+      "bbox": [
+        120.0,
+        2099.0,
+        365.0,
+        2109.5
+      ],
+      "font_px": 13,
+      "color": "#B9D8C9"
+    },
+    {
+      "text": "Evidence and permission,",
+      "bbox": [
+        120.0,
+        2143.0,
+        581.5,
+        2181.0
+      ],
+      "font_px": 39,
+      "color": "#FFFFFF"
+    },
+    {
+      "text": "beyond a single channel.",
+      "bbox": [
+        120.0,
+        2189.0,
+        571.5,
+        2227.5
+      ],
+      "font_px": 39,
+      "color": "#FFFFFF"
+    },
+    {
+      "text": "Authorized AI-agent discovery is a separately gated future direction, not an operating partner capability.",
+      "bbox": [
+        120.0,
+        2258.0,
+        1043.5,
+        2277.5
+      ],
+      "font_px": 20,
+      "color": "#D0DDD6"
+    },
+    {
+      "text": "citysense / developing city intelligence",
+      "bbox": [
+        120.0,
+        2422.0,
+        468.5,
+        2441.0
+      ],
+      "font_px": 19,
+      "color": "#172D32"
+    },
+    {
+      "text": "LANDING-WEB concept only. PRODUCT-APP design has separate Founder gates.",
+      "bbox": [
+        120.0,
+        2461.0,
+        655.5,
+        2476.0
+      ],
+      "font_px": 15,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Contact / publisher / jurisdiction: awaiting Founder confirmation. Privacy / Terms / Affiliate Disclosure: review pending; no working destinations.",
+      "bbox": [
+        120.0,
+        2498.0,
+        1067.5,
+        2513.0
+      ],
+      "font_px": 15,
+      "color": "#4C6264"
+    },
+    {
+      "text": "No affiliate links active. Any future commission relationship requires authorization and disclosure; commercial priority remains inactive.",
+      "bbox": [
+        120.0,
+        2540.0,
+        1006.0,
+        2555.0
+      ],
+      "font_px": 15,
+      "color": "#4C6264"
+    },
+    {
+      "text": "PHOTOGRAPHY / HISTORICAL CONTEXT, NOT LIVE EVIDENCE",
+      "bbox": [
+        120.0,
+        2588.0,
+        472.0,
+        2598.0
+      ],
+      "font_px": 12,
+      "color": "#21675F"
+    },
+    {
+      "text": "Alexabsent / Batumi.png / CC0 1.0",
+      "bbox": [
+        120.0,
+        2614.0,
+        302.5,
+        2626.0
+      ],
+      "font_px": 12,
+      "color": "#4C6264"
+    },
+    {
+      "text": "commons.wikimedia.org/wiki/File:Batumi.png",
+      "bbox": [
+        120.0,
+        2633.0,
+        360.5,
+        2645.0
+      ],
+      "font_px": 12,
+      "color": "#4C6264"
+    },
+    {
+      "text": "creativecommons.org/publicdomain/zero/1.0/",
+      "bbox": [
+        120.0,
+        2652.0,
+        364.5,
+        2664.0
+      ],
+      "font_px": 12,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Lex Kravetski / Batumi skyline as seen from Mtsvane Kontskhi cape / CC BY 2.0",
+      "bbox": [
+        120.0,
+        2671.0,
+        539.0,
+        2683.0
+      ],
+      "font_px": 12,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Coast source URL, continuous across lines:",
+      "bbox": [
+        120.0,
+        2690.0,
+        344.0,
+        2700.5
+      ],
+      "font_px": 12,
+      "color": "#4C6264"
+    },
+    {
+      "text": "commons.wikimedia.org/wiki/",
+      "bbox": [
+        120.0,
+        2709.0,
+        279.0,
+        2721.0
+      ],
+      "font_px": 12,
+      "color": "#4C6264"
+    },
+    {
+      "text": "File:Batumi_skyline_as_seen_from_",
+      "bbox": [
+        120.0,
+        2728.0,
+        301.5,
+        2740.0
+      ],
+      "font_px": 12,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Mtsvane_Kontskhi_cape.jpg",
+      "bbox": [
+        120.0,
+        2747.0,
+        266.0,
+        2759.0
+      ],
+      "font_px": 12,
+      "color": "#4C6264"
+    },
+    {
+      "text": "creativecommons.org/licenses/by/2.0/",
+      "bbox": [
+        120.0,
+        2766.0,
+        323.0,
+        2778.0
+      ],
+      "font_px": 12,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Cropped and resized. No endorsement. Sources retained in reference register.",
+      "bbox": [
+        120.0,
+        2785.0,
+        535.5,
+        2797.0
+      ],
+      "font_px": 12,
+      "color": "#4C6264"
+    }
+  ],
+  "out_of_bounds": []
+}

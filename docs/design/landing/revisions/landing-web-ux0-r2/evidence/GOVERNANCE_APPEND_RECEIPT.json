@@ -1,0 +1,32 @@
+[
+  {
+    "file": "AGENTS.md",
+    "before_bytes": 5406,
+    "before_sha256": "109eff14cc6fa5b08381f63f7744b283d8ad3f8d5191bffa60e807b1de8e916e",
+    "operation": "append only"
+  },
+  {
+    "file": "docs/governance/README.md",
+    "before_bytes": 4047,
+    "before_sha256": "8902ca5b14d0972dee326c7b5af3ae313e6761259a55f8e80d236ba41adb046d",
+    "operation": "append only"
+  },
+  {
+    "file": "docs/governance/STAGE_GATES.md",
+    "before_bytes": 7488,
+    "before_sha256": "7af4c6fdbc6720574b6b2de1dac1c89c267c44fef04bf0b7cb1c6f4ef775518d",
+    "operation": "append only"
+  },
+  {
+    "file": "docs/governance/STATUS.md",
+    "before_bytes": 6801,
+    "before_sha256": "a2b5187e5afae8dd4bf6ea09cba8025993523650350a860c996de0af870da880",
+    "operation": "append only"
+  },
+  {
+    "file": "docs/governance/FOUNDER_APPROVALS.md",
+    "before_bytes": 4612,
+    "before_sha256": "9807059aca99b896d26450a99cbd7dc98d015ecdd179081f4c3b0ae587b17ea1",
+    "operation": "append only"
+  }
+]

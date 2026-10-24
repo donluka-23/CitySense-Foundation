@@ -1,0 +1,12 @@
+{
+  "name": "citysense-landing-web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Isolated LANDING-WEB corporate vision demo; no PRODUCT-APP or backend integration",
+  "scripts": {
+    "build": "python build.py",
+    "preview": "python serve.py",
+    "test": "python -m unittest discover -s tests -v",
+    "readiness": "python build.py --check-readiness"
+  }
+}

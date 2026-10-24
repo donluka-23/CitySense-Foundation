@@ -1,0 +1,248 @@
+{
+  "revision": "landing-ux0-r1",
+  "recorded_at": "2026-10-11T10:05:40.872197+00:00",
+  "construction_integrity": "PASS",
+  "independent_qa": "PASS /root/landing_independent_qa, final read-only recheck; see INDEPENDENT_QA.md",
+  "founder_acceptance": "PENDING",
+  "baseline_tracked_count": 468,
+  "branch": "stage/1c-map-navigation",
+  "head": "aae7d9bd52d5e786406896eba94a22abc58cda5d",
+  "changed_tracked": [
+    "AGENTS.md",
+    "docs/governance/FOUNDER_APPROVALS.md",
+    "docs/governance/README.md",
+    "docs/governance/STAGE_GATES.md",
+    "docs/governance/STATUS.md"
+  ],
+  "unexpected_tracked_changes": [],
+  "historical_byte_prefix_preserved": {
+    "AGENTS.md": true,
+    "docs/governance/README.md": true,
+    "docs/governance/STATUS.md": true,
+    "docs/governance/STAGE_GATES.md": true,
+    "docs/governance/FOUNDER_APPROVALS.md": true
+  },
+  "complete_source_byte_identity": {
+    "CITYSENSE_LANDING_UX0_FOUNDER_DESIGN_BRIEF_v1.md": true,
+    "CODEX_UX0_LANDING_VISUAL_PROTOTYPE_TASK.md": true,
+    "USER_REQUEST.md": true
+  },
+  "artboards": [
+    {
+      "name": "H1-desktop",
+      "size": [
+        1440,
+        3968
+      ],
+      "width_ok": true,
+      "fullpage": true,
+      "fold_size_ok": true,
+      "labels": {
+        "Pilot in development": true,
+        "NONFUNCTIONAL MAP PLACEHOLDER": true,
+        "Example request": true,
+        "Existing foundation": true,
+        "Pilot being developed": true,
+        "Long-term vision": true,
+        "No live search": true,
+        "permissions pending": true
+      },
+      "out_of_bounds": []
+    },
+    {
+      "name": "H1-mobile",
+      "size": [
+        390,
+        4838
+      ],
+      "width_ok": true,
+      "fullpage": true,
+      "fold_size_ok": true,
+      "labels": {
+        "Pilot in development": true,
+        "NONFUNCTIONAL MAP PLACEHOLDER": true,
+        "Example request": true,
+        "Existing foundation": true,
+        "Pilot being developed": true,
+        "Long-term vision": true,
+        "No live search": true,
+        "permissions pending": true
+      },
+      "out_of_bounds": []
+    },
+    {
+      "name": "H2-desktop",
+      "size": [
+        1440,
+        3363
+      ],
+      "width_ok": true,
+      "fullpage": true,
+      "fold_size_ok": true,
+      "labels": {
+        "Pilot in development": true,
+        "NONFUNCTIONAL MAP PLACEHOLDER": true,
+        "Example request": true,
+        "Existing foundation": true,
+        "Pilot being developed": true,
+        "Long-term vision": true,
+        "No live search": true,
+        "permissions pending": true
+      },
+      "out_of_bounds": []
+    },
+    {
+      "name": "H2-mobile",
+      "size": [
+        390,
+        4735
+      ],
+      "width_ok": true,
+      "fullpage": true,
+      "fold_size_ok": true,
+      "labels": {
+        "Pilot in development": true,
+        "NONFUNCTIONAL MAP PLACEHOLDER": true,
+        "Example request": true,
+        "Existing foundation": true,
+        "Pilot being developed": true,
+        "Long-term vision": true,
+        "No live search": true,
+        "permissions pending": true
+      },
+      "out_of_bounds": []
+    },
+    {
+      "name": "H3-desktop",
+      "size": [
+        1440,
+        3257
+      ],
+      "width_ok": true,
+      "fullpage": true,
+      "fold_size_ok": true,
+      "labels": {
+        "Pilot in development": true,
+        "NONFUNCTIONAL MAP PLACEHOLDER": true,
+        "Example request": true,
+        "Existing foundation": true,
+        "Pilot being developed": true,
+        "Long-term vision": true,
+        "No live search": true,
+        "permissions pending": true
+      },
+      "out_of_bounds": []
+    },
+    {
+      "name": "H3-mobile",
+      "size": [
+        390,
+        4636
+      ],
+      "width_ok": true,
+      "fullpage": true,
+      "fold_size_ok": true,
+      "labels": {
+        "Pilot in development": true,
+        "NONFUNCTIONAL MAP PLACEHOLDER": true,
+        "Example request": true,
+        "Existing foundation": true,
+        "Pilot being developed": true,
+        "Long-term vision": true,
+        "No live search": true,
+        "permissions pending": true
+      },
+      "out_of_bounds": []
+    }
+  ],
+  "broken_local_links": [],
+  "secret_pattern_findings": [],
+  "secret_scan_limits": "Exact scoped text files only; binary image metadata not treated as exhaustive security certification. No key/provider capture or .env included.",
+  "staged_files": "",
+  "created_package_count": 51,
+  "hashes": {
+    "docs/design/landing/ACCESSIBILITY_REVIEW.md": "2121116e757b70e903f8354ac1a8f5458b4d8e55c1a87b5e063e625002845af0",
+    "docs/design/landing/artboards/H1-desktop-above-fold.png": "26d9a1a70ca6eaf525062e9b5b3fecde8c418e0f96f1355a8e0c798c0fd743ff",
+    "docs/design/landing/artboards/H1-desktop.pdf": "4a998a558d31fa767fa58a07d00cd51309d104d1c946cf7d980ad6a34ba04958",
+    "docs/design/landing/artboards/H1-desktop.png": "df9648abc7ee8beb7c60f388cf117ee125ac4d2e30cc3798708062ef746a8b62",
+    "docs/design/landing/artboards/H1-mobile-above-fold.png": "d00dcd04f5bb34b9c9b08440a4a9e04c59c1c29046ab259ae41ddafdad2111f7",
+    "docs/design/landing/artboards/H1-mobile.pdf": "cff32fdf094a64ac3a4d1fa24b4c1f2283c8dd0dfa8fb96bf371a7b2066a36fd",
+    "docs/design/landing/artboards/H1-mobile.png": "bd2054bbd3a7ae61b2b8cdfe664abbb09549ba262f20c8dca7327171b1de8be0",
+    "docs/design/landing/artboards/H2-desktop-above-fold.png": "353530ee3bd5c2d0a75c2d364aef11f8432e519cb5e0ea63098411e6ea9d08d4",
+    "docs/design/landing/artboards/H2-desktop.pdf": "807f119aea3abb0c75071908ea223f01a04f5477dde90309e5f8a67b585019e4",
+    "docs/design/landing/artboards/H2-desktop.png": "a15eabc7bad8932241851bfccde258adc474abf571e22c2614cebb0c0d02283a",
+    "docs/design/landing/artboards/H2-mobile-above-fold.png": "abb16a05de96e1c0def1a6f3fbf1c18244e9d648dc3943a0a938a55cbd6e4700",
+    "docs/design/landing/artboards/H2-mobile.pdf": "83f23bd2bfeebb9700c12a1d2d0e5e453b485d3b27bd98bd3164fa39a04fc422",
+    "docs/design/landing/artboards/H2-mobile.png": "c4e70b894a685c6a94daf790a6feb0049455eb1c8aab6f5b78e825487b71208a",
+    "docs/design/landing/artboards/H3-desktop-above-fold.png": "16e6f7a891b97946f5eb790b584d60b11fa5430b8c4d62bcd4618fac07b1a5c8",
+    "docs/design/landing/artboards/H3-desktop.pdf": "801d62981bea7c8412de650dc51f47d0f440a132a739486fddc585b086a634a0",
+    "docs/design/landing/artboards/H3-desktop.png": "ecef13e00de418772085e4939b7221aa698a4780b5796be610f96f0800a74525",
+    "docs/design/landing/artboards/H3-mobile-above-fold.png": "7dd2ca80097a09fe682dc079b663fd26647e34ebedcd0112fd021e1b7e13c824",
+    "docs/design/landing/artboards/H3-mobile.pdf": "5ae590b061832941be6ba07cdac80798563fccbda1a2afe1a8a9fc50899ffe26",
+    "docs/design/landing/artboards/H3-mobile.png": "462e81b6f3abba783f69d2e0964003ea812438ee70c6d03719cc9da6deaaa880",
+    "docs/design/landing/artboards/UX0-comparison-overview.pdf": "603b742dbae925a8bba5783639caf24fe11fc9ec18cef87767feab6a54e85d33",
+    "docs/design/landing/artboards/UX0-comparison-overview.png": "67a4516dca4f0a4243bd65ed418efa91e5a060d7067b668825e05aa68a8b4630",
+    "docs/design/landing/artboards/UX0-reference-board.pdf": "6595eebe9557a1422dbd4e757134842ffb2f6008e41f9b23fe38fa7aab07eead",
+    "docs/design/landing/artboards/UX0-reference-board.png": "dded975205313322665170f021857b83f997d9afa91cbf0b5e7fd7fdd7fc8cfa",
+    "docs/design/landing/assets/batumi-coast.jpg": "79a2d6af49da563c2bf3487eefb3c8f54c2c49fbf0c8bb461e1863bca2112123",
+    "docs/design/landing/assets/batumi-panorama.png": "330e636d2ab7a56ff1d647616536e9a65eb883449d8de57a584eb64c7a0456ec",
+    "docs/design/landing/CLAIMS_REVIEW.md": "dcb66c5926bbc59d9667f085a3d1c5799ef3b15fae26966fdf71ebff3728f818",
+    "docs/design/landing/evidence/AGENT_HANDOFFS.md": "63af63418410b911b822017656437084978f2101a2d5acd15f60a0226156ff25",
+    "docs/design/landing/evidence/BASELINE.json": "cc381cdc0897478ac76c90f7786b0695011c761c23a050f756e504b522b82bf4",
+    "docs/design/landing/evidence/CHIEF_VISUAL_INSPECTION.md": "2c5f463e537fe33ed10db6b3c5bf165892c95421f399d119fd57c545edd6afc8",
+    "docs/design/landing/evidence/FILE_MANIFEST.md": "9c68d40f07fa630b8cf1a8c65c378a4e0e14c00e4e1abbdf03c0766da2cf1998",
+    "docs/design/landing/evidence/H1-desktop-layout.json": "fc2929389c4a8bcd1101701bbc262b0383786b4bb8b9fb5df4bf8999deeb87c3",
+    "docs/design/landing/evidence/H1-mobile-layout.json": "dc335ea32e4a786baa7e9f138a3a1494725f770c2d8a5c63de19d2f536a99e2a",
+    "docs/design/landing/evidence/H2-desktop-layout.json": "2b88dc7eba589a90ce881af692e94efdb6aa17cddf3d87cbb2e0e51767413786",
+    "docs/design/landing/evidence/H2-mobile-layout.json": "e8996b8b8fc1cca6421075acd446a0fdf2460e54d372dfe6c734ab489dd62a71",
+    "docs/design/landing/evidence/H3-desktop-layout.json": "d12c254d40d40193b8b5ea4e77ae7a58b1449fa2eaf804a4a849ae18d896f5ac",
+    "docs/design/landing/evidence/H3-mobile-layout.json": "8a72da04c51c341bcf6e94ec1789f53f67fad8b49554cc10f12bfc84ae40437b",
+    "docs/design/landing/evidence/INDEPENDENT_QA.md": "a23c3200f16d4d550a26f9b2a54e1f341606c48a508aba1c11bdbc1818205135",
+    "docs/design/landing/evidence/PHOTO_SOURCES.json": "7500f6ae3c6710627c262bd40c7be7d69a3a36b03ee8ae2d62b74a8faeec7340",
+    "docs/design/landing/evidence/RENDER_CHECKS.json": "4a8e02c7a308b74619a9d1c3d1f0d0bae572aa7ca4f0b03ecdc397f19f420ed4",
+    "docs/design/landing/evidence/UX0-comparison-overview-layout.json": "38fa1c9c19c1765b0105ce0db09758e31e2b491cff467a11b537a29be822368e",
+    "docs/design/landing/evidence/UX0-reference-board-layout.json": "63e8e78452d02226ff94bc2edbc2a1261e09c158e6d9b08646c7e6d77f904b29",
+    "docs/design/landing/README.md": "15f86cd94ca5c641366f0906e76c1b688f54608549c4a9b87c95121feef3ebc1",
+    "docs/design/landing/SOURCE_INTAKE.md": "71f19c5035aeca8ee9ccbc973776784e1672b30d7d7ff4be2e6813be0f462079",
+    "docs/design/landing/SOURCES/CITYSENSE_LANDING_UX0_FOUNDER_DESIGN_BRIEF_v1.md": "72a6f1c50da7a62ae1226a11d9aa65c6558b3bd36122d9426b72d7d405885ad2",
+    "docs/design/landing/SOURCES/CODEX_UX0_LANDING_VISUAL_PROTOTYPE_TASK.md": "779eb24d8b64edf99d1849447ad68dd5efd4c04f26d3b1d1f152a6c001ca96fd",
+    "docs/design/landing/SOURCES/USER_REQUEST.md": "b57b5bc66f879167c898799b36e6802603f0cc606138a4ea0af6fa842b26fa18",
+    "docs/design/landing/UX0_FOUNDER_REVIEW_PACKET.md": "bca3c8b75a12de91a42540a0fbd5cb80c227cc1de83cd0cb240584c37270b531",
+    "docs/design/landing/UX0_HYBRID_REFERENCE_MANIFEST.md": "c37fa2560a82ed4fc0dac04ddcd9e16335bed68714ff0399178450b32e59d09e",
+    "docs/design/landing/UX0_VARIANT_COMPARISON.md": "2ac38a23ca037a22c9beb2f551b3c49256c54dcd9046647c4c93f026dced3346",
+    "docs/design/landing/UX0_VISUAL_DECISIONS.md": "29cd140942a39cdafea44beb473d9bda2bf8f010a8d2a4138c8de8acbc8a5969"
+  },
+  "modified_file_hashes": {
+    "AGENTS.md": "109eff14cc6fa5b08381f63f7744b283d8ad3f8d5191bffa60e807b1de8e916e",
+    "docs/governance/README.md": "8902ca5b14d0972dee326c7b5af3ae313e6761259a55f8e80d236ba41adb046d",
+    "docs/governance/STATUS.md": "a2b5187e5afae8dd4bf6ea09cba8025993523650350a860c996de0af870da880",
+    "docs/governance/STAGE_GATES.md": "7af4c6fdbc6720574b6b2de1dac1c89c267c44fef04bf0b7cb1c6f4ef775518d",
+    "docs/governance/FOUNDER_APPROVALS.md": "9807059aca99b896d26450a99cbd7dc98d015ecdd179081f4c3b0ae587b17ea1"
+  },
+  "local_tool_hashes": {
+    ".local/landing-ux0/render_artboards.py": "6f84c637e8c4f2ecab5c675feabaff80c6b43ef98a0172580652a775f07d0bd8",
+    ".local/landing-ux0/verify_package.py": "7db32a66fff4ee7adc20f076255d6b503869816b7cea693c543acf8b39ae8a56"
+  },
+  "receipt_self_hash": "Excluded to avoid recursion",
+  "solid_token_contrasts": {
+    "#172D32 / #F5F2EA": 12.88,
+    "#4C6264 / #F5F2EA": 5.8,
+    "#FFFFFF / #21675F": 6.62,
+    "#21675F / #F5F2EA": 5.92,
+    "#FFFFFF / #172D32": 14.4,
+    "#21675F / #E6EBE3": 5.48,
+    "#4C6264 / #FFFFFF": 6.48,
+    "#D0DDD6 / #172D32": 10.29,
+    "#B9D8C9 / #172D32": 9.42
+  },
+  "georgian_glyph_presence": {
+    "segoeui.ttf": true,
+    "segoeuib.ttf": true,
+    "georgia.ttf": false
+  },
+  "unexpected_git_paths": [],
+  "git_status": " M AGENTS.md\n M docs/governance/FOUNDER_APPROVALS.md\n M docs/governance/README.md\n M docs/governance/STAGE_GATES.md\n M docs/governance/STATUS.md\n?? docs/design/landing/ACCESSIBILITY_REVIEW.md\n?? docs/design/landing/CLAIMS_REVIEW.md\n?? docs/design/landing/README.md\n?? docs/design/landing/SOURCES/CITYSENSE_LANDING_UX0_FOUNDER_DESIGN_BRIEF_v1.md\n?? docs/design/landing/SOURCES/CODEX_UX0_LANDING_VISUAL_PROTOTYPE_TASK.md\n?? docs/design/landing/SOURCES/USER_REQUEST.md\n?? docs/design/landing/SOURCE_INTAKE.md\n?? docs/design/landing/UX0_FOUNDER_REVIEW_PACKET.md\n?? docs/design/landing/UX0_HYBRID_REFERENCE_MANIFEST.md\n?? docs/design/landing/UX0_VARIANT_COMPARISON.md\n?? docs/design/landing/UX0_VISUAL_DECISIONS.md\n?? docs/design/landing/artboards/H1-desktop-above-fold.png\n?? docs/design/landing/artboards/H1-desktop.pdf\n?? docs/design/landing/artboards/H1-desktop.png\n?? docs/design/landing/artboards/H1-mobile-above-fold.png\n?? docs/design/landing/artboards/H1-mobile.pdf\n?? docs/design/landing/artboards/H1-mobile.png\n?? docs/design/landing/artboards/H2-desktop-above-fold.png\n?? docs/design/landing/artboards/H2-desktop.pdf\n?? docs/design/landing/artboards/H2-desktop.png\n?? docs/design/landing/artboards/H2-mobile-above-fold.png\n?? docs/design/landing/artboards/H2-mobile.pdf\n?? docs/design/landing/artboards/H2-mobile.png\n?? docs/design/landing/artboards/H3-desktop-above-fold.png\n?? docs/design/landing/artboards/H3-desktop.pdf\n?? docs/design/landing/artboards/H3-desktop.png\n?? docs/design/landing/artboards/H3-mobile-above-fold.png\n?? docs/design/landing/artboards/H3-mobile.pdf\n?? docs/design/landing/artboards/H3-mobile.png\n?? docs/design/landing/artboards/UX0-comparison-overview.pdf\n?? docs/design/landing/artboards/UX0-comparison-overview.png\n?? docs/design/landing/artboards/UX0-reference-board.pdf\n?? docs/design/landing/artboards/UX0-reference-board.png\n?? docs/design/landing/assets/batumi-coast.jpg\n?? docs/design/landing/assets/batumi-panorama.png\n?? docs/design/landing/evidence/AGENT_HANDOFFS.md\n?? docs/design/landing/evidence/BASELINE.json\n?? docs/design/landing/evidence/CHIEF_VISUAL_INSPECTION.md\n?? docs/design/landing/evidence/FILE_MANIFEST.md\n?? docs/design/landing/evidence/H1-desktop-layout.json\n?? docs/design/landing/evidence/H1-mobile-layout.json\n?? docs/design/landing/evidence/H2-desktop-layout.json\n?? docs/design/landing/evidence/H2-mobile-layout.json\n?? docs/design/landing/evidence/H3-desktop-layout.json\n?? docs/design/landing/evidence/H3-mobile-layout.json\n?? docs/design/landing/evidence/INDEPENDENT_QA.md\n?? docs/design/landing/evidence/PHOTO_SOURCES.json\n?? docs/design/landing/evidence/RENDER_CHECKS.json\n?? docs/design/landing/evidence/UX0-comparison-overview-layout.json\n?? docs/design/landing/evidence/UX0-reference-board-layout.json\n?? docs/design/landing/evidence/VERIFICATION.json\n",
+  "delivery_lifecycle": "FOUNDER_REVIEW",
+  "artboard_file_count": 22,
+  "artboard_aggregate_sha256": "9a18029a56c74ada6e93b2aed3131cf98284bca88dad90883ef40ca1afe6dd99"
+}

@@ -1,0 +1,161 @@
+{
+  "width": 1440,
+  "height": 1750,
+  "texts": [
+    {
+      "text": "CitySense / three compositions, one direction",
+      "bbox": [
+        48.0,
+        36.0,
+        818.5,
+        71.5
+      ],
+      "font_px": 36,
+      "color": "#172D32"
+    },
+    {
+      "text": "Static UX-0 concepts · Compare the full desktop and 390px mobile exports before approval.",
+      "bbox": [
+        48.0,
+        99.0,
+        773.0,
+        116.5
+      ],
+      "font_px": 18,
+      "color": "#4C6264"
+    },
+    {
+      "text": "H1 / Editorial first",
+      "bbox": [
+        48.0,
+        155.0,
+        235.0,
+        174.0
+      ],
+      "font_px": 22,
+      "color": "#172D32"
+    },
+    {
+      "text": "Full page + below-fold content included",
+      "bbox": [
+        48.0,
+        1401.0,
+        335.0,
+        1416.5
+      ],
+      "font_px": 16,
+      "color": "#4C6264"
+    },
+    {
+      "text": "in each primary PNG and PDF.",
+      "bbox": [
+        48.0,
+        1425.0,
+        260.5,
+        1440.5
+      ],
+      "font_px": 16,
+      "color": "#4C6264"
+    },
+    {
+      "text": "H2 / Balanced experience",
+      "bbox": [
+        512.0,
+        155.0,
+        776.5,
+        176.5
+      ],
+      "font_px": 22,
+      "color": "#172D32"
+    },
+    {
+      "text": "Full page + below-fold content included",
+      "bbox": [
+        512.0,
+        1401.0,
+        799.0,
+        1416.5
+      ],
+      "font_px": 16,
+      "color": "#4C6264"
+    },
+    {
+      "text": "in each primary PNG and PDF.",
+      "bbox": [
+        512.0,
+        1425.0,
+        724.5,
+        1440.5
+      ],
+      "font_px": 16,
+      "color": "#4C6264"
+    },
+    {
+      "text": "H3 / Product first",
+      "bbox": [
+        976.0,
+        155.0,
+        1157.5,
+        174.0
+      ],
+      "font_px": 22,
+      "color": "#172D32"
+    },
+    {
+      "text": "Full page + below-fold content included",
+      "bbox": [
+        976.0,
+        1401.0,
+        1263.0,
+        1416.5
+      ],
+      "font_px": 16,
+      "color": "#4C6264"
+    },
+    {
+      "text": "in each primary PNG and PDF.",
+      "bbox": [
+        976.0,
+        1425.0,
+        1188.5,
+        1440.5
+      ],
+      "font_px": 16,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Chief recommendation: H2, for a clear visitor task and an equally visible city identity.",
+      "bbox": [
+        48.0,
+        1517.0,
+        968.0,
+        1540.0
+      ],
+      "font_px": 23,
+      "color": "#172D32"
+    },
+    {
+      "text": "Design judgment only. No running UI, mobile-device validation, eligible recommendations or visual approval claimed.",
+      "bbox": [
+        48.0,
+        1581.0,
+        980.0,
+        1598.5
+      ],
+      "font_px": 18,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Founder: approve direction / request revision / reject / hold. Successor scope remains separately gated.",
+      "bbox": [
+        48.0,
+        1652.0,
+        816.5,
+        1669.0
+      ],
+      "font_px": 17,
+      "color": "#21675F"
+    }
+  ],
+  "out_of_bounds": []
+}

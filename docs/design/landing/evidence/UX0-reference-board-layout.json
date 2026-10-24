@@ -1,0 +1,205 @@
+{
+  "width": 1440,
+  "height": 1330,
+  "texts": [
+    {
+      "text": "CitySense / visual reference board",
+      "bbox": [
+        72.0,
+        57.0,
+        740.5,
+        98.5
+      ],
+      "font_px": 42,
+      "color": "#172D32"
+    },
+    {
+      "text": "Hybrid: editorial experience + functional clarity + urban intelligence",
+      "bbox": [
+        72.0,
+        120.0,
+        699.0,
+        141.0
+      ],
+      "font_px": 21,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Batumi coast / Lex Kravetski / CC BY 2.0",
+      "bbox": [
+        72.0,
+        641.0,
+        427.5,
+        657.5
+      ],
+      "font_px": 19,
+      "color": "#172D32"
+    },
+    {
+      "text": "commons.wikimedia.org/wiki/File:Batumi_skyline_as_seen_from_Mtsvane_Kontskhi_cape.jpg",
+      "bbox": [
+        72.0,
+        677.0,
+        594.5,
+        689.5
+      ],
+      "font_px": 13,
+      "color": "#4C6264"
+    },
+    {
+      "text": "creativecommons.org/licenses/by/2.0/ · cropped, resized; no endorsement",
+      "bbox": [
+        72.0,
+        718.0,
+        530.0,
+        731.5
+      ],
+      "font_px": 14,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Batumi panorama / Alexabsent / CC0 1.0",
+      "bbox": [
+        925.0,
+        641.0,
+        1268.0,
+        658.5
+      ],
+      "font_px": 18,
+      "color": "#172D32"
+    },
+    {
+      "text": "commons.wikimedia.org/wiki/File:Batumi.png",
+      "bbox": [
+        925.0,
+        704.0,
+        1183.5,
+        716.5
+      ],
+      "font_px": 13,
+      "color": "#4C6264"
+    },
+    {
+      "text": "creativecommons.org/publicdomain/zero/1.0/",
+      "bbox": [
+        925.0,
+        725.0,
+        1188.0,
+        737.5
+      ],
+      "font_px": 13,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Cropped / resized. Historic image, not live city data.",
+      "bbox": [
+        925.0,
+        746.0,
+        1218.5,
+        758.5
+      ],
+      "font_px": 13,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Borrow light, material and place. Create our own interface.",
+      "bbox": [
+        72.0,
+        815.0,
+        868.5,
+        844.0
+      ],
+      "font_px": 29,
+      "color": "#172D32"
+    },
+    {
+      "text": "No competitor layouts or logos copied. No fake streets or city measurements. Product illustrations are explicitly nonfunctional placeholders.",
+      "bbox": [
+        72.0,
+        867.0,
+        1179.0,
+        884.5
+      ],
+      "font_px": 18,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Paper / #F5F2EA",
+      "bbox": [
+        72.0,
+        1060.0,
+        181.5,
+        1074.0
+      ],
+      "font_px": 15,
+      "color": "#172D32"
+    },
+    {
+      "text": "Ink / #172D32",
+      "bbox": [
+        322.0,
+        1060.0,
+        415.5,
+        1073.0
+      ],
+      "font_px": 15,
+      "color": "#172D32"
+    },
+    {
+      "text": "Sea glass / #21675F",
+      "bbox": [
+        572.0,
+        1060.0,
+        703.0,
+        1075.0
+      ],
+      "font_px": 15,
+      "color": "#172D32"
+    },
+    {
+      "text": "Supporting text / #4C6264",
+      "bbox": [
+        822.0,
+        1060.0,
+        998.0,
+        1074.5
+      ],
+      "font_px": 15,
+      "color": "#172D32"
+    },
+    {
+      "text": "Segoe UI / contemporary, installed font · 8 / 12 / 16 / 24 / 32 / 48 / 64 / 96 spacing",
+      "bbox": [
+        72.0,
+        1130.0,
+        755.5,
+        1149.0
+      ],
+      "font_px": 19,
+      "color": "#172D32"
+    },
+    {
+      "text": "Georgian glyph specimen: ქართული ბათუმი · Font coverage checked; translation and native review pending.",
+      "bbox": [
+        72.0,
+        1170.0,
+        960.0,
+        1187.5
+      ],
+      "font_px": 18,
+      "color": "#4C6264"
+    },
+    {
+      "text": "READ-ONLY DESIGN EXPLORATION · 2026-10-11 · Founder visual acceptance pending",
+      "bbox": [
+        72.0,
+        1248.0,
+        635.5,
+        1261.5
+      ],
+      "font_px": 14,
+      "color": "#21675F"
+    }
+  ],
+  "out_of_bounds": []
+}

@@ -73,3 +73,27 @@ Stage 1B remains PARTIAL; map-style approval requires closure or explicit risk w
 CF-01/02/03 are proposals only; no pilot metrics, commercial priority or /v1 semantic change accepted.
 Inventory/rights/placement/privacy/access/visual/device blockers remain in [risks](RISK_REGISTER.md).
 No product implementation, visual captures, map stage or deployment occurred during this intake.
+
+## Landing visual overlay - 2026-10-11
+
+LANDING-UX0-VISUAL-v1 / landing-ux0-r1: FOUNDER_REVIEW; static artifact verification and independent QA PASS.
+Six desktop/mobile compositions and source/reference package in [packet](../design/landing/UX0_FOUNDER_REVIEW_PACKET.md).
+Founder layout acceptance is pending. These drawings are not a running landing page or proof of tourist-product readiness.
+Integrated journey remains BLOCKED; Stage 1B PARTIAL, Stage 2 unauthorized. No new partner/integration/runtime claim.
+Historical rows and documentation-stage completion approvals are unchanged.
+
+
+## Latest Founder-directed LANDING-WEB revision - 2026-10-11
+
+This overlay supersedes the earlier r1 awaiting-review status only: Founder reviewed H1/H2/H3 as REQUEST CHANGES.
+Historical r1 technical QA PASS and all artifacts remain untouched. Current administrative stage LANDING-UX0-VISUAL-v1;
+track LANDING-WEB, artifact landing-web-ux0-r2, CR-0001; [current packet](../design/landing/revisions/landing-web-ux0-r2/FOUNDER_REVIEW_PACKET.md).
+Bounded revision: six S1/S2/S3 Home artboards, eight fold details, one Partners desktop/mobile page, state sheets and optional timed previews.
+Execution is approved; final direction/completion is NOT APPROVED. Final QA outcome and FOUNDER_REVIEW transition are recorded in the current packet after actual review.
+PRODUCT-APP remains out of scope with independent UX-0 through UX-4. No layout/color/component inheritance or product readiness is inferred.
+Contact/publisher/jurisdiction/policies and actual affiliate/partner qualification remain pending. Stage 1B PARTIAL, integrated product BLOCKED, Stage 2 unauthorized.
+No protected code/research/API/decision source is modified; no integrations, accounts, publication or Git mutation performed.
+
+R2 final technical delivery: **FOUNDER_REVIEW**; independent corrected visual QA PASS and scoped integrity/export checks PASS.
+The initial mobile-divider PARTIAL finding and correction/review history are retained in the r2 evidence.
+Stage completion/direction acceptance remains NOT APPROVED; public release remains BLOCKED by inputs and separate authorization.

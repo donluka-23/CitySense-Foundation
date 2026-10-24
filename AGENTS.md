@@ -53,3 +53,17 @@ Start with [governance index](docs/governance/README.md), then STATUS, charter a
 - UX-0–4 each need actual screenshots/interactive evidence and separate Founder visual approval.
 - Stage 1B closure or explicit risk waiver precedes map-style sign-off; Stage 1C feedback is insufficient.
 - Stop after current documentation packet; no product, captures, map stage or deployment authority follows.
+
+## Landing UX-0 overlay - 2026-10-11
+- Current Founder authority: bounded static landing visual exploration only; see [Landing index](docs/design/landing/README.md), [source intake](docs/design/landing/SOURCE_INTAKE.md) and preserved actual request.
+- Hybrid direction selected; H1/H2/H3 layout/content acceptance remains pending. No product UX-1/2, map-stage, implementation, publication or Git authority follows.
+- Read the Landing Founder packet and current approval ledger before continuation. Independent QA precedes Founder visual review; stop at that review.
+
+
+## LANDING-WEB revision overlay - 2026-10-11
+- Latest actual Founder request supersedes awaiting r1 layout review: H1/H2/H3 REQUEST CHANGES; historical bytes stay untouched.
+- Read [track boundaries](docs/design/landing/WEBSITE_TRACKS.md), [CR-0001](docs/governance/CHANGE_REQUESTS/CR-0001-LANDING-WEB-UX0-REVISION.md) and [r2 packet](docs/design/landing/revisions/landing-web-ux0-r2/FOUNDER_REVIEW_PACKET.md).
+- Same administrative LANDING-UX0-VISUAL-v1 stage; track LANDING-WEB; artifact landing-web-ux0-r2. Authorized static revision includes S1/S2/S3 and one Partners page, not accepted final visuals.
+- LANDING-WEB is the small corporate/partner website. PRODUCT-APP remains independently gated at UX-0 through UX-4; website colors/layouts/components/states cannot transfer automatically. Shared brand is proposed only.
+- Current positioning: developing Context-Aware City Intelligence & Agent-Accessible Local Service Infrastructure; Batumi tourist discovery first. No invented evidence, partners, contact, live services or public agents.
+- Only Founder accepts visual direction. Stop at r2 FOUNDER_REVIEW following actual independent image QA; no UX-1, product design execution, production UI, publication, integrations or Git authority follows.

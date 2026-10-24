@@ -1,0 +1,86 @@
+{
+  "tool": "Existing Pillow + installed fonts + bundled Poppler; no installation",
+  "pdf": "2x raster art / 144dpi; roundtrip72dpi",
+  "checks": [
+    {
+      "file": "Partners-desktop.pdf",
+      "size": [
+        1440,
+        2836
+      ],
+      "roundtrip": "PASS"
+    },
+    {
+      "file": "Partners-mobile.pdf",
+      "size": [
+        390,
+        3642
+      ],
+      "roundtrip": "PASS"
+    },
+    {
+      "file": "S-comparison-overview.pdf",
+      "size": [
+        1440,
+        1720
+      ],
+      "roundtrip": "PASS"
+    },
+    {
+      "file": "S-reference-board.pdf",
+      "size": [
+        1440,
+        1300
+      ],
+      "roundtrip": "PASS"
+    },
+    {
+      "file": "S1-desktop.pdf",
+      "size": [
+        1440,
+        3061
+      ],
+      "roundtrip": "PASS"
+    },
+    {
+      "file": "S1-mobile.pdf",
+      "size": [
+        390,
+        3748
+      ],
+      "roundtrip": "PASS"
+    },
+    {
+      "file": "S2-desktop.pdf",
+      "size": [
+        1440,
+        3165
+      ],
+      "roundtrip": "PASS"
+    },
+    {
+      "file": "S2-mobile.pdf",
+      "size": [
+        390,
+        3810
+      ],
+      "roundtrip": "PASS"
+    },
+    {
+      "file": "S3-desktop.pdf",
+      "size": [
+        1440,
+        3183
+      ],
+      "roundtrip": "PASS"
+    },
+    {
+      "file": "S3-mobile.pdf",
+      "size": [
+        390,
+        3732
+      ],
+      "roundtrip": "PASS"
+    }
+  ]
+}

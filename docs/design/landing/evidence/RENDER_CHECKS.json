@@ -1,0 +1,73 @@
+{
+  "tool": "Pillow static drawing + raster PDF; installed Poppler PDF roundtrip",
+  "scale": 2,
+  "pdf_dpi": 144,
+  "poppler_dpi": 72,
+  "checks": [
+    {
+      "pdf": "docs/design/landing/artboards/H1-desktop.pdf",
+      "rendered_size": [
+        1440,
+        3968
+      ],
+      "roundtrip_render": "PASS"
+    },
+    {
+      "pdf": "docs/design/landing/artboards/H1-mobile.pdf",
+      "rendered_size": [
+        390,
+        4838
+      ],
+      "roundtrip_render": "PASS"
+    },
+    {
+      "pdf": "docs/design/landing/artboards/H2-desktop.pdf",
+      "rendered_size": [
+        1440,
+        3363
+      ],
+      "roundtrip_render": "PASS"
+    },
+    {
+      "pdf": "docs/design/landing/artboards/H2-mobile.pdf",
+      "rendered_size": [
+        390,
+        4735
+      ],
+      "roundtrip_render": "PASS"
+    },
+    {
+      "pdf": "docs/design/landing/artboards/H3-desktop.pdf",
+      "rendered_size": [
+        1440,
+        3257
+      ],
+      "roundtrip_render": "PASS"
+    },
+    {
+      "pdf": "docs/design/landing/artboards/H3-mobile.pdf",
+      "rendered_size": [
+        390,
+        4636
+      ],
+      "roundtrip_render": "PASS"
+    },
+    {
+      "pdf": "docs/design/landing/artboards/UX0-comparison-overview.pdf",
+      "rendered_size": [
+        1440,
+        1750
+      ],
+      "roundtrip_render": "PASS"
+    },
+    {
+      "pdf": "docs/design/landing/artboards/UX0-reference-board.pdf",
+      "rendered_size": [
+        1440,
+        1330
+      ],
+      "roundtrip_render": "PASS"
+    }
+  ],
+  "recorded_at": "2026-10-11T10:02:46.440345+00:00"
+}

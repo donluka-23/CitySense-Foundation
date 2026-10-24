@@ -1,0 +1,634 @@
+{
+  "width": 390,
+  "height": 3131,
+  "texts": [
+    {
+      "text": "S3 / Decision trace",
+      "bbox": [
+        24.0,
+        34.0,
+        267.5,
+        58.0
+      ],
+      "font_px": 28,
+      "color": "#172D32"
+    },
+    {
+      "text": "Illustrative sequence · not a functioning product",
+      "bbox": [
+        24.0,
+        88.0,
+        316.0,
+        100.5
+      ],
+      "font_px": 13,
+      "color": "#21675F"
+    },
+    {
+      "text": "Reduced motion: all states remain visible.",
+      "bbox": [
+        24.0,
+        132.0,
+        297.0,
+        143.5
+      ],
+      "font_px": 15,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Numbering shows conceptual order, not live",
+      "bbox": [
+        24.0,
+        155.0,
+        318.0,
+        170.0
+      ],
+      "font_px": 15,
+      "color": "#4C6264"
+    },
+    {
+      "text": "interaction.",
+      "bbox": [
+        24.0,
+        178.0,
+        98.0,
+        189.0
+      ],
+      "font_px": 15,
+      "color": "#4C6264"
+    },
+    {
+      "text": "01",
+      "bbox": [
+        52.0,
+        244.0,
+        96.0,
+        271.5
+      ],
+      "font_px": 38,
+      "color": "#21675F"
+    },
+    {
+      "text": "The visitor need",
+      "bbox": [
+        52.0,
+        307.0,
+        203.0,
+        322.0
+      ],
+      "font_px": 20,
+      "color": "#172D32"
+    },
+    {
+      "text": "An outdoor afternoon in Batumi.",
+      "bbox": [
+        52.0,
+        354.0,
+        330.0,
+        367.5
+      ],
+      "font_px": 18,
+      "color": "#172D32"
+    },
+    {
+      "text": "Representative input, not a live search.",
+      "bbox": [
+        52.0,
+        393.0,
+        290.0,
+        406.5
+      ],
+      "font_px": 14,
+      "color": "#4C6264"
+    },
+    {
+      "text": "02",
+      "bbox": [
+        52.0,
+        628.0,
+        96.0,
+        655.5
+      ],
+      "font_px": 38,
+      "color": "#21675F"
+    },
+    {
+      "text": "The essential constraint",
+      "bbox": [
+        52.0,
+        691.0,
+        274.5,
+        706.0
+      ],
+      "font_px": 20,
+      "color": "#172D32"
+    },
+    {
+      "text": "Step-free access is essential.",
+      "bbox": [
+        52.0,
+        738.0,
+        287.5,
+        755.5
+      ],
+      "font_px": 18,
+      "color": "#172D32"
+    },
+    {
+      "text": "An unknown required fact cannot pass.",
+      "bbox": [
+        52.0,
+        777.0,
+        293.0,
+        790.5
+      ],
+      "font_px": 14,
+      "color": "#4C6264"
+    },
+    {
+      "text": "03",
+      "bbox": [
+        52.0,
+        1012.0,
+        96.0,
+        1039.5
+      ],
+      "font_px": 38,
+      "color": "#21675F"
+    },
+    {
+      "text": "The evidence boundary",
+      "bbox": [
+        52.0,
+        1075.0,
+        272.0,
+        1094.5
+      ],
+      "font_px": 20,
+      "color": "#172D32"
+    },
+    {
+      "text": "Access evidence missing → hold.",
+      "bbox": [
+        52.0,
+        1122.0,
+        324.0,
+        1139.5
+      ],
+      "font_px": 18,
+      "color": "#74521F"
+    },
+    {
+      "text": "Source / age / usage rights / unknowns. No",
+      "bbox": [
+        52.0,
+        1161.0,
+        321.5,
+        1174.5
+      ],
+      "font_px": 14,
+      "color": "#4C6264"
+    },
+    {
+      "text": "current place evidence connected.",
+      "bbox": [
+        52.0,
+        1182.0,
+        263.5,
+        1195.5
+      ],
+      "font_px": 14,
+      "color": "#4C6264"
+    },
+    {
+      "text": "04",
+      "bbox": [
+        52.0,
+        1396.0,
+        96.0,
+        1423.5
+      ],
+      "font_px": 38,
+      "color": "#21675F"
+    },
+    {
+      "text": "Comparison, when defensible",
+      "bbox": [
+        52.0,
+        1459.0,
+        330.0,
+        1478.5
+      ],
+      "font_px": 20,
+      "color": "#172D32"
+    },
+    {
+      "text": "Up to five eligible alternatives, or",
+      "bbox": [
+        52.0,
+        1506.0,
+        333.0,
+        1523.5
+      ],
+      "font_px": 18,
+      "color": "#172D32"
+    },
+    {
+      "text": "fewer.",
+      "bbox": [
+        52.0,
+        1531.0,
+        104.5,
+        1544.5
+      ],
+      "font_px": 18,
+      "color": "#172D32"
+    },
+    {
+      "text": "A / B are conceptual slots only. No eligible",
+      "bbox": [
+        52.0,
+        1570.0,
+        314.5,
+        1583.5
+      ],
+      "font_px": 14,
+      "color": "#4C6264"
+    },
+    {
+      "text": "option asserted here.",
+      "bbox": [
+        52.0,
+        1591.0,
+        182.5,
+        1604.5
+      ],
+      "font_px": 14,
+      "color": "#4C6264"
+    },
+    {
+      "text": "05",
+      "bbox": [
+        52.0,
+        1780.0,
+        96.0,
+        1807.5
+      ],
+      "font_px": 38,
+      "color": "#21675F"
+    },
+    {
+      "text": "An action with permission",
+      "bbox": [
+        52.0,
+        1843.0,
+        297.0,
+        1862.5
+      ],
+      "font_px": 20,
+      "color": "#172D32"
+    },
+    {
+      "text": "Permitted contact → partner",
+      "bbox": [
+        52.0,
+        1890.0,
+        291.0,
+        1907.5
+      ],
+      "font_px": 18,
+      "color": "#172D32"
+    },
+    {
+      "text": "response.",
+      "bbox": [
+        52.0,
+        1915.0,
+        132.0,
+        1928.0
+      ],
+      "font_px": 18,
+      "color": "#172D32"
+    },
+    {
+      "text": "Future pathway. Contact channel pending; a",
+      "bbox": [
+        52.0,
+        1954.0,
+        323.0,
+        1967.5
+      ],
+      "font_px": 14,
+      "color": "#4C6264"
+    },
+    {
+      "text": "request is not confirmation.",
+      "bbox": [
+        52.0,
+        1975.0,
+        222.0,
+        1988.5
+      ],
+      "font_px": 14,
+      "color": "#4C6264"
+    },
+    {
+      "text": "06",
+      "bbox": [
+        52.0,
+        2164.0,
+        96.0,
+        2191.5
+      ],
+      "font_px": 38,
+      "color": "#21675F"
+    },
+    {
+      "text": "Beyond a single interface",
+      "bbox": [
+        52.0,
+        2227.0,
+        290.0,
+        2246.5
+      ],
+      "font_px": 20,
+      "color": "#172D32"
+    },
+    {
+      "text": "Authorized agent access · future.",
+      "bbox": [
+        52.0,
+        2274.0,
+        328.0,
+        2291.5
+      ],
+      "font_px": 18,
+      "color": "#172D32"
+    },
+    {
+      "text": "Same governed evidence and permission",
+      "bbox": [
+        52.0,
+        2313.0,
+        306.0,
+        2326.5
+      ],
+      "font_px": 14,
+      "color": "#4C6264"
+    },
+    {
+      "text": "boundary. No public API or MCP access yet.",
+      "bbox": [
+        52.0,
+        2334.0,
+        322.0,
+        2347.5
+      ],
+      "font_px": 14,
+      "color": "#4C6264"
+    },
+    {
+      "text": "citysense / developing city intelligence",
+      "bbox": [
+        24.0,
+        2579.0,
+        297.5,
+        2594.0
+      ],
+      "font_px": 15,
+      "color": "#172D32"
+    },
+    {
+      "text": "LANDING-WEB concept only. PRODUCT-APP design has",
+      "bbox": [
+        24.0,
+        2618.0,
+        345.5,
+        2630.5
+      ],
+      "font_px": 13,
+      "color": "#4C6264"
+    },
+    {
+      "text": "separate Founder gates.",
+      "bbox": [
+        24.0,
+        2639.0,
+        162.0,
+        2651.5
+      ],
+      "font_px": 13,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Contact / publisher / jurisdiction: awaiting Founder",
+      "bbox": [
+        24.0,
+        2676.0,
+        314.0,
+        2688.5
+      ],
+      "font_px": 13,
+      "color": "#4C6264"
+    },
+    {
+      "text": "confirmation. Privacy / Terms / Affiliate Disclosure: review",
+      "bbox": [
+        24.0,
+        2697.0,
+        351.0,
+        2709.5
+      ],
+      "font_px": 13,
+      "color": "#4C6264"
+    },
+    {
+      "text": "pending; no working destinations.",
+      "bbox": [
+        24.0,
+        2718.0,
+        218.5,
+        2730.5
+      ],
+      "font_px": 13,
+      "color": "#4C6264"
+    },
+    {
+      "text": "No affiliate links active. Any future commission relationship",
+      "bbox": [
+        24.0,
+        2757.0,
+        360.5,
+        2769.5
+      ],
+      "font_px": 13,
+      "color": "#4C6264"
+    },
+    {
+      "text": "requires authorization and disclosure; commercial priority",
+      "bbox": [
+        24.0,
+        2778.0,
+        352.0,
+        2790.5
+      ],
+      "font_px": 13,
+      "color": "#4C6264"
+    },
+    {
+      "text": "remains inactive.",
+      "bbox": [
+        24.0,
+        2799.0,
+        119.0,
+        2808.5
+      ],
+      "font_px": 13,
+      "color": "#4C6264"
+    },
+    {
+      "text": "PHOTOGRAPHY / HISTORICAL CONTEXT, NOT LIVE EVIDENCE",
+      "bbox": [
+        24.0,
+        2844.0,
+        315.0,
+        2852.0
+      ],
+      "font_px": 10,
+      "color": "#21675F"
+    },
+    {
+      "text": "Alexabsent / Batumi.png / CC0 1.0",
+      "bbox": [
+        24.0,
+        2883.0,
+        190.0,
+        2894.0
+      ],
+      "font_px": 11,
+      "color": "#4C6264"
+    },
+    {
+      "text": "commons.wikimedia.org/wiki/File:Batumi.png",
+      "bbox": [
+        24.0,
+        2901.0,
+        243.5,
+        2912.0
+      ],
+      "font_px": 11,
+      "color": "#4C6264"
+    },
+    {
+      "text": "creativecommons.org/publicdomain/zero/1.0/",
+      "bbox": [
+        24.0,
+        2919.0,
+        248.5,
+        2930.0
+      ],
+      "font_px": 11,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Lex Kravetski / Batumi skyline as seen from Mtsvane Kontskhi cape /",
+      "bbox": [
+        24.0,
+        2937.0,
+        352.5,
+        2948.0
+      ],
+      "font_px": 11,
+      "color": "#4C6264"
+    },
+    {
+      "text": "CC BY 2.0",
+      "bbox": [
+        24.0,
+        2955.0,
+        71.0,
+        2963.0
+      ],
+      "font_px": 11,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Coast source URL, continuous across lines:",
+      "bbox": [
+        24.0,
+        2973.0,
+        226.0,
+        2983.0
+      ],
+      "font_px": 11,
+      "color": "#4C6264"
+    },
+    {
+      "text": "commons.wikimedia.org/wiki/",
+      "bbox": [
+        24.0,
+        2991.0,
+        169.5,
+        3002.0
+      ],
+      "font_px": 11,
+      "color": "#4C6264"
+    },
+    {
+      "text": "File:Batumi_skyline_as_seen_from_",
+      "bbox": [
+        24.0,
+        3009.0,
+        188.0,
+        3020.0
+      ],
+      "font_px": 11,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Mtsvane_Kontskhi_cape.jpg",
+      "bbox": [
+        24.0,
+        3027.0,
+        156.0,
+        3038.0
+      ],
+      "font_px": 11,
+      "color": "#4C6264"
+    },
+    {
+      "text": "creativecommons.org/licenses/by/2.0/",
+      "bbox": [
+        24.0,
+        3045.0,
+        210.5,
+        3056.0
+      ],
+      "font_px": 11,
+      "color": "#4C6264"
+    },
+    {
+      "text": "Cropped and resized. No endorsement. Sources retained in reference",
+      "bbox": [
+        24.0,
+        3063.0,
+        360.5,
+        3074.0
+      ],
+      "font_px": 11,
+      "color": "#4C6264"
+    },
+    {
+      "text": "register.",
+      "bbox": [
+        24.0,
+        3081.0,
+        63.5,
+        3091.5
+      ],
+      "font_px": 11,
+      "color": "#4C6264"
+    }
+  ],
+  "out_of_bounds": []
+}

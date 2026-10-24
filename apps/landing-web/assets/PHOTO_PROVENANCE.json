@@ -1,0 +1,40 @@
+{
+  "source_path": "docs/design/landing/assets/batumi-panorama.png",
+  "source_sha256": "330e636d2ab7a56ff1d647616536e9a65eb883449d8de57a584eb64c7a0456ec",
+  "creator": "Alexabsent",
+  "title": "Batumi.png",
+  "photo_date": "December 2023",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Batumi.png",
+  "license": "CC0 1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "modification": "Aspect-preserving resizing/WebP compression; CSS object-fit display crop only",
+  "variants": [
+    {
+      "file": "batumi-480.webp",
+      "size": [
+        480,
+        220
+      ],
+      "bytes": 8870,
+      "sha256": "2746abd27185d242b976ea0dd2edf221fb93f1372d0eea6ae8d56312fa48cdfa"
+    },
+    {
+      "file": "batumi-960.webp",
+      "size": [
+        960,
+        440
+      ],
+      "bytes": 36458,
+      "sha256": "bd1e2f642380a4e09c90524828de8961db0cc2b4c33e57a596744487a243b406"
+    },
+    {
+      "file": "batumi-1335.webp",
+      "size": [
+        1335,
+        612
+      ],
+      "bytes": 92980,
+      "sha256": "36c994963feb64af7ca6e15220e2178af7a3bf137b3dc8ffe8587d9afddb4067"
+    }
+  ]
+}

@@ -1,0 +1,512 @@
+{
+  "recorded_at": "2026-10-11T10:47:01.143919+00:00",
+  "stage": "LANDING-UX0-VISUAL-v1",
+  "track": "LANDING-WEB",
+  "artifact": "landing-web-ux0-r2",
+  "result": "PASS",
+  "checks": [
+    {
+      "check": "Branch and HEAD unchanged",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Nothing staged",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Tracked changes restricted to five approved governance overlays",
+      "result": "PASS",
+      "detail": [
+        "AGENTS.md",
+        "docs/governance/FOUNDER_APPROVALS.md",
+        "docs/governance/README.md",
+        "docs/governance/STAGE_GATES.md",
+        "docs/governance/STATUS.md"
+      ]
+    },
+    {
+      "check": "Five original working-byte prefixes preserved",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "check": "historical_landing_files immutable",
+      "result": "PASS",
+      "detail": {
+        "files": 51,
+        "drift": []
+      }
+    },
+    {
+      "check": "historical_local_files immutable",
+      "result": "PASS",
+      "detail": {
+        "files": 19,
+        "drift": []
+      }
+    },
+    {
+      "check": "Complete actual request identity",
+      "result": "PASS",
+      "detail": {
+        "bytes": 12346,
+        "sha256": "42745fe3edee06bb4f017076cde2dd19f47133f4ef8c96be062f946e6a86ee55"
+      }
+    },
+    {
+      "check": "Original photo source hashes retained",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Eight primary widths, exact eight folds and no text out of bounds",
+      "result": "PASS",
+      "detail": {
+        "primary": [
+          {
+            "name": "S1-desktop",
+            "size": [
+              1440,
+              3061
+            ]
+          },
+          {
+            "name": "S1-mobile",
+            "size": [
+              390,
+              3748
+            ]
+          },
+          {
+            "name": "S2-desktop",
+            "size": [
+              1440,
+              3165
+            ]
+          },
+          {
+            "name": "S2-mobile",
+            "size": [
+              390,
+              3810
+            ]
+          },
+          {
+            "name": "S3-desktop",
+            "size": [
+              1440,
+              3183
+            ]
+          },
+          {
+            "name": "S3-mobile",
+            "size": [
+              390,
+              3732
+            ]
+          },
+          {
+            "name": "Partners-desktop",
+            "size": [
+              1440,
+              2836
+            ]
+          },
+          {
+            "name": "Partners-mobile",
+            "size": [
+              390,
+              3642
+            ]
+          }
+        ],
+        "failures": []
+      }
+    },
+    {
+      "check": "Need, essential constraint and hold fit all six Home folds",
+      "result": "PASS",
+      "detail": []
+    },
+    {
+      "check": "Ten actual PDF roundtrips match final image dimensions",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Six actual stationary state storyboards",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Three timed six-frame GIF previews",
+      "result": "PASS",
+      "detail": [
+        {
+          "direction": "S1",
+          "frames": 6,
+          "durations_ms": [
+            1800,
+            1800,
+            1800,
+            1800,
+            1800,
+            1800
+          ]
+        },
+        {
+          "direction": "S2",
+          "frames": 6,
+          "durations_ms": [
+            1800,
+            1800,
+            1800,
+            1800,
+            1800,
+            1800
+          ]
+        },
+        {
+          "direction": "S3",
+          "frames": 6,
+          "durations_ms": [
+            1800,
+            1800,
+            1800,
+            1800,
+            1800,
+            1800
+          ]
+        }
+      ]
+    },
+    {
+      "check": "Thirteen flat text-token contrast pairs meet 4.5:1",
+      "result": "PASS",
+      "detail": [
+        {
+          "foreground": "#172D32",
+          "background": "#F5F2EA",
+          "ratio": 12.88
+        },
+        {
+          "foreground": "#4C6264",
+          "background": "#F5F2EA",
+          "ratio": 5.8
+        },
+        {
+          "foreground": "#21675F",
+          "background": "#F5F2EA",
+          "ratio": 5.92
+        },
+        {
+          "foreground": "#172D32",
+          "background": "#FFFFFF",
+          "ratio": 14.4
+        },
+        {
+          "foreground": "#4C6264",
+          "background": "#FFFFFF",
+          "ratio": 6.48
+        },
+        {
+          "foreground": "#21675F",
+          "background": "#FFFFFF",
+          "ratio": 6.62
+        },
+        {
+          "foreground": "#FFFFFF",
+          "background": "#21675F",
+          "ratio": 6.62
+        },
+        {
+          "foreground": "#D0DDD6",
+          "background": "#172D32",
+          "ratio": 10.29
+        },
+        {
+          "foreground": "#B9D8C9",
+          "background": "#172D32",
+          "ratio": 9.42
+        },
+        {
+          "foreground": "#74521F",
+          "background": "#F5F2EA",
+          "ratio": 6.32
+        },
+        {
+          "foreground": "#74521F",
+          "background": "#FFFFFF",
+          "ratio": 7.07
+        },
+        {
+          "foreground": "#21675F",
+          "background": "#E6EBE3",
+          "ratio": 5.48
+        },
+        {
+          "foreground": "#172D32",
+          "background": "#E6EBE3",
+          "ratio": 11.91
+        }
+      ]
+    },
+    {
+      "check": "Georgian glyph limits disclosed",
+      "result": "PASS",
+      "detail": {
+        "coverage": {
+          "segoeui.ttf": true,
+          "segoeuib.ttf": true,
+          "georgia.ttf": false
+        },
+        "Pillow_RAQM": false,
+        "translation_and_shaping": "UNVERIFIED"
+      }
+    },
+    {
+      "check": "Local documentation links resolve",
+      "result": "PASS",
+      "detail": {
+        "checked": 260,
+        "broken": []
+      }
+    },
+    {
+      "check": "Scoped text secret scan: no credential indicators",
+      "result": "PASS",
+      "detail": {
+        "scanned_files": 41,
+        "findings": [],
+        "scope": "new package and five governance overlays; signatures only, not comprehensive external scanner"
+      }
+    },
+    {
+      "check": "No environment files, caches or executable bundles introduced",
+      "result": "PASS",
+      "detail": []
+    },
+    {
+      "check": "No unexpected pending paths outside reviewed revision scope",
+      "result": "PASS",
+      "detail": []
+    },
+    {
+      "check": "Local helpers and QA scratch are ignored",
+      "result": "PASS",
+      "detail": null
+    }
+  ],
+  "branch": "stage/1c-map-navigation",
+  "head": "aae7d9bd52d5e786406896eba94a22abc58cda5d",
+  "new_repository_files": 73,
+  "modified_tracked_files": 5,
+  "ignored_local_files": 81,
+  "pending_git_paths": 129,
+  "artifact_hashes": {
+    "artboards/Partners-desktop-above-fold.png": "646ad95d228ec84bb12232855e5e7bdf835ac7f97894e610c6140ed8b72bc190",
+    "artboards/Partners-desktop.pdf": "60b357d09524f25ff57ca7fe930de7d943d52198b1eaba72cb3631dc340de30e",
+    "artboards/Partners-desktop.png": "5abed929a4f404228d3c0a79a78ad52e847cba14946c327eb854e498fa9d2184",
+    "artboards/Partners-mobile-above-fold.png": "6d47a3c4df6fd3a29b4efc0deedf879e4b9d674142889563000f3278096831e8",
+    "artboards/Partners-mobile.pdf": "a9884cb193bd8ea323b0245c7ee2c228231e85917c640b08cb6629ced0ae4004",
+    "artboards/Partners-mobile.png": "9e1ff91efe2fa5eef8f013a89ac3de3a0e428241817cbb5198cd92ac118f0ecc",
+    "artboards/S-comparison-overview.pdf": "01f53cc73faea5409d0836f089e8ac0ddf97b2d5955e7b5f252bda9054548a7b",
+    "artboards/S-comparison-overview.png": "6d94c3b751cb13a350df81720fd1fd0572bbbac453740ec792b9a8353534aa4d",
+    "artboards/S-reference-board.pdf": "3739505815836cdd2ce9714827d703ec504b194fb2979afdb488eaa338f8bab0",
+    "artboards/S-reference-board.png": "2e799b56ac4850053efb79297f3884ce0ae17e88eae82267910a8bbdbf32c212",
+    "artboards/S1-desktop-above-fold.png": "f8b66eb9d8279cc69b4f8117b5fba35a9d759d78025055da6c399e5bd7d24bc2",
+    "artboards/S1-desktop.pdf": "950f66485dfe8b2625993f732586883e2192c962868238ce17a6c18d73afc28c",
+    "artboards/S1-desktop.png": "5037541be4b9419e0fe8561dc92847e718f79c9711b89bb55647ee8c1e2c7597",
+    "artboards/S1-mobile-above-fold.png": "d2b0a4aef9a5a1b39b6b59132cc7313f0918618b61c5a2c130444fca195cd42a",
+    "artboards/S1-mobile.pdf": "a48e6c075f5fa8c635424ea01add6310d36dc66236bb1a87c66fdbf2996149b1",
+    "artboards/S1-mobile.png": "0aa75c9c58e4f0521171b22dded7cb5b068d6e84e36ddf4e852ba2577f2635a0",
+    "artboards/S2-desktop-above-fold.png": "cb100cbb4ab16bdeb6354ff10782d467904ebec9d3b82272e166b9e8e3e174e9",
+    "artboards/S2-desktop.pdf": "8be9c024b5f577a2cac2c66b81926db0ff6c0a136c88a4df7a6110b9a8697bc3",
+    "artboards/S2-desktop.png": "ce241893de7b0654c29c4a52763143f9d112ce7979fc8e065cf18db1fc75b77c",
+    "artboards/S2-mobile-above-fold.png": "6b956d94523ffdae9b123883f93fb85eb8ea631f13dd8f8b3bc7379f71142be6",
+    "artboards/S2-mobile.pdf": "73369eb9e531403dfbc02d7c9356d5385ecaf238e28fda94e33c0cb3d2b20738",
+    "artboards/S2-mobile.png": "58eb29507af1ed0b483e28514795bfb8d69bdb587c33ee46d1fd897059ef0d90",
+    "artboards/S3-desktop-above-fold.png": "7050416aaa8ee31ccdb5d180d2cc8b26420cef6fb65ee0b1edb9bc4649ee62c0",
+    "artboards/S3-desktop.pdf": "419204ee2ab89d92e467b2f4afd51f7583e4939dcef80bfb5713c1c81b5a611a",
+    "artboards/S3-desktop.png": "544dd6adf329ce34cac43c77f4bb39e4b99dd5a6d517636b62b9f8480c29f105",
+    "artboards/S3-mobile-above-fold.png": "dd332fe2ca1dd0de4c09e43e689784992dcb1d718bc67c7327f8efd21597a6cd",
+    "artboards/S3-mobile.pdf": "877b810f26a9e934eb821a4c274ea0ecdcdd03c117a1370c6f85da4e858b028e",
+    "artboards/S3-mobile.png": "0e9d6b4f97c9a2b24582f9ec24beb04444fe8f1c893366b56ec502207b0fb6a0",
+    "storyboards/S1-proposed-motion.gif": "2cd6839762cec5ea9cbb9e67e445e9c19acc18dba447676057f97e072f3e0807",
+    "storyboards/S1-storyboard-desktop.png": "0c3290d277e74e5aa5270b4b746205a49c1e12968a9bfcf7aed81e23b156b404",
+    "storyboards/S1-storyboard-mobile.png": "5d57d345b054e7a3ef55fdf6440b00e4a0fc39a2d0294efd804c3d7dd13b24fb",
+    "storyboards/S2-proposed-motion.gif": "066847628db498f102c79a346797a78ea5f397c539229280788090c7fa4269b8",
+    "storyboards/S2-storyboard-desktop.png": "62151e88d0f6f2371566aa3d90c3e430fc3a899d784f9527fc998684f99e2c60",
+    "storyboards/S2-storyboard-mobile.png": "9657a19db1b968a54580456c257de94afa01f9440f97f500535cc9f1655c26ef",
+    "storyboards/S3-proposed-motion.gif": "6557e76b311c87a7bafa7175a173aca0725540de009da1ac39b2376843ed41b3",
+    "storyboards/S3-storyboard-desktop.png": "d92820842b10713359a72c0dcf2f2d20a6e22f0dc1336d14f3616ab8c6345005",
+    "storyboards/S3-storyboard-mobile.png": "0b8caa7383250241a9028996cb0b696f7700a9be629a45ee7da9a0a0f480ce83"
+  },
+  "artifact_aggregate_sha256": "f5f8b60bb11f3dbb47e241e3035816e6bdfa9ddee37a2d47f324f4dd17aa6fa4",
+  "repository_file_hashes": {
+    "docs/design/landing/WEBSITE_TRACKS.md": "0ef31e573dc6e6786a5dad752c8b77ecab744f5f0d4e6cd1b0624eecf954a461",
+    "docs/design/landing/revisions/landing-web-ux0-r2/ACCESSIBILITY_AND_MOBILE.md": "f39fdddc78949fcf005ded05fb788657621862c2247257da1deeb16c9b934a97",
+    "docs/design/landing/revisions/landing-web-ux0-r2/CLAIMS_AND_RELEASE_INPUTS.md": "91a4ed13f048e245d598b39e8a6831050f4aac175070928b1a4440d08ff37e7a",
+    "docs/design/landing/revisions/landing-web-ux0-r2/FOUNDER_REVIEW_PACKET.md": "3f643ce9e79d031fab934bec32b38a19eb59c4415ed01efd0b185feeeafb8d0a",
+    "docs/design/landing/revisions/landing-web-ux0-r2/INFORMATION_ARCHITECTURE_AND_COPY.md": "757ddfaeb30afcdf0bddf53e9d2dd7f8fde07014d299741bed9edcf727c4cd83",
+    "docs/design/landing/revisions/landing-web-ux0-r2/PARTNERS_PROPOSAL.md": "9b0387ddcaef013cf762e105af74fc24219ab4eba31a08f89d2583de0f920b84",
+    "docs/design/landing/revisions/landing-web-ux0-r2/README.md": "0a1cd706bc88820e0538758695d2b0a660a33f114557649f82d6f7f9fc83cee7",
+    "docs/design/landing/revisions/landing-web-ux0-r2/REFERENCE_REGISTER.md": "a0d9e2ea040171babbb0f0a1072f1d23fd0b1f98d375c25fc33ec18f35baa637",
+    "docs/design/landing/revisions/landing-web-ux0-r2/SOURCES/CONSOLIDATED_FOUNDER_REQUEST.md": "42745fe3edee06bb4f017076cde2dd19f47133f4ef8c96be062f946e6a86ee55",
+    "docs/design/landing/revisions/landing-web-ux0-r2/VISUAL_RATIONALE.md": "7a4d607ac58cf77f440a724d49b3a6ee621069fe48ff8b293908725866056347",
+    "docs/design/landing/revisions/landing-web-ux0-r2/artboards/Partners-desktop-above-fold.png": "646ad95d228ec84bb12232855e5e7bdf835ac7f97894e610c6140ed8b72bc190",
+    "docs/design/landing/revisions/landing-web-ux0-r2/artboards/Partners-desktop.pdf": "60b357d09524f25ff57ca7fe930de7d943d52198b1eaba72cb3631dc340de30e",
+    "docs/design/landing/revisions/landing-web-ux0-r2/artboards/Partners-desktop.png": "5abed929a4f404228d3c0a79a78ad52e847cba14946c327eb854e498fa9d2184",
+    "docs/design/landing/revisions/landing-web-ux0-r2/artboards/Partners-mobile-above-fold.png": "6d47a3c4df6fd3a29b4efc0deedf879e4b9d674142889563000f3278096831e8",
+    "docs/design/landing/revisions/landing-web-ux0-r2/artboards/Partners-mobile.pdf": "a9884cb193bd8ea323b0245c7ee2c228231e85917c640b08cb6629ced0ae4004",
+    "docs/design/landing/revisions/landing-web-ux0-r2/artboards/Partners-mobile.png": "9e1ff91efe2fa5eef8f013a89ac3de3a0e428241817cbb5198cd92ac118f0ecc",
+    "docs/design/landing/revisions/landing-web-ux0-r2/artboards/S-comparison-overview.pdf": "01f53cc73faea5409d0836f089e8ac0ddf97b2d5955e7b5f252bda9054548a7b",
+    "docs/design/landing/revisions/landing-web-ux0-r2/artboards/S-comparison-overview.png": "6d94c3b751cb13a350df81720fd1fd0572bbbac453740ec792b9a8353534aa4d",
+    "docs/design/landing/revisions/landing-web-ux0-r2/artboards/S-reference-board.pdf": "3739505815836cdd2ce9714827d703ec504b194fb2979afdb488eaa338f8bab0",
+    "docs/design/landing/revisions/landing-web-ux0-r2/artboards/S-reference-board.png": "2e799b56ac4850053efb79297f3884ce0ae17e88eae82267910a8bbdbf32c212",
+    "docs/design/landing/revisions/landing-web-ux0-r2/artboards/S1-desktop-above-fold.png": "f8b66eb9d8279cc69b4f8117b5fba35a9d759d78025055da6c399e5bd7d24bc2",
+    "docs/design/landing/revisions/landing-web-ux0-r2/artboards/S1-desktop.pdf": "950f66485dfe8b2625993f732586883e2192c962868238ce17a6c18d73afc28c",
+    "docs/design/landing/revisions/landing-web-ux0-r2/artboards/S1-desktop.png": "5037541be4b9419e0fe8561dc92847e718f79c9711b89bb55647ee8c1e2c7597",
+    "docs/design/landing/revisions/landing-web-ux0-r2/artboards/S1-mobile-above-fold.png": "d2b0a4aef9a5a1b39b6b59132cc7313f0918618b61c5a2c130444fca195cd42a",
+    "docs/design/landing/revisions/landing-web-ux0-r2/artboards/S1-mobile.pdf": "a48e6c075f5fa8c635424ea01add6310d36dc66236bb1a87c66fdbf2996149b1",
+    "docs/design/landing/revisions/landing-web-ux0-r2/artboards/S1-mobile.png": "0aa75c9c58e4f0521171b22dded7cb5b068d6e84e36ddf4e852ba2577f2635a0",
+    "docs/design/landing/revisions/landing-web-ux0-r2/artboards/S2-desktop-above-fold.png": "cb100cbb4ab16bdeb6354ff10782d467904ebec9d3b82272e166b9e8e3e174e9",
+    "docs/design/landing/revisions/landing-web-ux0-r2/artboards/S2-desktop.pdf": "8be9c024b5f577a2cac2c66b81926db0ff6c0a136c88a4df7a6110b9a8697bc3",
+    "docs/design/landing/revisions/landing-web-ux0-r2/artboards/S2-desktop.png": "ce241893de7b0654c29c4a52763143f9d112ce7979fc8e065cf18db1fc75b77c",
+    "docs/design/landing/revisions/landing-web-ux0-r2/artboards/S2-mobile-above-fold.png": "6b956d94523ffdae9b123883f93fb85eb8ea631f13dd8f8b3bc7379f71142be6",
+    "docs/design/landing/revisions/landing-web-ux0-r2/artboards/S2-mobile.pdf": "73369eb9e531403dfbc02d7c9356d5385ecaf238e28fda94e33c0cb3d2b20738",
+    "docs/design/landing/revisions/landing-web-ux0-r2/artboards/S2-mobile.png": "58eb29507af1ed0b483e28514795bfb8d69bdb587c33ee46d1fd897059ef0d90",
+    "docs/design/landing/revisions/landing-web-ux0-r2/artboards/S3-desktop-above-fold.png": "7050416aaa8ee31ccdb5d180d2cc8b26420cef6fb65ee0b1edb9bc4649ee62c0",
+    "docs/design/landing/revisions/landing-web-ux0-r2/artboards/S3-desktop.pdf": "419204ee2ab89d92e467b2f4afd51f7583e4939dcef80bfb5713c1c81b5a611a",
+    "docs/design/landing/revisions/landing-web-ux0-r2/artboards/S3-desktop.png": "544dd6adf329ce34cac43c77f4bb39e4b99dd5a6d517636b62b9f8480c29f105",
+    "docs/design/landing/revisions/landing-web-ux0-r2/artboards/S3-mobile-above-fold.png": "dd332fe2ca1dd0de4c09e43e689784992dcb1d718bc67c7327f8efd21597a6cd",
+    "docs/design/landing/revisions/landing-web-ux0-r2/artboards/S3-mobile.pdf": "877b810f26a9e934eb821a4c274ea0ecdcdd03c117a1370c6f85da4e858b028e",
+    "docs/design/landing/revisions/landing-web-ux0-r2/artboards/S3-mobile.png": "0e9d6b4f97c9a2b24582f9ec24beb04444fe8f1c893366b56ec502207b0fb6a0",
+    "docs/design/landing/revisions/landing-web-ux0-r2/evidence/AGENT_HANDOFFS.md": "9b542f89099000cb2d7dcf22c07b1e876cb859998989d3dbfbce7db0a0a050ab",
+    "docs/design/landing/revisions/landing-web-ux0-r2/evidence/BASELINE.json": "9406e1bed20fb30a46c28f16d53224456678e6a733f37b0cac06a53654bd182e",
+    "docs/design/landing/revisions/landing-web-ux0-r2/evidence/CHIEF_VISUAL_INSPECTION.md": "f2e2a90b1da032862c3241a634f16c2e1d417c59a1d9fe0f5fb6874f79e8cfe4",
+    "docs/design/landing/revisions/landing-web-ux0-r2/evidence/FILE_MANIFEST.md": "50e415c206ddcdb61763ca7a710336de03d7313c92aec35fcc33f5a7ed40ed70",
+    "docs/design/landing/revisions/landing-web-ux0-r2/evidence/GOVERNANCE_APPEND_RECEIPT.json": "c48ce5570aa9820d3c638d1d1a9f02a06a5a79340b69c528313e8417fbaa60b6",
+    "docs/design/landing/revisions/landing-web-ux0-r2/evidence/INDEPENDENT_QA.md": "39fdd40160ae3f19416affd781de6ec512710e5c7798ead82adfedb12c4c4c98",
+    "docs/design/landing/revisions/landing-web-ux0-r2/evidence/Partners-desktop-layout.json": "a9f1916e7b360b78392ff90919c2459d33dddefd008aca5ce7039178974acad7",
+    "docs/design/landing/revisions/landing-web-ux0-r2/evidence/Partners-mobile-layout.json": "2d492722cf9d740b2dc0caaf311a648bffa92a46fd2621a9f9973028b3c29360",
+    "docs/design/landing/revisions/landing-web-ux0-r2/evidence/RENDER_CHECKS.json": "a6e8bed8ce7e0e792ee4b768ad9bb0a327d1ef67bd6dff3984fa700a973660b7",
+    "docs/design/landing/revisions/landing-web-ux0-r2/evidence/S-comparison-overview-layout.json": "b4d1f65d26bdd0ac08c3ca0e9e6343d29db3b84893c225182fdce1cabeb5aaf8",
+    "docs/design/landing/revisions/landing-web-ux0-r2/evidence/S-reference-board-layout.json": "58c16ccf2c0c9ad81f8da28e0356da322a3ae9d4843569098e08b4d408eca0bb",
+    "docs/design/landing/revisions/landing-web-ux0-r2/evidence/S1-desktop-layout.json": "e09ff1dba0fc05bb4cdeaa7eb970d34f5f8bbec2b45a5f499b756cc9f5b4c301",
+    "docs/design/landing/revisions/landing-web-ux0-r2/evidence/S1-mobile-layout.json": "aef40a733260c17fdfb396b8f773ecb4ab11a50f9e2818bdfa7722965f74601f",
+    "docs/design/landing/revisions/landing-web-ux0-r2/evidence/S1-storyboard-desktop-layout.json": "fd623bc02e74340fa7bb796c3a2ca14c0a4e509df414a05412471c48c3e981d8",
+    "docs/design/landing/revisions/landing-web-ux0-r2/evidence/S1-storyboard-mobile-layout.json": "0d75e7bdd2e844df26e8481c3e1201f3cfad0a0cdce399ccc70431edd5ea0584",
+    "docs/design/landing/revisions/landing-web-ux0-r2/evidence/S2-desktop-layout.json": "54bd16768af5506499840e685c282e588d698a191c1b1991d00d2df9e77c07ea",
+    "docs/design/landing/revisions/landing-web-ux0-r2/evidence/S2-mobile-layout.json": "e345acaab1b1c40b8c3426c94fdb395e5e5f8675a6e4ca3aaf74298d369ce702",
+    "docs/design/landing/revisions/landing-web-ux0-r2/evidence/S2-storyboard-desktop-layout.json": "42e73e4aa1d334638d31b105112c7d9019bfb83d87a3b5a761a0e8b8e9f3cd0d",
+    "docs/design/landing/revisions/landing-web-ux0-r2/evidence/S2-storyboard-mobile-layout.json": "ffbf014eb80b83331d077f033badb82403868867ef195ccdbe6fa5347c4ae5d3",
+    "docs/design/landing/revisions/landing-web-ux0-r2/evidence/S3-desktop-layout.json": "b24ec6104aaf4486e1a74998be79c2af79a56c93762e01a6ab30537c7c5d9f3f",
+    "docs/design/landing/revisions/landing-web-ux0-r2/evidence/S3-mobile-layout.json": "a9d40f2e2e8c4c8cdd6acac9c16950cd8fe8f56c48e8f3a96c7ed34a13636d55",
+    "docs/design/landing/revisions/landing-web-ux0-r2/evidence/S3-storyboard-desktop-layout.json": "1adaf065cc425f7175b759b1ea95ad618a98d8695cd5f24a04231b342889dacc",
+    "docs/design/landing/revisions/landing-web-ux0-r2/evidence/S3-storyboard-mobile-layout.json": "cd271bf888067874284cb6af6c823ff4cdb15e4506bd855dc7762260462afe85",
+    "docs/design/landing/revisions/landing-web-ux0-r2/evidence/VERIFICATION_HISTORY.md": "686f54ac33104430988657f11d43fe494dfec2e541955d48c1dcfab1ca7d694b",
+    "docs/design/landing/revisions/landing-web-ux0-r2/storyboards/S1-proposed-motion.gif": "2cd6839762cec5ea9cbb9e67e445e9c19acc18dba447676057f97e072f3e0807",
+    "docs/design/landing/revisions/landing-web-ux0-r2/storyboards/S1-storyboard-desktop.png": "0c3290d277e74e5aa5270b4b746205a49c1e12968a9bfcf7aed81e23b156b404",
+    "docs/design/landing/revisions/landing-web-ux0-r2/storyboards/S1-storyboard-mobile.png": "5d57d345b054e7a3ef55fdf6440b00e4a0fc39a2d0294efd804c3d7dd13b24fb",
+    "docs/design/landing/revisions/landing-web-ux0-r2/storyboards/S2-proposed-motion.gif": "066847628db498f102c79a346797a78ea5f397c539229280788090c7fa4269b8",
+    "docs/design/landing/revisions/landing-web-ux0-r2/storyboards/S2-storyboard-desktop.png": "62151e88d0f6f2371566aa3d90c3e430fc3a899d784f9527fc998684f99e2c60",
+    "docs/design/landing/revisions/landing-web-ux0-r2/storyboards/S2-storyboard-mobile.png": "9657a19db1b968a54580456c257de94afa01f9440f97f500535cc9f1655c26ef",
+    "docs/design/landing/revisions/landing-web-ux0-r2/storyboards/S3-proposed-motion.gif": "6557e76b311c87a7bafa7175a173aca0725540de009da1ac39b2376843ed41b3",
+    "docs/design/landing/revisions/landing-web-ux0-r2/storyboards/S3-storyboard-desktop.png": "d92820842b10713359a72c0dcf2f2d20a6e22f0dc1336d14f3616ab8c6345005",
+    "docs/design/landing/revisions/landing-web-ux0-r2/storyboards/S3-storyboard-mobile.png": "0b8caa7383250241a9028996cb0b696f7700a9be629a45ee7da9a0a0f480ce83",
+    "docs/governance/CHANGE_REQUESTS/CR-0001-LANDING-WEB-UX0-REVISION.md": "8d79d2329c5c5ad0b43a94c38acb33bbcf9945e7abdd8d2bdb7c12a767e86050",
+    "AGENTS.md": "c0f707690a4916b9ec1667a8b13d17b6906164b17cb65de6e445bbd4fe7d425a",
+    "docs/governance/FOUNDER_APPROVALS.md": "769503d5eae739b018a3494ab46612db8815ebad0593f021cf77a7112e46d4dd",
+    "docs/governance/README.md": "53ccf575d3215646243fe21068dd79ac92a6f3742f575b959768b77a52bc2385",
+    "docs/governance/STAGE_GATES.md": "06ee4e8e51560d29dfecdf6ad28e4d4f92d426470d16cb77aa5f0c367262a003",
+    "docs/governance/STATUS.md": "61a9014cdb8c29a41a22cae220989023f6fc54c9ff8822d756141c15eb60d23c"
+  },
+  "local_file_hashes": {
+    ".local/landing-web-r2/Partners-desktop.png": "b5bccd7aa7c0d5f2769475164a54f6fdb93614ce7ebc4532cc7193b8f51866e3",
+    ".local/landing-web-r2/Partners-mobile.png": "bf2376d91b96542d251bd2c2f10468c802775ffef10260a5ee0a045e210b752b",
+    ".local/landing-web-r2/S-comparison-overview.png": "f96e964067f81d348fc063da0992321c41e455c623e362db0b0b4e8b3a3d2216",
+    ".local/landing-web-r2/S-reference-board.png": "917b6dbe439d735d47ee8082f614bee2b230df99dcd7f52445bd2482693d2cca",
+    ".local/landing-web-r2/S1-desktop.png": "6fc76b5b52a3ba53e5de9d94b277133c83ba4780837b4cd1b1c5b519dacdb539",
+    ".local/landing-web-r2/S1-mobile.png": "47f04d59af7a460ade83cc317456c86ca85bff267399e7be069c322c67620398",
+    ".local/landing-web-r2/S2-desktop.png": "1c2acec9a3b1d5213cbccc130200a3dbf0fb1e24ea71af50e334e0e68399bec9",
+    ".local/landing-web-r2/S2-mobile.png": "aa0d0e986b09e3a023b75f889617383d75bc25b03f6d0135354fcdc14ddc5710",
+    ".local/landing-web-r2/S3-desktop.png": "623c89f9fecf242316c67ccc4fa93b51561bbb8d65b7741489b1b0260f0aedbd",
+    ".local/landing-web-r2/S3-mobile.png": "064d662a85b19965f91d9c9ddfc5354f04db46f8c4bad50af9ffcad8cede168e",
+    ".local/landing-web-r2/append_governance.py": "1c5e6f2f30cd354a9bd11ec8cd4767e61062482309ac1075723ba6fc9c0d284a",
+    ".local/landing-web-r2/qa/Partners-mobile-crop0.png": "941253bf2788255d49eaeff1a1f8b55afde07981dbb6ffa6bf0d7b51181664bb",
+    ".local/landing-web-r2/qa/Partners-mobile-crop1.png": "13405e9aee41409016efc56c0ebc7ec6e52d4635f7b1d3320c3dab97680c0398",
+    ".local/landing-web-r2/qa/Partners-mobile-crop2.png": "db930b9beca022485365a3b962a8b1ce06b211138b624c16a3bbe207b94cc3a0",
+    ".local/landing-web-r2/qa/Partners-mobile-crop3.png": "2317f755ff65b2d8faf1aca02620ad25d7cfa0b810347dc95abe05dcfeea3687",
+    ".local/landing-web-r2/qa/Partners-mobile-crop4.png": "7dbb6e35e1eb69e36de24389ee0f55ba305e8f4497e13378f34fbad0530263c4",
+    ".local/landing-web-r2/qa/S1-mobile-crop0.png": "569511ef45f36d875b2cda7d5f67e2b27b621c6c248d3e13ef736b32e31e3e77",
+    ".local/landing-web-r2/qa/S1-mobile-crop1.png": "8447498fec29bda65fc7270e330ece318cc804d036aee810b27a10ff4f9e6921",
+    ".local/landing-web-r2/qa/S1-mobile-crop2.png": "9811209834b7240569c33ac670c31ad732156039c1cb13739d7f2b6697682130",
+    ".local/landing-web-r2/qa/S1-mobile-crop3.png": "25ad7f066d77ba954f1c9dfde23596145e2e2a698f8bf697f5d87daed3960c94",
+    ".local/landing-web-r2/qa/S1-mobile-crop4.png": "876a4660766b6df56835ab9e6f06ad31dcc0372235a6ceabd50706fef4ee02e6",
+    ".local/landing-web-r2/qa/S1-mobile-revised-lower0.png": "34648f4c6288c909d6dbaa69f4c519136e336af42772ab02abf933023515887a",
+    ".local/landing-web-r2/qa/S1-mobile-revised-lower1.png": "8b2dce5113f7de2306067373d0323678dadaa4a2cebccc253d8bb18828a6302d",
+    ".local/landing-web-r2/qa/S1-mobile-revised-lower2.png": "577f747823436c35337022b5324941ddd3cc42167f40d5d4337091f5919045fb",
+    ".local/landing-web-r2/qa/S1-mobile-roundtrip-lower0.png": "4ca6fe6e822a49328e91478aac76c942b27078253a325f1028ef6cb6a47a05b5",
+    ".local/landing-web-r2/qa/S1-mobile-roundtrip-lower1.png": "d4507d70b97f847a7c6063f2b60ee0759252f91a3ed82951d4294fb2caede9c3",
+    ".local/landing-web-r2/qa/S1-mobile-roundtrip-lower2.png": "60a5d63d1e03ebc36afdcaaf13e89c04ff5bbc196fb7509825d261ef0e173557",
+    ".local/landing-web-r2/qa/S1-motion-frame0.png": "a16c92fead2cd15c5959916a4cf931284faf5ff61da54e4e0d3e26e49e2f8bc4",
+    ".local/landing-web-r2/qa/S1-motion-frame1.png": "66627d1ef9a17d28e426e1cb4dc7c71d64d406e7e76eaaddd78e92f4a739f38b",
+    ".local/landing-web-r2/qa/S1-motion-frame2.png": "ed74b73eccaffbfc6fbfd07ae0d3651d18f8897d3cec13026f7b373b093eebd0",
+    ".local/landing-web-r2/qa/S1-motion-frame3.png": "937cb452061514e98815b13c29fb05fa91c885409604e6dde4895d000ee21d58",
+    ".local/landing-web-r2/qa/S1-motion-frame4.png": "b7ff994209a5c1acbba37e69e1708481a0f32b831fe4b08773a43205626be14b",
+    ".local/landing-web-r2/qa/S1-motion-frame5.png": "229a78623adebbdb63ac090157c7590fbd4e53a7680d17457f43504c7bcdd0f9",
+    ".local/landing-web-r2/qa/S1-storyboard-mobile-crop0.png": "a819232aba4a0dc5074022bcb66d012459472320ae743c9594292b2253bb68c4",
+    ".local/landing-web-r2/qa/S1-storyboard-mobile-crop1.png": "068616ec05daf76c9101de2e540a0291cb6da46ea26bebe88f4a2dc19aebae38",
+    ".local/landing-web-r2/qa/S1-storyboard-mobile-crop2.png": "2a5a1dfa62615cdbfebd08d55d6a2ceaf883287fb8f840871436355ab6cdd44b",
+    ".local/landing-web-r2/qa/S1-storyboard-mobile-crop3.png": "a5f63ceef52c26a2dd62ccfbafc31384e8de6fc0fd95a7a2150d860d4b664509",
+    ".local/landing-web-r2/qa/S2-mobile-crop0.png": "c430f63735067c10687f4806298ce6e8c99d5ff7fdb731df26420a2f21ab4e52",
+    ".local/landing-web-r2/qa/S2-mobile-crop1.png": "5d27dbbafde6521f1e1bac39047a4db6e7b9d4950350a3fdf976a65078c950a9",
+    ".local/landing-web-r2/qa/S2-mobile-crop2.png": "0b9ede0db63a1aae23fa30b757ad39de81958bdfd1aee0aafd1e2be1bb166e19",
+    ".local/landing-web-r2/qa/S2-mobile-crop3.png": "59a3a60b07b2781297918db0845dbcb50c3cd4e417e8ea85decc2aab46e5f391",
+    ".local/landing-web-r2/qa/S2-mobile-crop4.png": "f5206afd41fc6ea700450ec8ee7b49c02e3aa72e0507eb2f9d7eea5e905bd8a6",
+    ".local/landing-web-r2/qa/S2-mobile-revised-lower0.png": "b81164c8fbfbe3363c51bcc2cbbcc739b89146dc6f3feeb0f8711a028083f4ef",
+    ".local/landing-web-r2/qa/S2-mobile-revised-lower1.png": "ab4ab96271a266195c5ca45a65ca40e95a8aa39947d808ba3627237b1edfbd10",
+    ".local/landing-web-r2/qa/S2-mobile-revised-lower2.png": "17aed094e32e26499bfe44754a68dbfa70b4a4fa4739850c6f44dfdcb1a772c4",
+    ".local/landing-web-r2/qa/S2-mobile-roundtrip-lower0.png": "71fbe26d55f5bcda6bc45ecd23f57f7f37acd430fac1c967b75eaebdcc79ef05",
+    ".local/landing-web-r2/qa/S2-mobile-roundtrip-lower1.png": "12f0a1c3d0fd6fc6fd7bf2a1d6aaee01a2eb19381d7449128befa2da1a771c56",
+    ".local/landing-web-r2/qa/S2-mobile-roundtrip-lower2.png": "6f811181642d28f3340b04a536ff13a92e2a91a307254621d6aae17ae2c5c3f0",
+    ".local/landing-web-r2/qa/S2-motion-frame0.png": "4097c17ab182d2a99554ee39e19706bbc22497727674eb9138927683d998d961",
+    ".local/landing-web-r2/qa/S2-motion-frame1.png": "84be85ec77c2bae305e513cd8897eeb22d8515908fca5ee931220a4ce7f34fee",
+    ".local/landing-web-r2/qa/S2-motion-frame2.png": "6687207564a9f550283665e1c938740d0535c781aba34de93c7089d37b207d1c",
+    ".local/landing-web-r2/qa/S2-motion-frame3.png": "8f1fb76477ec1298db7f2cee7138230a7f5c2bf42c945b8e264263d4adaa09b2",
+    ".local/landing-web-r2/qa/S2-motion-frame4.png": "5b43e42e84ee65171e0b1fb7cf672a41669168aa387e2224c38e736bfbaca719",
+    ".local/landing-web-r2/qa/S2-motion-frame5.png": "c63134f902a64aa43446cd540379d88425d8208ddffc195746ef98c68ad4f817",
+    ".local/landing-web-r2/qa/S2-storyboard-mobile-crop0.png": "73f1266e0d565297be08747c49ab90b2050d2d51a38ba6bb9e4aabf0fd817ba5",
+    ".local/landing-web-r2/qa/S2-storyboard-mobile-crop1.png": "42843622d7358890e0ffc0c22d02c303a779413e05113cdfe01e8e1ecbdd7ed7",
+    ".local/landing-web-r2/qa/S2-storyboard-mobile-crop2.png": "d0f4ec9ff250641465ce1719069fd7d85d9c0068bb2064c66bb4db43c94dda25",
+    ".local/landing-web-r2/qa/S2-storyboard-mobile-crop3.png": "23979c470c28b9ac074b64ea4864378d6f96e7dd9cf1e4c6e66bfaadcdc8a791",
+    ".local/landing-web-r2/qa/S3-mobile-crop0.png": "4d5a5e211ef29392fa1881fa48a1d2a6ff89a7ad5603ab3cae41266960569fd7",
+    ".local/landing-web-r2/qa/S3-mobile-crop1.png": "facd161ab12fafe3f0bceb9372dbe072ecc479ddfaedef67982cfdcf13886010",
+    ".local/landing-web-r2/qa/S3-mobile-crop2.png": "e70d38ae963e816e25ead214b14cf3a987917f68fd28b6ac3dab81dd96665584",
+    ".local/landing-web-r2/qa/S3-mobile-crop3.png": "654d66265e37ce26fc983a5d7d575c4cec458e294c08c67cf30793fad06b8abe",
+    ".local/landing-web-r2/qa/S3-mobile-crop4.png": "1d6a975df19aff73361e7830d63d745a03884ac312c62cbdcd3a71acd692d0fe",
+    ".local/landing-web-r2/qa/S3-mobile-revised-lower0.png": "198052e9de289a43fc6fcae33811dd7adf1a7a1e447327b3bddd6b333666574b",
+    ".local/landing-web-r2/qa/S3-mobile-revised-lower1.png": "48c227ea46d659c99e7d89559d30aecfe19603840d225c2b008808f23b9c4738",
+    ".local/landing-web-r2/qa/S3-mobile-revised-lower2.png": "73330d9d3f72ae1f16ab46365671a2712ee6463092174a94a366afb3bc919f05",
+    ".local/landing-web-r2/qa/S3-mobile-roundtrip-lower0.png": "fab38f0f7853d608bcf26e0b4863e1be60c5607201b7f8b6fbbea5f21924f264",
+    ".local/landing-web-r2/qa/S3-mobile-roundtrip-lower1.png": "4f96966e73d453afa76ef8a22b8ea211bfac06d9c2fa7ef41166e917eda2c603",
+    ".local/landing-web-r2/qa/S3-mobile-roundtrip-lower2.png": "3d71b01a665bd5895e74d65edb2a859bd4990e92728142344bdf223941b1db64",
+    ".local/landing-web-r2/qa/S3-motion-frame0.png": "cafd946e600b15a4e94d9fdd452316b96ee9dab2f5751494be2a582a2833c725",
+    ".local/landing-web-r2/qa/S3-motion-frame1.png": "80270f1d090e85f6371e704e9a0898e534d0321a1009a60e67372153b2b566c5",
+    ".local/landing-web-r2/qa/S3-motion-frame2.png": "e6c11196907c0deeaa5964ecf36568c263dd76758ce94b588446bb8a8bd5dc53",
+    ".local/landing-web-r2/qa/S3-motion-frame3.png": "26c72cbd7be84a3d747d3c66ffc07d97dc2b6a5075abcf96eb94e3debab3a17a",
+    ".local/landing-web-r2/qa/S3-motion-frame4.png": "cbdd557aad3bb28bb7f34f864daf33ec2927b338b552e749406a5dbeb8befb4b",
+    ".local/landing-web-r2/qa/S3-motion-frame5.png": "454ced7fab6e4864c4e5d8aef55e341b133e8d16a9f6e8ba424179de06df4fec",
+    ".local/landing-web-r2/qa/S3-storyboard-mobile-crop0.png": "fd70beee16bad7df4ffb4cca003c6034787587da884fd8d2c3c9f63228701925",
+    ".local/landing-web-r2/qa/S3-storyboard-mobile-crop1.png": "45d47b2b001d35c4cd91b684f8d7ca86daa1697b5b21ff0972b51a92ef85f8b5",
+    ".local/landing-web-r2/qa/S3-storyboard-mobile-crop2.png": "108f8cff9c4b9f66386331944c53274199a16e2c3de08bacdd59ef0829ef8678",
+    ".local/landing-web-r2/qa/S3-storyboard-mobile-crop3.png": "a5f63ceef52c26a2dd62ccfbafc31384e8de6fc0fd95a7a2150d860d4b664509",
+    ".local/landing-web-r2/render_revision.py": "6e78822cc5399d2095e8109938ddf1228af886893be33033ecfd9f932cf2c55e",
+    ".local/landing-web-r2/verify_revision.py": "f8c5479e947b6f37c0cbeb170db522b0995628020e351d866e7ba3296a817a1a"
+  },
+  "self_hash": "Excluded to avoid recursive checksum; manifest is hashed after writing",
+  "limits": "Integrity/export/static token checks only. Independent image QA and Founder acceptance are separate. No product tests/runtime/physical device or comprehensive secret audit."
+}
